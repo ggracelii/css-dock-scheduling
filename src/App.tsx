@@ -41,7 +41,17 @@ import { findConflicts, recommendBerths, vesselFitsBerth } from "./lib/schedulin
 import { newestReservationFirst } from "./lib/sorting";
 import type { Reservation, ReservationType } from "./types";
 
-type Page = "overview" | "schedule" | "reservations";
+type Page = "overview" | "schedule" | "reservations" | "checks";
+type ScheduleCheckKind = "overlap" | "vessel-fit" | "vessel-length" | "berth-limit";
+
+interface ScheduleCheck {
+  id: string;
+  kind: ScheduleCheckKind;
+  title: string;
+  detail: string;
+  date?: string;
+  reservation?: Reservation;
+}
 
 type ViewTransitionDocument = Document & {
   startViewTransition?: (update: () => void) => { finished: Promise<void> };
@@ -133,6 +143,7 @@ function App() {
           <NavButton icon={<BarChart3 />} active={page === "overview"} compact={sidebarCollapsed} onClick={() => navigate("overview")}>Overview</NavButton>
           <NavButton icon={<CalendarDays />} active={page === "schedule"} compact={sidebarCollapsed} onClick={() => navigate("schedule")}>Schedule</NavButton>
           <NavButton icon={<History />} active={page === "reservations"} compact={sidebarCollapsed} onClick={() => navigate("reservations")}>Reservations</NavButton>
+          <NavButton icon={<AlertTriangle />} active={page === "checks"} compact={sidebarCollapsed} onClick={() => navigate("checks")}>Schedule checks</NavButton>
         </nav>
         <div className="sidebar-note">
           <Database size={16} />
@@ -147,6 +158,7 @@ function App() {
             {page === "overview" && <Overview onNavigate={navigate} onOpen={jumpToReservation} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
             {page === "schedule" && <Schedule month={month} setMonth={setMonth} onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
             {page === "reservations" && <ReservationsPage onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
+            {page === "checks" && <ScheduleChecks onOpen={jumpToReservation} />}
           </div>
         </div>
       </main>
@@ -248,6 +260,77 @@ function ReservationsPage({ onOpen, onNew }: { onOpen: (reservation: Reservation
     <PageTitle eyebrow="Historical record" title="Reservations"><div className="title-actions"><span className="record-count">{filtered.length.toLocaleString()} records</span><button className="primary-button" onClick={onNew}><Plus size={17} /> New reservation</button></div></PageTitle>
     <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><select value={type} onChange={(event) => setType(event.target.value)} aria-label="Reservation type"><option value="all">All types</option><option value="vessel">Vessels</option><option value="event">Events</option><option value="closure">Closures</option></select><select value={year} onChange={(event) => setYear(event.target.value)} aria-label="Year"><option value="all">All years</option>{Array.from({ length: 23 }, (_, index) => 2019 - index).map((item) => <option key={item}>{item}</option>)}</select></div>
     <div className="table-panel"><table><thead><tr><th>Reservation</th><th>Type</th><th>Berth</th><th>Dates</th><th>Status</th><th /></tr></thead><tbody>{filtered.slice(0, 250).map((item) => <tr key={item.id} onClick={() => onOpen(item)}><td><strong>{item.title}</strong></td><td><span className={`type-pill ${item.type}`}>{item.type}</span></td><td>{berths.find((berth) => berth.id === item.berthId)?.name}</td><td>{format(parseISO(item.startDate), "MMM d, yyyy")}{item.endDate !== item.startDate && <> – {format(parseISO(item.endDate), "MMM d, yyyy")}</>}</td><td>Confirmed</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table>{filtered.length > 250 && <div className="table-foot">Showing the first 250 matching records. Narrow the filters to see a specific visit.</div>}</div>
+  </>;
+}
+
+const checkLabels: Record<ScheduleCheckKind, string> = {
+  overlap: "Overlapping bookings",
+  "vessel-fit": "Vessel does not fit",
+  "vessel-length": "Missing vessel length",
+  "berth-limit": "Missing berth limit",
+};
+
+function ScheduleChecks({ onOpen }: { onOpen: (reservation: Reservation) => void }) {
+  const { reservations, berths, vessels, importedIssues } = useReservations();
+  const [kind, setKind] = useState<ScheduleCheckKind | "all">("all");
+  const reservationById = useMemo(() => new Map(reservations.map((item) => [item.id, item])), [reservations]);
+  const checks = useMemo<ScheduleCheck[]>(() => {
+    const latestByVessel = new Map<string, Reservation>();
+    [...reservations].sort(newestReservationFirst).forEach((item) => {
+      if (item.vesselId && !latestByVessel.has(item.vesselId)) latestByVessel.set(item.vesselId, item);
+    });
+
+    const missingVesselLengths = vessels
+      .filter((vessel) => vessel.lengthFt == null)
+      .map((vessel): ScheduleCheck => {
+        const reservation = latestByVessel.get(vessel.id);
+        return {
+          id: `vessel-length-${vessel.id}`,
+          kind: "vessel-length",
+          title: vessel.name,
+          detail: "Add the vessel length before confirming berth fit.",
+          date: reservation?.startDate,
+          reservation,
+        };
+      });
+
+    const missingBerthLimits = berths
+      .filter((berth) => berth.maxVesselLengthFt == null)
+      .map((berth): ScheduleCheck => ({
+        id: `berth-limit-${berth.id}`,
+        kind: "berth-limit",
+        title: berth.name,
+        detail: "Set a maximum vessel length so fit can be checked automatically.",
+      }));
+
+    const bookingChecks = importedIssues
+      .filter((item) => item.type === "BERTH_CONFLICT" || item.type === "VESSEL_TOO_LONG")
+      .map((item): ScheduleCheck => {
+        const reservation = item.reservationIds?.map((id) => reservationById.get(id)).find(Boolean);
+        return {
+          id: item.id,
+          kind: item.type === "BERTH_CONFLICT" ? "overlap" : "vessel-fit",
+          title: item.type === "BERTH_CONFLICT" ? "Two bookings use the same berth" : reservation?.title ?? "Vessel exceeds berth limit",
+          detail: item.message,
+          date: reservation?.startDate ?? (item.year ? `${item.year}-01-01` : undefined),
+          reservation,
+        };
+      });
+
+    return [...bookingChecks, ...missingVesselLengths, ...missingBerthLimits].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "") || a.title.localeCompare(b.title));
+  }, [berths, importedIssues, reservationById, reservations, vessels]);
+  const visible = checks.filter((item) => kind === "all" || item.kind === kind);
+  const count = (checkKind: ScheduleCheckKind) => checks.filter((item) => item.kind === checkKind).length;
+  return <>
+    <PageTitle eyebrow="Operational review" title="Schedule checks"><span className="record-count">{checks.length.toLocaleString()} checks</span></PageTitle>
+    <section className="check-summary" aria-label="Schedule check totals">
+      {(["overlap", "vessel-fit", "vessel-length", "berth-limit"] as ScheduleCheckKind[]).map((item) => <button key={item} className={kind === item ? "active" : ""} onClick={() => setKind(kind === item ? "all" : item)}><span>{item === "overlap" ? <AlertTriangle /> : item === "vessel-fit" ? <Ship /> : item === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><div><strong>{count(item).toLocaleString()}</strong><small>{checkLabels[item]}</small></div></button>)}
+    </section>
+    <div className="check-toolbar"><div><strong>{kind === "all" ? "All checks" : checkLabels[kind]}</strong><span>Most recent first</span></div>{kind !== "all" && <button className="text-button" onClick={() => setKind("all")}>Show all</button>}</div>
+    <section className="check-list">
+      {visible.slice(0, 250).map((item) => <button key={item.id} disabled={!item.reservation} onClick={() => item.reservation && onOpen(item.reservation)}><span className={`check-icon ${item.kind}`}>{item.kind === "overlap" ? <AlertTriangle /> : item.kind === "vessel-fit" ? <Ship /> : item.kind === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><span><strong>{item.title}</strong><small>{item.detail}</small></span><span className="check-meta">{item.date ? format(parseISO(item.date), "MMM d, yyyy") : "Berth setting"}{item.reservation && <ChevronRight />}</span></button>)}
+      {visible.length > 250 && <div className="table-foot">Showing the 250 most recent checks. Select a category above to narrow the list.</div>}
+    </section>
   </>;
 }
 
