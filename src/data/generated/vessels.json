@@ -188,10 +188,26 @@
     ],
     "aliases": [],
     "contacts": [
-      "quinn.oakes@example.com",
-      "Cell: 555-0104",
-      "Cell: 555-0121",
-      "Cell: 555-0105"
+      {
+        "id": "contact-vessel-barge-long-ledge-0",
+        "type": "email",
+        "value": "quinn.oakes@example.com"
+      },
+      {
+        "id": "contact-vessel-barge-long-ledge-1",
+        "type": "phone",
+        "value": "555-0104"
+      },
+      {
+        "id": "contact-vessel-barge-long-ledge-2",
+        "type": "phone",
+        "value": "555-0121"
+      },
+      {
+        "id": "contact-vessel-barge-long-ledge-3",
+        "type": "phone",
+        "value": "555-0105"
+      }
     ],
     "notes": []
   },
@@ -259,8 +275,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0142",
-      "Cell: 555-0187"
+      {
+        "id": "contact-vessel-barge-northern-marlin-0",
+        "type": "phone",
+        "value": "555-0142"
+      },
+      {
+        "id": "contact-vessel-barge-northern-marlin-1",
+        "type": "phone",
+        "value": "555-0187"
+      }
     ],
     "notes": [],
     "operator": "Bayline Charters"
@@ -309,8 +333,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "dana.jarvis@example.com",
-      "Cell: 555-0166"
+      {
+        "id": "contact-vessel-barge-salt-ledge-0",
+        "type": "email",
+        "value": "dana.jarvis@example.com"
+      },
+      {
+        "id": "contact-vessel-barge-salt-ledge-1",
+        "type": "phone",
+        "value": "555-0166"
+      }
     ],
     "notes": []
   },
@@ -404,7 +436,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0188"
+      {
+        "id": "contact-vessel-barge-wild-horizon-0",
+        "type": "phone",
+        "value": "555-0188"
+      }
     ],
     "notes": []
   },
@@ -461,8 +497,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "kai.whitlock@example.com",
-      "Cell: 555-0147"
+      {
+        "id": "contact-vessel-f-v-bright-compass-0",
+        "type": "email",
+        "value": "kai.whitlock@example.com"
+      },
+      {
+        "id": "contact-vessel-f-v-bright-compass-1",
+        "type": "phone",
+        "value": "555-0147"
+      }
     ],
     "notes": [
       "Capt. Alex Norwood"
@@ -506,10 +550,26 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0106",
-      "Cell: 555-0123",
-      "Cell: 555-0153",
-      "Cell: 555-0126"
+      {
+        "id": "contact-vessel-f-v-bright-horizon-0",
+        "type": "phone",
+        "value": "555-0106"
+      },
+      {
+        "id": "contact-vessel-f-v-bright-horizon-1",
+        "type": "phone",
+        "value": "555-0123"
+      },
+      {
+        "id": "contact-vessel-f-v-bright-horizon-2",
+        "type": "phone",
+        "value": "555-0153"
+      },
+      {
+        "id": "contact-vessel-f-v-bright-horizon-3",
+        "type": "phone",
+        "value": "555-0126"
+      }
     ],
     "notes": [],
     "operator": "Jesse Dunmore"
@@ -635,7 +695,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0149"
+      {
+        "id": "contact-vessel-f-v-far-petrel-0",
+        "type": "phone",
+        "value": "555-0149"
+      }
     ],
     "notes": [
       "Finley Sterling"
@@ -667,10 +731,26 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0183",
-      "Cell: 555-0187",
-      "Cell: 555-0131",
-      "harper.thorne@example.com"
+      {
+        "id": "contact-vessel-f-v-golden-petrel-0",
+        "type": "phone",
+        "value": "555-0183"
+      },
+      {
+        "id": "contact-vessel-f-v-golden-petrel-1",
+        "type": "phone",
+        "value": "555-0187"
+      },
+      {
+        "id": "contact-vessel-f-v-golden-petrel-2",
+        "type": "phone",
+        "value": "555-0131"
+      },
+      {
+        "id": "contact-vessel-f-v-golden-petrel-3",
+        "type": "email",
+        "value": "harper.thorne@example.com"
+      }
     ],
     "notes": [
       "Capt. Avery Oakes",
@@ -716,7 +796,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0138"
+      {
+        "id": "contact-vessel-f-v-green-heron-0",
+        "type": "phone",
+        "value": "555-0138"
+      }
     ],
     "notes": [],
     "operator": "No overnight crew"
@@ -765,8 +849,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "riley.bexley@example.com",
-      "Cell: 555-0147"
+      {
+        "id": "contact-vessel-f-v-high-skua-0",
+        "type": "email",
+        "value": "riley.bexley@example.com"
+      },
+      {
+        "id": "contact-vessel-f-v-high-skua-1",
+        "type": "phone",
+        "value": "555-0147"
+      }
     ],
     "notes": [],
     "operator": "Coastal Survey Partners"
@@ -808,8 +900,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "dana.ellery@example.com",
-      "Cell: 555-0121"
+      {
+        "id": "contact-vessel-f-v-iron-ketch-0",
+        "type": "email",
+        "value": "dana.ellery@example.com"
+      },
+      {
+        "id": "contact-vessel-f-v-iron-ketch-1",
+        "type": "phone",
+        "value": "555-0121"
+      }
     ],
     "notes": [
       "Logan Hollis"
@@ -1279,10 +1379,26 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0108",
-      "Cell: 555-0147",
-      "marley.norwood@example.com",
-      "Cell: 555-0113"
+      {
+        "id": "contact-vessel-m-v-clear-petrel-0",
+        "type": "phone",
+        "value": "555-0108"
+      },
+      {
+        "id": "contact-vessel-m-v-clear-petrel-1",
+        "type": "phone",
+        "value": "555-0147"
+      },
+      {
+        "id": "contact-vessel-m-v-clear-petrel-2",
+        "type": "email",
+        "value": "marley.norwood@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-clear-petrel-3",
+        "type": "phone",
+        "value": "555-0113"
+      }
     ],
     "notes": [
       "Capt. Quinn Norwood",
@@ -1472,9 +1588,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0188",
-      "lee.calloway@example.com",
-      "Cell: 555-0197"
+      {
+        "id": "contact-vessel-m-v-deep-reef-0",
+        "type": "phone",
+        "value": "555-0188"
+      },
+      {
+        "id": "contact-vessel-m-v-deep-reef-1",
+        "type": "email",
+        "value": "lee.calloway@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-deep-reef-2",
+        "type": "phone",
+        "value": "555-0197"
+      }
     ],
     "notes": [
       "Finley Kendrick"
@@ -1564,12 +1692,36 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0176",
-      "taylor.bexley@example.com",
-      "Cell: 555-0178",
-      "Cell: 555-0189",
-      "dana.lowell@example.com",
-      "Cell: 555-0159"
+      {
+        "id": "contact-vessel-m-v-far-fathom-0",
+        "type": "phone",
+        "value": "555-0176"
+      },
+      {
+        "id": "contact-vessel-m-v-far-fathom-1",
+        "type": "email",
+        "value": "taylor.bexley@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-far-fathom-2",
+        "type": "phone",
+        "value": "555-0178"
+      },
+      {
+        "id": "contact-vessel-m-v-far-fathom-3",
+        "type": "phone",
+        "value": "555-0189"
+      },
+      {
+        "id": "contact-vessel-m-v-far-fathom-4",
+        "type": "email",
+        "value": "dana.lowell@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-far-fathom-5",
+        "type": "phone",
+        "value": "555-0159"
+      }
     ],
     "notes": [
       "Lee Marsh",
@@ -1757,7 +1909,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0174"
+      {
+        "id": "contact-vessel-m-v-grey-star-0",
+        "type": "phone",
+        "value": "555-0174"
+      }
     ],
     "notes": []
   },
@@ -1816,15 +1972,51 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0153",
-      "rowan.underhill@example.com",
-      "Cell: 555-0117",
-      "hayden.ashford@example.com",
-      "rowan.pembroke@example.com",
-      "Cell: 555-0138",
-      "noel.bexley@example.com",
-      "Cell: 555-0106",
-      "Cell: 555-0160"
+      {
+        "id": "contact-vessel-m-v-high-current-0",
+        "type": "phone",
+        "value": "555-0153"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-1",
+        "type": "email",
+        "value": "rowan.underhill@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-2",
+        "type": "phone",
+        "value": "555-0117"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-3",
+        "type": "email",
+        "value": "hayden.ashford@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-4",
+        "type": "email",
+        "value": "rowan.pembroke@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-5",
+        "type": "phone",
+        "value": "555-0138"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-6",
+        "type": "email",
+        "value": "noel.bexley@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-7",
+        "type": "phone",
+        "value": "555-0106"
+      },
+      {
+        "id": "contact-vessel-m-v-high-current-8",
+        "type": "phone",
+        "value": "555-0160"
+      }
     ],
     "notes": [
       "Capt. Parker Whitlock"
@@ -1868,9 +2060,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0193",
-      "Cell: 555-0163",
-      "rowan.hollis@example.com"
+      {
+        "id": "contact-vessel-m-v-high-strand-0",
+        "type": "phone",
+        "value": "555-0193"
+      },
+      {
+        "id": "contact-vessel-m-v-high-strand-1",
+        "type": "phone",
+        "value": "555-0163"
+      },
+      {
+        "id": "contact-vessel-m-v-high-strand-2",
+        "type": "email",
+        "value": "rowan.hollis@example.com"
+      }
     ],
     "notes": [
       "Jesse Marsh"
@@ -1961,9 +2165,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "casey.ingram@example.com",
-      "Cell: 555-0134",
-      "Cell: 555-0114"
+      {
+        "id": "contact-vessel-m-v-iron-sound-0",
+        "type": "email",
+        "value": "casey.ingram@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-iron-sound-1",
+        "type": "phone",
+        "value": "555-0134"
+      },
+      {
+        "id": "contact-vessel-m-v-iron-sound-2",
+        "type": "phone",
+        "value": "555-0114"
+      }
     ],
     "notes": [
       "Capt. Reese Hollis"
@@ -2062,15 +2278,51 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0147",
-      "Cell: 555-0180",
-      "sage.fairweather@example.com",
-      "elliot.yardley@example.com",
-      "rowan.ellery@example.com",
-      "quinn.norwood@example.com",
-      "kai.quill@example.com",
-      "Cell: 555-0156",
-      "marley.vance@example.com"
+      {
+        "id": "contact-vessel-m-v-northern-gannet-0",
+        "type": "phone",
+        "value": "555-0147"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-1",
+        "type": "phone",
+        "value": "555-0180"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-2",
+        "type": "email",
+        "value": "sage.fairweather@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-3",
+        "type": "email",
+        "value": "elliot.yardley@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-4",
+        "type": "email",
+        "value": "rowan.ellery@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-5",
+        "type": "email",
+        "value": "quinn.norwood@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-6",
+        "type": "email",
+        "value": "kai.quill@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-7",
+        "type": "phone",
+        "value": "555-0156"
+      },
+      {
+        "id": "contact-vessel-m-v-northern-gannet-8",
+        "type": "email",
+        "value": "marley.vance@example.com"
+      }
     ],
     "notes": [
       "Estuary Foundation",
@@ -2170,8 +2422,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "sage.quill@example.com",
-      "Cell: 555-0195"
+      {
+        "id": "contact-vessel-m-v-quiet-drift-0",
+        "type": "email",
+        "value": "sage.quill@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-quiet-drift-1",
+        "type": "phone",
+        "value": "555-0195"
+      }
     ],
     "notes": [
       "Capt. Riley Quill"
@@ -2392,8 +2652,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "noel.quill@example.com",
-      "Cell: 555-0160"
+      {
+        "id": "contact-vessel-m-v-swift-sextant-0",
+        "type": "email",
+        "value": "noel.quill@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-swift-sextant-1",
+        "type": "phone",
+        "value": "555-0160"
+      }
     ],
     "notes": [
       "Capt. Jamie Garland",
@@ -2441,13 +2709,41 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0145",
-      "Cell: 555-0112",
-      "marley.danforth@example.com",
-      "Cell: 555-0178",
-      "emerson.norwood@example.com",
-      "Cell: 555-0109",
-      "harper.marsh@example.com"
+      {
+        "id": "contact-vessel-m-v-western-anchor-0",
+        "type": "phone",
+        "value": "555-0145"
+      },
+      {
+        "id": "contact-vessel-m-v-western-anchor-1",
+        "type": "phone",
+        "value": "555-0112"
+      },
+      {
+        "id": "contact-vessel-m-v-western-anchor-2",
+        "type": "email",
+        "value": "marley.danforth@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-western-anchor-3",
+        "type": "phone",
+        "value": "555-0178"
+      },
+      {
+        "id": "contact-vessel-m-v-western-anchor-4",
+        "type": "email",
+        "value": "emerson.norwood@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-western-anchor-5",
+        "type": "phone",
+        "value": "555-0109"
+      },
+      {
+        "id": "contact-vessel-m-v-western-anchor-6",
+        "type": "email",
+        "value": "harper.marsh@example.com"
+      }
     ],
     "notes": []
   },
@@ -2581,11 +2877,31 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0140",
-      "sage.ashford@example.com",
-      "Cell: 555-0126",
-      "blake.whitlock@example.com",
-      "finley.thorne@example.com"
+      {
+        "id": "contact-vessel-m-v-wild-star-0",
+        "type": "phone",
+        "value": "555-0140"
+      },
+      {
+        "id": "contact-vessel-m-v-wild-star-1",
+        "type": "email",
+        "value": "sage.ashford@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-wild-star-2",
+        "type": "phone",
+        "value": "555-0126"
+      },
+      {
+        "id": "contact-vessel-m-v-wild-star-3",
+        "type": "email",
+        "value": "blake.whitlock@example.com"
+      },
+      {
+        "id": "contact-vessel-m-v-wild-star-4",
+        "type": "email",
+        "value": "finley.thorne@example.com"
+      }
     ],
     "notes": [
       "LOA: 145', Draft: 12'",
@@ -2757,7 +3073,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0130"
+      {
+        "id": "contact-vessel-m-y-coral-wind-0",
+        "type": "phone",
+        "value": "555-0130"
+      }
     ],
     "notes": [
       "Capt. Hayden Yardley"
@@ -3009,7 +3329,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0162"
+      {
+        "id": "contact-vessel-m-y-iron-petrel-0",
+        "type": "phone",
+        "value": "555-0162"
+      }
     ],
     "notes": [],
     "operator": "Gulf Coast University"
@@ -3118,8 +3442,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0141",
-      "Cell: 555-0184"
+      {
+        "id": "contact-vessel-m-y-salt-dory-0",
+        "type": "phone",
+        "value": "555-0141"
+      },
+      {
+        "id": "contact-vessel-m-y-salt-dory-1",
+        "type": "phone",
+        "value": "555-0184"
+      }
     ],
     "notes": [],
     "operator": "Capt. Parker Norwood"
@@ -3306,9 +3638,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "sage.danforth@example.com",
-      "Cell: 555-0144",
-      "Cell: 555-0139"
+      {
+        "id": "contact-vessel-m-y-western-current-0",
+        "type": "email",
+        "value": "sage.danforth@example.com"
+      },
+      {
+        "id": "contact-vessel-m-y-western-current-1",
+        "type": "phone",
+        "value": "555-0144"
+      },
+      {
+        "id": "contact-vessel-m-y-western-current-2",
+        "type": "phone",
+        "value": "555-0139"
+      }
     ],
     "notes": [
       "Capt. Casey Whitlock",
@@ -3342,10 +3686,26 @@
     ],
     "aliases": [],
     "contacts": [
-      "alex.ashford@example.com",
-      "Cell: 555-0178",
-      "logan.fairweather@example.com",
-      "Cell: 555-0179"
+      {
+        "id": "contact-vessel-m-y-western-strand-0",
+        "type": "email",
+        "value": "alex.ashford@example.com"
+      },
+      {
+        "id": "contact-vessel-m-y-western-strand-1",
+        "type": "phone",
+        "value": "555-0178"
+      },
+      {
+        "id": "contact-vessel-m-y-western-strand-2",
+        "type": "email",
+        "value": "logan.fairweather@example.com"
+      },
+      {
+        "id": "contact-vessel-m-y-western-strand-3",
+        "type": "phone",
+        "value": "555-0179"
+      }
     ],
     "notes": [
       "Capt. Logan Ashford",
@@ -3420,8 +3780,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "marley.vance@example.com",
-      "Cell: 555-0192"
+      {
+        "id": "contact-vessel-m-y-wild-skua-0",
+        "type": "email",
+        "value": "marley.vance@example.com"
+      },
+      {
+        "id": "contact-vessel-m-y-wild-skua-1",
+        "type": "phone",
+        "value": "555-0192"
+      }
     ],
     "notes": []
   },
@@ -3583,8 +3951,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0148",
-      "blake.danforth@example.com"
+      {
+        "id": "contact-vessel-osv-clear-reef-0",
+        "type": "phone",
+        "value": "555-0148"
+      },
+      {
+        "id": "contact-vessel-osv-clear-reef-1",
+        "type": "email",
+        "value": "blake.danforth@example.com"
+      }
     ],
     "notes": [],
     "operator": "Coastal Survey Partners"
@@ -3714,7 +4090,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0117"
+      {
+        "id": "contact-vessel-osv-long-reef-0",
+        "type": "phone",
+        "value": "555-0117"
+      }
     ],
     "notes": [],
     "operator": "Capt. Logan Abbott"
@@ -3792,8 +4172,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "elliot.garland@example.com",
-      "Cell: 555-0161"
+      {
+        "id": "contact-vessel-osv-silver-harbor-0",
+        "type": "email",
+        "value": "elliot.garland@example.com"
+      },
+      {
+        "id": "contact-vessel-osv-silver-harbor-1",
+        "type": "phone",
+        "value": "555-0161"
+      }
     ],
     "notes": [],
     "operator": "Capt. Skyler Norwood"
@@ -3918,8 +4306,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0130",
-      "marley.abbott@example.com"
+      {
+        "id": "contact-vessel-r-v-amber-marlin-0",
+        "type": "phone",
+        "value": "555-0130"
+      },
+      {
+        "id": "contact-vessel-r-v-amber-marlin-1",
+        "type": "email",
+        "value": "marley.abbott@example.com"
+      }
     ],
     "notes": [
       "Harbor Institute",
@@ -3973,9 +4369,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "dana.lowell@example.com",
-      "Cell: 555-0167",
-      "Cell: 555-0193"
+      {
+        "id": "contact-vessel-r-v-amber-wind-0",
+        "type": "email",
+        "value": "dana.lowell@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-amber-wind-1",
+        "type": "phone",
+        "value": "555-0167"
+      },
+      {
+        "id": "contact-vessel-r-v-amber-wind-2",
+        "type": "phone",
+        "value": "555-0193"
+      }
     ],
     "notes": [
       "Capt. Morgan Hollis"
@@ -4140,8 +4548,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "kai.fenwick@example.com",
-      "Cell: 555-0167"
+      {
+        "id": "contact-vessel-r-v-bright-fathom-0",
+        "type": "email",
+        "value": "kai.fenwick@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-bright-fathom-1",
+        "type": "phone",
+        "value": "555-0167"
+      }
     ],
     "notes": [
       "Regional Fisheries Agency",
@@ -4176,9 +4592,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0144",
-      "lee.marsh@example.com",
-      "kai.vance@example.com"
+      {
+        "id": "contact-vessel-r-v-bright-meridian-0",
+        "type": "phone",
+        "value": "555-0144"
+      },
+      {
+        "id": "contact-vessel-r-v-bright-meridian-1",
+        "type": "email",
+        "value": "lee.marsh@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-bright-meridian-2",
+        "type": "email",
+        "value": "kai.vance@example.com"
+      }
     ],
     "notes": [],
     "operator": "Seaway Education Trust"
@@ -4245,7 +4673,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "lee.oakes@example.com"
+      {
+        "id": "contact-vessel-r-v-clear-strand-0",
+        "type": "email",
+        "value": "lee.oakes@example.com"
+      }
     ],
     "notes": [
       "https://www.example.org/vessel"
@@ -4269,7 +4701,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "avery.marsh@example.com"
+      {
+        "id": "contact-vessel-r-v-clear-tern-0",
+        "type": "email",
+        "value": "avery.marsh@example.com"
+      }
     ],
     "notes": [],
     "operator": "See scheduling file for specs"
@@ -4741,7 +5177,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "alex.thorne@example.com"
+      {
+        "id": "contact-vessel-r-v-grey-tide-0",
+        "type": "email",
+        "value": "alex.thorne@example.com"
+      }
     ],
     "notes": [],
     "operator": "Lakeshore Research Group"
@@ -4781,7 +5221,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0170"
+      {
+        "id": "contact-vessel-r-v-high-dory-0",
+        "type": "phone",
+        "value": "555-0170"
+      }
     ],
     "notes": [
       "Kai Underhill"
@@ -4805,14 +5249,46 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0103",
-      "Cell: 555-0155",
-      "Cell: 555-0198",
-      "Cell: 555-0120",
-      "skyler.sterling@example.com",
-      "cameron.kendrick@example.com",
-      "Cell: 555-0149",
-      "kai.fairweather@example.com"
+      {
+        "id": "contact-vessel-r-v-high-drift-0",
+        "type": "phone",
+        "value": "555-0103"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-1",
+        "type": "phone",
+        "value": "555-0155"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-2",
+        "type": "phone",
+        "value": "555-0198"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-3",
+        "type": "phone",
+        "value": "555-0120"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-4",
+        "type": "email",
+        "value": "skyler.sterling@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-5",
+        "type": "email",
+        "value": "cameron.kendrick@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-6",
+        "type": "phone",
+        "value": "555-0149"
+      },
+      {
+        "id": "contact-vessel-r-v-high-drift-7",
+        "type": "email",
+        "value": "kai.fairweather@example.com"
+      }
     ],
     "notes": [
       "Capt. Cameron Underhill",
@@ -4855,9 +5331,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "morgan.bramble@example.com",
-      "Cell: 555-0116",
-      "taylor.thorne@example.com"
+      {
+        "id": "contact-vessel-r-v-high-reef-0",
+        "type": "email",
+        "value": "morgan.bramble@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-high-reef-1",
+        "type": "phone",
+        "value": "555-0116"
+      },
+      {
+        "id": "contact-vessel-r-v-high-reef-2",
+        "type": "email",
+        "value": "taylor.thorne@example.com"
+      }
     ],
     "notes": [
       "OS/V Silver Skua 24'",
@@ -4981,8 +5469,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "harper.fairweather@example.com",
-      "Cell: 555-0192"
+      {
+        "id": "contact-vessel-r-v-iron-ketch-0",
+        "type": "email",
+        "value": "harper.fairweather@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-iron-ketch-1",
+        "type": "phone",
+        "value": "555-0192"
+      }
     ],
     "notes": [],
     "operator": "https://www.example.org/vessel"
@@ -5031,9 +5527,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0124",
-      "drew.ashford@example.com",
-      "Cell: 555-0120"
+      {
+        "id": "contact-vessel-r-v-iron-skua-0",
+        "type": "phone",
+        "value": "555-0124"
+      },
+      {
+        "id": "contact-vessel-r-v-iron-skua-1",
+        "type": "email",
+        "value": "drew.ashford@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-iron-skua-2",
+        "type": "phone",
+        "value": "555-0120"
+      }
     ],
     "notes": [],
     "operator": "Harbor Institute"
@@ -5064,8 +5572,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0115",
-      "hayden.everly@example.com"
+      {
+        "id": "contact-vessel-r-v-iron-wind-0",
+        "type": "phone",
+        "value": "555-0115"
+      },
+      {
+        "id": "contact-vessel-r-v-iron-wind-1",
+        "type": "email",
+        "value": "hayden.everly@example.com"
+      }
     ],
     "notes": []
   },
@@ -5133,8 +5649,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "dana.sterling@example.com",
-      "hayden.sterling@example.com"
+      {
+        "id": "contact-vessel-r-v-long-heron-0",
+        "type": "email",
+        "value": "dana.sterling@example.com"
+      },
+      {
+        "id": "contact-vessel-r-v-long-heron-1",
+        "type": "email",
+        "value": "hayden.sterling@example.com"
+      }
     ],
     "notes": [],
     "operator": "https://www.example.org/vessel"
@@ -5295,7 +5819,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "blake.garland@example.com"
+      {
+        "id": "contact-vessel-r-v-northern-sound-0",
+        "type": "email",
+        "value": "blake.garland@example.com"
+      }
     ],
     "notes": [
       "Coastal Survey Partners"
@@ -5453,7 +5981,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "marley.vance@example.com"
+      {
+        "id": "contact-vessel-r-v-salt-drift-0",
+        "type": "email",
+        "value": "marley.vance@example.com"
+      }
     ],
     "notes": []
   },
@@ -5492,8 +6024,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0133",
-      "Cell: 555-0132"
+      {
+        "id": "contact-vessel-r-v-salt-skua-0",
+        "type": "phone",
+        "value": "555-0133"
+      },
+      {
+        "id": "contact-vessel-r-v-salt-skua-1",
+        "type": "phone",
+        "value": "555-0132"
+      }
     ],
     "notes": [
       "Tentative - awaiting confirmation"
@@ -5517,7 +6057,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "parker.sterling@example.com"
+      {
+        "id": "contact-vessel-r-v-silver-anchor-0",
+        "type": "email",
+        "value": "parker.sterling@example.com"
+      }
     ],
     "notes": [],
     "operator": "State Marine Academy"
@@ -5753,7 +6297,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0121"
+      {
+        "id": "contact-vessel-r-v-wild-heron-0",
+        "type": "phone",
+        "value": "555-0121"
+      }
     ],
     "notes": [
       "https://www.example.org/vessel",
@@ -5787,7 +6335,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0179"
+      {
+        "id": "contact-vessel-r-v-wild-ledge-0",
+        "type": "phone",
+        "value": "555-0179"
+      }
     ],
     "notes": [],
     "operator": "Drew Dunmore"
@@ -5809,7 +6361,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0144"
+      {
+        "id": "contact-vessel-r-v-wild-marlin-0",
+        "type": "phone",
+        "value": "555-0144"
+      }
     ],
     "notes": [],
     "operator": "Seaway Education Trust"
@@ -6452,8 +7008,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "jamie.marsh@example.com",
-      "Cell: 555-0164"
+      {
+        "id": "contact-vessel-s-v-quiet-sound-0",
+        "type": "email",
+        "value": "jamie.marsh@example.com"
+      },
+      {
+        "id": "contact-vessel-s-v-quiet-sound-1",
+        "type": "phone",
+        "value": "555-0164"
+      }
     ],
     "notes": [
       "Capt. Jordan Bexley"
@@ -6654,13 +7218,41 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0101",
-      "Cell: 555-0195",
-      "jordan.marsh@example.com",
-      "Cell: 555-0178",
-      "rowan.ransom@example.com",
-      "Cell: 555-0174",
-      "logan.fairweather@example.com"
+      {
+        "id": "contact-vessel-s-v-wild-drift-0",
+        "type": "phone",
+        "value": "555-0101"
+      },
+      {
+        "id": "contact-vessel-s-v-wild-drift-1",
+        "type": "phone",
+        "value": "555-0195"
+      },
+      {
+        "id": "contact-vessel-s-v-wild-drift-2",
+        "type": "email",
+        "value": "jordan.marsh@example.com"
+      },
+      {
+        "id": "contact-vessel-s-v-wild-drift-3",
+        "type": "phone",
+        "value": "555-0178"
+      },
+      {
+        "id": "contact-vessel-s-v-wild-drift-4",
+        "type": "email",
+        "value": "rowan.ransom@example.com"
+      },
+      {
+        "id": "contact-vessel-s-v-wild-drift-5",
+        "type": "phone",
+        "value": "555-0174"
+      },
+      {
+        "id": "contact-vessel-s-v-wild-drift-6",
+        "type": "email",
+        "value": "logan.fairweather@example.com"
+      }
     ],
     "notes": [
       "Capt. Riley Oakes",
@@ -6735,8 +7327,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0157",
-      "Cell: 555-0197"
+      {
+        "id": "contact-vessel-s-y-clear-beacon-0",
+        "type": "phone",
+        "value": "555-0157"
+      },
+      {
+        "id": "contact-vessel-s-y-clear-beacon-1",
+        "type": "phone",
+        "value": "555-0197"
+      }
     ],
     "notes": [],
     "operator": "Capt. Jesse Ashford"
@@ -6778,10 +7378,26 @@
     ],
     "aliases": [],
     "contacts": [
-      "jesse.yardley@example.com",
-      "Cell: 555-0109",
-      "kendall.underhill@example.com",
-      "Cell: 555-0188"
+      {
+        "id": "contact-vessel-s-y-deep-cove-0",
+        "type": "email",
+        "value": "jesse.yardley@example.com"
+      },
+      {
+        "id": "contact-vessel-s-y-deep-cove-1",
+        "type": "phone",
+        "value": "555-0109"
+      },
+      {
+        "id": "contact-vessel-s-y-deep-cove-2",
+        "type": "email",
+        "value": "kendall.underhill@example.com"
+      },
+      {
+        "id": "contact-vessel-s-y-deep-cove-3",
+        "type": "phone",
+        "value": "555-0188"
+      }
     ],
     "notes": [
       "State Marine Academy",
@@ -6963,8 +7579,16 @@
     ],
     "aliases": [],
     "contacts": [
-      "rowan.underhill@example.com",
-      "Cell: 555-0130"
+      {
+        "id": "contact-vessel-tug-deep-wind-0",
+        "type": "email",
+        "value": "rowan.underhill@example.com"
+      },
+      {
+        "id": "contact-vessel-tug-deep-wind-1",
+        "type": "phone",
+        "value": "555-0130"
+      }
     ],
     "notes": [],
     "operator": "Harbor Institute"
@@ -7085,7 +7709,11 @@
     ],
     "aliases": [],
     "contacts": [
-      "Cell: 555-0153"
+      {
+        "id": "contact-vessel-tug-long-anchor-0",
+        "type": "phone",
+        "value": "555-0153"
+      }
     ],
     "notes": [],
     "operator": "Capt. Lee Fairweather"
@@ -7172,9 +7800,21 @@
     ],
     "aliases": [],
     "contacts": [
-      "sage.ingram@example.com",
-      "blake.abbott@example.com",
-      "Cell: 555-0184"
+      {
+        "id": "contact-vessel-tug-salt-strand-0",
+        "type": "email",
+        "value": "sage.ingram@example.com"
+      },
+      {
+        "id": "contact-vessel-tug-salt-strand-1",
+        "type": "email",
+        "value": "blake.abbott@example.com"
+      },
+      {
+        "id": "contact-vessel-tug-salt-strand-2",
+        "type": "phone",
+        "value": "555-0184"
+      }
     ],
     "notes": [],
     "operator": "Capt. Dana Ransom"

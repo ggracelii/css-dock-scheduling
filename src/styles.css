@@ -390,6 +390,24 @@ button:not(:disabled):active { transform: translateY(1px); }
 .drawer-form input { height: 42px; }
 .drawer-form textarea { resize: vertical; line-height: 1.45; }
 .drawer-form input:focus, .drawer-form textarea:focus { border-color: #5baeb6; box-shadow: 0 0 0 3px rgba(53,152,163,.12); }
+.contact-editor { margin-bottom: 18px; padding: 15px; border: 1px solid #cad8dc; background: #f3f7f6; }
+.field-heading { margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #3f5963; font-size: 12px; }
+.field-heading > span { color: var(--muted); font-size: 11px; font-weight: 600; }
+.contact-list { margin-bottom: 12px; border-top: 1px solid #d8e2e1; }
+.contact-item { min-height: 54px; display: grid; grid-template-columns: 30px 1fr 34px; align-items: center; gap: 9px; border-bottom: 1px solid #d8e2e1; }
+.contact-item > span { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; color: #287985; background: #e3f0ef; }
+.contact-item > span svg { width: 14px; }
+.contact-item strong, .contact-item small { display: block; }
+.contact-item strong { color: #294c57; font-size: 11px; }
+.contact-item small { margin-top: 2px; color: #587078; overflow-wrap: anywhere; }
+.contact-item .icon-button { width: 30px; height: 30px; color: #7a8d92; }
+.contact-item .icon-button:hover { color: var(--red); background: #f8e9e7; }
+.contact-add-row { display: grid; grid-template-columns: 105px minmax(0, 1fr) auto; align-items: end; gap: 9px; }
+.contact-add-row .inline-select { min-width: 0; margin-bottom: 15px; }
+.contact-add-row label { margin-bottom: 0; }
+.contact-add-button { height: 42px; margin-bottom: 15px; padding: 0 12px; white-space: nowrap; }
+.contact-add-button svg { width: 15px; }
+.contact-editor .form-error { margin: -3px 0 0; }
 .check-summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; }
 .check-summary button { --check-accent: #9a5e24; min-height: 96px; padding: 16px; display: flex; align-items: center; gap: 13px; text-align: left; border: 1px solid #b8c9c9; border-top: 4px solid var(--check-accent); color: #173b48; background: rgba(252,251,247,.9); transition: color 180ms var(--motion), border-color 180ms var(--motion), background-color 180ms var(--motion); }
 .check-summary button:nth-child(1), .check-summary button:nth-child(2) { --check-accent: var(--red); }
@@ -505,4 +523,7 @@ button:not(:disabled):active { transform: translateY(1px); }
   .check-summary { grid-template-columns: 1fr; }
   .check-list > button { grid-template-columns: 34px minmax(0, 1fr); }
   .check-meta { grid-column: 2; }
+  .contact-add-row { grid-template-columns: 1fr; }
+  .contact-add-row .inline-select, .contact-add-button { margin-bottom: 0; }
+  .contact-add-button { width: 100%; }
 }

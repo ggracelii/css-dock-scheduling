@@ -22,6 +22,12 @@ export interface VesselDimensionSource {
   sourceReference?: SourceReference;
 }
 
+export interface VesselContact {
+  id: string;
+  type: "email" | "phone";
+  value: string;
+}
+
 export interface Vessel {
   id: string;
   name: string;
@@ -29,7 +35,7 @@ export interface Vessel {
   lengthSources: VesselDimensionSource[];
   aliases: string[];
   operator?: string;
-  contacts?: string[];
+  contacts?: VesselContact[];
   notes?: string[];
 }
 

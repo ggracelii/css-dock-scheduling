@@ -204,7 +204,11 @@ const parseVesselDirectories = (workbook: ExcelJS.Workbook) => {
       } else if (activeKey) {
         const vessel = vessels.get(activeKey)!;
         for (const cell of cells) {
-          if (/[@]|\b(?:555|tel|cell|phone)\b/i.test(cell.text)) vessel.contacts!.push(cell.text);
+          if (/[@]|\b(?:555|tel|cell|phone)\b/i.test(cell.text)) vessel.contacts!.push({
+            id: `contact-${vessel.id}-${vessel.contacts!.length}`,
+            type: cell.text.includes("@") ? "email" : "phone",
+            value: cell.text.replace(/^(?:cell|phone|tel):\s*/i, "").trim(),
+          });
           else if (!/^(?:VESSEL|OPERATOR|CONTACT|WORK#|CELL#|EMAIL|NOTES)$/i.test(cell.text)) vessel.notes!.push(cell.text);
         }
       }

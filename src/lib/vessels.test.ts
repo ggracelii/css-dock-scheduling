@@ -30,4 +30,12 @@ describe("vessel name normalization", () => {
   it("keeps genuinely different names and removes duplicates", () => {
     expect(normalizeVessel(vessel("R/V Blue Horizon", ["Northern Light", "NORTHERN LIGHT"])).aliases).toEqual(["Northern Light"]);
   });
+
+  it("migrates legacy contact strings into typed contacts", () => {
+    const legacy = { ...vessel("R/V Blue Horizon"), contacts: ["Cell: 555-0104", "captain@example.com"] } as unknown as Vessel;
+    expect(normalizeVessel(legacy).contacts).toEqual([
+      { id: "contact-vessel-test-0", type: "phone", value: "555-0104" },
+      { id: "contact-vessel-test-1", type: "email", value: "captain@example.com" },
+    ]);
+  });
 });

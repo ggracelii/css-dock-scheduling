@@ -1,4 +1,4 @@
-import type { Vessel } from "../types";
+import type { Vessel, VesselContact } from "../types";
 
 const maritimePrefixes = new Map([
   ["f/v", "F/V"],
@@ -31,5 +31,18 @@ export const normalizeVessel = (vessel: Vessel): Vessel => {
     .filter((alias) => comparableVesselName(alias) !== nameKey)
     .map((alias) => [alias.toLocaleLowerCase(), alias])).values()];
 
-  return { ...vessel, name, aliases };
+  const rawContacts = (vessel.contacts ?? []) as Array<VesselContact | string>;
+  const contacts = [...new Map(rawContacts.map((contact, index) => {
+    const rawValue = typeof contact === "string" ? contact : contact.value;
+    const type = typeof contact === "string" ? (rawValue.includes("@") ? "email" : "phone") : contact.type;
+    const value = rawValue.trim().replace(/^(?:cell|phone|tel):\s*/i, "");
+    const normalized: VesselContact = {
+      id: typeof contact === "string" || !contact.id ? `contact-${vessel.id}-${index}` : contact.id,
+      type,
+      value,
+    };
+    return [`${type}:${value.toLocaleLowerCase()}`, normalized] as const;
+  }).filter(([key]) => !key.endsWith(":"))).values()];
+
+  return { ...vessel, name, aliases, contacts };
 };
