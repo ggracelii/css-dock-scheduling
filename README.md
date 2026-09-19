@@ -4,6 +4,11 @@ Waterfront scheduling and berth management built from the supplied 1997 through 
 
 The application turns the legacy visual calendar into searchable records, checks berth conflicts and vessel fit automatically, recommends the smallest available berth that fits, and keeps prototype changes in the browser. It is a static React application designed for GitHub Pages.
 
+## Reference files
+
+- [Implementation plan](PLAN.md)
+- [Synthetic dock schedule workbook](Dock%20Schedule%20-%20Synthetic%20Sample.xlsx)
+
 ## What works
 
 - Month timeline for eight discovered waterfront resources
