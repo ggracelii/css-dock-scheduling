@@ -13,7 +13,7 @@ import vesselsData from "../data/generated/vessels.json";
 import issuesData from "../data/generated/validation-issues.json";
 import reportData from "../data/generated/import-report.json";
 import { LocalStorageReservationRepository } from "../repositories/LocalStorageReservationRepository";
-import { findConflicts, vesselFitsBerth } from "../lib/scheduling";
+import { findConflicts, findVesselConflicts, vesselFitsBerth } from "../lib/scheduling";
 import type { Berth, ImportReport, Reservation, ValidationIssue, Vessel } from "../types";
 
 interface ReservationContextValue {
@@ -60,6 +60,8 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
 
   const saveReservation = useCallback(
     (reservation: Reservation) => {
+      if (findConflicts(reservations, reservation).length) throw new Error("The berth is already occupied during this date range.");
+      if (reservation.type === "vessel" && findVesselConflicts(reservations, reservation).length) throw new Error("The vessel already has a booking during this date range.");
       persist([
         ...reservations.filter((item) => item.id !== reservation.id),
         reservation,
@@ -133,6 +135,7 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
             const vessel = vessels.find((item) => item.id === value.vesselId);
             if (!berth) throw new Error("Berth not found.");
             if (findConflicts(reservations, value as Reservation).length) throw new Error("The berth is already occupied during this date range.");
+            if (value.type === "vessel" && findVesselConflicts(reservations, value as Reservation).length) throw new Error("The vessel already has a booking during this date range.");
             if (value.type === "vessel" && vesselFitsBerth(vessel, berth) === false) throw new Error("The selected vessel is too long for this berth.");
             const created: Reservation = { id: `created-${crypto.randomUUID()}`, type: value.type, title: value.title, vesselId: value.vesselId, berthId: value.berthId, startDate: value.startDate, endDate: value.endDate, origin: "created", status: "confirmed" };
             saveReservation(created);

@@ -6,6 +6,7 @@ export interface AssignmentAssessment {
   available: boolean;
   fits: boolean | null;
   conflicts: Reservation[];
+  vesselConflicts: Reservation[];
   spareFeet: number | null;
   recommended: boolean;
 }
@@ -27,6 +28,28 @@ export const findConflicts = (
         candidate.endDate,
       ),
   );
+
+export const findVesselConflicts = (
+  reservations: Reservation[],
+  candidate: Pick<Reservation, "startDate" | "endDate"> & {
+    id?: string;
+    vesselId?: string;
+  },
+) => {
+  if (!candidate.vesselId) return [];
+  return reservations.filter(
+    (reservation) =>
+      reservation.type === "vessel" &&
+      reservation.vesselId === candidate.vesselId &&
+      reservation.id !== candidate.id &&
+      datesOverlap(
+        reservation.startDate,
+        reservation.endDate,
+        candidate.startDate,
+        candidate.endDate,
+      ),
+  );
+};
 
 export const vesselFitsBerth = (vessel: Vessel | undefined, berth: Berth) => {
   if (!vessel || vessel.lengthFt === null || berth.maxVesselLengthFt === null)
@@ -50,15 +73,22 @@ export const recommendBerths = (
       endDate,
     });
     const fits = vesselFitsBerth(vessel, berth);
+    const vesselConflicts = findVesselConflicts(reservations, {
+      id: editingId,
+      vesselId: vessel?.id,
+      startDate,
+      endDate,
+    });
     const spareFeet =
       vessel?.lengthFt != null && berth.maxVesselLengthFt != null
         ? berth.maxVesselLengthFt - vessel.lengthFt
         : null;
     return {
       berth,
-      available: conflicts.length === 0,
+      available: conflicts.length === 0 && vesselConflicts.length === 0,
       fits,
       conflicts,
+      vesselConflicts,
       spareFeet,
       recommended: false,
     };
