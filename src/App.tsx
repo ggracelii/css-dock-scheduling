@@ -3,6 +3,9 @@ import type React from "react";
 import {
   AlertTriangle,
   Anchor,
+  ArrowDown,
+  ArrowUp,
+  ArrowUpDown,
   BarChart3,
   CalendarDays,
   Check,
@@ -326,6 +329,8 @@ function ResourcesPage() {
   const { reservations, berths, vessels } = useReservations();
   const [resourceType, setResourceType] = useState<"vessels" | "berths">("vessels");
   const [query, setQuery] = useState("");
+  const [vesselSort, setVesselSort] = useState<{ key: "name" | "length" | "operator" | "reservations"; direction: "asc" | "desc" }>({ key: "name", direction: "asc" });
+  const [berthSort, setBerthSort] = useState<{ key: "name" | "category" | "length" | "reservations"; direction: "asc" | "desc" }>({ key: "name", direction: "asc" });
   const [selectedVessel, setSelectedVessel] = useState<Vessel | null>(null);
   const [selectedBerth, setSelectedBerth] = useState<Berth | null>(null);
   const vesselUsage = useMemo(() => {
@@ -341,10 +346,20 @@ function ResourcesPage() {
   const term = query.trim().toLowerCase();
   const visibleVessels = [...vessels]
     .filter((item) => !term || `${item.name} ${item.operator ?? ""} ${item.aliases.join(" ")}`.toLowerCase().includes(term))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const values = vesselSort.key === "name" ? [a.name, b.name] : vesselSort.key === "length" ? [a.lengthFt, b.lengthFt] : vesselSort.key === "operator" ? [a.operator, b.operator] : [vesselUsage.get(a.id) ?? 0, vesselUsage.get(b.id) ?? 0];
+      const comparison = compareResourceValues(values[0], values[1], vesselSort.direction);
+      return comparison || a.name.localeCompare(b.name, undefined, { sensitivity: "base" });
+    });
   const visibleBerths = [...berths]
     .filter((item) => !term || `${item.name} ${item.category ?? ""}`.toLowerCase().includes(term))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const values = berthSort.key === "name" ? [a.name, b.name] : berthSort.key === "category" ? [a.category ?? "Vessel berth", b.category ?? "Vessel berth"] : berthSort.key === "length" ? [a.maxVesselLengthFt, b.maxVesselLengthFt] : [berthUsage.get(a.id) ?? 0, berthUsage.get(b.id) ?? 0];
+      const comparison = compareResourceValues(values[0], values[1], berthSort.direction);
+      return comparison || a.name.localeCompare(b.name, undefined, { sensitivity: "base" });
+    });
+  const toggleVesselSort = (key: typeof vesselSort.key) => setVesselSort((current) => ({ key, direction: current.key === key && current.direction === "asc" ? "desc" : "asc" }));
+  const toggleBerthSort = (key: typeof berthSort.key) => setBerthSort((current) => ({ key, direction: current.key === key && current.direction === "asc" ? "desc" : "asc" }));
   const changeResourceType = (next: "vessels" | "berths") => {
     setResourceType(next);
     setQuery("");
@@ -356,10 +371,24 @@ function ResourcesPage() {
       <button type="button" className={resourceType === "berths" ? "active" : ""} onClick={() => changeResourceType("berths")}><Anchor size={16} /> Berths</button>
     </div>
     <div className="filter-bar resource-filter"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={resourceType === "vessels" ? "Search vessels" : "Search berths"} /></label><span>{resourceType === "vessels" ? visibleVessels.length : visibleBerths.length} shown</span></div>
-    <div className="table-panel resource-table"><table><thead>{resourceType === "vessels" ? <tr><th>Vessel</th><th>Length</th><th>Operator</th><th>Reservations</th><th /></tr> : <tr><th>Berth</th><th>Category</th><th>Maximum vessel length</th><th>Reservations</th><th /></tr>}</thead><tbody>{resourceType === "vessels" ? visibleVessels.map((vessel) => <tr key={vessel.id} onClick={() => setSelectedVessel(vessel)}><td><strong>{vessel.name}</strong><small>{vessel.aliases.length ? `${vessel.aliases.length} ${vessel.aliases.length === 1 ? "alias" : "aliases"}` : "No aliases"}</small></td><td>{vessel.lengthFt != null ? `${vessel.lengthFt} ft` : <span className="missing-value">Not recorded</span>}</td><td>{vessel.operator ?? <span className="muted-value">Not recorded</span>}</td><td>{vesselUsage.get(vessel.id) ?? 0}</td><td><ChevronRight size={16} /></td></tr>) : visibleBerths.map((berth) => <tr key={berth.id} onClick={() => setSelectedBerth(berth)}><td><strong>{berth.name}</strong></td><td>{berth.category ?? "Vessel berth"}</td><td>{berth.maxVesselLengthFt != null ? `${berth.maxVesselLengthFt} ft` : <span className="missing-value">Not recorded</span>}</td><td>{berthUsage.get(berth.id) ?? 0}</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table></div>
+    <div className="table-panel resource-table"><table><thead>{resourceType === "vessels" ? <tr><SortableHeader label="Vessel" active={vesselSort.key === "name"} direction={vesselSort.direction} onClick={() => toggleVesselSort("name")} /><SortableHeader label="Length" active={vesselSort.key === "length"} direction={vesselSort.direction} onClick={() => toggleVesselSort("length")} /><SortableHeader label="Operator" active={vesselSort.key === "operator"} direction={vesselSort.direction} onClick={() => toggleVesselSort("operator")} /><SortableHeader label="Reservations" active={vesselSort.key === "reservations"} direction={vesselSort.direction} onClick={() => toggleVesselSort("reservations")} /><th aria-label="Open record" /></tr> : <tr><SortableHeader label="Berth" active={berthSort.key === "name"} direction={berthSort.direction} onClick={() => toggleBerthSort("name")} /><SortableHeader label="Category" active={berthSort.key === "category"} direction={berthSort.direction} onClick={() => toggleBerthSort("category")} /><SortableHeader label="Maximum vessel length" active={berthSort.key === "length"} direction={berthSort.direction} onClick={() => toggleBerthSort("length")} /><SortableHeader label="Reservations" active={berthSort.key === "reservations"} direction={berthSort.direction} onClick={() => toggleBerthSort("reservations")} /><th aria-label="Open record" /></tr>}</thead><tbody>{resourceType === "vessels" ? visibleVessels.map((vessel) => <tr key={vessel.id} onClick={() => setSelectedVessel(vessel)}><td><strong>{vessel.name}</strong><small>{vessel.aliases.length ? `${vessel.aliases.length} ${vessel.aliases.length === 1 ? "alias" : "aliases"}` : "No aliases"}</small></td><td>{vessel.lengthFt != null ? `${vessel.lengthFt} ft` : <span className="missing-value">Not recorded</span>}</td><td>{vessel.operator ?? <span className="muted-value">Not recorded</span>}</td><td>{vesselUsage.get(vessel.id) ?? 0}</td><td><ChevronRight size={16} /></td></tr>) : visibleBerths.map((berth) => <tr key={berth.id} onClick={() => setSelectedBerth(berth)}><td><strong>{berth.name}</strong></td><td>{berth.category ?? "Vessel berth"}</td><td>{berth.maxVesselLengthFt != null ? `${berth.maxVesselLengthFt} ft` : <span className="missing-value">Not recorded</span>}</td><td>{berthUsage.get(berth.id) ?? 0}</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table></div>
     {selectedVessel && <VesselEditorDrawer vessel={selectedVessel} onClose={() => setSelectedVessel(null)} />}
     {selectedBerth && <BerthEditorDrawer berth={selectedBerth} onClose={() => setSelectedBerth(null)} />}
   </>;
+}
+
+function compareResourceValues(a: string | number | null | undefined, b: string | number | null | undefined, direction: "asc" | "desc") {
+  const aMissing = a == null || a === "";
+  const bMissing = b == null || b === "";
+  if (aMissing !== bMissing) return aMissing ? 1 : -1;
+  if (aMissing && bMissing) return 0;
+  const comparison = typeof a === "number" && typeof b === "number" ? a - b : String(a).localeCompare(String(b), undefined, { numeric: true, sensitivity: "base" });
+  return direction === "asc" ? comparison : -comparison;
+}
+
+function SortableHeader({ label, active, direction, onClick }: { label: string; active: boolean; direction: "asc" | "desc"; onClick: () => void }) {
+  const nextDirection = active && direction === "asc" ? "descending" : "ascending";
+  return <th aria-sort={active ? (direction === "asc" ? "ascending" : "descending") : "none"}><button type="button" className={`sort-button ${active ? "active" : ""}`} onClick={onClick} aria-label={`Sort ${label} ${nextDirection}`}>{label}{active ? direction === "asc" ? <ArrowUp /> : <ArrowDown /> : <ArrowUpDown />}</button></th>;
 }
 
 function VesselEditorDrawer({ vessel, onClose }: { vessel: Vessel; onClose: () => void }) {
