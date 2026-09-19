@@ -64,6 +64,7 @@ function App() {
   const [month, setMonth] = useState("2019-01");
   const [selected, setSelected] = useState<Reservation | null>(null);
   const [editing, setEditing] = useState<Reservation | "new" | null>(null);
+  const [drawerReturnPage, setDrawerReturnPage] = useState<Page | null>(null);
   const [query, setQuery] = useState("");
   const [mobileNav, setMobileNav] = useState(false);
 
@@ -72,10 +73,6 @@ function App() {
       if (event.key === "/" && !(event.target instanceof HTMLInputElement)) {
         event.preventDefault();
         document.getElementById("global-search")?.focus();
-      }
-      if (event.key === "Escape") {
-        setSelected(null);
-        setEditing(null);
       }
     };
     window.addEventListener("keydown", onKey);
@@ -99,10 +96,23 @@ function App() {
   };
 
   const jumpToReservation = (reservation: Reservation) => {
+    setDrawerReturnPage(page);
     setMonth(reservation.startDate.slice(0, 7));
     setPage("schedule");
     setSelected(reservation);
     setQuery("");
+  };
+
+  const closeDetails = () => {
+    setSelected(null);
+    if (drawerReturnPage) setPage(drawerReturnPage);
+    setDrawerReturnPage(null);
+  };
+
+  const closeEditor = () => {
+    setEditing(null);
+    if (drawerReturnPage) setPage(drawerReturnPage);
+    setDrawerReturnPage(null);
   };
 
   return (
@@ -146,15 +156,17 @@ function App() {
         </header>
 
         <div className="content">
-          {page === "overview" && <Overview onNavigate={navigate} onOpen={jumpToReservation} />}
-          {page === "schedule" && <Schedule month={month} setMonth={setMonth} onOpen={setSelected} onNew={() => setEditing("new")} />}
-          {page === "reservations" && <ReservationsPage onOpen={setSelected} />}
-          {page === "health" && <DataHealth onView={jumpToReservation} />}
+          <div className="page-surface" key={page}>
+            {page === "overview" && <Overview onNavigate={navigate} onOpen={jumpToReservation} />}
+            {page === "schedule" && <Schedule month={month} setMonth={setMonth} onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
+            {page === "reservations" && <ReservationsPage onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} />}
+            {page === "health" && <DataHealth onView={jumpToReservation} />}
+          </div>
         </div>
       </main>
 
-      {selected && <ReservationDrawer reservation={selected} onClose={() => setSelected(null)} onEdit={() => { setEditing(selected); setSelected(null); }} />}
-      {editing && <ReservationDialog reservation={editing === "new" ? undefined : editing} onClose={() => setEditing(null)} />}
+      {selected && <ReservationDrawer reservation={selected} onClose={closeDetails} onEdit={() => { setEditing(selected); setSelected(null); }} />}
+      {editing && <ReservationDialog reservation={editing === "new" ? undefined : editing} onClose={closeEditor} />}
     </div>
   );
 }
@@ -277,18 +289,35 @@ function IssueRow({ issue }: { issue: ValidationIssue }) {
 
 function ReservationDrawer({ reservation, onClose, onEdit }: { reservation: Reservation; onClose: () => void; onEdit: () => void }) {
   const { berths, vessels, importedIssues, deleteReservation } = useReservations();
+  const [closing, setClosing] = useState(false);
   const berth = berths.find((item) => item.id === reservation.berthId);
   const vessel = vessels.find((item) => item.id === reservation.vesselId);
   const issues = importedIssues.filter((issue) => issue.reservationIds?.includes(reservation.id));
-  return <div className="overlay" onMouseDown={(event) => event.target === event.currentTarget && onClose()}><aside className="drawer" aria-label="Reservation details"><div className="drawer-header"><div><span className={`type-pill ${reservation.type}`}>{reservation.type}</span><h2>{reservation.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="Close"><X /></button></div><div className="drawer-body">
+  const requestClose = () => {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onClose, 190);
+  };
+  const requestEdit = () => {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onEdit, 190);
+  };
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
+  return <div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer" aria-label="Reservation details"><div className="drawer-header"><div><span className={`type-pill ${reservation.type}`}>{reservation.type}</span><h2>{reservation.title}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><div className="drawer-body">
     {issues.map((issue) => <div className="warning-card" key={issue.id}><AlertTriangle /><div><strong>{issueLabel[issue.type]}</strong><span>{issue.message}</span></div></div>)}
     <dl className="detail-list"><div><dt>Berth</dt><dd>{berth?.name}<small>{berth?.maxVesselLengthFt ? `${berth.maxVesselLengthFt} ft maximum vessel length` : "Capacity not specified in source schedule"}</small></dd></div><div><dt>Dates</dt><dd>{format(parseISO(reservation.startDate), "MMMM d, yyyy")}{reservation.endDate !== reservation.startDate && <> – {format(parseISO(reservation.endDate), "MMMM d, yyyy")}</>}<small>{daysInclusive(reservation.startDate, reservation.endDate)} calendar {daysInclusive(reservation.startDate, reservation.endDate) === 1 ? "day" : "days"}</small></dd></div>{vessel && <div><dt>Vessel</dt><dd>{vessel.name}<small>{vessel.lengthFt ? `${vessel.lengthFt} ft length overall` : "Length unknown"}{vessel.operator ? ` · ${vessel.operator}` : ""}</small></dd></div>}<div><dt>Status</dt><dd>Confirmed<small>{reservation.origin === "imported" ? "Historical imported record" : "Created in Dock Manager"}</small></dd></div></dl>
     <section className="source-card"><div><Database size={17} /><strong>Source data</strong></div>{reservation.origin === "imported" ? <><p>Imported from {reservation.source?.sheet} dock schedule</p><code>{reservation.source?.sheet}!{reservation.source?.range ?? reservation.source?.cell}</code><small>Original value: {reservation.source?.rawValue}<br />Import confidence: {reservation.importConfidence}</small></> : <p>Created in Dock Manager and stored in this browser.</p>}</section>
-  </div><div className="drawer-actions"><button className="secondary-button" onClick={onEdit}>Edit reservation</button><button className="danger-button" onClick={() => { if (window.confirm("Delete this reservation from local demo data?")) { deleteReservation(reservation.id); onClose(); } }}>Delete</button></div></aside></div>;
+  </div><div className="drawer-actions"><button className="secondary-button" onClick={requestEdit}>Edit reservation</button><button className="danger-button" onClick={() => { if (window.confirm("Delete this reservation from local demo data?")) { deleteReservation(reservation.id); requestClose(); } }}>Delete</button></div></aside></div>;
 }
 
 function ReservationDialog({ reservation, onClose }: { reservation?: Reservation; onClose: () => void }) {
   const { reservations, berths, vessels, saveReservation } = useReservations();
+  const [closing, setClosing] = useState(false);
   const [type, setType] = useState<ReservationType>(reservation?.type ?? "vessel");
   const [title, setTitle] = useState(reservation?.title ?? "");
   const [vesselId, setVesselId] = useState(reservation?.vesselId ?? "");
@@ -306,6 +335,16 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
   }, [vesselId, vesselSearch, vessels]);
   const recommendations = startDate && endDate && startDate <= endDate ? recommendBerths(berths, reservations, vessel, startDate, endDate, reservation?.id) : [];
   const selectedAssessment = recommendations.find((item) => item.berth.id === berthId);
+  const requestClose = () => {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onClose, 190);
+  };
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     setError("");
@@ -316,15 +355,15 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
     if (conflicts.length) return setError(`${selectedBerth.name} is occupied by ${conflicts[0].title} during this date range.`);
     if (type === "vessel" && vesselFitsBerth(vessel, selectedBerth) === false) return setError(`${vessel?.name} is too long for ${selectedBerth.name}.`);
     saveReservation({ id: reservation?.id ?? `created-${crypto.randomUUID()}`, type, title: type === "vessel" && vessel ? vessel.name : title.trim(), vesselId: type === "vessel" ? vesselId : undefined, berthId, startDate, endDate, origin: reservation?.origin ?? "created", source: reservation?.source, importConfidence: reservation?.importConfidence, modifiedSinceImport: reservation?.origin === "imported", status: "confirmed" });
-    onClose();
+    requestClose();
   };
-  return <div className="overlay dialog-overlay" onMouseDown={(event) => event.target === event.currentTarget && onClose()}><section className="dialog" role="dialog" aria-modal="true" aria-labelledby="reservation-title"><div className="dialog-header"><div><span>{reservation ? "Update booking" : "New booking"}</span><h2 id="reservation-title">{reservation ? "Edit reservation" : "Reserve a berth"}</h2></div><button className="icon-button" onClick={onClose}><X /></button></div><form onSubmit={submit}><div className="segmented">{(["vessel", "event", "closure"] as ReservationType[]).map((item) => <button type="button" key={item} className={type === item ? "active" : ""} onClick={() => setType(item)}>{item === "vessel" ? <Ship size={16} /> : item === "event" ? <CalendarDays size={16} /> : <AlertTriangle size={16} />}{item}</button>)}</div>
+  return <div className={`overlay dialog-overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><section className="dialog" role="dialog" aria-modal="true" aria-labelledby="reservation-title"><div className="dialog-header"><div><span>{reservation ? "Update booking" : "New booking"}</span><h2 id="reservation-title">{reservation ? "Edit reservation" : "Reserve a berth"}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit}><div className="segmented">{(["vessel", "event", "closure"] as ReservationType[]).map((item) => <button type="button" key={item} className={type === item ? "active" : ""} onClick={() => setType(item)}>{item === "vessel" ? <Ship size={16} /> : item === "event" ? <CalendarDays size={16} /> : <AlertTriangle size={16} />}{item}</button>)}</div>
     {type === "vessel" ? <div className="vessel-picker"><label htmlFor="vessel-search">Find vessel</label><div className="picker-search"><Search size={16} /><input id="vessel-search" value={vesselSearch} onChange={(event) => setVesselSearch(event.target.value)} placeholder="Search by vessel name" /></div><label htmlFor="vessel-select">Vessel</label><select id="vessel-select" value={vesselId} onChange={(event) => { const id = event.target.value; setVesselId(id); const chosen = vessels.find((item) => item.id === id); setTitle(chosen?.name ?? ""); if (chosen) setVesselSearch(chosen.name); }} required><option value="">Select from {visibleVessels.length} matches</option>{visibleVessels.map((item) => <option key={item.id} value={item.id}>{item.name}{item.lengthFt ? ` · ${item.lengthFt} ft` : " · length unknown"}</option>)}</select></div> : <label>{type === "event" ? "Event" : "Closure"} name<input value={title} onChange={(event) => setTitle(event.target.value)} required /></label>}
     <div className="form-row"><label>Start date<input type="date" value={startDate} onChange={(event) => { setStartDate(event.target.value); if (endDate < event.target.value) setEndDate(event.target.value); }} required /></label><label>End date<input type="date" value={endDate} min={startDate} onChange={(event) => setEndDate(event.target.value)} required /></label></div>
     <label>Berth<select value={berthId} onChange={(event) => setBerthId(event.target.value)} required><option value="">Select a berth</option>{recommendations.sort((a, b) => Number(b.recommended) - Number(a.recommended)).map((item) => <option key={item.berth.id} value={item.berth.id} disabled={!item.available || item.fits === false}>{item.recommended ? "Recommended · " : ""}{item.berth.name} · {!item.available ? "occupied" : item.fits === false ? "too short" : item.berth.maxVesselLengthFt ? `${item.berth.maxVesselLengthFt} ft` : "capacity unknown"}</option>)}</select></label>
     {berthId && selectedAssessment && <div className={`assessment ${selectedAssessment.available && selectedAssessment.fits !== false ? "good" : "bad"}`}>{selectedAssessment.available && selectedAssessment.fits !== false ? <Check /> : <AlertTriangle />}<div><strong>{selectedAssessment.available ? selectedAssessment.fits === false ? "Vessel does not fit" : "Available for these dates" : "Berth is occupied"}</strong><span>{selectedAssessment.recommended ? "Best-fit available berth for this vessel." : selectedAssessment.spareFeet != null ? `${selectedAssessment.spareFeet} ft of clearance.` : "Capacity cannot be verified from source data."}</span></div></div>}
     {error && <div className="form-error"><AlertTriangle size={17} />{error}</div>}
-    <div className="dialog-actions"><button type="button" className="secondary-button" onClick={onClose}>Cancel</button><button className="primary-button" type="submit">{reservation ? "Save changes" : "Create reservation"}</button></div></form></section></div>;
+    <div className="dialog-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button className="primary-button" type="submit">{reservation ? "Save changes" : "Create reservation"}</button></div></form></section></div>;
 }
 
 export default App;
