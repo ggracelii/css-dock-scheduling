@@ -326,10 +326,10 @@ function ScheduleChecks({ onOpen }: { onOpen: (reservation: Reservation) => void
     <section className="check-summary" aria-label="Schedule check totals">
       {(["overlap", "vessel-fit", "vessel-length", "berth-limit"] as ScheduleCheckKind[]).map((item) => <button key={item} className={kind === item ? "active" : ""} onClick={() => setKind(kind === item ? "all" : item)}><span>{item === "overlap" ? <AlertTriangle /> : item === "vessel-fit" ? <Ship /> : item === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><div><strong>{count(item).toLocaleString()}</strong><small>{checkLabels[item]}</small></div></button>)}
     </section>
-    <div className="check-toolbar"><div><strong>{kind === "all" ? "All checks" : checkLabels[kind]}</strong><span>Most recent first</span></div>{kind !== "all" && <button className="text-button" onClick={() => setKind("all")}>Show all</button>}</div>
+    <div className="check-toolbar"><strong>{kind === "all" ? "All checks" : checkLabels[kind]}</strong>{kind !== "all" && <button className="text-button" onClick={() => setKind("all")}>Show all checks</button>}</div>
     <section className="check-list">
       {visible.slice(0, 250).map((item) => <button key={item.id} disabled={!item.reservation} onClick={() => item.reservation && onOpen(item.reservation)}><span className={`check-icon ${item.kind}`}>{item.kind === "overlap" ? <AlertTriangle /> : item.kind === "vessel-fit" ? <Ship /> : item.kind === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><span><strong>{item.title}</strong><small>{item.detail}</small></span><span className="check-meta">{item.date ? format(parseISO(item.date), "MMM d, yyyy") : "Berth setting"}{item.reservation && <ChevronRight />}</span></button>)}
-      {visible.length > 250 && <div className="table-foot">Showing the 250 most recent checks. Select a category above to narrow the list.</div>}
+      {visible.length > 250 && <div className="table-foot">Showing 250 checks. Select a category above to narrow the list.</div>}
     </section>
   </>;
 }
