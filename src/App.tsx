@@ -41,9 +41,24 @@ import {
 import { useReservations } from "./context/ReservationProvider";
 import { daysInclusive } from "./lib/dates";
 import { findConflicts, recommendBerths, vesselFitsBerth } from "./lib/scheduling";
+import { newestIssueFirst, newestReservationFirst } from "./lib/sorting";
 import type { Reservation, ReservationType, ValidationIssue } from "./types";
 
 type Page = "overview" | "schedule" | "reservations" | "health";
+
+type ViewTransitionDocument = Document & {
+  startViewTransition?: (update: () => void) => { finished: Promise<void> };
+};
+
+const updateWithViewTransition = (update: () => void) => {
+  const viewTransitionDocument = document as ViewTransitionDocument;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!viewTransitionDocument.startViewTransition || reduceMotion) {
+    update();
+    return;
+  }
+  viewTransitionDocument.startViewTransition(update);
+};
 
 const berthColor = (type: ReservationType) =>
   type === "vessel" ? "var(--blue)" : type === "event" ? "var(--violet)" : "var(--amber)";
@@ -87,32 +102,45 @@ function App() {
         const berth = data.berths.find((candidate) => candidate.id === item.berthId);
         return `${item.title} ${berth?.name} ${item.startDate}`.toLowerCase().includes(term);
       })
+      .sort(newestReservationFirst)
       .slice(0, 7);
   }, [data.berths, data.reservations, query]);
 
   const navigate = (target: Page) => {
-    setPage(target);
-    setMobileNav(false);
+    if (target === page) {
+      setMobileNav(false);
+      return;
+    }
+    updateWithViewTransition(() => {
+      setPage(target);
+      setMobileNav(false);
+    });
   };
 
   const jumpToReservation = (reservation: Reservation) => {
     setDrawerReturnPage(page);
     setMonth(reservation.startDate.slice(0, 7));
-    setPage("schedule");
-    setSelected(reservation);
-    setQuery("");
+    updateWithViewTransition(() => {
+      setPage("schedule");
+      setSelected(reservation);
+      setQuery("");
+    });
   };
 
   const closeDetails = () => {
-    setSelected(null);
-    if (drawerReturnPage) setPage(drawerReturnPage);
-    setDrawerReturnPage(null);
+    updateWithViewTransition(() => {
+      setSelected(null);
+      if (drawerReturnPage) setPage(drawerReturnPage);
+      setDrawerReturnPage(null);
+    });
   };
 
   const closeEditor = () => {
-    setEditing(null);
-    if (drawerReturnPage) setPage(drawerReturnPage);
-    setDrawerReturnPage(null);
+    updateWithViewTransition(() => {
+      setEditing(null);
+      if (drawerReturnPage) setPage(drawerReturnPage);
+      setDrawerReturnPage(null);
+    });
   };
 
   return (
@@ -181,12 +209,14 @@ function PageTitle({ eyebrow, title, children }: { eyebrow: string; title: strin
 
 function Overview({ onNavigate, onOpen }: { onNavigate: (page: Page) => void; onOpen: (reservation: Reservation) => void }) {
   const { reservations, berths, vessels, importedIssues, report } = useReservations();
-  const operationalIssues = importedIssues.filter((issue) => issue.type === "BERTH_CONFLICT" || issue.type === "VESSEL_TOO_LONG");
+  const operationalIssues = importedIssues
+    .filter((issue) => issue.type === "BERTH_CONFLICT" || issue.type === "VESSEL_TOO_LONG")
+    .sort(newestIssueFirst(reservations));
   const yearData = useMemo(() => {
     const years = Array.from({ length: 23 }, (_, index) => 1997 + index);
     return years.map((year) => ({ year: String(year), bookings: reservations.filter((item) => item.startDate.startsWith(String(year))).length }));
   }, [reservations]);
-  const recent = [...reservations].sort((a, b) => b.startDate.localeCompare(a.startDate)).slice(0, 5);
+  const recent = [...reservations].sort(newestReservationFirst).slice(0, 5);
   return <>
     <PageTitle eyebrow="Waterfront operations" title="Overview"><button className="secondary-button" onClick={() => onNavigate("schedule")}>Open schedule <ChevronRight size={16} /></button></PageTitle>
     <section className="metric-grid" aria-label="Schedule summary">
@@ -259,7 +289,7 @@ function ReservationsPage({ onOpen }: { onOpen: (reservation: Reservation) => vo
   const [query, setQuery] = useState("");
   const [type, setType] = useState("all");
   const [year, setYear] = useState("all");
-  const filtered = reservations.filter((item) => (type === "all" || item.type === type) && (year === "all" || item.startDate.startsWith(year)) && `${item.title} ${berths.find((berth) => berth.id === item.berthId)?.name}`.toLowerCase().includes(query.toLowerCase())).sort((a, b) => b.startDate.localeCompare(a.startDate));
+  const filtered = reservations.filter((item) => (type === "all" || item.type === type) && (year === "all" || item.startDate.startsWith(year)) && `${item.title} ${berths.find((berth) => berth.id === item.berthId)?.name}`.toLowerCase().includes(query.toLowerCase())).sort(newestReservationFirst);
   return <>
     <PageTitle eyebrow="Historical record" title="Reservations"><span className="record-count">{filtered.length.toLocaleString()} records</span></PageTitle>
     <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><select value={type} onChange={(event) => setType(event.target.value)} aria-label="Reservation type"><option value="all">All types</option><option value="vessel">Vessels</option><option value="event">Events</option><option value="closure">Closures</option></select><select value={year} onChange={(event) => setYear(event.target.value)} aria-label="Year"><option value="all">All years</option>{Array.from({ length: 23 }, (_, index) => 2019 - index).map((item) => <option key={item}>{item}</option>)}</select></div>
@@ -271,7 +301,9 @@ function DataHealth({ onView }: { onView: (reservation: Reservation) => void }) 
   const { importedIssues, reservations, report, reset } = useReservations();
   const [category, setCategory] = useState("all");
   const [confidence, setConfidence] = useState("all");
-  const filtered = importedIssues.filter((issue) => (category === "all" || issue.category === category) && (confidence === "all" || issue.confidence === confidence));
+  const filtered = importedIssues
+    .filter((issue) => (category === "all" || issue.category === category) && (confidence === "all" || issue.confidence === confidence))
+    .sort(newestIssueFirst(reservations));
   const grouped = Object.entries(report.issueCounts).map(([type, count]) => ({ type, count }));
   return <>
     <PageTitle eyebrow="Source validation" title="Data health"><div className="title-actions"><div className="coverage-chip"><Check size={15} />23 annual sheets analyzed</div><button className="secondary-button" onClick={() => { if (window.confirm("Reset all local changes and restore the imported workbook data?")) reset(); }}><RotateCcw size={15} /> Reset demo data</button></div></PageTitle>
@@ -317,14 +349,15 @@ function ReservationDrawer({ reservation, onClose, onEdit }: { reservation: Rese
 
 function ReservationDialog({ reservation, onClose }: { reservation?: Reservation; onClose: () => void }) {
   const { reservations, berths, vessels, saveReservation } = useReservations();
+  const today = format(new Date(), "yyyy-MM-dd");
   const [closing, setClosing] = useState(false);
   const [type, setType] = useState<ReservationType>(reservation?.type ?? "vessel");
   const [title, setTitle] = useState(reservation?.title ?? "");
   const [vesselId, setVesselId] = useState(reservation?.vesselId ?? "");
   const [vesselSearch, setVesselSearch] = useState(() => vessels.find((item) => item.id === reservation?.vesselId)?.name ?? "");
   const [berthId, setBerthId] = useState(reservation?.berthId ?? "");
-  const [startDate, setStartDate] = useState(reservation?.startDate ?? "2019-01-01");
-  const [endDate, setEndDate] = useState(reservation?.endDate ?? "2019-01-01");
+  const [startDate, setStartDate] = useState(reservation?.startDate ?? today);
+  const [endDate, setEndDate] = useState(reservation?.endDate ?? today);
   const [error, setError] = useState("");
   const vessel = vessels.find((item) => item.id === vesselId);
   const visibleVessels = useMemo(() => {
