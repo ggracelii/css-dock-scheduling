@@ -148,7 +148,7 @@ body {
 
 button { transition: color 180ms var(--motion), background-color 180ms var(--motion), border-color 180ms var(--motion), box-shadow 220ms var(--motion), transform 220ms var(--motion); }
 button:not(:disabled):active { transform: translateY(1px); }
-.app-shell { display: grid; grid-template-columns: 252px minmax(0, 1fr); }
+.app-shell { display: grid; grid-template-columns: 252px minmax(0, 1fr); transition: grid-template-columns 320ms var(--motion); }
 .sidebar {
   position: sticky;
   top: 0;
@@ -162,7 +162,11 @@ button:not(:disabled):active { transform: translateY(1px); }
   border-right: 4px solid #63c2c3;
   border-bottom: 0;
   box-shadow: none;
+  transition: padding 320ms var(--motion), transform 280ms var(--motion);
 }
+.sidebar-collapse { position: absolute; top: 30px; right: -15px; z-index: 2; width: 30px; height: 30px; display: grid; place-items: center; padding: 0; border: 1px solid #8fb4b9; border-radius: 50%; color: #315d68; background: var(--paper-light); box-shadow: 0 3px 9px rgba(3,38,50,.16); }
+.sidebar-collapse:hover { color: var(--teal); border-color: var(--teal); transform: translateX(2px); }
+.sidebar-collapse svg { width: 15px; }
 .brand { min-width: 0; padding: 0 8px 40px; gap: 14px; }
 .brand-mark { width: 38px; height: 38px; border-radius: 1px; transform: rotate(45deg); background: rgba(255,255,255,.025); }
 .brand-mark svg { transform: rotate(-45deg); }
@@ -190,6 +194,19 @@ button:not(:disabled):active { transform: translateY(1px); }
 .sidebar nav b { min-width: 20px; height: 20px; border-radius: 2px; }
 .sidebar-note { margin: auto 4px 0; padding: 18px 8px 0; border: 0; border-top: 1px solid rgba(255,255,255,.16); align-items: flex-start; }
 .sidebar-note strong { display: block; margin-right: 0; }
+
+@media (min-width: 761px) {
+  .app-shell.sidebar-collapsed { grid-template-columns: 84px minmax(0, 1fr); }
+  .sidebar-collapsed .sidebar { padding-inline: 14px; }
+  .sidebar-collapsed .brand { justify-content: center; padding-inline: 0; }
+  .sidebar-collapsed .brand > div:last-child, .sidebar-collapsed .sidebar nav button > span, .sidebar-collapsed .sidebar-note { opacity: 0; visibility: hidden; pointer-events: none; }
+  .sidebar-collapsed .brand > div:last-child { position: absolute; }
+  .sidebar-collapsed .sidebar nav::before { left: 50%; transform: translateX(-50%); }
+  .sidebar-collapsed .sidebar nav button { grid-template-columns: 36px; justify-content: center; padding: 0; }
+  .sidebar-collapsed .sidebar nav button::after { left: auto; right: -14px; top: 50%; bottom: 50%; width: 3px; height: auto; transition: top 240ms var(--motion), bottom 240ms var(--motion); }
+  .sidebar-collapsed .sidebar nav button.active::after { top: 10px; bottom: 10px; right: -14px; }
+  .sidebar-collapsed .sidebar nav b { position: absolute; top: 2px; right: 1px; min-width: 17px; height: 17px; padding: 0 4px; font-size: 9px; }
+}
 
 .topbar {
   top: 0;
@@ -314,6 +331,7 @@ button:not(:disabled):active { transform: translateY(1px); }
     transition: transform 280ms var(--motion);
   }
   .sidebar.open { transform: translateX(0); }
+  .sidebar-collapse { display: none; }
   .brand { min-width: 0; padding: 0 10px 30px; }
   .sidebar nav { display: grid; margin: 0; gap: 3px; }
   .sidebar nav button { min-height: 52px; padding: 0 8px 0 0; }

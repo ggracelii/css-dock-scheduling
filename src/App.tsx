@@ -13,6 +13,8 @@ import {
   Database,
   History,
   Menu,
+  PanelLeftClose,
+  PanelLeftOpen,
   Plus,
   RotateCcw,
   Search,
@@ -82,6 +84,7 @@ function App() {
   const [drawerReturnPage, setDrawerReturnPage] = useState<Page | null>(null);
   const [query, setQuery] = useState("");
   const [mobileNav, setMobileNav] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => localStorage.getItem("dock-manager-sidebar-collapsed") === "true");
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -117,6 +120,14 @@ function App() {
     });
   };
 
+  const toggleSidebar = () => {
+    setSidebarCollapsed((collapsed) => {
+      const next = !collapsed;
+      localStorage.setItem("dock-manager-sidebar-collapsed", String(next));
+      return next;
+    });
+  };
+
   const jumpToReservation = (reservation: Reservation) => {
     setDrawerReturnPage(page);
     setMonth(reservation.startDate.slice(0, 7));
@@ -144,17 +155,18 @@ function App() {
   };
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${sidebarCollapsed ? "sidebar-collapsed" : ""}`}>
       <aside className={`sidebar ${mobileNav ? "open" : ""}`}>
         <div className="brand">
           <div className="brand-mark"><Anchor size={20} /></div>
           <div><strong>WHOI</strong><span>Dock Manager</span></div>
         </div>
+        <button className="sidebar-collapse" onClick={toggleSidebar} aria-label={sidebarCollapsed ? "Expand navigation" : "Collapse navigation"} title={sidebarCollapsed ? "Expand navigation" : "Collapse navigation"}>{sidebarCollapsed ? <PanelLeftOpen /> : <PanelLeftClose />}</button>
         <nav aria-label="Primary navigation">
-          <NavButton icon={<BarChart3 />} active={page === "overview"} onClick={() => navigate("overview")}>Overview</NavButton>
-          <NavButton icon={<CalendarDays />} active={page === "schedule"} onClick={() => navigate("schedule")}>Schedule</NavButton>
-          <NavButton icon={<History />} active={page === "reservations"} onClick={() => navigate("reservations")}>Reservations</NavButton>
-          <NavButton icon={<Activity />} active={page === "health"} onClick={() => navigate("health")} badge={data.importedIssues.filter((issue) => issue.severity === "error").length}>Data health</NavButton>
+          <NavButton icon={<BarChart3 />} active={page === "overview"} compact={sidebarCollapsed} onClick={() => navigate("overview")}>Overview</NavButton>
+          <NavButton icon={<CalendarDays />} active={page === "schedule"} compact={sidebarCollapsed} onClick={() => navigate("schedule")}>Schedule</NavButton>
+          <NavButton icon={<History />} active={page === "reservations"} compact={sidebarCollapsed} onClick={() => navigate("reservations")}>Reservations</NavButton>
+          <NavButton icon={<Activity />} active={page === "health"} compact={sidebarCollapsed} onClick={() => navigate("health")} badge={data.importedIssues.filter((issue) => issue.severity === "error").length}>Data health</NavButton>
         </nav>
         <div className="sidebar-note">
           <Database size={16} />
@@ -199,8 +211,8 @@ function App() {
   );
 }
 
-function NavButton({ icon, active, badge, children, onClick }: { icon: React.ReactNode; active: boolean; badge?: number; children: React.ReactNode; onClick: () => void }) {
-  return <button className={active ? "active" : ""} onClick={onClick}>{icon}<span>{children}</span>{badge ? <b>{badge}</b> : null}</button>;
+function NavButton({ icon, active, badge, compact, children, onClick }: { icon: React.ReactNode; active: boolean; badge?: number; compact?: boolean; children: React.ReactNode; onClick: () => void }) {
+  return <button className={active ? "active" : ""} onClick={onClick} title={compact ? String(children) : undefined}>{icon}<span>{children}</span>{badge ? <b>{badge}</b> : null}</button>;
 }
 
 function PageTitle({ eyebrow, title, children }: { eyebrow: string; title: string; children?: React.ReactNode }) {
