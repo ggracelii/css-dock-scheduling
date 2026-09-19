@@ -39,7 +39,7 @@ import { useReservations } from "./context/ReservationProvider";
 import { daysInclusive } from "./lib/dates";
 import { findConflicts, recommendBerths, vesselFitsBerth } from "./lib/scheduling";
 import { newestReservationFirst } from "./lib/sorting";
-import type { Reservation, ReservationType } from "./types";
+import type { Reservation, ReservationType, Vessel } from "./types";
 
 type Page = "overview" | "schedule" | "reservations" | "checks";
 type ScheduleCheckKind = "overlap" | "vessel-fit" | "vessel-length" | "berth-limit";
@@ -72,6 +72,9 @@ const berthColor = (type: ReservationType) =>
 
 function App() {
   const data = useReservations();
+  const scheduledYears = data.reservations.map((item) => Number(item.startDate.slice(0, 4)));
+  const firstScheduledYear = Math.min(...scheduledYears);
+  const lastScheduledYear = Math.max(...scheduledYears);
   const [page, setPage] = useState<Page>("overview");
   const [month, setMonth] = useState(() => format(new Date(), "yyyy-MM"));
   const [selected, setSelected] = useState<Reservation | null>(null);
@@ -147,7 +150,7 @@ function App() {
         </nav>
         <div className="sidebar-note">
           <Database size={16} />
-          <span><strong>{data.report.scheduleYears.first}–{data.report.scheduleYears.last}</strong>{data.report.reservationCount.toLocaleString()} scheduled reservations</span>
+          <span><strong>{firstScheduledYear}–{lastScheduledYear}</strong>{data.reservations.length.toLocaleString()} scheduled reservations</span>
         </div>
       </aside>
       <button className="sidebar-menu-toggle" onClick={toggleNavigation} aria-label="Toggle navigation" title="Toggle navigation"><Menu /></button>
@@ -178,20 +181,26 @@ function PageTitle({ eyebrow, title, children }: { eyebrow: string; title: strin
 }
 
 function Overview({ onNavigate, onOpen, onNew }: { onNavigate: (page: Page) => void; onOpen: (reservation: Reservation) => void; onNew: () => void }) {
-  const { reservations, berths, vessels, report } = useReservations();
+  const { reservations, berths, vessels } = useReservations();
   const berthCapacity = [...berths].sort((a, b) => (b.maxVesselLengthFt ?? -1) - (a.maxVesselLengthFt ?? -1)).slice(0, 5);
-  const yearData = useMemo(() => {
-    const years = Array.from({ length: 23 }, (_, index) => 1997 + index);
-    return years.map((year) => ({ year: String(year), bookings: reservations.filter((item) => item.startDate.startsWith(String(year))).length }));
+  const scheduleYears = useMemo(() => {
+    const years = reservations.map((item) => Number(item.startDate.slice(0, 4)));
+    const first = Math.min(...years);
+    const last = Math.max(...years);
+    return Array.from({ length: last - first + 1 }, (_, index) => first + index);
   }, [reservations]);
+  const yearData = useMemo(() => {
+    return scheduleYears.map((year) => ({ year: String(year), bookings: reservations.filter((item) => item.startDate.startsWith(String(year))).length }));
+  }, [reservations, scheduleYears]);
   const recent = [...reservations].sort(newestReservationFirst).slice(0, 5);
+  const latestYear = scheduleYears.at(-1);
   return <>
     <PageTitle eyebrow="Waterfront operations" title="Overview"><div className="title-actions"><button className="secondary-button" onClick={() => onNavigate("schedule")}>Open schedule <ChevronRight size={16} /></button><button className="primary-button" onClick={onNew}><Plus size={17} /> New reservation</button></div></PageTitle>
     <section className="metric-grid" aria-label="Schedule summary">
-      <Metric label="Historical reservations" value={report.reservationCount.toLocaleString()} note="Across 23 annual schedules" icon={<CalendarDays />} />
+      <Metric label="Scheduled reservations" value={reservations.length.toLocaleString()} note={`Across ${scheduleYears.length} annual schedules`} icon={<CalendarDays />} />
       <Metric label="Known vessels" value={vessels.length.toLocaleString()} note={`${vessels.filter((item) => item.lengthFt != null).length} with recorded length`} icon={<Ship />} />
       <Metric label="Berths" value={berths.length.toString()} note={`${berths.filter((item) => item.maxVesselLengthFt != null).length} with vessel length limits`} icon={<Anchor />} />
-      <Metric label="Waterfront events" value={report.typeCounts.event.toLocaleString()} note="Community and operational use" icon={<CalendarDays />} />
+      <Metric label="Waterfront events" value={reservations.filter((item) => item.type === "event").length.toLocaleString()} note="Community and operational use" icon={<CalendarDays />} />
     </section>
     <div className="overview-grid">
       <section className="panel chart-panel">
@@ -205,7 +214,7 @@ function Overview({ onNavigate, onOpen, onNew }: { onNavigate: (page: Page) => v
       </section>
     </div>
     <section className="panel recent-panel">
-      <div className="panel-heading"><div><span>Latest schedule year</span><h2>2019 reservations</h2></div><button className="text-button" onClick={() => onNavigate("reservations")}>Search history</button></div>
+      <div className="panel-heading"><div><span>Latest schedule year</span><h2>{latestYear} reservations</h2></div><button className="text-button" onClick={() => onNavigate("reservations")}>Search history</button></div>
       <div className="compact-table">
         {recent.map((item) => <button key={item.id} onClick={() => onOpen(item)}><span className={`type-icon ${item.type}`}><Ship size={15} /></span><strong>{item.title}</strong><span>{berths.find((berth) => berth.id === item.berthId)?.name}</span><span>{format(parseISO(item.startDate), "MMM d, yyyy")}</span><ChevronRight size={16} /></button>)}
       </div>
@@ -255,10 +264,11 @@ function ReservationsPage({ onOpen, onNew }: { onOpen: (reservation: Reservation
   const [query, setQuery] = useState("");
   const [type, setType] = useState("all");
   const [year, setYear] = useState("all");
+  const years = [...new Set(reservations.map((item) => item.startDate.slice(0, 4)))].sort((a, b) => b.localeCompare(a));
   const filtered = reservations.filter((item) => (type === "all" || item.type === type) && (year === "all" || item.startDate.startsWith(year)) && `${item.title} ${berths.find((berth) => berth.id === item.berthId)?.name}`.toLowerCase().includes(query.toLowerCase())).sort(newestReservationFirst);
   return <>
     <PageTitle eyebrow="Historical record" title="Reservations"><div className="title-actions"><span className="record-count">{filtered.length.toLocaleString()} records</span><button className="primary-button" onClick={onNew}><Plus size={17} /> New reservation</button></div></PageTitle>
-    <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><select value={type} onChange={(event) => setType(event.target.value)} aria-label="Reservation type"><option value="all">All types</option><option value="vessel">Vessels</option><option value="event">Events</option><option value="closure">Closures</option></select><select value={year} onChange={(event) => setYear(event.target.value)} aria-label="Year"><option value="all">All years</option>{Array.from({ length: 23 }, (_, index) => 2019 - index).map((item) => <option key={item}>{item}</option>)}</select></div>
+    <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><select value={type} onChange={(event) => setType(event.target.value)} aria-label="Reservation type"><option value="all">All types</option><option value="vessel">Vessels</option><option value="event">Events</option><option value="closure">Closures</option></select><select value={year} onChange={(event) => setYear(event.target.value)} aria-label="Year"><option value="all">All years</option>{years.map((item) => <option key={item}>{item}</option>)}</select></div>
     <div className="table-panel"><table><thead><tr><th>Reservation</th><th>Type</th><th>Berth</th><th>Dates</th><th>Status</th><th /></tr></thead><tbody>{filtered.slice(0, 250).map((item) => <tr key={item.id} onClick={() => onOpen(item)}><td><strong>{item.title}</strong></td><td><span className={`type-pill ${item.type}`}>{item.type}</span></td><td>{berths.find((berth) => berth.id === item.berthId)?.name}</td><td>{format(parseISO(item.startDate), "MMM d, yyyy")}{item.endDate !== item.startDate && <> – {format(parseISO(item.endDate), "MMM d, yyyy")}</>}</td><td>Confirmed</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table>{filtered.length > 250 && <div className="table-foot">Showing the first 250 matching records. Narrow the filters to see a specific visit.</div>}</div>
   </>;
 }
@@ -360,13 +370,19 @@ function ReservationDrawer({ reservation, onClose, onEdit }: { reservation: Rese
 }
 
 function ReservationDialog({ reservation, onClose }: { reservation?: Reservation; onClose: () => void }) {
-  const { reservations, berths, vessels, saveReservation } = useReservations();
+  const { reservations, berths, vessels, addVessel, saveReservation } = useReservations();
   const today = format(new Date(), "yyyy-MM-dd");
   const [closing, setClosing] = useState(false);
   const [type, setType] = useState<ReservationType>(reservation?.type ?? "vessel");
   const [title, setTitle] = useState(reservation?.title ?? "");
   const [vesselId, setVesselId] = useState(reservation?.vesselId ?? "");
   const [vesselSearch, setVesselSearch] = useState(() => vessels.find((item) => item.id === reservation?.vesselId)?.name ?? "");
+  const [vesselPickerOpen, setVesselPickerOpen] = useState(false);
+  const [addingVessel, setAddingVessel] = useState(false);
+  const [newVesselName, setNewVesselName] = useState("");
+  const [newVesselLength, setNewVesselLength] = useState("");
+  const [newVesselOperator, setNewVesselOperator] = useState("");
+  const [newVesselError, setNewVesselError] = useState("");
   const [berthId, setBerthId] = useState(reservation?.berthId ?? "");
   const [startDate, setStartDate] = useState(reservation?.startDate ?? today);
   const [endDate, setEndDate] = useState(reservation?.endDate ?? today);
@@ -374,10 +390,50 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
   const vessel = vessels.find((item) => item.id === vesselId);
   const visibleVessels = useMemo(() => {
     const term = vesselSearch.trim().toLowerCase();
-    const matches = vessels.filter((item) => !term || item.name.toLowerCase().includes(term)).slice(0, 80);
+    const matches = vessels.filter((item) => !term || item.name.toLowerCase().includes(term) || item.aliases.some((alias) => alias.toLowerCase().includes(term))).slice(0, 12);
     const selectedVessel = vessels.find((item) => item.id === vesselId);
     return selectedVessel && !matches.some((item) => item.id === selectedVessel.id) ? [selectedVessel, ...matches] : matches;
   }, [vesselId, vesselSearch, vessels]);
+  const chooseVessel = (chosen: Vessel) => {
+    setVesselId(chosen.id);
+    setVesselSearch(chosen.name);
+    setTitle(chosen.name);
+    setVesselPickerOpen(false);
+    setAddingVessel(false);
+  };
+  const beginAddingVessel = () => {
+    setNewVesselName(vesselSearch.trim());
+    setNewVesselLength("");
+    setNewVesselOperator("");
+    setNewVesselError("");
+    setAddingVessel(true);
+    setVesselPickerOpen(false);
+  };
+  const createVessel = () => {
+    const lengthFt = Number(newVesselLength);
+    if (!newVesselName.trim()) return setNewVesselError("Enter the vessel name.");
+    if (!Number.isFinite(lengthFt) || lengthFt <= 0) return setNewVesselError("Enter a valid vessel length.");
+    const created: Vessel = {
+      id: `custom-vessel-${crypto.randomUUID()}`,
+      name: newVesselName.trim(),
+      lengthFt,
+      lengthSources: [{ valueFt: lengthFt, source: "manual" }],
+      aliases: [newVesselName.trim()],
+      operator: newVesselOperator.trim() || undefined,
+      contacts: [],
+      notes: [],
+    };
+    addVessel(created);
+    chooseVessel(created);
+  };
+  const changeType = (nextType: ReservationType) => {
+    if (nextType === type) return;
+    setType(nextType);
+    setError("");
+    setAddingVessel(false);
+    setVesselPickerOpen(false);
+    setTitle(nextType === "vessel" ? vessel?.name ?? "" : "");
+  };
   const recommendations = startDate && endDate && startDate <= endDate ? recommendBerths(berths, reservations, vessel, startDate, endDate, reservation?.id) : [];
   const selectedAssessment = recommendations.find((item) => item.berth.id === berthId);
   const requestClose = () => {
@@ -393,6 +449,7 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     setError("");
+    if (type === "vessel" && !vessel) return setError("Choose a vessel or add a new one.");
     if (!title.trim() || !berthId || !startDate || !endDate) return setError("Complete the title, berth, and date range.");
     if (startDate > endDate) return setError("End date must be on or after start date.");
     const selectedBerth = berths.find((item) => item.id === berthId)!;
@@ -402,8 +459,8 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
     saveReservation({ id: reservation?.id ?? `created-${crypto.randomUUID()}`, type, title: type === "vessel" && vessel ? vessel.name : title.trim(), vesselId: type === "vessel" ? vesselId : undefined, berthId, startDate, endDate, origin: reservation?.origin ?? "created", source: reservation?.source, importConfidence: reservation?.importConfidence, modifiedSinceImport: reservation?.origin === "imported", status: "confirmed" });
     requestClose();
   };
-  return <div className={`overlay dialog-overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><section className="dialog" role="dialog" aria-modal="true" aria-labelledby="reservation-title"><div className="dialog-header"><div><span>{reservation ? "Update booking" : "New booking"}</span><h2 id="reservation-title">{reservation ? "Edit reservation" : "Reserve a berth"}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit}><div className="segmented">{(["vessel", "event", "closure"] as ReservationType[]).map((item) => <button type="button" key={item} className={type === item ? "active" : ""} onClick={() => setType(item)}>{item === "vessel" ? <Ship size={16} /> : item === "event" ? <CalendarDays size={16} /> : <AlertTriangle size={16} />}{item}</button>)}</div>
-    {type === "vessel" ? <div className="vessel-picker"><label htmlFor="vessel-search">Find vessel</label><div className="picker-search"><Search size={16} /><input id="vessel-search" value={vesselSearch} onChange={(event) => setVesselSearch(event.target.value)} placeholder="Search by vessel name" /></div><label htmlFor="vessel-select">Vessel</label><select id="vessel-select" value={vesselId} onChange={(event) => { const id = event.target.value; setVesselId(id); const chosen = vessels.find((item) => item.id === id); setTitle(chosen?.name ?? ""); if (chosen) setVesselSearch(chosen.name); }} required><option value="">Select from {visibleVessels.length} matches</option>{visibleVessels.map((item) => <option key={item.id} value={item.id}>{item.name}{item.lengthFt ? ` · ${item.lengthFt} ft` : " · length unknown"}</option>)}</select></div> : <label>{type === "event" ? "Event" : "Closure"} name<input value={title} onChange={(event) => setTitle(event.target.value)} required /></label>}
+  return <div className={`overlay dialog-overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><section className="dialog" role="dialog" aria-modal="true" aria-labelledby="reservation-title"><div className="dialog-header"><div><span>{reservation ? "Update booking" : "New booking"}</span><h2 id="reservation-title">{reservation ? "Edit reservation" : "Reserve a berth"}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit}><div className="segmented">{(["vessel", "event", "closure"] as ReservationType[]).map((item) => <button type="button" key={item} className={type === item ? "active" : ""} onClick={() => changeType(item)}>{item === "vessel" ? <Ship size={16} /> : item === "event" ? <CalendarDays size={16} /> : <AlertTriangle size={16} />}{item}</button>)}</div>
+    <div className="booking-type-fields" key={type}>{type === "vessel" ? <div className="vessel-picker vessel-combobox" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setVesselPickerOpen(false); }}><label htmlFor="vessel-search">Vessel</label><div className="picker-search"><Search size={16} /><input id="vessel-search" role="combobox" aria-expanded={vesselPickerOpen} aria-controls="vessel-options" autoComplete="off" value={vesselSearch} onFocus={() => setVesselPickerOpen(true)} onChange={(event) => { setVesselSearch(event.target.value); setVesselId(""); setTitle(""); setAddingVessel(false); setVesselPickerOpen(true); }} placeholder="Type a vessel name" /></div>{vesselPickerOpen && <div className="vessel-options" id="vessel-options" role="listbox">{visibleVessels.map((item) => <button type="button" role="option" aria-selected={item.id === vesselId} key={item.id} onClick={() => chooseVessel(item)}><span><strong>{item.name}</strong><small>{item.lengthFt ? `${item.lengthFt} ft` : "Length unknown"}{item.operator ? ` · ${item.operator}` : ""}</small></span><ChevronRight /></button>)}<button type="button" className="add-vessel-option" onClick={beginAddingVessel}><Plus /><span><strong>Add new vessel</strong><small>{vesselSearch.trim() ? `Create “${vesselSearch.trim()}”` : "Enter vessel details"}</small></span></button></div>}{addingVessel && <div className="add-vessel-panel"><div><strong>Add new vessel</strong><button type="button" className="text-button" onClick={() => setAddingVessel(false)}>Cancel</button></div><label>Name<input value={newVesselName} onChange={(event) => setNewVesselName(event.target.value)} autoFocus /></label><div className="form-row"><label>Length overall (ft)<input type="number" min="1" step="0.1" value={newVesselLength} onChange={(event) => setNewVesselLength(event.target.value)} /></label><label>Operator <small>Optional</small><input value={newVesselOperator} onChange={(event) => setNewVesselOperator(event.target.value)} /></label></div>{newVesselError && <div className="form-error"><AlertTriangle size={16} />{newVesselError}</div>}<button type="button" className="secondary-button" onClick={createVessel}><Plus size={16} /> Save vessel</button></div>}</div> : <label>{type === "event" ? "Event" : "Closure"} name<input value={title} onChange={(event) => setTitle(event.target.value)} required autoFocus /></label>}</div>
     <div className="form-row"><label>Start date<input type="date" value={startDate} onChange={(event) => { setStartDate(event.target.value); if (endDate < event.target.value) setEndDate(event.target.value); }} required /></label><label>End date<input type="date" value={endDate} min={startDate} onChange={(event) => setEndDate(event.target.value)} required /></label></div>
     <label>Berth<select value={berthId} onChange={(event) => setBerthId(event.target.value)} required><option value="">Select a berth</option>{recommendations.sort((a, b) => Number(b.recommended) - Number(a.recommended)).map((item) => <option key={item.berth.id} value={item.berth.id} disabled={!item.available || item.fits === false}>{item.recommended ? "Recommended · " : ""}{item.berth.name} · {!item.available ? "occupied" : item.fits === false ? "too short" : item.berth.maxVesselLengthFt ? `${item.berth.maxVesselLengthFt} ft` : "capacity unknown"}</option>)}</select></label>
     {berthId && selectedAssessment && <div className={`assessment ${selectedAssessment.available && selectedAssessment.fits !== false ? "good" : "bad"}`}>{selectedAssessment.available && selectedAssessment.fits !== false ? <Check /> : <AlertTriangle />}<div><strong>{selectedAssessment.available ? selectedAssessment.fits === false ? "Vessel does not fit" : "Available for these dates" : "Berth is occupied"}</strong><span>{selectedAssessment.recommended ? "Best-fit available berth for this vessel." : selectedAssessment.spareFeet != null ? `${selectedAssessment.spareFeet} ft of clearance.` : "No vessel length limit is set for this berth."}</span></div></div>}

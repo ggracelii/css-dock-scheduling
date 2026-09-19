@@ -22,18 +22,36 @@ interface ReservationContextValue {
   vessels: Vessel[];
   importedIssues: ValidationIssue[];
   report: ImportReport;
+  addVessel: (vessel: Vessel) => void;
   saveReservation: (reservation: Reservation) => void;
   deleteReservation: (id: string) => void;
   reset: () => void;
 }
 
 const ReservationContext = createContext<ReservationContextValue | null>(null);
+const CUSTOM_VESSELS_KEY = "whoi-dock-manager.custom-vessels.v1";
 
 export function ReservationProvider({ children }: { children: ReactNode }) {
   const repository = useRef(new LocalStorageReservationRepository());
   const [reservations, setReservations] = useState(() => repository.current.list());
   const berths = berthsData as Berth[];
-  const vessels = vesselsData as Vessel[];
+  const [vessels, setVessels] = useState<Vessel[]>(() => {
+    try {
+      const custom = JSON.parse(localStorage.getItem(CUSTOM_VESSELS_KEY) ?? "[]") as Vessel[];
+      return [...(vesselsData as Vessel[]), ...custom];
+    } catch {
+      return vesselsData as Vessel[];
+    }
+  });
+
+  const addVessel = useCallback((vessel: Vessel) => {
+    setVessels((current) => {
+      const next = [...current, vessel];
+      const generatedIds = new Set((vesselsData as Vessel[]).map((item) => item.id));
+      localStorage.setItem(CUSTOM_VESSELS_KEY, JSON.stringify(next.filter((item) => !generatedIds.has(item.id))));
+      return next;
+    });
+  }, []);
 
   const persist = useCallback((next: Reservation[]) => {
     setReservations(next);
@@ -129,8 +147,8 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
   }, [berths, reservations, saveReservation, vessels]);
 
   const value = useMemo<ReservationContextValue>(
-    () => ({ reservations, berths, vessels, importedIssues: issuesData as ValidationIssue[], report: reportData as ImportReport, saveReservation, deleteReservation, reset }),
-    [reservations, saveReservation, deleteReservation, reset],
+    () => ({ reservations, berths, vessels, importedIssues: issuesData as ValidationIssue[], report: reportData as ImportReport, addVessel, saveReservation, deleteReservation, reset }),
+    [reservations, vessels, addVessel, saveReservation, deleteReservation, reset],
   );
 
   return <ReservationContext.Provider value={value}>{children}</ReservationContext.Provider>;
