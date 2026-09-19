@@ -228,13 +228,14 @@ function Metric({ label, value, note, icon }: { label: string; value: string; no
 
 function Schedule({ month, setMonth, onOpen, onNew }: { month: string; setMonth: (month: string) => void; onOpen: (reservation: Reservation) => void; onNew: () => void }) {
   const { reservations, berths } = useReservations();
+  const currentMonth = format(new Date(), "yyyy-MM");
   const start = startOfMonth(parseISO(`${month}-01`));
   const end = endOfMonth(start);
   const days = eachDayOfInterval({ start, end });
   const visible = reservations.filter((item) => item.startDate <= format(end, "yyyy-MM-dd") && item.endDate >= format(start, "yyyy-MM-dd"));
   const setOffset = (offset: number) => setMonth(format(addMonths(start, offset), "yyyy-MM"));
   return <>
-    <PageTitle eyebrow="Berth schedule" title={format(start, "MMMM yyyy")}><div className="title-actions"><button className="icon-button" onClick={() => setOffset(-1)} aria-label="Previous month"><ChevronLeft /></button><input className="month-picker" type="month" value={month} min="1997-01" max="2028-12" onChange={(event) => setMonth(event.target.value)} /><button className="icon-button" onClick={() => setOffset(1)} aria-label="Next month"><ChevronRight /></button><button className="primary-button" onClick={onNew}><Plus size={17} /> Reserve berth</button></div></PageTitle>
+    <PageTitle eyebrow="Berth schedule" title={format(start, "MMMM yyyy")}><div className="title-actions"><button className="secondary-button today-button" onClick={() => setMonth(currentMonth)} disabled={month === currentMonth}>Today</button><button className="icon-button" onClick={() => setOffset(-1)} aria-label="Previous month"><ChevronLeft /></button><input className="month-picker" type="month" value={month} min="1997-01" max="2028-12" onChange={(event) => setMonth(event.target.value)} /><button className="icon-button" onClick={() => setOffset(1)} aria-label="Next month"><ChevronRight /></button><button className="primary-button" onClick={onNew}><Plus size={17} /> Reserve berth</button></div></PageTitle>
     <div className="schedule-toolbar"><div><span className="legend vessel" />Vessel<span className="legend event" />Event<span className="legend closure" />Closure</div></div>
     <section className="schedule-frame" aria-label={`${format(start, "MMMM yyyy")} berth schedule`}>
       <div className="timeline" style={{ "--days": days.length } as React.CSSProperties}>

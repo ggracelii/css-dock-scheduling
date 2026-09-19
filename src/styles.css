@@ -57,6 +57,7 @@ main { min-width: 0; }
 .primary-button { border: 1px solid var(--teal); color: white; background: var(--teal); box-shadow: 0 2px 6px rgba(8,127,140,.2); }
 .primary-button:hover { background: var(--teal-dark); }
 .secondary-button { border: 1px solid #bfd0d5; color: #24424d; background: white; }
+.today-button:disabled { cursor: default; color: #8a989c; border-color: #d5dddd; background: #eceeeb; }
 .danger-button { border: 1px solid #dfb1ad; color: #9d3c36; background: #fff8f7; }
 .icon-button { width: 40px; height: 40px; display: inline-grid; place-items: center; background: white; color: #34515c; border: 1px solid var(--line); border-radius: 8px; }
 .icon-button svg { width: 18px; }
@@ -402,6 +403,7 @@ button:not(:disabled):active { transform: translateY(1px); }
   .topbar { top: 0; }
   .content { padding-top: 28px; }
   .page-title { padding-left: 48px; }
+  .page-title .today-button { display: inline-flex; }
   .metric-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
   .metric:nth-child(2) { border-right: 1px solid #b8c9c9; }
   .metric:nth-child(-n+2) { border-bottom: 1px solid #b8c9c9; }
