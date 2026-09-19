@@ -402,6 +402,7 @@ function VesselEditorDrawer({ vessel, onClose }: { vessel: Vessel; onClose: () =
   const [length, setLength] = useState(vessel.lengthFt == null ? "" : String(vessel.lengthFt));
   const [operator, setOperator] = useState(vessel.operator ?? "");
   const [contacts, setContacts] = useState<VesselContact[]>(vessel.contacts ?? []);
+  const [addingContact, setAddingContact] = useState(false);
   const [contactType, setContactType] = useState<"email" | "phone">("email");
   const [contactValue, setContactValue] = useState("");
   const [contactError, setContactError] = useState("");
@@ -443,6 +444,7 @@ function VesselEditorDrawer({ vessel, onClose }: { vessel: Vessel; onClose: () =
     setContacts((current) => [...current, result.contact]);
     setContactValue("");
     setContactError("");
+    setAddingContact(false);
   };
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
@@ -475,10 +477,10 @@ function VesselEditorDrawer({ vessel, onClose }: { vessel: Vessel; onClose: () =
             <label>Name<input value={name} onChange={(event) => { setName(event.target.value); setError(""); }} /></label>
             <div className="form-row"><label>Length overall (ft)<input type="number" min="1" step="0.1" value={length} onChange={(event) => { setLength(event.target.value); setError(""); }} placeholder="Not recorded" /></label><label>Operator<input value={operator} onChange={(event) => setOperator(event.target.value)} placeholder="Not recorded" /></label></div>
             <section className="contact-editor">
-              <div className="field-heading"><strong>Contacts</strong><span>{contacts.length ? `${contacts.length} added` : "None added"}</span></div>
+              <div className="field-heading"><strong>Contacts</strong>{!addingContact && <button type="button" className="text-button contact-open-button" onClick={() => setAddingContact(true)}><Plus /> Add contact</button>}</div>
               {contacts.length > 0 && <div className="contact-list">{contacts.map((contact) => <div className="contact-item" key={contact.id}><span>{contact.type === "email" ? <Mail /> : <Phone />}</span><div><strong>{contact.type === "email" ? "Email" : "Phone"}</strong><small>{contact.value}</small></div><button type="button" className="icon-button" aria-label={`Remove ${contact.type} ${contact.value}`} onClick={() => setContacts((current) => current.filter((item) => item.id !== contact.id))}><Trash2 /></button></div>)}</div>}
-              <div className="contact-add-row"><InAppSelect label="Contact type" value={contactType} onChange={(value) => { setContactType(value as "email" | "phone"); setContactError(""); }} options={[{ value: "email", label: "Email" }, { value: "phone", label: "Phone" }]} /><label>{contactType === "email" ? "Email address" : "Phone number"}<input type={contactType === "email" ? "email" : "tel"} value={contactValue} onChange={(event) => { setContactValue(event.target.value); setContactError(""); }} onKeyDown={(event) => { if (event.key === "Enter") { event.preventDefault(); addContact(); } }} placeholder={contactType === "email" ? "name@example.com" : "555-0100"} /></label><button type="button" className="secondary-button contact-add-button" onClick={addContact}><Plus /> Add contact</button></div>
-              {contactError && <div className="form-error"><AlertTriangle size={16} />{contactError}</div>}
+              {!contacts.length && !addingContact && <p className="contact-empty">No contacts added.</p>}
+              {addingContact && <div className="contact-composer"><div className="contact-type-toggle" aria-label="Contact type"><button type="button" className={contactType === "email" ? "active" : ""} onClick={() => { setContactType("email"); setContactError(""); }}><Mail /> Email</button><button type="button" className={contactType === "phone" ? "active" : ""} onClick={() => { setContactType("phone"); setContactError(""); }}><Phone /> Phone</button></div><label>{contactType === "email" ? "Email address" : "Phone number"}<input autoFocus type={contactType === "email" ? "email" : "tel"} value={contactValue} onChange={(event) => { setContactValue(event.target.value); setContactError(""); }} onKeyDown={(event) => { if (event.key === "Enter") { event.preventDefault(); addContact(); } }} placeholder={contactType === "email" ? "name@example.com" : "555-0100"} /></label>{contactError && <div className="contact-error"><AlertTriangle />{contactError}</div>}<div className="contact-composer-actions"><button type="button" className="text-button" onClick={() => { setAddingContact(false); setContactValue(""); setContactError(""); }}>Cancel</button><button type="button" className="primary-button" onClick={addContact}>Add</button></div></div>}
             </section>
             <label>Notes<textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} /></label>
             {error && <div className="form-error"><AlertTriangle size={16} />{error}</div>}
