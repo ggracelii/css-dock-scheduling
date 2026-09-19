@@ -241,8 +241,8 @@ function Overview({ onNavigate, onOpen, onNew }: { onNavigate: (page: Page) => v
   return <>
     <PageTitle eyebrow="Waterfront operations" title="Overview"><div className="title-actions"><button className="secondary-button" onClick={() => onNavigate("schedule")}>Open schedule <ChevronRight size={16} /></button><button className="primary-button" onClick={onNew}><Plus size={17} /> New reservation</button></div></PageTitle>
     <section className="metric-grid" aria-label="Schedule summary">
-      <Metric label="Scheduled reservations" value={reservations.length.toLocaleString()} note={`Across ${scheduleYears.length} annual schedules`} icon={<CalendarDays />} />
-      <Metric label="Known vessels" value={vessels.length.toLocaleString()} note={`${vessels.filter((item) => item.lengthFt != null).length} with recorded length`} icon={<Ship />} />
+      <Metric label="Reservations" value={reservations.length.toLocaleString()} note={`Across ${scheduleYears.length} annual schedules`} icon={<CalendarDays />} />
+      <Metric label="Vessels" value={vessels.length.toLocaleString()} note={`${vessels.filter((item) => item.lengthFt != null).length} with recorded length`} icon={<Ship />} />
       <Metric label="Berths" value={berths.length.toString()} note={`${berths.filter((item) => item.maxVesselLengthFt != null).length} with vessel length limits`} icon={<Anchor />} />
       <Metric label="Waterfront events" value={reservations.filter((item) => item.type === "event").length.toLocaleString()} note="Community and operational use" icon={<CalendarDays />} />
     </section>

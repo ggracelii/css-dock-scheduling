@@ -329,7 +329,7 @@ button:not(:disabled):active { transform: translateY(1px); }
   align-content: start;
 }
 .metric:nth-child(2) { --metric-accent: var(--blue); }
-.metric:nth-child(3) { --metric-accent: #3d827b; }
+.metric:nth-child(3) { --metric-accent: var(--amber); }
 .metric:nth-child(4) { --metric-accent: var(--violet); }
 .metric:last-child { border-right: 0; }
 .metric:last-child { border-right: 1px solid #b8c9c9; }
@@ -371,7 +371,7 @@ button:not(:disabled):active { transform: translateY(1px); }
 .check-summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; }
 .check-summary button { --check-accent: #9a5e24; min-height: 96px; padding: 16px; display: flex; align-items: center; gap: 13px; text-align: left; border: 1px solid #b8c9c9; border-top: 4px solid var(--check-accent); color: #173b48; background: rgba(252,251,247,.9); transition: color 180ms var(--motion), border-color 180ms var(--motion), background-color 180ms var(--motion); }
 .check-summary button:nth-child(1), .check-summary button:nth-child(2) { --check-accent: var(--red); }
-.check-summary button:nth-child(4) { --check-accent: #3d827b; }
+.check-summary button:nth-child(4) { --check-accent: var(--amber); }
 .check-summary button:nth-child(5) { --check-accent: var(--amber); }
 .check-summary button:hover, .check-summary button.active { transform: none; color: var(--check-accent); border-color: color-mix(in srgb, var(--check-accent) 48%, #b8c9c9); background: color-mix(in srgb, var(--check-accent) 9%, white); }
 .check-summary button > span { width: 36px; height: 36px; display: grid; place-items: center; flex: none; border: 1px solid color-mix(in srgb, var(--check-accent) 45%, white); border-radius: 50%; color: var(--check-accent); background: color-mix(in srgb, var(--check-accent) 8%, white); }
