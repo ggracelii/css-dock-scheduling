@@ -73,7 +73,7 @@ const berthColor = (type: ReservationType) =>
 function App() {
   const data = useReservations();
   const [page, setPage] = useState<Page>("overview");
-  const [month, setMonth] = useState("2019-01");
+  const [month, setMonth] = useState(() => format(new Date(), "yyyy-MM"));
   const [selected, setSelected] = useState<Reservation | null>(null);
   const [editing, setEditing] = useState<Reservation | "new" | null>(null);
   const [drawerReturnPage, setDrawerReturnPage] = useState<Page | null>(null);
