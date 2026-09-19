@@ -21,10 +21,14 @@ import {
   addMonths,
   eachDayOfInterval,
   endOfMonth,
+  endOfWeek,
   format,
+  isSameDay,
+  isSameMonth,
   isWithinInterval,
   parseISO,
   startOfMonth,
+  startOfWeek,
 } from "date-fns";
 import {
   Bar,
@@ -120,19 +124,15 @@ function App() {
   };
 
   const closeDetails = () => {
-    updateWithViewTransition(() => {
-      setSelected(null);
-      if (drawerReturnPage) setPage(drawerReturnPage);
-      setDrawerReturnPage(null);
-    });
+    setSelected(null);
+    if (drawerReturnPage) setPage(drawerReturnPage);
+    setDrawerReturnPage(null);
   };
 
   const closeEditor = () => {
-    updateWithViewTransition(() => {
-      setEditing(null);
-      if (drawerReturnPage) setPage(drawerReturnPage);
-      setDrawerReturnPage(null);
-    });
+    setEditing(null);
+    if (drawerReturnPage) setPage(drawerReturnPage);
+    setDrawerReturnPage(null);
   };
 
   return (
@@ -150,7 +150,7 @@ function App() {
         </nav>
         <div className="sidebar-note">
           <Database size={16} />
-          <span><strong>{firstScheduledYear}–{lastScheduledYear}</strong>{data.reservations.length.toLocaleString()} scheduled reservations</span>
+          <span><strong>{firstScheduledYear} to {lastScheduledYear}</strong>{data.reservations.length.toLocaleString()} scheduled reservations</span>
         </div>
       </aside>
       <button className="sidebar-menu-toggle" onClick={toggleNavigation} aria-label="Toggle navigation" title="Toggle navigation"><Menu /></button>
@@ -178,6 +178,48 @@ function NavButton({ icon, active, badge, compact, children, onClick }: { icon: 
 
 function PageTitle({ eyebrow, title, children }: { eyebrow: string; title: string; children?: React.ReactNode }) {
   return <div className="page-title"><div><span>{eyebrow}</span><h1>{title}</h1></div>{children}</div>;
+}
+
+function MonthPicker({ value, onChange }: { value: string; onChange: (value: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const [year, setYear] = useState(() => Number(value.slice(0, 4)));
+  const selected = parseISO(`${value}-01`);
+  const months = Array.from({ length: 12 }, (_, index) => new Date(year, index, 1));
+  const chooseMonth = (month: Date) => {
+    onChange(format(month, "yyyy-MM"));
+    setOpen(false);
+  };
+  return <div className="month-picker-wrap" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setOpen(false); }}><button type="button" className="month-picker month-picker-button" aria-expanded={open} onClick={() => { setYear(Number(value.slice(0, 4))); setOpen((current) => !current); }}><span>{format(selected, "MMMM yyyy")}</span><CalendarDays /></button>{open && <div className="month-popover"><div className="picker-heading"><button type="button" className="icon-button" onClick={() => setYear((current) => Math.max(1997, current - 1))} disabled={year <= 1997} aria-label="Previous year"><ChevronLeft /></button><strong>{year}</strong><button type="button" className="icon-button" onClick={() => setYear((current) => Math.min(2028, current + 1))} disabled={year >= 2028} aria-label="Next year"><ChevronRight /></button></div><div className="month-grid">{months.map((month) => <button type="button" key={month.toISOString()} className={format(month, "yyyy-MM") === value ? "selected" : ""} onClick={() => chooseMonth(month)}>{format(month, "MMM")}</button>)}</div></div>}</div>;
+}
+
+function InAppDatePicker({ label, value, min, onChange }: { label: string; value: string; min?: string; onChange: (value: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const [viewMonth, setViewMonth] = useState(() => startOfMonth(parseISO(value)));
+  const selected = parseISO(value);
+  const today = new Date();
+  const calendarDays = eachDayOfInterval({ start: startOfWeek(startOfMonth(viewMonth)), end: endOfWeek(endOfMonth(viewMonth)) });
+  const chooseDate = (date: Date) => {
+    onChange(format(date, "yyyy-MM-dd"));
+    setOpen(false);
+  };
+  return <div className="date-picker" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setOpen(false); }}><label>{label}</label><button type="button" className="date-picker-trigger" aria-expanded={open} onClick={() => { setViewMonth(startOfMonth(selected)); setOpen((current) => !current); }}><span>{format(selected, "MMM d, yyyy")}</span><CalendarDays /></button>{open && <div className="date-popover"><div className="picker-heading"><button type="button" className="icon-button" onClick={() => setViewMonth((current) => addMonths(current, -1))} aria-label="Previous month"><ChevronLeft /></button><strong>{format(viewMonth, "MMMM yyyy")}</strong><button type="button" className="icon-button" onClick={() => setViewMonth((current) => addMonths(current, 1))} aria-label="Next month"><ChevronRight /></button></div><div className="picker-year-row"><button type="button" onClick={() => setViewMonth((current) => addMonths(current, -12))}>Previous year</button><button type="button" onClick={() => setViewMonth((current) => addMonths(current, 12))}>Next year</button></div><div className="weekday-row">{["S", "M", "T", "W", "T", "F", "S"].map((day, index) => <span key={`${day}-${index}`}>{day}</span>)}</div><div className="date-grid">{calendarDays.map((date) => { const dateValue = format(date, "yyyy-MM-dd"); const disabled = Boolean(min && dateValue < min); return <button type="button" key={dateValue} disabled={disabled} className={`${isSameMonth(date, viewMonth) ? "" : "outside"} ${isSameDay(date, selected) ? "selected" : ""} ${isSameDay(date, today) ? "today" : ""}`} onClick={() => chooseDate(date)}>{format(date, "d")}</button>; })}</div><button type="button" className="text-button picker-today" disabled={Boolean(min && format(today, "yyyy-MM-dd") < min)} onClick={() => chooseDate(today)}>Today</button></div>}</div>;
+}
+
+function ConfirmationDialog({ title, message, confirmLabel, danger = false, onConfirm, onCancel }: { title: string; message: string; confirmLabel: string; danger?: boolean; onConfirm: () => void; onCancel: () => void }) {
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onCancel();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onCancel]);
+  return <div className="overlay dialog-overlay confirmation-overlay" onMouseDown={(event) => event.target === event.currentTarget && onCancel()}><section className="dialog confirmation-dialog" role="alertdialog" aria-modal="true" aria-labelledby="confirmation-title" aria-describedby="confirmation-message"><div className="dialog-header"><div><span>Please confirm</span><h2 id="confirmation-title">{title}</h2></div><button type="button" className="icon-button" onClick={onCancel} aria-label="Close confirmation"><X /></button></div><div className="confirmation-body"><p id="confirmation-message">{message}</p><div className="dialog-actions"><button type="button" className="secondary-button" onClick={onCancel}>Cancel</button><button type="button" className={danger ? "danger-button" : "primary-button"} onClick={onConfirm}>{confirmLabel}</button></div></div></section></div>;
+}
+
+function InAppSelect({ label, value, options, onChange }: { label: string; value: string; options: { value: string; label: string }[]; onChange: (value: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const selectedLabel = options.find((option) => option.value === value)?.label ?? value;
+  return <div className="inline-select" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setOpen(false); }}><button type="button" className="inline-select-trigger" aria-label={label} aria-expanded={open} onClick={() => setOpen((current) => !current)}><span>{selectedLabel}</span><ChevronRight /></button>{open && <div className="inline-select-options" role="listbox" aria-label={label}>{options.map((option) => <button type="button" role="option" aria-selected={option.value === value} className={option.value === value ? "selected" : ""} key={option.value} onClick={() => { onChange(option.value); setOpen(false); }}>{option.label}{option.value === value && <Check />}</button>)}</div>}</div>;
 }
 
 function Overview({ onNavigate, onOpen, onNew }: { onNavigate: (page: Page) => void; onOpen: (reservation: Reservation) => void; onNew: () => void }) {
@@ -235,7 +277,7 @@ function Schedule({ month, setMonth, onOpen, onNew }: { month: string; setMonth:
   const visible = reservations.filter((item) => item.startDate <= format(end, "yyyy-MM-dd") && item.endDate >= format(start, "yyyy-MM-dd"));
   const setOffset = (offset: number) => setMonth(format(addMonths(start, offset), "yyyy-MM"));
   return <>
-    <PageTitle eyebrow="Berth schedule" title={format(start, "MMMM yyyy")}><div className="title-actions"><button className="secondary-button today-button" onClick={() => setMonth(currentMonth)} disabled={month === currentMonth}>Today</button><button className="icon-button" onClick={() => setOffset(-1)} aria-label="Previous month"><ChevronLeft /></button><input className="month-picker" type="month" value={month} min="1997-01" max="2028-12" onChange={(event) => setMonth(event.target.value)} /><button className="icon-button" onClick={() => setOffset(1)} aria-label="Next month"><ChevronRight /></button><button className="primary-button" onClick={onNew}><Plus size={17} /> Reserve berth</button></div></PageTitle>
+    <PageTitle eyebrow="Berth schedule" title={format(start, "MMMM yyyy")}><div className="title-actions"><button className="secondary-button today-button" onClick={() => setMonth(currentMonth)} disabled={month === currentMonth}>Today</button><button className="icon-button" onClick={() => setOffset(-1)} aria-label="Previous month"><ChevronLeft /></button><MonthPicker value={month} onChange={setMonth} /><button className="icon-button" onClick={() => setOffset(1)} aria-label="Next month"><ChevronRight /></button><button className="primary-button" onClick={onNew}><Plus size={17} /> Reserve berth</button></div></PageTitle>
     <div className="schedule-toolbar"><div><span className="legend vessel" />Vessel<span className="legend event" />Event<span className="legend closure" />Closure</div></div>
     <section className="schedule-frame" aria-label={`${format(start, "MMMM yyyy")} berth schedule`}>
       <div className="timeline" style={{ "--days": days.length } as React.CSSProperties}>
@@ -269,8 +311,8 @@ function ReservationsPage({ onOpen, onNew }: { onOpen: (reservation: Reservation
   const filtered = reservations.filter((item) => (type === "all" || item.type === type) && (year === "all" || item.startDate.startsWith(year)) && `${item.title} ${berths.find((berth) => berth.id === item.berthId)?.name}`.toLowerCase().includes(query.toLowerCase())).sort(newestReservationFirst);
   return <>
     <PageTitle eyebrow="Historical record" title="Reservations"><div className="title-actions"><span className="record-count">{filtered.length.toLocaleString()} records</span><button className="primary-button" onClick={onNew}><Plus size={17} /> New reservation</button></div></PageTitle>
-    <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><select value={type} onChange={(event) => setType(event.target.value)} aria-label="Reservation type"><option value="all">All types</option><option value="vessel">Vessels</option><option value="event">Events</option><option value="closure">Closures</option></select><select value={year} onChange={(event) => setYear(event.target.value)} aria-label="Year"><option value="all">All years</option>{years.map((item) => <option key={item}>{item}</option>)}</select></div>
-    <div className="table-panel"><table><thead><tr><th>Reservation</th><th>Type</th><th>Berth</th><th>Dates</th><th>Status</th><th /></tr></thead><tbody>{filtered.slice(0, 250).map((item) => <tr key={item.id} onClick={() => onOpen(item)}><td><strong>{item.title}</strong></td><td><span className={`type-pill ${item.type}`}>{item.type}</span></td><td>{berths.find((berth) => berth.id === item.berthId)?.name}</td><td>{format(parseISO(item.startDate), "MMM d, yyyy")}{item.endDate !== item.startDate && <> – {format(parseISO(item.endDate), "MMM d, yyyy")}</>}</td><td>Confirmed</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table>{filtered.length > 250 && <div className="table-foot">Showing the first 250 matching records. Narrow the filters to see a specific visit.</div>}</div>
+    <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><InAppSelect label="Reservation type" value={type} onChange={setType} options={[{ value: "all", label: "All types" }, { value: "vessel", label: "Vessels" }, { value: "event", label: "Events" }, { value: "closure", label: "Closures" }]} /><InAppSelect label="Year" value={year} onChange={setYear} options={[{ value: "all", label: "All years" }, ...years.map((item) => ({ value: item, label: item }))]} /></div>
+    <div className="table-panel"><table><thead><tr><th>Reservation</th><th>Type</th><th>Berth</th><th>Dates</th><th>Status</th><th /></tr></thead><tbody>{filtered.slice(0, 250).map((item) => <tr key={item.id} onClick={() => onOpen(item)}><td><strong>{item.title}</strong></td><td><span className={`type-pill ${item.type}`}>{item.type}</span></td><td>{berths.find((berth) => berth.id === item.berthId)?.name}</td><td>{format(parseISO(item.startDate), "MMM d, yyyy")}{item.endDate !== item.startDate && <> to {format(parseISO(item.endDate), "MMM d, yyyy")}</>}</td><td>Confirmed</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table>{filtered.length > 250 && <div className="table-foot">Showing the first 250 matching records. Narrow the filters to see a specific visit.</div>}</div>
   </>;
 }
 
@@ -362,6 +404,7 @@ function ScheduleChecks({ onOpen }: { onOpen: (reservation: Reservation) => void
 function ReservationDrawer({ reservation, onClose, onEdit }: { reservation: Reservation; onClose: () => void; onEdit: () => void }) {
   const { berths, vessels, deleteReservation } = useReservations();
   const [closing, setClosing] = useState(false);
+  const [confirmDelete, setConfirmDelete] = useState(false);
   const berth = berths.find((item) => item.id === reservation.berthId);
   const vessel = vessels.find((item) => item.id === reservation.vesselId);
   const requestClose = () => {
@@ -375,19 +418,20 @@ function ReservationDrawer({ reservation, onClose, onEdit }: { reservation: Rese
     window.setTimeout(onEdit, 190);
   };
   useEffect(() => {
-    const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
+    const onKey = (event: KeyboardEvent) => event.key === "Escape" && !confirmDelete && requestClose();
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   });
-  return <div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer" aria-label="Reservation details"><div className="drawer-header"><div><span className={`type-pill ${reservation.type}`}>{reservation.type}</span><h2>{reservation.title}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><div className="drawer-body">
-    <dl className="detail-list"><div><dt>Berth</dt><dd>{berth?.name}<small>{berth?.maxVesselLengthFt ? `${berth.maxVesselLengthFt} ft maximum vessel length` : "No vessel length limit set"}</small></dd></div><div><dt>Dates</dt><dd>{format(parseISO(reservation.startDate), "MMMM d, yyyy")}{reservation.endDate !== reservation.startDate && <> – {format(parseISO(reservation.endDate), "MMMM d, yyyy")}</>}<small>{daysInclusive(reservation.startDate, reservation.endDate)} calendar {daysInclusive(reservation.startDate, reservation.endDate) === 1 ? "day" : "days"}</small></dd></div>{vessel && <div><dt>Vessel</dt><dd>{vessel.name}<small>{vessel.lengthFt ? `${vessel.lengthFt} ft length overall` : "Length unknown"}{vessel.operator ? ` · ${vessel.operator}` : ""}</small></dd></div>}<div><dt>Status</dt><dd>Confirmed<small>Scheduled reservation</small></dd></div></dl>
-  </div><div className="drawer-actions"><button className="secondary-button" onClick={requestEdit}>Edit reservation</button><button className="danger-button" onClick={() => { if (window.confirm("Delete this reservation from local demo data?")) { deleteReservation(reservation.id); requestClose(); } }}>Delete</button></div></aside></div>;
+  return <><div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer" aria-label="Reservation details"><div className="drawer-header"><div><span className={`type-pill ${reservation.type}`}>{reservation.type}</span><h2>{reservation.title}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><div className="drawer-body">
+    <dl className="detail-list"><div><dt>Berth</dt><dd>{berth?.name}<small>{berth?.maxVesselLengthFt ? `${berth.maxVesselLengthFt} ft maximum vessel length` : "No vessel length limit set"}</small></dd></div><div><dt>Dates</dt><dd>{format(parseISO(reservation.startDate), "MMMM d, yyyy")}{reservation.endDate !== reservation.startDate && <> to {format(parseISO(reservation.endDate), "MMMM d, yyyy")}</>}<small>{daysInclusive(reservation.startDate, reservation.endDate)} calendar {daysInclusive(reservation.startDate, reservation.endDate) === 1 ? "day" : "days"}</small></dd></div>{vessel && <div><dt>Vessel</dt><dd>{vessel.name}<small>{vessel.lengthFt ? `${vessel.lengthFt} ft length overall` : "Length unknown"}{vessel.operator ? `, ${vessel.operator}` : ""}</small></dd></div>}<div><dt>Status</dt><dd>Confirmed<small>Scheduled reservation</small></dd></div></dl>
+  </div><div className="drawer-actions"><button className="secondary-button" onClick={requestEdit}>Edit reservation</button><button className="danger-button" onClick={() => setConfirmDelete(true)}>Delete</button></div></aside></div>{confirmDelete && <ConfirmationDialog title="Delete this reservation?" message={`${reservation.title} will be removed from this browser's schedule. This cannot be undone.`} confirmLabel="Delete reservation" danger onCancel={() => setConfirmDelete(false)} onConfirm={() => { setConfirmDelete(false); deleteReservation(reservation.id); requestClose(); }} />}</>;
 }
 
 function ReservationDialog({ reservation, onClose }: { reservation?: Reservation; onClose: () => void }) {
   const { reservations, berths, vessels, addVessel, saveReservation } = useReservations();
   const today = format(new Date(), "yyyy-MM-dd");
   const [closing, setClosing] = useState(false);
+  const [confirmLeave, setConfirmLeave] = useState(false);
   const [type, setType] = useState<ReservationType>(reservation?.type ?? "vessel");
   const [title, setTitle] = useState(reservation?.title ?? "");
   const [vesselId, setVesselId] = useState(reservation?.vesselId ?? "");
@@ -404,6 +448,8 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
   const [endDate, setEndDate] = useState(reservation?.endDate ?? today);
   const [error, setError] = useState("");
   const vessel = vessels.find((item) => item.id === vesselId);
+  const initialVesselSearch = vessels.find((item) => item.id === reservation?.vesselId)?.name ?? "";
+  const hasUnsavedChanges = type !== (reservation?.type ?? "vessel") || title !== (reservation?.title ?? "") || vesselId !== (reservation?.vesselId ?? "") || vesselSearch !== initialVesselSearch || berthId !== (reservation?.berthId ?? "") || startDate !== (reservation?.startDate ?? today) || endDate !== (reservation?.endDate ?? today) || newVesselName !== "" || newVesselLength !== "" || newVesselOperator !== "";
   const visibleVessels = useMemo(() => {
     const term = vesselSearch.trim().toLowerCase();
     const matches = vessels.filter((item) => !term || item.name.toLowerCase().includes(term) || item.aliases.some((alias) => alias.toLowerCase().includes(term))).slice(0, 12);
@@ -455,16 +501,33 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
   const selectedAssessment = recommendations.find((item) => item.berth.id === berthId);
   const selectedBerth = berths.find((item) => item.id === berthId);
   const vesselUnavailable = (candidate: Vessel) => Boolean(startDate && endDate && startDate <= endDate && findVesselConflicts(reservations, { id: reservation?.id, vesselId: candidate.id, startDate, endDate }).length);
-  const requestClose = () => {
+  const performClose = () => {
     if (closing) return;
     setClosing(true);
     window.setTimeout(onClose, 190);
+  };
+  const requestClose = () => {
+    if (closing || confirmLeave) return;
+    if (hasUnsavedChanges) {
+      setConfirmLeave(true);
+      return;
+    }
+    performClose();
   };
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   });
+  useEffect(() => {
+    if (!hasUnsavedChanges) return;
+    const warnBeforeUnload = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    window.addEventListener("beforeunload", warnBeforeUnload);
+    return () => window.removeEventListener("beforeunload", warnBeforeUnload);
+  }, [hasUnsavedChanges]);
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     setError("");
@@ -478,15 +541,15 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
     if (conflicts.length) return setError(`${selectedBerth.name} is occupied by ${conflicts[0].title} during this date range.`);
     if (type === "vessel" && vesselFitsBerth(vessel, selectedBerth) === false) return setError(`${vessel?.name} is too long for ${selectedBerth.name}.`);
     saveReservation({ id: reservation?.id ?? `created-${crypto.randomUUID()}`, type, title: type === "vessel" && vessel ? vessel.name : title.trim(), vesselId: type === "vessel" ? vesselId : undefined, berthId, startDate, endDate, origin: reservation?.origin ?? "created", source: reservation?.source, importConfidence: reservation?.importConfidence, modifiedSinceImport: reservation?.origin === "imported", status: "confirmed" });
-    requestClose();
+    performClose();
   };
-  return <div className={`overlay dialog-overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><section className="dialog" role="dialog" aria-modal="true" aria-labelledby="reservation-title"><div className="dialog-header"><div><span>{reservation ? "Update booking" : "New booking"}</span><h2 id="reservation-title">{reservation ? "Edit reservation" : "Reserve a berth"}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit}><div className="segmented">{(["vessel", "event", "closure"] as ReservationType[]).map((item) => <button type="button" key={item} className={type === item ? "active" : ""} onClick={() => changeType(item)}>{item === "vessel" ? <Ship size={16} /> : item === "event" ? <CalendarDays size={16} /> : <AlertTriangle size={16} />}{item}</button>)}</div>
+  return <><div className={`overlay dialog-overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><section className="dialog" role="dialog" aria-modal="true" aria-labelledby="reservation-title"><div className="dialog-header"><div><span>{reservation ? "Update booking" : "New booking"}</span><h2 id="reservation-title">{reservation ? "Edit reservation" : "Reserve a berth"}</h2></div><button className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit}><div className="segmented">{(["vessel", "event", "closure"] as ReservationType[]).map((item) => <button type="button" key={item} className={type === item ? "active" : ""} onClick={() => changeType(item)}>{item === "vessel" ? <Ship size={16} /> : item === "event" ? <CalendarDays size={16} /> : <AlertTriangle size={16} />}{item}</button>)}</div>
     <div className="booking-type-fields" key={type}>{type === "vessel" ? <div className="vessel-picker vessel-combobox" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setVesselPickerOpen(false); }}><label htmlFor="vessel-search">Vessel</label><div className="picker-search"><Search size={16} /><input id="vessel-search" role="combobox" aria-expanded={vesselPickerOpen} aria-controls="vessel-options" autoComplete="off" value={vesselSearch} onFocus={() => setVesselPickerOpen(true)} onChange={(event) => { setVesselSearch(event.target.value); setVesselId(""); setTitle(""); setAddingVessel(false); setVesselPickerOpen(true); }} placeholder="Type a vessel name" /></div>{vesselPickerOpen && <div className="vessel-options" id="vessel-options" role="listbox">{visibleVessels.map((item) => { const unavailable = vesselUnavailable(item); return <button type="button" role="option" aria-selected={item.id === vesselId} key={item.id} disabled={unavailable} onClick={() => chooseVessel(item)}><span><strong>{item.name}</strong><small>{unavailable ? "Not available · already booked for these dates" : item.lengthFt ? `${item.lengthFt} ft${item.operator ? ` · ${item.operator}` : ""}` : "Length unknown"}</small></span>{unavailable ? <span className="unavailable-label">Not available</span> : <ChevronRight />}</button>; })}<button type="button" className="add-vessel-option" onClick={beginAddingVessel}><Plus /><span><strong>Add new vessel</strong><small>{vesselSearch.trim() ? `Create “${vesselSearch.trim()}”` : "Enter vessel details"}</small></span></button></div>}{addingVessel && <div className="add-vessel-panel"><div><strong>Add new vessel</strong><button type="button" className="text-button" onClick={() => setAddingVessel(false)}>Cancel</button></div><label>Name<input value={newVesselName} onChange={(event) => setNewVesselName(event.target.value)} autoFocus /></label><div className="form-row"><label>Length overall (ft)<input type="number" min="1" step="0.1" value={newVesselLength} onChange={(event) => setNewVesselLength(event.target.value)} /></label><label>Operator <small>Optional</small><input value={newVesselOperator} onChange={(event) => setNewVesselOperator(event.target.value)} /></label></div>{newVesselError && <div className="form-error"><AlertTriangle size={16} />{newVesselError}</div>}<button type="button" className="secondary-button" onClick={createVessel}><Plus size={16} /> Save vessel</button></div>}</div> : <label>{type === "event" ? "Event" : "Closure"} name<input value={title} onChange={(event) => setTitle(event.target.value)} required autoFocus /></label>}</div>
-    <div className="form-row"><label>Start date<input type="date" value={startDate} onChange={(event) => { setStartDate(event.target.value); if (endDate < event.target.value) setEndDate(event.target.value); }} required /></label><label>End date<input type="date" value={endDate} min={startDate} onChange={(event) => setEndDate(event.target.value)} required /></label></div>
+    <div className="form-row date-form-row"><InAppDatePicker label="Start date" value={startDate} onChange={(value) => { setStartDate(value); if (endDate < value) setEndDate(value); }} /><InAppDatePicker label="End date" value={endDate} min={startDate} onChange={setEndDate} /></div>
     <div className="berth-picker vessel-combobox" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setBerthPickerOpen(false); }}><label>Berth</label><button type="button" className="combobox-trigger" aria-expanded={berthPickerOpen} aria-controls="berth-options" onClick={() => setBerthPickerOpen((open) => !open)}><span>{selectedBerth?.name ?? "Select a berth"}<small>{selectedBerth ? selectedBerth.maxVesselLengthFt ? `Up to ${selectedBerth.maxVesselLengthFt} ft` : "Capacity not specified" : "Choose from available waterfront locations"}</small></span><ChevronRight /></button>{berthPickerOpen && <div className="vessel-options berth-options" id="berth-options" role="listbox">{sortedRecommendations.map((item) => { const unavailable = !item.available || item.fits === false; const reason = item.vesselConflicts.length ? "vessel already booked" : item.conflicts.length ? "berth occupied" : item.fits === false ? "vessel too long" : item.berth.maxVesselLengthFt ? `up to ${item.berth.maxVesselLengthFt} ft` : "capacity not specified"; return <button type="button" role="option" aria-selected={item.berth.id === berthId} key={item.berth.id} disabled={unavailable} onClick={() => { setBerthId(item.berth.id); setBerthPickerOpen(false); }}><span><strong>{item.recommended ? `Recommended · ${item.berth.name}` : item.berth.name}</strong><small>{unavailable ? `Not available · ${reason}` : reason}</small></span>{unavailable ? <span className="unavailable-label">Not available</span> : <ChevronRight />}</button>; })}</div>}</div>
     {berthId && selectedAssessment && <div className={`assessment ${selectedAssessment.available && selectedAssessment.fits !== false ? "good" : "bad"}`}>{selectedAssessment.available && selectedAssessment.fits !== false ? <Check /> : <AlertTriangle />}<div><strong>{selectedAssessment.vesselConflicts.length ? "Vessel is already booked" : selectedAssessment.available ? selectedAssessment.fits === false ? "Vessel does not fit" : "Available for these dates" : "Berth is occupied"}</strong><span>{selectedAssessment.vesselConflicts.length ? `${vessel?.name} has another reservation during these dates.` : selectedAssessment.recommended ? "Best-fit available berth for this vessel." : selectedAssessment.spareFeet != null ? `${selectedAssessment.spareFeet} ft of clearance.` : "No vessel length limit is set for this berth."}</span></div></div>}
     {error && <div className="form-error"><AlertTriangle size={17} />{error}</div>}
-    <div className="dialog-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button className="primary-button" type="submit">{reservation ? "Save changes" : "Create reservation"}</button></div></form></section></div>;
+    <div className="dialog-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button className="primary-button" type="submit">{reservation ? "Save changes" : "Create reservation"}</button></div></form></section></div>{confirmLeave && <ConfirmationDialog title="Discard unsaved changes?" message="Your changes to this reservation have not been saved." confirmLabel="Discard changes" danger onCancel={() => setConfirmLeave(false)} onConfirm={() => { setConfirmLeave(false); performClose(); }} />}</>;
 }
 
 export default App;

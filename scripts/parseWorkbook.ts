@@ -69,7 +69,7 @@ const displayVesselName = (raw: string) =>
   raw.replace(/\s+\d+(?:\.\d+)?\s*['’](?:\s|$)/, "").replace(/\s+/g, " ").trim();
 
 const canonicalResource = (raw: string) =>
-  raw.replace(/\s*[-–—]\s*\d+\s*['’].*$/, "").replace(/:\s*$/, "").trim();
+  raw.replace(/\s*[-\u2013\u2014]\s*\d+\s*['’].*$/, "").replace(/:\s*$/, "").trim();
 
 const resourceCapacity = (raw: string) => {
   const match = raw.match(/(\d+)\s*['’]/);

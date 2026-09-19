@@ -1,6 +1,6 @@
 # WHOI Dock Manager
 
-Waterfront scheduling and berth management built from the supplied 1997–2019 synthetic dock workbook.
+Waterfront scheduling and berth management built from the supplied 1997 through 2019 synthetic dock workbook.
 
 The application turns the legacy visual calendar into searchable records, checks berth conflicts and vessel fit automatically, recommends the smallest available berth that fits, and keeps prototype changes in the browser. It is a static React application designed for GitHub Pages.
 
@@ -35,7 +35,7 @@ The importer therefore:
 6. Reconciles schedule labels with normalized vessel identities.
 7. Preserves the original sheet, cell or range, raw label, and import confidence.
 8. Runs conflict, capacity, and reference-data validation without changing the historical source.
-9. Compares 56 calculated 2006–2013 resource/year totals with the independent `8YR Dock Summary` and reports differences instead of forcing agreement.
+9. Compares 56 calculated 2006 through 2013 resource/year totals with the independent `8YR Dock Summary` and reports differences instead of forcing agreement.
 
 Generated application data lives in `src/data/generated`. The source workbook is not duplicated in this repository; pass its location when regenerating:
 
