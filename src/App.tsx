@@ -43,9 +43,9 @@ import { useReservations } from "./context/ReservationProvider";
 import { daysInclusive } from "./lib/dates";
 import { findConflicts, findVesselConflicts, recommendBerths, vesselFitsBerth } from "./lib/scheduling";
 import { newestReservationFirst } from "./lib/sorting";
-import type { Reservation, ReservationType, Vessel } from "./types";
+import type { Berth, Reservation, ReservationType, Vessel } from "./types";
 
-type Page = "overview" | "schedule" | "reservations" | "checks";
+type Page = "overview" | "schedule" | "reservations" | "resources" | "checks";
 type ScheduleCheckKind = "overlap" | "vessel-fit" | "vessel-length" | "berth-limit" | "reservation-data";
 
 interface ScheduleCheck {
@@ -148,6 +148,7 @@ function App() {
           <NavButton icon={<BarChart3 />} active={page === "overview"} compact={sidebarCollapsed} onClick={() => navigate("overview")}>Overview</NavButton>
           <NavButton icon={<CalendarDays />} active={page === "schedule"} compact={sidebarCollapsed} onClick={() => navigate("schedule")}>Schedule</NavButton>
           <NavButton icon={<History />} active={page === "reservations"} compact={sidebarCollapsed} onClick={() => navigate("reservations")}>Reservations</NavButton>
+          <NavButton icon={<Database />} active={page === "resources"} compact={sidebarCollapsed} onClick={() => navigate("resources")}>Resources</NavButton>
           <NavButton icon={<AlertTriangle />} active={page === "checks"} compact={sidebarCollapsed} onClick={() => navigate("checks")}>Schedule checks</NavButton>
         </nav>
         <div className="sidebar-note">
@@ -163,6 +164,7 @@ function App() {
             {page === "overview" && <Overview onNavigate={navigate} onOpen={jumpToReservation} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
             {page === "schedule" && <Schedule month={month} setMonth={setMonth} onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
             {page === "reservations" && <ReservationsPage onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
+            {page === "resources" && <ResourcesPage />}
             {page === "checks" && <ScheduleChecks onEdit={(reservation) => { setDrawerReturnPage("checks"); setEditing(reservation); }} />}
           </div>
         </div>
@@ -317,6 +319,140 @@ function ReservationsPage({ onOpen, onNew }: { onOpen: (reservation: Reservation
     <div className="filter-bar"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search reservations" /></label><InAppSelect label="Reservation type" value={type} onChange={setType} options={[{ value: "all", label: "All types" }, { value: "vessel", label: "Vessels" }, { value: "event", label: "Events" }, { value: "closure", label: "Closures" }]} /><InAppSelect label="Year" value={year} onChange={setYear} options={[{ value: "all", label: "All years" }, ...years.map((item) => ({ value: item, label: item }))]} /></div>
     <div className="table-panel"><table><thead><tr><th>Reservation</th><th>Type</th><th>Berth</th><th>Dates</th><th>Status</th><th /></tr></thead><tbody>{filtered.slice(0, 250).map((item) => <tr key={item.id} onClick={() => onOpen(item)}><td><strong>{item.title}</strong></td><td><span className={`type-pill ${item.type}`}>{item.type}</span></td><td>{berths.find((berth) => berth.id === item.berthId)?.name}</td><td>{format(parseISO(item.startDate), "MMM d, yyyy")}{item.endDate !== item.startDate && <> to {format(parseISO(item.endDate), "MMM d, yyyy")}</>}</td><td>Confirmed</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table>{filtered.length > 250 && <div className="table-foot">Showing the first 250 matching records. Narrow the filters to see a specific visit.</div>}</div>
   </>;
+}
+
+function ResourcesPage() {
+  const { reservations, berths, vessels } = useReservations();
+  const [resourceType, setResourceType] = useState<"vessels" | "berths">("vessels");
+  const [query, setQuery] = useState("");
+  const [selectedVessel, setSelectedVessel] = useState<Vessel | null>(null);
+  const [selectedBerth, setSelectedBerth] = useState<Berth | null>(null);
+  const vesselUsage = useMemo(() => {
+    const counts = new Map<string, number>();
+    reservations.forEach((item) => item.vesselId && counts.set(item.vesselId, (counts.get(item.vesselId) ?? 0) + 1));
+    return counts;
+  }, [reservations]);
+  const berthUsage = useMemo(() => {
+    const counts = new Map<string, number>();
+    reservations.forEach((item) => counts.set(item.berthId, (counts.get(item.berthId) ?? 0) + 1));
+    return counts;
+  }, [reservations]);
+  const term = query.trim().toLowerCase();
+  const visibleVessels = [...vessels]
+    .filter((item) => !term || `${item.name} ${item.operator ?? ""} ${item.aliases.join(" ")}`.toLowerCase().includes(term))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const visibleBerths = [...berths]
+    .filter((item) => !term || `${item.name} ${item.category ?? ""}`.toLowerCase().includes(term))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const changeResourceType = (next: "vessels" | "berths") => {
+    setResourceType(next);
+    setQuery("");
+  };
+  return <>
+    <PageTitle eyebrow="Waterfront directory" title="Resources"><span className="record-count">{resourceType === "vessels" ? vessels.length.toLocaleString() : berths.length.toLocaleString()} records</span></PageTitle>
+    <div className="segmented resource-tabs" aria-label="Resource type">
+      <button type="button" className={resourceType === "vessels" ? "active" : ""} onClick={() => changeResourceType("vessels")}><Ship size={16} /> Vessels</button>
+      <button type="button" className={resourceType === "berths" ? "active" : ""} onClick={() => changeResourceType("berths")}><Anchor size={16} /> Berths</button>
+    </div>
+    <div className="filter-bar resource-filter"><label><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={resourceType === "vessels" ? "Search vessels" : "Search berths"} /></label><span>{resourceType === "vessels" ? visibleVessels.length : visibleBerths.length} shown</span></div>
+    <div className="table-panel resource-table"><table><thead>{resourceType === "vessels" ? <tr><th>Vessel</th><th>Length</th><th>Operator</th><th>Reservations</th><th /></tr> : <tr><th>Berth</th><th>Category</th><th>Maximum vessel length</th><th>Reservations</th><th /></tr>}</thead><tbody>{resourceType === "vessels" ? visibleVessels.map((vessel) => <tr key={vessel.id} onClick={() => setSelectedVessel(vessel)}><td><strong>{vessel.name}</strong><small>{vessel.aliases.length ? `${vessel.aliases.length} ${vessel.aliases.length === 1 ? "alias" : "aliases"}` : "No aliases"}</small></td><td>{vessel.lengthFt != null ? `${vessel.lengthFt} ft` : <span className="missing-value">Not recorded</span>}</td><td>{vessel.operator ?? <span className="muted-value">Not recorded</span>}</td><td>{vesselUsage.get(vessel.id) ?? 0}</td><td><ChevronRight size={16} /></td></tr>) : visibleBerths.map((berth) => <tr key={berth.id} onClick={() => setSelectedBerth(berth)}><td><strong>{berth.name}</strong></td><td>{berth.category ?? "Vessel berth"}</td><td>{berth.maxVesselLengthFt != null ? `${berth.maxVesselLengthFt} ft` : <span className="missing-value">Not recorded</span>}</td><td>{berthUsage.get(berth.id) ?? 0}</td><td><ChevronRight size={16} /></td></tr>)}</tbody></table></div>
+    {selectedVessel && <VesselEditorDrawer vessel={selectedVessel} onClose={() => setSelectedVessel(null)} />}
+    {selectedBerth && <BerthEditorDrawer berth={selectedBerth} onClose={() => setSelectedBerth(null)} />}
+  </>;
+}
+
+function VesselEditorDrawer({ vessel, onClose }: { vessel: Vessel; onClose: () => void }) {
+  const { updateVessel } = useReservations();
+  const [closing, setClosing] = useState(false);
+  const [confirmLeave, setConfirmLeave] = useState(false);
+  const [name, setName] = useState(vessel.name);
+  const [length, setLength] = useState(vessel.lengthFt == null ? "" : String(vessel.lengthFt));
+  const [operator, setOperator] = useState(vessel.operator ?? "");
+  const [aliases, setAliases] = useState(vessel.aliases.join(", "));
+  const [contacts, setContacts] = useState((vessel.contacts ?? []).join("\n"));
+  const [notes, setNotes] = useState((vessel.notes ?? []).join("\n"));
+  const [error, setError] = useState("");
+  const hasUnsavedChanges = name !== vessel.name || length !== (vessel.lengthFt == null ? "" : String(vessel.lengthFt)) || operator !== (vessel.operator ?? "") || aliases !== vessel.aliases.join(", ") || contacts !== (vessel.contacts ?? []).join("\n") || notes !== (vessel.notes ?? []).join("\n");
+  const performClose = () => {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onClose, 190);
+  };
+  const requestClose = () => {
+    if (closing || confirmLeave) return;
+    if (hasUnsavedChanges) return setConfirmLeave(true);
+    performClose();
+  };
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
+  useEffect(() => {
+    if (!hasUnsavedChanges) return;
+    const warnBeforeUnload = (event: BeforeUnloadEvent) => { event.preventDefault(); event.returnValue = ""; };
+    window.addEventListener("beforeunload", warnBeforeUnload);
+    return () => window.removeEventListener("beforeunload", warnBeforeUnload);
+  }, [hasUnsavedChanges]);
+  const submit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const lengthFt = length.trim() ? Number(length) : null;
+    if (!name.trim()) return setError("Enter the vessel name.");
+    if (lengthFt != null && (!Number.isFinite(lengthFt) || lengthFt <= 0)) return setError("Enter a valid vessel length or leave it blank.");
+    updateVessel({
+      ...vessel,
+      name: name.trim(),
+      lengthFt,
+      lengthSources: lengthFt == null ? [] : lengthFt === vessel.lengthFt ? vessel.lengthSources : [{ valueFt: lengthFt, source: "manual" }],
+      operator: operator.trim() || undefined,
+      aliases: aliases.split(",").map((item) => item.trim()).filter(Boolean),
+      contacts: contacts.split("\n").map((item) => item.trim()).filter(Boolean),
+      notes: notes.split("\n").map((item) => item.trim()).filter(Boolean),
+    });
+    performClose();
+  };
+  return <><div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer resource-editor" aria-label="Edit vessel"><div className="drawer-header"><div><span className="type-pill">Vessel</span><h2>Edit vessel</h2></div><button type="button" className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit} className="drawer-form"><div className="drawer-body"><label>Name<input value={name} onChange={(event) => { setName(event.target.value); setError(""); }} /></label><div className="form-row"><label>Length overall (ft)<input type="number" min="1" step="0.1" value={length} onChange={(event) => { setLength(event.target.value); setError(""); }} placeholder="Not recorded" /></label><label>Operator<input value={operator} onChange={(event) => setOperator(event.target.value)} placeholder="Not recorded" /></label></div><label>Aliases <small>Separate with commas</small><textarea value={aliases} onChange={(event) => setAliases(event.target.value)} rows={3} /></label><label>Contacts <small>One per line</small><textarea value={contacts} onChange={(event) => setContacts(event.target.value)} rows={4} /></label><label>Notes <small>One per line</small><textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} /></label>{error && <div className="form-error"><AlertTriangle size={16} />{error}</div>}</div><div className="drawer-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button type="submit" className="primary-button">Save vessel</button></div></form></aside></div>{confirmLeave && <ConfirmationDialog title="Discard unsaved changes?" message="Your changes to this vessel have not been saved." confirmLabel="Discard changes" danger onCancel={() => setConfirmLeave(false)} onConfirm={() => { setConfirmLeave(false); performClose(); }} />}</>;
+}
+
+function BerthEditorDrawer({ berth, onClose }: { berth: Berth; onClose: () => void }) {
+  const { updateBerth } = useReservations();
+  const [closing, setClosing] = useState(false);
+  const [confirmLeave, setConfirmLeave] = useState(false);
+  const [name, setName] = useState(berth.name);
+  const [category, setCategory] = useState(berth.category ?? "");
+  const [maxLength, setMaxLength] = useState(berth.maxVesselLengthFt == null ? "" : String(berth.maxVesselLengthFt));
+  const [error, setError] = useState("");
+  const hasUnsavedChanges = name !== berth.name || category !== (berth.category ?? "") || maxLength !== (berth.maxVesselLengthFt == null ? "" : String(berth.maxVesselLengthFt));
+  const performClose = () => {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onClose, 190);
+  };
+  const requestClose = () => {
+    if (closing || confirmLeave) return;
+    if (hasUnsavedChanges) return setConfirmLeave(true);
+    performClose();
+  };
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
+  useEffect(() => {
+    if (!hasUnsavedChanges) return;
+    const warnBeforeUnload = (event: BeforeUnloadEvent) => { event.preventDefault(); event.returnValue = ""; };
+    window.addEventListener("beforeunload", warnBeforeUnload);
+    return () => window.removeEventListener("beforeunload", warnBeforeUnload);
+  }, [hasUnsavedChanges]);
+  const submit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const maxVesselLengthFt = maxLength.trim() ? Number(maxLength) : null;
+    if (!name.trim()) return setError("Enter the berth name.");
+    if (maxVesselLengthFt != null && (!Number.isFinite(maxVesselLengthFt) || maxVesselLengthFt <= 0)) return setError("Enter a valid maximum length or leave it blank.");
+    updateBerth({ ...berth, name: name.trim(), category: category.trim() || undefined, maxVesselLengthFt });
+    performClose();
+  };
+  return <><div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer resource-editor" aria-label="Edit berth"><div className="drawer-header"><div><span className="type-pill event">Berth</span><h2>Edit berth</h2></div><button type="button" className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit} className="drawer-form"><div className="drawer-body"><label>Name<input value={name} onChange={(event) => { setName(event.target.value); setError(""); }} /></label><label>Category<input value={category} onChange={(event) => setCategory(event.target.value)} placeholder="Vessel berth" /></label><label>Maximum vessel length (ft)<input type="number" min="1" step="0.1" value={maxLength} onChange={(event) => { setMaxLength(event.target.value); setError(""); }} placeholder="Not recorded" /></label>{error && <div className="form-error"><AlertTriangle size={16} />{error}</div>}</div><div className="drawer-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button type="submit" className="primary-button">Save berth</button></div></form></aside></div>{confirmLeave && <ConfirmationDialog title="Discard unsaved changes?" message="Your changes to this berth have not been saved." confirmLabel="Discard changes" danger onCancel={() => setConfirmLeave(false)} onConfirm={() => { setConfirmLeave(false); performClose(); }} />}</>;
 }
 
 const checkLabels: Record<ScheduleCheckKind, string> = {

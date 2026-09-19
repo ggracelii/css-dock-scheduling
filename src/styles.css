@@ -369,6 +369,20 @@ button:not(:disabled):active { transform: translateY(1px); }
 .table-panel { border-top: 3px solid var(--teal); }
 .table-panel tbody tr { transition: background-color 180ms ease, box-shadow 180ms ease; }
 .table-panel tbody tr:hover { box-shadow: inset 4px 0 var(--teal); }
+.resource-tabs { width: min(360px, 100%); grid-template-columns: repeat(2, 1fr); margin-bottom: 14px; }
+.resource-filter { align-items: center; }
+.resource-filter > span { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.resource-table td:last-child { width: 34px; color: #789097; text-align: right; }
+.resource-table .missing-value { color: #9a5e24; font-weight: 700; }
+.resource-table .muted-value { color: var(--muted); }
+.drawer-form { min-height: 0; flex: 1; display: flex; flex-direction: column; }
+.drawer-form .drawer-body { flex: 1; }
+.drawer-form label { display: grid; gap: 6px; margin-bottom: 15px; color: #3f5963; font-size: 12px; font-weight: 700; }
+.drawer-form label small { color: var(--muted); font-weight: 400; }
+.drawer-form input, .drawer-form textarea { width: 100%; padding: 10px 11px; border: 1px solid #cad8dc; border-radius: 2px; color: #183945; background: white; transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease; }
+.drawer-form input { height: 42px; }
+.drawer-form textarea { resize: vertical; line-height: 1.45; }
+.drawer-form input:focus, .drawer-form textarea:focus { border-color: #5baeb6; box-shadow: 0 0 0 3px rgba(53,152,163,.12); }
 .check-summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; }
 .check-summary button { --check-accent: #9a5e24; min-height: 96px; padding: 16px; display: flex; align-items: center; gap: 13px; text-align: left; border: 1px solid #b8c9c9; border-top: 4px solid var(--check-accent); color: #173b48; background: rgba(252,251,247,.9); transition: color 180ms var(--motion), border-color 180ms var(--motion), background-color 180ms var(--motion); }
 .check-summary button:nth-child(1), .check-summary button:nth-child(2) { --check-accent: var(--red); }
