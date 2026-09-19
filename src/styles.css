@@ -369,7 +369,7 @@ button:not(:disabled):active { transform: translateY(1px); }
 .table-panel { border-top: 3px solid var(--teal); }
 .table-panel tbody tr { transition: background-color 180ms ease, box-shadow 180ms ease; }
 .table-panel tbody tr:hover { box-shadow: inset 4px 0 var(--teal); }
-.check-summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+.check-summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; }
 .check-summary button { min-height: 96px; padding: 16px; display: flex; align-items: center; gap: 13px; text-align: left; border: 1px solid #b8c9c9; border-top: 3px solid #557986; color: #173b48; background: rgba(252,251,247,.9); }
 .check-summary button:hover, .check-summary button.active { color: var(--teal-dark); border-color: var(--teal); background: #edf5f2; }
 .check-summary button > span { width: 36px; height: 36px; display: grid; place-items: center; flex: none; border-radius: 50%; color: #9a5e24; background: #fff1dd; }
@@ -394,6 +394,17 @@ button:not(:disabled):active { transform: translateY(1px); }
 .check-list small { margin-top: 4px; color: #63777f; font-size: 12px; }
 .check-meta { display: flex; align-items: center; gap: 8px; color: #70838a; font-size: 11px; white-space: nowrap; }
 .check-meta svg { width: 15px; }
+.check-resolution-intro { display: flex; gap: 11px; padding: 14px; border: 1px solid #e9c29d; border-left: 4px solid var(--amber); color: #765326; background: #fff7e9; }
+.check-resolution-intro > svg { width: 19px; flex: none; }
+.check-resolution-intro strong { display: block; }
+.check-resolution-intro p { margin: 4px 0 0; color: #665c4e; font-size: 12px; line-height: 1.5; }
+.resolution-panel { margin-top: 22px; padding: 16px; border: 1px solid #b8c9c9; border-top: 3px solid var(--teal); background: #f2f7f5; }
+.resolution-panel > span { color: var(--teal-dark); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.resolution-panel > p { margin: 7px 0 14px; color: #536a72; font-size: 12px; line-height: 1.5; }
+.resolution-panel label { display: grid; gap: 6px; margin-bottom: 12px; color: #3f5963; font-size: 12px; font-weight: 700; }
+.resolution-panel input { width: 100%; height: 42px; padding: 0 11px; border: 1px solid #cad8dc; color: #183945; background: white; }
+.resolution-panel input:focus { border-color: #5baeb6; box-shadow: 0 0 0 3px rgba(53,152,163,.12); }
+.resolution-reservation { width: 100%; justify-content: space-between; margin-top: 8px; }
 .health-summary { border-top-color: var(--teal); }
 .health-layout { gap: 22px; }
 .issue-groups { border-top-color: var(--amber); }

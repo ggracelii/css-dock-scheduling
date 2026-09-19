@@ -46,7 +46,7 @@ import { newestReservationFirst } from "./lib/sorting";
 import type { Reservation, ReservationType, Vessel } from "./types";
 
 type Page = "overview" | "schedule" | "reservations" | "checks";
-type ScheduleCheckKind = "overlap" | "vessel-fit" | "vessel-length" | "berth-limit";
+type ScheduleCheckKind = "overlap" | "vessel-fit" | "vessel-length" | "berth-limit" | "reservation-data";
 
 interface ScheduleCheck {
   id: string;
@@ -54,7 +54,9 @@ interface ScheduleCheck {
   title: string;
   detail: string;
   date?: string;
-  reservation?: Reservation;
+  reservations?: Reservation[];
+  vesselId?: string;
+  berthId?: string;
 }
 
 type ViewTransitionDocument = Document & {
@@ -161,7 +163,7 @@ function App() {
             {page === "overview" && <Overview onNavigate={navigate} onOpen={jumpToReservation} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
             {page === "schedule" && <Schedule month={month} setMonth={setMonth} onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
             {page === "reservations" && <ReservationsPage onOpen={(reservation) => { setDrawerReturnPage(null); setSelected(reservation); }} onNew={() => { setDrawerReturnPage(null); setEditing("new"); }} />}
-            {page === "checks" && <ScheduleChecks onOpen={jumpToReservation} />}
+            {page === "checks" && <ScheduleChecks onEdit={(reservation) => { setDrawerReturnPage("checks"); setEditing(reservation); }} />}
           </div>
         </div>
       </main>
@@ -319,34 +321,17 @@ function ReservationsPage({ onOpen, onNew }: { onOpen: (reservation: Reservation
 const checkLabels: Record<ScheduleCheckKind, string> = {
   overlap: "Overlapping bookings",
   "vessel-fit": "Vessel does not fit",
-  "vessel-length": "Missing vessel length",
+  "vessel-length": "Vessel length needed",
   "berth-limit": "Missing berth limit",
+  "reservation-data": "Incomplete reservation",
 };
 
-function ScheduleChecks({ onOpen }: { onOpen: (reservation: Reservation) => void }) {
+function ScheduleChecks({ onEdit }: { onEdit: (reservation: Reservation) => void }) {
   const { reservations, berths, vessels, importedIssues } = useReservations();
   const [kind, setKind] = useState<ScheduleCheckKind | "all">("all");
+  const [selectedCheckId, setSelectedCheckId] = useState<string | null>(null);
   const reservationById = useMemo(() => new Map(reservations.map((item) => [item.id, item])), [reservations]);
   const checks = useMemo<ScheduleCheck[]>(() => {
-    const latestByVessel = new Map<string, Reservation>();
-    [...reservations].sort(newestReservationFirst).forEach((item) => {
-      if (item.vesselId && !latestByVessel.has(item.vesselId)) latestByVessel.set(item.vesselId, item);
-    });
-
-    const missingVesselLengths = vessels
-      .filter((vessel) => vessel.lengthFt == null)
-      .map((vessel): ScheduleCheck => {
-        const reservation = latestByVessel.get(vessel.id);
-        return {
-          id: `vessel-length-${vessel.id}`,
-          kind: "vessel-length",
-          title: vessel.name,
-          detail: "Add the vessel length before confirming berth fit.",
-          date: reservation?.startDate,
-          reservation,
-        };
-      });
-
     const missingBerthLimits = berths
       .filter((berth) => berth.maxVesselLengthFt == null)
       .map((berth): ScheduleCheck => ({
@@ -354,51 +339,130 @@ function ScheduleChecks({ onOpen }: { onOpen: (reservation: Reservation) => void
         kind: "berth-limit",
         title: berth.name,
         detail: "Set a maximum vessel length so fit can be checked automatically.",
+        berthId: berth.id,
       }));
 
-    const bookingChecks = importedIssues
-      .filter((item) => item.type === "BERTH_CONFLICT" || item.type === "VESSEL_TOO_LONG")
+    const referenceDataChecks = importedIssues
+      .filter((item) => ["UNKNOWN_VESSEL_LENGTH", "VESSEL_LENGTH_CONFLICT", "MISSING_DATA", "INVALID_DATE_RANGE"].includes(item.type))
+      .filter((item) => {
+        const related = item.reservationIds?.map((id) => reservationById.get(id)).filter((reservation): reservation is Reservation => Boolean(reservation)) ?? [];
+        const vessel = vessels.find((candidate) => candidate.id === item.vesselId);
+        const berth = berths.find((candidate) => candidate.id === item.berthId);
+        if (item.type === "UNKNOWN_VESSEL_LENGTH") return vessel?.lengthFt == null;
+        if (item.type === "VESSEL_LENGTH_CONFLICT") return Boolean(vessel && new Set(vessel.lengthSources.map((source) => source.valueFt)).size > 1);
+        if (item.type === "INVALID_DATE_RANGE") return Boolean(related[0] && related[0].startDate > related[0].endDate);
+        if (item.type === "MISSING_DATA") return !related[0] || !related[0].berthId || (related[0].type === "vessel" && !related[0].vesselId) || !berth;
+        return true;
+      })
       .map((item): ScheduleCheck => {
-        const reservation = item.reservationIds?.map((id) => reservationById.get(id)).find(Boolean);
+        const related = item.reservationIds?.map((id) => reservationById.get(id)).filter((reservation): reservation is Reservation => Boolean(reservation)) ?? [];
+        const vessel = vessels.find((candidate) => candidate.id === item.vesselId);
+        const kind: ScheduleCheckKind = item.type === "UNKNOWN_VESSEL_LENGTH" || item.type === "VESSEL_LENGTH_CONFLICT" ? "vessel-length" : "reservation-data";
         return {
           id: item.id,
-          kind: item.type === "BERTH_CONFLICT" ? "overlap" : "vessel-fit",
-          title: item.type === "BERTH_CONFLICT" ? "Two bookings use the same berth" : reservation?.title ?? "Vessel exceeds berth limit",
+          kind,
+          title: vessel?.name ?? related[0]?.title ?? "Reservation information is incomplete",
           detail: item.message,
-          date: reservation?.startDate ?? (item.year ? `${item.year}-01-01` : undefined),
-          reservation,
+          date: related[0]?.startDate ?? (item.year ? `${item.year}-01-01` : undefined),
+          reservations: related,
+          vesselId: item.vesselId,
+          berthId: item.berthId,
         };
       });
 
-    const vesselOverlapChecks = reservations.flatMap((reservation, index) => {
-      if (reservation.type !== "vessel" || !reservation.vesselId) return [];
-      return reservations.slice(index + 1)
-        .filter((candidate) => candidate.type === "vessel" && candidate.vesselId === reservation.vesselId && candidate.startDate <= reservation.endDate && reservation.startDate <= candidate.endDate)
-        .map((candidate): ScheduleCheck => ({
+    const overlapChecks = reservations.flatMap((reservation, index) => reservations.slice(index + 1).flatMap((candidate): ScheduleCheck[] => {
+      const overlaps = candidate.startDate <= reservation.endDate && reservation.startDate <= candidate.endDate;
+      if (!overlaps) return [];
+      const date = reservation.startDate > candidate.startDate ? reservation.startDate : candidate.startDate;
+      if (candidate.berthId === reservation.berthId) {
+        const berth = berths.find((item) => item.id === reservation.berthId);
+        return [{
+          id: `berth-overlap-${reservation.id}-${candidate.id}`,
+          kind: "overlap",
+          title: `${berth?.name ?? "A berth"} is double-booked`,
+          detail: `${reservation.title} and ${candidate.title} occupy the same berth on overlapping dates.`,
+          date,
+          reservations: [reservation, candidate],
+          berthId: reservation.berthId,
+        }];
+      }
+      if (reservation.type === "vessel" && candidate.type === "vessel" && reservation.vesselId && candidate.vesselId === reservation.vesselId) {
+        return [{
           id: `vessel-overlap-${reservation.id}-${candidate.id}`,
           kind: "overlap",
           title: `${reservation.title} is booked at two berths`,
           detail: `${berths.find((item) => item.id === reservation.berthId)?.name ?? "One berth"} and ${berths.find((item) => item.id === candidate.berthId)?.name ?? "another berth"} overlap on the schedule.`,
-          date: reservation.startDate > candidate.startDate ? reservation.startDate : candidate.startDate,
-          reservation,
-        }));
+          date,
+          reservations: [reservation, candidate],
+          vesselId: reservation.vesselId,
+        }];
+      }
+      return [];
+    }));
+
+    const fitChecks = reservations.flatMap((reservation): ScheduleCheck[] => {
+      if (reservation.type !== "vessel" || !reservation.vesselId) return [];
+      const vessel = vessels.find((item) => item.id === reservation.vesselId);
+      const berth = berths.find((item) => item.id === reservation.berthId);
+      if (!berth || vesselFitsBerth(vessel, berth) !== false) return [];
+      return [{
+        id: `vessel-fit-${reservation.id}`,
+        kind: "vessel-fit",
+        title: `${reservation.title} does not fit ${berth.name}`,
+        detail: `${vessel?.lengthFt} ft vessel exceeds the berth's ${berth.maxVesselLengthFt} ft limit.`,
+        date: reservation.startDate,
+        reservations: [reservation],
+        vesselId: reservation.vesselId,
+        berthId: reservation.berthId,
+      }];
     });
 
-    return [...vesselOverlapChecks, ...bookingChecks, ...missingVesselLengths, ...missingBerthLimits].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "") || a.title.localeCompare(b.title));
+    return [...overlapChecks, ...fitChecks, ...referenceDataChecks, ...missingBerthLimits].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "") || a.title.localeCompare(b.title));
   }, [berths, importedIssues, reservationById, reservations, vessels]);
   const visible = checks.filter((item) => kind === "all" || item.kind === kind);
   const count = (checkKind: ScheduleCheckKind) => checks.filter((item) => item.kind === checkKind).length;
+  const selectedCheck = checks.find((item) => item.id === selectedCheckId);
   return <>
     <PageTitle eyebrow="Operational review" title="Schedule checks"><span className="record-count">{checks.length.toLocaleString()} checks</span></PageTitle>
     <section className="check-summary" aria-label="Schedule check totals">
-      {(["overlap", "vessel-fit", "vessel-length", "berth-limit"] as ScheduleCheckKind[]).map((item) => <button key={item} className={kind === item ? "active" : ""} onClick={() => setKind(kind === item ? "all" : item)}><span>{item === "overlap" ? <AlertTriangle /> : item === "vessel-fit" ? <Ship /> : item === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><div><strong>{count(item).toLocaleString()}</strong><small>{checkLabels[item]}</small></div></button>)}
+      {(["overlap", "vessel-fit", "vessel-length", "berth-limit", "reservation-data"] as ScheduleCheckKind[]).map((item) => <button key={item} className={kind === item ? "active" : ""} onClick={() => setKind(kind === item ? "all" : item)}><span>{item === "overlap" || item === "reservation-data" ? <AlertTriangle /> : item === "vessel-fit" ? <Ship /> : item === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><div><strong>{count(item).toLocaleString()}</strong><small>{checkLabels[item]}</small></div></button>)}
     </section>
     <div className="check-toolbar"><strong>{kind === "all" ? "All checks" : checkLabels[kind]}</strong>{kind !== "all" && <button className="text-button" onClick={() => setKind("all")}>Show all checks</button>}</div>
     <section className="check-list">
-      {visible.slice(0, 250).map((item) => <button key={item.id} disabled={!item.reservation} onClick={() => item.reservation && onOpen(item.reservation)}><span className={`check-icon ${item.kind}`}>{item.kind === "overlap" ? <AlertTriangle /> : item.kind === "vessel-fit" ? <Ship /> : item.kind === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><span><strong>{item.title}</strong><small>{item.detail}</small></span><span className="check-meta">{item.date ? format(parseISO(item.date), "MMM d, yyyy") : "Berth setting"}{item.reservation && <ChevronRight />}</span></button>)}
-      {visible.length > 250 && <div className="table-foot">Showing 250 checks. Select a category above to narrow the list.</div>}
+      {visible.map((item) => <button key={item.id} onClick={() => setSelectedCheckId(item.id)}><span className={`check-icon ${item.kind}`}>{item.kind === "overlap" || item.kind === "reservation-data" ? <AlertTriangle /> : item.kind === "vessel-fit" ? <Ship /> : item.kind === "vessel-length" ? <CircleHelp /> : <Anchor />}</span><span><strong>{item.title}</strong><small>{item.detail}</small></span><span className="check-meta">{item.date ? format(parseISO(item.date), "MMM d, yyyy") : item.kind === "berth-limit" ? "Berth setting" : item.kind === "vessel-length" ? "Vessel record" : "Needs attention"}<ChevronRight /></span></button>)}
     </section>
+    {selectedCheck && <ScheduleCheckDrawer check={selectedCheck} onClose={() => setSelectedCheckId(null)} onEdit={onEdit} />}
   </>;
+}
+
+function ScheduleCheckDrawer({ check, onClose, onEdit }: { check: ScheduleCheck; onClose: () => void; onEdit: (reservation: Reservation) => void }) {
+  const { berths, vessels, updateBerth, updateVessel } = useReservations();
+  const [closing, setClosing] = useState(false);
+  const vessel = vessels.find((item) => item.id === check.vesselId);
+  const berth = berths.find((item) => item.id === check.berthId);
+  const editableVessel = check.kind === "vessel-length" ? vessel : undefined;
+  const editableBerth = check.kind === "berth-limit" ? berth : undefined;
+  const [measurement, setMeasurement] = useState(() => String(editableVessel?.lengthFt ?? editableBerth?.maxVesselLengthFt ?? ""));
+  const [error, setError] = useState("");
+  const requestClose = () => {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onClose, 190);
+  };
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => event.key === "Escape" && requestClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
+  const saveMeasurement = () => {
+    const value = Number(measurement);
+    if (!Number.isFinite(value) || value <= 0) return setError("Enter a valid length in feet.");
+    if (editableVessel) updateVessel({ ...editableVessel, lengthFt: value, lengthSources: [{ valueFt: value, source: "manual" }] });
+    if (editableBerth) updateBerth({ ...editableBerth, maxVesselLengthFt: value });
+    requestClose();
+  };
+  const resolutionText = editableVessel ? "Enter the verified vessel length. This check clears as soon as the value is saved." : editableBerth ? "Enter the berth's maximum supported vessel length. This check clears as soon as the value is saved." : "Edit one of the affected reservations. The check clears when the schedule no longer violates this rule.";
+  return <div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer check-drawer" aria-label="Schedule check details"><div className="drawer-header"><div><span className="type-pill closure">{checkLabels[check.kind]}</span><h2>{check.title}</h2></div><button type="button" className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><div className="drawer-body"><div className="check-resolution-intro"><AlertTriangle /><div><strong>Action needed</strong><p>{check.detail}</p></div></div><dl className="detail-list"><div><dt>Check</dt><dd>{checkLabels[check.kind]}</dd></div>{check.date && <div><dt>Date</dt><dd>{format(parseISO(check.date), "MMMM d, yyyy")}</dd></div>}{vessel && <div><dt>Vessel</dt><dd>{vessel.name}<small>{vessel.lengthFt ? `${vessel.lengthFt} ft currently recorded` : "Length is missing"}</small></dd></div>}{berth && <div><dt>Berth</dt><dd>{berth.name}<small>{berth.maxVesselLengthFt ? `${berth.maxVesselLengthFt} ft maximum` : "Maximum length is missing"}</small></dd></div>}</dl><section className="resolution-panel"><span>How to resolve</span><p>{resolutionText}</p>{(editableVessel || editableBerth) && <label>{editableVessel ? "Verified vessel length (ft)" : "Maximum vessel length (ft)"}<input type="number" min="1" step="0.1" value={measurement} onChange={(event) => { setMeasurement(event.target.value); setError(""); }} /></label>}{error && <div className="form-error"><AlertTriangle />{error}</div>}{!editableVessel && !editableBerth && check.reservations?.map((reservation) => <button type="button" className="secondary-button resolution-reservation" key={reservation.id} onClick={() => { requestClose(); window.setTimeout(() => onEdit(reservation), 190); }}>Edit {reservation.title}</button>)}</section></div><div className="drawer-actions"><button type="button" className="secondary-button" onClick={requestClose}>Close</button>{(editableVessel || editableBerth) && <button type="button" className="primary-button" onClick={saveMeasurement}>Save and resolve</button>}</div></aside></div>;
 }
 
 function ReservationDrawer({ reservation, onClose, onEdit }: { reservation: Reservation; onClose: () => void; onEdit: () => void }) {

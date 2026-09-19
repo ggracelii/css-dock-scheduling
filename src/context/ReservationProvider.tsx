@@ -23,6 +23,8 @@ interface ReservationContextValue {
   importedIssues: ValidationIssue[];
   report: ImportReport;
   addVessel: (vessel: Vessel) => void;
+  updateVessel: (vessel: Vessel) => void;
+  updateBerth: (berth: Berth) => void;
   saveReservation: (reservation: Reservation) => void;
   deleteReservation: (id: string) => void;
   reset: () => void;
@@ -30,13 +32,23 @@ interface ReservationContextValue {
 
 const ReservationContext = createContext<ReservationContextValue | null>(null);
 const CUSTOM_VESSELS_KEY = "whoi-dock-manager.custom-vessels.v1";
+const VESSELS_KEY = "whoi-dock-manager.vessels.v2";
+const BERTHS_KEY = "whoi-dock-manager.berths.v1";
 
 export function ReservationProvider({ children }: { children: ReactNode }) {
   const repository = useRef(new LocalStorageReservationRepository());
   const [reservations, setReservations] = useState(() => repository.current.list());
-  const berths = berthsData as Berth[];
+  const [berths, setBerths] = useState<Berth[]>(() => {
+    try {
+      return JSON.parse(localStorage.getItem(BERTHS_KEY) ?? "null") ?? (berthsData as Berth[]);
+    } catch {
+      return berthsData as Berth[];
+    }
+  });
   const [vessels, setVessels] = useState<Vessel[]>(() => {
     try {
+      const stored = JSON.parse(localStorage.getItem(VESSELS_KEY) ?? "null") as Vessel[] | null;
+      if (stored) return stored;
       const custom = JSON.parse(localStorage.getItem(CUSTOM_VESSELS_KEY) ?? "[]") as Vessel[];
       return [...(vesselsData as Vessel[]), ...custom];
     } catch {
@@ -47,8 +59,23 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
   const addVessel = useCallback((vessel: Vessel) => {
     setVessels((current) => {
       const next = [...current, vessel];
-      const generatedIds = new Set((vesselsData as Vessel[]).map((item) => item.id));
-      localStorage.setItem(CUSTOM_VESSELS_KEY, JSON.stringify(next.filter((item) => !generatedIds.has(item.id))));
+      localStorage.setItem(VESSELS_KEY, JSON.stringify(next));
+      return next;
+    });
+  }, []);
+
+  const updateVessel = useCallback((vessel: Vessel) => {
+    setVessels((current) => {
+      const next = current.map((item) => item.id === vessel.id ? vessel : item);
+      localStorage.setItem(VESSELS_KEY, JSON.stringify(next));
+      return next;
+    });
+  }, []);
+
+  const updateBerth = useCallback((berth: Berth) => {
+    setBerths((current) => {
+      const next = current.map((item) => item.id === berth.id ? berth : item);
+      localStorage.setItem(BERTHS_KEY, JSON.stringify(next));
       return next;
     });
   }, []);
@@ -150,8 +177,8 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
   }, [berths, reservations, saveReservation, vessels]);
 
   const value = useMemo<ReservationContextValue>(
-    () => ({ reservations, berths, vessels, importedIssues: issuesData as ValidationIssue[], report: reportData as ImportReport, addVessel, saveReservation, deleteReservation, reset }),
-    [reservations, vessels, addVessel, saveReservation, deleteReservation, reset],
+    () => ({ reservations, berths, vessels, importedIssues: issuesData as ValidationIssue[], report: reportData as ImportReport, addVessel, updateVessel, updateBerth, saveReservation, deleteReservation, reset }),
+    [reservations, berths, vessels, addVessel, updateVessel, updateBerth, saveReservation, deleteReservation, reset],
   );
 
   return <ReservationContext.Provider value={value}>{children}</ReservationContext.Provider>;
