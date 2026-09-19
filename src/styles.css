@@ -333,7 +333,7 @@ button:not(:disabled):active { transform: translateY(1px); }
 .metric:nth-child(4) { --metric-accent: var(--violet); }
 .metric:last-child { border-right: 0; }
 .metric:last-child { border-right: 1px solid #b8c9c9; }
-.metric:hover { transform: none; background: color-mix(in srgb, var(--metric-accent) 5%, white); border-color: color-mix(in srgb, var(--metric-accent) 45%, #b8c9c9); box-shadow: none; }
+.metric:hover { transform: none; color: var(--metric-accent); background: color-mix(in srgb, var(--metric-accent) 9%, white); border-color: color-mix(in srgb, var(--metric-accent) 48%, #b8c9c9); box-shadow: none; }
 .metric > span { grid-area: label; min-height: 30px; display: flex; align-items: flex-start; color: #536d76; font-size: 12px; text-transform: uppercase; letter-spacing: .07em; }
 .metric strong { grid-area: value; align-self: end; font-size: 40px; line-height: 1; margin: 7px 0 5px; }
 .metric small { grid-area: note; color: #6b8087; padding-right: 24px; }
@@ -369,9 +369,12 @@ button:not(:disabled):active { transform: translateY(1px); }
 .table-panel tbody tr { transition: background-color 180ms ease, box-shadow 180ms ease; }
 .table-panel tbody tr:hover { box-shadow: inset 4px 0 var(--teal); }
 .check-summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; }
-.check-summary button { min-height: 96px; padding: 16px; display: flex; align-items: center; gap: 13px; text-align: left; border: 1px solid #b8c9c9; border-top: 3px solid #557986; color: #173b48; background: rgba(252,251,247,.9); }
-.check-summary button:hover, .check-summary button.active { color: var(--teal-dark); border-color: var(--teal); background: #edf5f2; }
-.check-summary button > span { width: 36px; height: 36px; display: grid; place-items: center; flex: none; border-radius: 50%; color: #9a5e24; background: #fff1dd; }
+.check-summary button { --check-accent: #9a5e24; min-height: 96px; padding: 16px; display: flex; align-items: center; gap: 13px; text-align: left; border: 1px solid #b8c9c9; border-top: 4px solid var(--check-accent); color: #173b48; background: rgba(252,251,247,.9); transition: color 180ms var(--motion), border-color 180ms var(--motion), background-color 180ms var(--motion); }
+.check-summary button:nth-child(1), .check-summary button:nth-child(2) { --check-accent: var(--red); }
+.check-summary button:nth-child(4) { --check-accent: #3d827b; }
+.check-summary button:nth-child(5) { --check-accent: var(--amber); }
+.check-summary button:hover, .check-summary button.active { transform: none; color: var(--check-accent); border-color: color-mix(in srgb, var(--check-accent) 48%, #b8c9c9); background: color-mix(in srgb, var(--check-accent) 9%, white); }
+.check-summary button > span { width: 36px; height: 36px; display: grid; place-items: center; flex: none; border: 1px solid color-mix(in srgb, var(--check-accent) 45%, white); border-radius: 50%; color: var(--check-accent); background: color-mix(in srgb, var(--check-accent) 8%, white); }
 .check-summary button > span svg { width: 18px; }
 .check-summary strong, .check-summary small { display: block; }
 .check-summary strong { font-family: Newsreader, serif; font-size: 28px; line-height: 1; }

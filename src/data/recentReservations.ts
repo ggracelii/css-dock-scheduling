@@ -13,6 +13,56 @@ const recurring: Array<Omit<Reservation, "id" | "startDate" | "endDate"> & { sta
   { type: "closure", title: "Winter systems service", berthId: "berth-north-finger-piers", start: "11-15", end: "11-16", origin: "created", status: "confirmed" },
 ];
 
+const seasonalWindows = [
+  { key: "winter", start: "01-22", end: "01-24", event: "Winter small-craft training", closure: "Cold-weather utilities inspection" },
+  { key: "spring", start: "04-12", end: "04-15", event: "Spring waterfront orientation", closure: "Finger pier electrical service" },
+  { key: "early-summer", start: "07-01", end: "07-04", event: "Youth sailing program", closure: "Navigation light maintenance" },
+  { key: "late-summer", start: "08-20", end: "08-23", event: "Marine science demonstration day", closure: "Float and piling inspection" },
+  { key: "winterization", start: "12-03", end: "12-06", event: "Small-craft operator workshop", closure: "Seasonal water-system shutdown" },
+] as const;
+
+const seasonalAssignments = [
+  { type: "vessel", title: "M/V High Current", vesselId: "vessel-m-v-high-current", berthId: "berth-north-pier-west" },
+  { type: "vessel", title: "M/V Far Anchor", vesselId: "vessel-m-v-far-anchor", berthId: "berth-north-pier-east" },
+  { type: "vessel", title: "M/V Blue Tern", vesselId: "vessel-m-v-blue-tern", berthId: "berth-south-float-west" },
+  { type: "vessel", title: "M/V Clear Cove", vesselId: "vessel-m-v-clear-cove", berthId: "berth-south-float-east" },
+  { type: "vessel", title: "M/V Far Fathom", vesselId: "vessel-m-v-far-fathom", berthId: "berth-north-pier-face" },
+  { type: "vessel", title: "M/V Deep Gannet", vesselId: "vessel-m-v-deep-gannet", berthId: "berth-inner-channel" },
+] as const;
+
+const seasonalReservations = Array.from({ length: 8 }, (_, offset) => 2019 + offset).flatMap((year) =>
+  seasonalWindows.flatMap((window): Reservation[] => [
+    ...(year === 2019 ? [] : seasonalAssignments.map((assignment, index): Reservation => ({
+      ...assignment,
+      id: `synthetic-expanded-${year}-${window.key}-${index + 1}`,
+      startDate: `${year}-${window.start}`,
+      endDate: `${year}-${window.end}`,
+      origin: "created",
+      status: "confirmed",
+    }))),
+    {
+      id: `synthetic-expanded-${year}-${window.key}-event`,
+      type: "event",
+      title: window.event,
+      berthId: "berth-small-craft-slips-institution-boats",
+      startDate: `${year}-${window.start}`,
+      endDate: `${year}-${window.end}`,
+      origin: "created",
+      status: "confirmed",
+    },
+    {
+      id: `synthetic-expanded-${year}-${window.key}-closure`,
+      type: "closure",
+      title: window.closure,
+      berthId: "berth-north-finger-piers",
+      startDate: `${year}-${window.start}`,
+      endDate: `${year}-${window.end}`,
+      origin: "created",
+      status: "confirmed",
+    },
+  ]),
+);
+
 const annualReservations = Array.from({ length: 7 }, (_, offset) => 2020 + offset).flatMap((year) =>
   recurring.map(({ start, end, ...reservation }, index): Reservation => ({
     ...reservation,
@@ -31,4 +81,4 @@ const currentMonthReservations: Reservation[] = [
   { id: "synthetic-current-2026-09-pier-service", type: "closure", title: "Fender and ladder service", berthId: "berth-north-pier-face", startDate: "2026-09-21", endDate: "2026-09-23", origin: "created", status: "confirmed" },
 ];
 
-export const recentReservations: Reservation[] = [...annualReservations, ...currentMonthReservations];
+export const recentReservations: Reservation[] = [...annualReservations, ...seasonalReservations, ...currentMonthReservations];

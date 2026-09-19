@@ -4,7 +4,7 @@ import type { Reservation } from "../types";
 
 const STORAGE_KEY = "whoi-dock-manager.reservations.v1";
 const RECENT_SEED_VERSION_KEY = "whoi-dock-manager.recent-seed-version";
-const RECENT_SEED_VERSION = "2026-09";
+const RECENT_SEED_VERSION = "2026-09-expanded";
 const completeSeed = [...(seedReservations as Reservation[]), ...recentReservations];
 
 export class LocalStorageReservationRepository {
