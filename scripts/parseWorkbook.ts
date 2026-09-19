@@ -14,6 +14,7 @@ import type {
   Vessel,
   VesselDimensionSource,
 } from "../src/types/index.ts";
+import { normalizeVessel, toVesselTitleCase } from "../src/lib/vessels.ts";
 
 const MONTHS = [
   "january", "february", "march", "april", "may", "june",
@@ -66,7 +67,7 @@ export const normalizeVesselName = (raw: string) =>
     .toLowerCase();
 
 const displayVesselName = (raw: string) =>
-  raw.replace(/\s+\d+(?:\.\d+)?\s*['’](?:\s|$)/, "").replace(/\s+/g, " ").trim();
+  toVesselTitleCase(raw.replace(/\s+\d+(?:\.\d+)?\s*['’](?:\s|$)/, ""));
 
 const canonicalResource = (raw: string) =>
   raw.replace(/\s*[-\u2013\u2014]\s*\d+\s*['’].*$/, "").replace(/:\s*$/, "").trim();
@@ -166,7 +167,6 @@ const addVesselSource = (
     contacts: [],
     notes: [],
   };
-  if (!existing.aliases.includes(rawName)) existing.aliases.push(rawName);
   if (length != null && !existing.lengthSources.some((item) => item.valueFt === length && item.source === sourceKind)) {
     existing.lengthSources.push({ valueFt: length, source: sourceKind, sourceReference });
     if (sourceKind === "loa-field" || existing.lengthFt == null) existing.lengthFt = length;
@@ -373,7 +373,7 @@ async function main() {
   }
 
   const berths = [...berthsByName.values()].sort((a, b) => (b.maxVesselLengthFt ?? -1) - (a.maxVesselLengthFt ?? -1));
-  const vessels = [...vesselsByName.values()].map((vessel) => ({ ...vessel, contacts: [...new Set(vessel.contacts)], notes: [...new Set(vessel.notes)] })).sort((a, b) => a.name.localeCompare(b.name));
+  const vessels = [...vesselsByName.values()].map((vessel) => normalizeVessel({ ...vessel, contacts: [...new Set(vessel.contacts)], notes: [...new Set(vessel.notes)] })).sort((a, b) => a.name.localeCompare(b.name));
   const issues = validate(reservations, berths, vessels);
   const summary = compareDockSummary(workbook, reservations, berths);
   issues.push(...summary.issues);

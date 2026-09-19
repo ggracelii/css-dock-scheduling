@@ -14,6 +14,7 @@ import issuesData from "../data/generated/validation-issues.json";
 import reportData from "../data/generated/import-report.json";
 import { LocalStorageReservationRepository } from "../repositories/LocalStorageReservationRepository";
 import { findConflicts, findVesselConflicts, vesselFitsBerth } from "../lib/scheduling";
+import { normalizeVessel } from "../lib/vessels";
 import type { Berth, ImportReport, Reservation, ValidationIssue, Vessel } from "../types";
 
 interface ReservationContextValue {
@@ -48,17 +49,17 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
   const [vessels, setVessels] = useState<Vessel[]>(() => {
     try {
       const stored = JSON.parse(localStorage.getItem(VESSELS_KEY) ?? "null") as Vessel[] | null;
-      if (stored) return stored;
+      if (stored) return stored.map(normalizeVessel);
       const custom = JSON.parse(localStorage.getItem(CUSTOM_VESSELS_KEY) ?? "[]") as Vessel[];
-      return [...(vesselsData as Vessel[]), ...custom];
+      return [...(vesselsData as Vessel[]), ...custom].map(normalizeVessel);
     } catch {
-      return vesselsData as Vessel[];
+      return (vesselsData as Vessel[]).map(normalizeVessel);
     }
   });
 
   const addVessel = useCallback((vessel: Vessel) => {
     setVessels((current) => {
-      const next = [...current, vessel];
+      const next = [...current, normalizeVessel(vessel)];
       localStorage.setItem(VESSELS_KEY, JSON.stringify(next));
       return next;
     });
@@ -66,7 +67,7 @@ export function ReservationProvider({ children }: { children: ReactNode }) {
 
   const updateVessel = useCallback((vessel: Vessel) => {
     setVessels((current) => {
-      const next = current.map((item) => item.id === vessel.id ? vessel : item);
+      const next = current.map((item) => item.id === vessel.id ? normalizeVessel(vessel) : item);
       localStorage.setItem(VESSELS_KEY, JSON.stringify(next));
       return next;
     });

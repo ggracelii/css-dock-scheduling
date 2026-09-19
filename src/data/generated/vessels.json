@@ -4,20 +4,16 @@
     "name": "Barge Blue Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Blue Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-blue-horizon",
-    "name": "Barge BLUE HORIZON",
+    "name": "Barge Blue Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge BLUE HORIZON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -26,9 +22,7 @@
     "name": "Barge Blue Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Blue Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -37,9 +31,7 @@
     "name": "Barge Blue Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Blue Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -48,9 +40,7 @@
     "name": "Barge Blue Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Blue Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -59,20 +49,16 @@
     "name": "Barge Bright Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Bright Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-bright-star",
-    "name": "Barge BRIGHT STAR",
+    "name": "Barge Bright Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge BRIGHT STAR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -81,9 +67,7 @@
     "name": "Barge Clear Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Clear Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -92,31 +76,25 @@
     "name": "Barge Coral Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Coral Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-coral-tide",
-    "name": "Barge CORAL TIDE",
+    "name": "Barge Coral Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge CORAL TIDE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-deep-lantern",
-    "name": "Barge DEEP LANTERN",
+    "name": "Barge Deep Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge DEEP LANTERN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -125,9 +103,7 @@
     "name": "Barge Deep Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Deep Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -136,9 +112,7 @@
     "name": "Barge Far Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Far Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -147,9 +121,7 @@
     "name": "Barge Golden Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Golden Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -158,9 +130,7 @@
     "name": "Barge Grey Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Grey Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -169,9 +139,7 @@
     "name": "Barge Grey Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Grey Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -180,9 +148,7 @@
     "name": "Barge High Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge High Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -201,9 +167,7 @@
         }
       }
     ],
-    "aliases": [
-      "Barge High Voyager 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -222,9 +186,7 @@
         }
       }
     ],
-    "aliases": [
-      "Barge Long Ledge 40'"
-    ],
+    "aliases": [],
     "contacts": [
       "quinn.oakes@example.com",
       "Cell: 555-0104",
@@ -238,9 +200,7 @@
     "name": "Barge Long Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Long Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -249,9 +209,7 @@
     "name": "Barge Northern Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Northern Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -270,16 +228,14 @@
         }
       }
     ],
-    "aliases": [
-      "Barge Northern Drift 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Harbor Institute"
   },
   {
     "id": "vessel-barge-northern-marlin",
-    "name": "Barge NORTHERN MARLIN",
+    "name": "Barge Northern Marlin",
     "lengthFt": 65,
     "lengthSources": [
       {
@@ -301,9 +257,7 @@
         }
       }
     ],
-    "aliases": [
-      "Barge NORTHERN MARLIN 24'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0142",
       "Cell: 555-0187"
@@ -316,9 +270,7 @@
     "name": "Barge Quiet Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Quiet Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -327,20 +279,16 @@
     "name": "Barge Quiet Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Quiet Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-salt-dory",
-    "name": "Barge SALT DORY",
+    "name": "Barge Salt Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge SALT DORY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -359,9 +307,7 @@
         }
       }
     ],
-    "aliases": [
-      "Barge Salt Ledge 52'"
-    ],
+    "aliases": [],
     "contacts": [
       "dana.jarvis@example.com",
       "Cell: 555-0166"
@@ -373,20 +319,16 @@
     "name": "Barge Salt Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Salt Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-silver-beacon",
-    "name": "Barge SILVER BEACON",
+    "name": "Barge Silver Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge SILVER BEACON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -395,9 +337,7 @@
     "name": "Barge Silver Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Silver Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -406,20 +346,16 @@
     "name": "Barge Swift Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Swift Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-barge-western-cove",
-    "name": "Barge WESTERN COVE",
+    "name": "Barge Western Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge WESTERN COVE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -428,9 +364,7 @@
     "name": "Barge Western Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Western Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -449,9 +383,7 @@
         }
       }
     ],
-    "aliases": [
-      "Barge Western Tern 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -470,9 +402,7 @@
         }
       }
     ],
-    "aliases": [
-      "Barge Wild Horizon 52'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0188"
     ],
@@ -480,12 +410,10 @@
   },
   {
     "id": "vessel-barge-wild-osprey",
-    "name": "Barge WILD OSPREY",
+    "name": "Barge Wild Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge WILD OSPREY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -494,9 +422,7 @@
     "name": "Barge Wild Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Barge Wild Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -505,9 +431,7 @@
     "name": "F/V Amber Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Amber Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -516,9 +440,7 @@
     "name": "F/V Amber Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Amber Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -537,9 +459,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Bright Compass 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "kai.whitlock@example.com",
       "Cell: 555-0147"
@@ -564,9 +484,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Bright Heron 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Northwind Offshore"
@@ -586,9 +504,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Bright Horizon 170'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0106",
       "Cell: 555-0123",
@@ -603,9 +519,7 @@
     "name": "F/V Bright Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Bright Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -614,20 +528,16 @@
     "name": "F/V Clear Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Clear Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-clear-ketch",
-    "name": "F/V CLEAR KETCH",
+    "name": "F/V Clear Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V CLEAR KETCH"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -646,9 +556,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Clear Meridian 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Regional Fisheries Agency"
@@ -658,9 +566,7 @@
     "name": "F/V Clear Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Clear Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -679,9 +585,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Coral Ketch 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "https://www.example.org/vessel"
@@ -692,9 +596,7 @@
     "name": "F/V Coral Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Coral Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -703,9 +605,7 @@
     "name": "F/V Coral Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Coral Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -714,9 +614,7 @@
     "name": "F/V Deep Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Deep Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -735,9 +633,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Far Petrel 24'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0149"
     ],
@@ -750,9 +646,7 @@
     "name": "F/V Far Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Far Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -771,9 +665,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Golden Petrel 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0183",
       "Cell: 555-0187",
@@ -794,9 +686,7 @@
     "name": "F/V Golden Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Golden Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -805,9 +695,7 @@
     "name": "F/V Green Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Green Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -826,9 +714,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Green Heron 32'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0138"
     ],
@@ -840,9 +726,7 @@
     "name": "F/V Green Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Green Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -851,9 +735,7 @@
     "name": "F/V Grey Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Grey Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -862,9 +744,7 @@
     "name": "F/V Grey Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Grey Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -883,9 +763,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V High Skua 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "riley.bexley@example.com",
       "Cell: 555-0147"
@@ -908,9 +786,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Iron Beacon 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Coastal Survey Partners"
@@ -930,9 +806,7 @@
         }
       }
     ],
-    "aliases": [
-      "F/V Iron Ketch 65'"
-    ],
+    "aliases": [],
     "contacts": [
       "dana.ellery@example.com",
       "Cell: 555-0121"
@@ -944,23 +818,19 @@
   },
   {
     "id": "vessel-f-v-iron-ledge",
-    "name": "F/V IRON LEDGE",
+    "name": "F/V Iron Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V IRON LEDGE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-iron-sextant",
-    "name": "F/V IRON SEXTANT",
+    "name": "F/V Iron Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V IRON SEXTANT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -969,9 +839,7 @@
     "name": "F/V Iron Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Iron Tide"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -980,20 +848,16 @@
     "name": "F/V Iron Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Iron Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-long-beacon",
-    "name": "F/V LONG BEACON",
+    "name": "F/V Long Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V LONG BEACON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1002,9 +866,7 @@
     "name": "F/V Long Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Long Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1013,20 +875,16 @@
     "name": "F/V Long Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Long Heron"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-long-strand",
-    "name": "F/V LONG STRAND",
+    "name": "F/V Long Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V LONG STRAND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1035,42 +893,34 @@
     "name": "F/V Northern Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Northern Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-northern-tern",
-    "name": "F/V NORTHERN TERN",
+    "name": "F/V Northern Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V NORTHERN TERN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-northern-voyager",
-    "name": "F/V NORTHERN VOYAGER",
+    "name": "F/V Northern Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V NORTHERN VOYAGER"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-salt-fathom",
-    "name": "F/V SALT FATHOM",
+    "name": "F/V Salt Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V SALT FATHOM"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1079,9 +929,7 @@
     "name": "F/V Salt Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Salt Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1090,20 +938,16 @@
     "name": "F/V Salt Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Salt Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-silver-drift",
-    "name": "F/V SILVER DRIFT",
+    "name": "F/V Silver Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V SILVER DRIFT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1112,9 +956,7 @@
     "name": "F/V Silver Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Silver Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1123,9 +965,7 @@
     "name": "F/V Silver Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Silver Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1134,9 +974,7 @@
     "name": "F/V Silver Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Silver Strand"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1145,9 +983,7 @@
     "name": "F/V Swift Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Swift Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1156,9 +992,7 @@
     "name": "F/V Swift Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Swift Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1167,9 +1001,7 @@
     "name": "F/V Swift Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Swift Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1178,20 +1010,16 @@
     "name": "F/V Swift Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Swift Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-f-v-swift-meridian",
-    "name": "F/V SWIFT MERIDIAN",
+    "name": "F/V Swift Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V SWIFT MERIDIAN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1200,9 +1028,7 @@
     "name": "F/V Western Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Western Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1211,9 +1037,7 @@
     "name": "F/V Western Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Western Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1222,9 +1046,7 @@
     "name": "F/V Western Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Western Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1233,9 +1055,7 @@
     "name": "F/V Western Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "F/V Western Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1244,9 +1064,7 @@
     "name": "M/V Amber Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Amber Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1255,9 +1073,7 @@
     "name": "M/V Amber Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Amber Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1266,9 +1082,7 @@
     "name": "M/V Amber Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Amber Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1277,9 +1091,7 @@
     "name": "M/V Amber Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Amber Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1288,9 +1100,7 @@
     "name": "M/V Amber Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Amber Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1299,9 +1109,7 @@
     "name": "M/V Amber Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Amber Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1310,9 +1118,7 @@
     "name": "M/V Blue Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Blue Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1321,9 +1127,7 @@
     "name": "M/V Blue Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Blue Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1342,9 +1146,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Blue Osprey 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "No overnight crew"
@@ -1354,9 +1156,7 @@
     "name": "M/V Blue Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Blue Strand"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1375,9 +1175,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Blue Tern 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Lakeshore Research Group"
@@ -1387,9 +1185,7 @@
     "name": "M/V Bright Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Bright Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1398,9 +1194,7 @@
     "name": "M/V Bright Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Bright Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1409,20 +1203,16 @@
     "name": "M/V Bright Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Bright Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-bright-gannet",
-    "name": "M/V BRIGHT GANNET",
+    "name": "M/V Bright Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V BRIGHT GANNET"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1431,9 +1221,7 @@
     "name": "M/V Bright Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Bright Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1442,9 +1230,7 @@
     "name": "M/V Bright Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Bright Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1463,9 +1249,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Clear Cove 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1474,9 +1258,7 @@
     "name": "M/V Clear Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Clear Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1495,9 +1277,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Clear Petrel 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0108",
       "Cell: 555-0147",
@@ -1519,15 +1299,13 @@
     "name": "M/V Coral Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Coral Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-coral-drift",
-    "name": "M/V CORAL DRIFT",
+    "name": "M/V Coral Drift",
     "lengthFt": 100,
     "lengthSources": [
       {
@@ -1540,9 +1318,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V CORAL DRIFT 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Alex Bexley"
@@ -1552,9 +1328,7 @@
     "name": "M/V Coral Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Coral Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1563,20 +1337,16 @@
     "name": "M/V Coral Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Coral Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-coral-lantern",
-    "name": "M/V CORAL LANTERN",
+    "name": "M/V Coral Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V CORAL LANTERN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1585,20 +1355,16 @@
     "name": "M/V Coral Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Coral Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-coral-star",
-    "name": "M/V CORAL STAR",
+    "name": "M/V Coral Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V CORAL STAR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1607,9 +1373,7 @@
     "name": "M/V Deep Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Deep Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1618,9 +1382,7 @@
     "name": "M/V Deep Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Deep Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1629,9 +1391,7 @@
     "name": "M/V Deep Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Deep Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1650,9 +1410,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Deep Gannet 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "Capt. Lee Marsh",
@@ -1665,9 +1423,7 @@
     "name": "M/V Deep Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Deep Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1686,9 +1442,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Deep Meridian 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1716,10 +1470,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Deep Reef 24'",
-      "M/V Deep Reef 100'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0188",
       "lee.calloway@example.com",
@@ -1745,21 +1496,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Deep Sextant 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Regional Fisheries Agency"
   },
   {
     "id": "vessel-m-v-deep-sound",
-    "name": "M/V DEEP SOUND",
+    "name": "M/V Deep Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V DEEP SOUND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1778,9 +1525,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Far Anchor 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1789,9 +1534,7 @@
     "name": "M/V Far Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Far Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1800,9 +1543,7 @@
     "name": "M/V Far Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Far Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1821,9 +1562,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Far Fathom 72'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0176",
       "taylor.bexley@example.com",
@@ -1843,12 +1582,10 @@
   },
   {
     "id": "vessel-m-v-far-kestrel",
-    "name": "M/V FAR KESTREL",
+    "name": "M/V Far Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V FAR KESTREL"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1857,9 +1594,7 @@
     "name": "M/V Golden Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Golden Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1868,9 +1603,7 @@
     "name": "M/V Golden Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Golden Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1879,9 +1612,7 @@
     "name": "M/V Golden Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Golden Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1900,21 +1631,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Golden Skua 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Tidewater Marine Services"
   },
   {
     "id": "vessel-m-v-golden-strand",
-    "name": "M/V GOLDEN STRAND",
+    "name": "M/V Golden Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V GOLDEN STRAND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1923,9 +1650,7 @@
     "name": "M/V Green Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Green Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1934,20 +1659,16 @@
     "name": "M/V Green Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Green Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-green-gannet",
-    "name": "M/V GREEN GANNET",
+    "name": "M/V Green Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V GREEN GANNET"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1966,9 +1687,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Green Kestrel 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "Bayline Charters",
@@ -1981,9 +1700,7 @@
     "name": "M/V Green Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Green Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -1992,20 +1709,16 @@
     "name": "M/V Green Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Green Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-grey-compass",
-    "name": "M/V GREY COMPASS",
+    "name": "M/V Grey Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V GREY COMPASS"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2014,20 +1727,16 @@
     "name": "M/V Grey Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Grey Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-grey-harbor",
-    "name": "M/V GREY HARBOR",
+    "name": "M/V Grey Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V GREY HARBOR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2046,9 +1755,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Grey Star 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0174"
     ],
@@ -2069,32 +1776,26 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Grey Tern 65'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Gulf Coast University"
   },
   {
     "id": "vessel-m-v-high-beacon",
-    "name": "M/V HIGH BEACON",
+    "name": "M/V High Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V HIGH BEACON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-high-cove",
-    "name": "M/V HIGH COVE",
+    "name": "M/V High Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V HIGH COVE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2113,9 +1814,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V High Current 170'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0153",
       "rowan.underhill@example.com",
@@ -2147,9 +1846,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V High Ledge 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Marley Bramble"
@@ -2169,9 +1866,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V High Strand 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0193",
       "Cell: 555-0163",
@@ -2187,9 +1882,7 @@
     "name": "M/V High Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V High Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2198,9 +1891,7 @@
     "name": "M/V Iron Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Iron Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2219,16 +1910,14 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Iron Harbor 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Drew Ransom"
   },
   {
     "id": "vessel-m-v-iron-heron",
-    "name": "M/V IRON HERON",
+    "name": "M/V Iron Heron",
     "lengthFt": 100,
     "lengthSources": [
       {
@@ -2241,9 +1930,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V IRON HERON 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "https://www.example.org/vessel"
@@ -2253,9 +1940,7 @@
     "name": "M/V Iron Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Iron Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2274,9 +1959,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Iron Sound 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "casey.ingram@example.com",
       "Cell: 555-0134",
@@ -2292,9 +1975,7 @@
     "name": "M/V Long Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Long Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2313,9 +1994,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Long Drift 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Taylor Dunmore"
@@ -2325,9 +2004,7 @@
     "name": "M/V Long Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Long Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2336,9 +2013,7 @@
     "name": "M/V Long Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Long Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2357,9 +2032,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Long Wind 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2368,9 +2041,7 @@
     "name": "M/V Northern Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Northern Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2389,9 +2060,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Northern Gannet 85'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0147",
       "Cell: 555-0180",
@@ -2412,23 +2081,19 @@
   },
   {
     "id": "vessel-m-v-northern-harbor",
-    "name": "M/V NORTHERN HARBOR",
+    "name": "M/V Northern Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V NORTHERN HARBOR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-northern-heron",
-    "name": "M/V NORTHERN HERON",
+    "name": "M/V Northern Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V NORTHERN HERON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2437,9 +2102,7 @@
     "name": "M/V Northern Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Northern Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2458,21 +2121,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Northern Ketch 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Gulf Coast University"
   },
   {
     "id": "vessel-m-v-northern-petrel",
-    "name": "M/V NORTHERN PETREL",
+    "name": "M/V Northern Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V NORTHERN PETREL"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2481,9 +2140,7 @@
     "name": "M/V Quiet Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Quiet Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2492,9 +2149,7 @@
     "name": "M/V Quiet Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Quiet Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2513,9 +2168,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Quiet Drift 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "sage.quill@example.com",
       "Cell: 555-0195"
@@ -2529,20 +2182,16 @@
     "name": "M/V Quiet Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Quiet Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-quiet-petrel",
-    "name": "M/V QUIET PETREL",
+    "name": "M/V Quiet Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V QUIET PETREL"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2551,9 +2200,7 @@
     "name": "M/V Quiet Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Quiet Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2562,9 +2209,7 @@
     "name": "M/V Quiet Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Quiet Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2583,21 +2228,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Quiet Tern 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Harbor Institute"
   },
   {
     "id": "vessel-m-v-salt-meridian",
-    "name": "M/V SALT MERIDIAN",
+    "name": "M/V Salt Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V SALT MERIDIAN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2606,9 +2247,7 @@
     "name": "M/V Salt Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Salt Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2617,9 +2256,7 @@
     "name": "M/V Salt Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Salt Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2638,9 +2275,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Salt Wind 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Marley Vance"
@@ -2650,9 +2285,7 @@
     "name": "M/V Silver Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Silver Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2671,9 +2304,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Silver Kestrel 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Finley Danforth"
@@ -2693,9 +2324,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Silver Ledge 72'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Bayline Charters"
@@ -2705,20 +2334,16 @@
     "name": "M/V Silver Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Silver Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-v-silver-sound",
-    "name": "M/V SILVER SOUND",
+    "name": "M/V Silver Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V SILVER SOUND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2737,9 +2362,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Swift Cove 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2748,9 +2371,7 @@
     "name": "M/V Swift Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Swift Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2769,9 +2390,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Swift Sextant 72'"
-    ],
+    "aliases": [],
     "contacts": [
       "noel.quill@example.com",
       "Cell: 555-0160"
@@ -2800,9 +2419,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Swift Strand 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Tidewater Marine Services"
@@ -2822,9 +2439,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Western Anchor 65'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0145",
       "Cell: 555-0112",
@@ -2841,9 +2456,7 @@
     "name": "M/V Western Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Western Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2852,9 +2465,7 @@
     "name": "M/V Western Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Western Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2863,9 +2474,7 @@
     "name": "M/V Western Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Western Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2884,9 +2493,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Western Petrel 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Coastal Survey Partners"
@@ -2896,9 +2503,7 @@
     "name": "M/V Wild Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Wild Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2917,21 +2522,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Wild Dory 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Reese Ashford"
   },
   {
     "id": "vessel-m-v-wild-fathom",
-    "name": "M/V WILD FATHOM",
+    "name": "M/V Wild Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V WILD FATHOM"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2940,9 +2541,7 @@
     "name": "M/V Wild Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/V Wild Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2961,9 +2560,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Wild Sextant 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -2982,9 +2579,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/V Wild Star 24'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0140",
       "sage.ashford@example.com",
@@ -3005,9 +2600,7 @@
     "name": "M/Y Blue Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Blue Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3016,9 +2609,7 @@
     "name": "M/Y Blue Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Blue Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3037,21 +2628,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Blue Fathom 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Finley Ashford"
   },
   {
     "id": "vessel-m-y-blue-tide",
-    "name": "M/Y BLUE TIDE",
+    "name": "M/Y Blue Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y BLUE TIDE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3060,9 +2647,7 @@
     "name": "M/Y Bright Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Bright Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3071,9 +2656,7 @@
     "name": "M/Y Clear Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Clear Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3082,9 +2665,7 @@
     "name": "M/Y Clear Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Clear Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3103,9 +2684,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Clear Star 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "State Marine Academy",
@@ -3128,9 +2707,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Clear Wind 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3139,9 +2716,7 @@
     "name": "M/Y Coral Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Coral Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3160,16 +2735,14 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Coral Osprey 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Reese Yardley"
   },
   {
     "id": "vessel-m-y-coral-wind",
-    "name": "M/Y CORAL WIND",
+    "name": "M/Y Coral Wind",
     "lengthFt": 40,
     "lengthSources": [
       {
@@ -3182,9 +2755,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y CORAL WIND 40'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0130"
     ],
@@ -3198,9 +2769,7 @@
     "name": "M/Y Deep Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Deep Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3209,9 +2778,7 @@
     "name": "M/Y Deep Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Deep Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3220,9 +2787,7 @@
     "name": "M/Y Deep Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Deep Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3241,9 +2806,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Far Horizon 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Jesse Quill"
@@ -3253,9 +2816,7 @@
     "name": "M/Y Far Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Far Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3264,9 +2825,7 @@
     "name": "M/Y Golden Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Golden Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3275,9 +2834,7 @@
     "name": "M/Y Golden Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Golden Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3286,9 +2843,7 @@
     "name": "M/Y Golden Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Golden Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3307,9 +2862,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Green Beacon 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Sage Vance"
@@ -3319,20 +2872,16 @@
     "name": "M/Y Green Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Green Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-y-green-lantern",
-    "name": "M/Y GREEN LANTERN",
+    "name": "M/Y Green Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y GREEN LANTERN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3351,9 +2900,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Grey Heron 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Riley Thorne"
@@ -3373,20 +2920,16 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Grey Horizon 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-m-y-grey-osprey",
-    "name": "M/Y GREY OSPREY",
+    "name": "M/Y Grey Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y GREY OSPREY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3405,9 +2948,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y High Anchor 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "https://www.example.org/vessel"
@@ -3418,9 +2959,7 @@
     "name": "M/Y High Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y High Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3429,9 +2968,7 @@
     "name": "M/Y High Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y High Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3450,9 +2987,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Iron Gannet 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Sage Sterling"
@@ -3472,9 +3007,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Iron Petrel 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0162"
     ],
@@ -3486,9 +3019,7 @@
     "name": "M/Y Iron Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Iron Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3507,9 +3038,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Long Dory 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "Capt. Dana Bexley"
@@ -3521,9 +3050,7 @@
     "name": "M/Y Long Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Long Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3532,9 +3059,7 @@
     "name": "M/Y Northern Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Northern Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3553,9 +3078,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Northern Cove 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Avery Quill"
@@ -3565,9 +3088,7 @@
     "name": "M/Y Quiet Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Quiet Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3576,9 +3097,7 @@
     "name": "M/Y Salt Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Salt Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3597,9 +3116,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Salt Dory 85'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0141",
       "Cell: 555-0184"
@@ -3622,9 +3139,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Salt Gannet 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Cameron Ingram"
@@ -3634,9 +3149,7 @@
     "name": "M/Y Salt Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Salt Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3645,9 +3158,7 @@
     "name": "M/Y Salt Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Salt Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3656,9 +3167,7 @@
     "name": "M/Y Silver Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Silver Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3667,9 +3176,7 @@
     "name": "M/Y Silver Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Silver Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3688,9 +3195,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Swift Anchor 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Dana Jarvis"
@@ -3710,9 +3215,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Swift Dory 85'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Sage Danforth"
@@ -3722,9 +3225,7 @@
     "name": "M/Y Swift Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Swift Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3743,9 +3244,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Swift Kestrel 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Open Water Sailing School"
@@ -3765,9 +3264,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Swift Petrel 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "Elliot Norwood"
@@ -3779,9 +3276,7 @@
     "name": "M/Y Swift Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Swift Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3790,9 +3285,7 @@
     "name": "M/Y Western Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Western Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3811,9 +3304,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Western Current 85'"
-    ],
+    "aliases": [],
     "contacts": [
       "sage.danforth@example.com",
       "Cell: 555-0144",
@@ -3849,9 +3340,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Western Strand 52'"
-    ],
+    "aliases": [],
     "contacts": [
       "alex.ashford@example.com",
       "Cell: 555-0178",
@@ -3872,9 +3361,7 @@
     "name": "M/Y Wild Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Wild Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3883,9 +3370,7 @@
     "name": "M/Y Wild Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Wild Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3904,9 +3389,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Wild Meridian 72'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Taylor Dunmore"
@@ -3916,9 +3399,7 @@
     "name": "M/Y Wild Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Wild Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3937,9 +3418,7 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Wild Skua 40'"
-    ],
+    "aliases": [],
     "contacts": [
       "marley.vance@example.com",
       "Cell: 555-0192"
@@ -3961,21 +3440,17 @@
         }
       }
     ],
-    "aliases": [
-      "M/Y Wild Tern 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Bayline Charters"
   },
   {
     "id": "vessel-m-y-wild-voyager",
-    "name": "M/Y WILD VOYAGER",
+    "name": "M/Y Wild Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y WILD VOYAGER"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3984,9 +3459,7 @@
     "name": "M/Y Wild Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "M/Y Wild Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -3995,20 +3468,16 @@
     "name": "OSV Amber Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Amber Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-osv-amber-reef",
-    "name": "OSV AMBER REEF",
+    "name": "OSV Amber Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV AMBER REEF"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4017,9 +3486,7 @@
     "name": "OSV Blue Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Blue Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4038,9 +3505,7 @@
         }
       }
     ],
-    "aliases": [
-      "OSV Blue Harbor 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Harbor Institute"
@@ -4050,9 +3515,7 @@
     "name": "OSV Blue Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Blue Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4071,9 +3534,7 @@
         }
       }
     ],
-    "aliases": [
-      "OSV Blue Sound 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Reese Hollis"
@@ -4083,9 +3544,7 @@
     "name": "OSV Bright Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Bright Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4094,9 +3553,7 @@
     "name": "OSV Clear Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Clear Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4105,9 +3562,7 @@
     "name": "OSV Clear Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Clear Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4126,9 +3581,7 @@
         }
       }
     ],
-    "aliases": [
-      "OSV Clear Reef 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0148",
       "blake.danforth@example.com"
@@ -4138,12 +3591,10 @@
   },
   {
     "id": "vessel-osv-deep-harbor",
-    "name": "OSV DEEP HARBOR",
+    "name": "OSV Deep Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV DEEP HARBOR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4152,9 +3603,7 @@
     "name": "OSV Far Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Far Tide"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4163,9 +3612,7 @@
     "name": "OSV Far Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Far Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4174,9 +3621,7 @@
     "name": "OSV Golden Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Golden Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4185,9 +3630,7 @@
     "name": "OSV Green Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Green Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4196,9 +3639,7 @@
     "name": "OSV Green Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Green Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4207,9 +3648,7 @@
     "name": "OSV Green Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Green Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4218,9 +3657,7 @@
     "name": "OSV Grey Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Grey Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4229,9 +3666,7 @@
     "name": "OSV High Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV High Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4240,9 +3675,7 @@
     "name": "OSV High Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV High Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4251,20 +3684,16 @@
     "name": "OSV Iron Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Iron Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-osv-long-harbor",
-    "name": "OSV LONG HARBOR",
+    "name": "OSV Long Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV LONG HARBOR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4283,9 +3712,7 @@
         }
       }
     ],
-    "aliases": [
-      "OSV Long Reef 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0117"
     ],
@@ -4297,9 +3724,7 @@
     "name": "OSV Quiet Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Quiet Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4318,9 +3743,7 @@
         }
       }
     ],
-    "aliases": [
-      "OSV Salt Lantern 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "State Marine Academy"
@@ -4330,9 +3753,7 @@
     "name": "OSV Salt Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Salt Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4341,9 +3762,7 @@
     "name": "OSV Salt Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Salt Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4352,9 +3771,7 @@
     "name": "OSV Silver Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Silver Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4373,9 +3790,7 @@
         }
       }
     ],
-    "aliases": [
-      "OSV Silver Harbor 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "elliot.garland@example.com",
       "Cell: 555-0161"
@@ -4385,12 +3800,10 @@
   },
   {
     "id": "vessel-osv-silver-tide",
-    "name": "OSV SILVER TIDE",
+    "name": "OSV Silver Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV SILVER TIDE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4399,9 +3812,7 @@
     "name": "OSV Western Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Western Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4410,9 +3821,7 @@
     "name": "OSV Western Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Western Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4421,9 +3830,7 @@
     "name": "OSV Wild Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Wild Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4432,9 +3839,7 @@
     "name": "OSV Wild Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "OSV Wild Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4443,9 +3848,7 @@
     "name": "R/V Amber Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Amber Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4454,9 +3857,7 @@
     "name": "R/V Amber Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Amber Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4475,9 +3876,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Amber Drift 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Harbor Institute"
@@ -4497,9 +3896,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Amber Ledge 72'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "https://www.example.org/vessel"
@@ -4519,9 +3916,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Amber Marlin 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0130",
       "marley.abbott@example.com"
@@ -4537,9 +3932,7 @@
     "name": "R/V Amber Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Amber Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4558,9 +3951,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Amber Voyager 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Confirmed by marine ops"
@@ -4580,9 +3971,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Amber Wind 32'"
-    ],
+    "aliases": [],
     "contacts": [
       "dana.lowell@example.com",
       "Cell: 555-0167",
@@ -4598,20 +3987,16 @@
     "name": "R/V Blue Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-blue-cove",
-    "name": "R/V BLUE COVE",
+    "name": "R/V Blue Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V BLUE COVE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4630,9 +4015,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Blue Drift 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "State Marine Academy"
@@ -4644,9 +4027,7 @@
     "name": "R/V Blue Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Heron"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4655,9 +4036,7 @@
     "name": "R/V Blue Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4666,9 +4045,7 @@
     "name": "R/V Blue Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4677,9 +4054,7 @@
     "name": "R/V Blue Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4688,9 +4063,7 @@
     "name": "R/V Blue Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4699,9 +4072,7 @@
     "name": "R/V Blue Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4710,9 +4081,7 @@
     "name": "R/V Blue Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4721,9 +4090,7 @@
     "name": "R/V Blue Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Blue Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4732,9 +4099,7 @@
     "name": "R/V Bright Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Bright Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4753,9 +4118,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Bright Dory 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Harbor Institute"
@@ -4775,9 +4138,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Bright Fathom 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "kai.fenwick@example.com",
       "Cell: 555-0167"
@@ -4791,12 +4152,10 @@
   },
   {
     "id": "vessel-r-v-bright-harbor",
-    "name": "R/V BRIGHT HARBOR",
+    "name": "R/V Bright Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V BRIGHT HARBOR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4815,9 +4174,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Bright Meridian 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0144",
       "lee.marsh@example.com",
@@ -4831,9 +4188,7 @@
     "name": "R/V Bright Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Bright Strand"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4842,20 +4197,16 @@
     "name": "R/V Clear Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Clear Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-clear-fathom",
-    "name": "R/V CLEAR FATHOM",
+    "name": "R/V Clear Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V CLEAR FATHOM"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4864,20 +4215,16 @@
     "name": "R/V Clear Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Clear Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-clear-star",
-    "name": "R/V CLEAR STAR",
+    "name": "R/V Clear Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V CLEAR STAR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4896,9 +4243,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Clear Strand 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "lee.oakes@example.com"
     ],
@@ -4922,9 +4267,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Clear Tern 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "avery.marsh@example.com"
     ],
@@ -4946,9 +4289,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Coral Anchor 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Alex Thorne"
@@ -4958,9 +4299,7 @@
     "name": "R/V Coral Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Coral Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4969,9 +4308,7 @@
     "name": "R/V Coral Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Coral Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -4990,9 +4327,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Coral Meridian 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "State Marine Academy"
@@ -5002,9 +4337,7 @@
     "name": "R/V Coral Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Coral Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5013,20 +4346,16 @@
     "name": "R/V Coral Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Coral Strand"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-coral-tern",
-    "name": "R/V CORAL TERN",
+    "name": "R/V Coral Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V CORAL TERN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5045,9 +4374,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Coral Voyager 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Open Water Sailing School"
@@ -5067,9 +4394,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Deep Heron 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Casey Hollis"
@@ -5079,9 +4404,7 @@
     "name": "R/V Deep Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Deep Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5100,21 +4423,17 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Deep Ketch 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Gulf Coast University"
   },
   {
     "id": "vessel-r-v-deep-osprey",
-    "name": "R/V DEEP OSPREY",
+    "name": "R/V Deep Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V DEEP OSPREY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5123,9 +4442,7 @@
     "name": "R/V Deep Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Deep Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5144,9 +4461,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Deep Strand 65'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5165,9 +4480,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Deep Voyager 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Quinn Sterling"
@@ -5177,9 +4490,7 @@
     "name": "R/V Far Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Far Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5188,31 +4499,25 @@
     "name": "R/V Far Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Far Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-far-star",
-    "name": "R/V FAR STAR",
+    "name": "R/V Far Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V FAR STAR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-golden-compass",
-    "name": "R/V GOLDEN COMPASS",
+    "name": "R/V Golden Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V GOLDEN COMPASS"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5221,9 +4526,7 @@
     "name": "R/V Golden Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Golden Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5232,42 +4535,34 @@
     "name": "R/V Golden Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Golden Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-golden-marlin",
-    "name": "R/V GOLDEN MARLIN",
+    "name": "R/V Golden Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V GOLDEN MARLIN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-golden-voyager",
-    "name": "R/V GOLDEN VOYAGER",
+    "name": "R/V Golden Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V GOLDEN VOYAGER"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-green-harbor",
-    "name": "R/V GREEN HARBOR",
+    "name": "R/V Green Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V GREEN HARBOR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5276,9 +4571,7 @@
     "name": "R/V Green Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Green Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5297,9 +4590,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Green Meridian 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Taylor Danforth"
@@ -5309,9 +4600,7 @@
     "name": "R/V Green Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Green Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5320,20 +4609,16 @@
     "name": "R/V Green Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Green Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-green-strand",
-    "name": "R/V GREEN STRAND",
+    "name": "R/V Green Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V GREEN STRAND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5342,9 +4627,7 @@
     "name": "R/V Green Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Green Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5353,9 +4636,7 @@
     "name": "R/V Green Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Green Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5364,9 +4645,7 @@
     "name": "R/V Grey Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Grey Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5385,9 +4664,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Grey Current 65'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Avery Dunmore"
@@ -5397,9 +4674,7 @@
     "name": "R/V Grey Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Grey Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5408,9 +4683,7 @@
     "name": "R/V Grey Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Grey Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5419,9 +4692,7 @@
     "name": "R/V Grey Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Grey Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5440,20 +4711,16 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Grey Reef 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-grey-sextant",
-    "name": "R/V GREY SEXTANT",
+    "name": "R/V Grey Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V GREY SEXTANT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5472,9 +4739,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Grey Tide 65'"
-    ],
+    "aliases": [],
     "contacts": [
       "alex.thorne@example.com"
     ],
@@ -5486,9 +4751,7 @@
     "name": "R/V Grey Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Grey Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5497,9 +4760,7 @@
     "name": "R/V High Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V High Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5518,9 +4779,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V High Dory 100'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0170"
     ],
@@ -5544,9 +4803,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V High Drift 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0103",
       "Cell: 555-0155",
@@ -5568,9 +4825,7 @@
     "name": "R/V High Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V High Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5598,10 +4853,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V High Reef 32'",
-      "R/V High Reef 72'"
-    ],
+    "aliases": [],
     "contacts": [
       "morgan.bramble@example.com",
       "Cell: 555-0116",
@@ -5640,9 +4892,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V High Sound 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5651,9 +4901,7 @@
     "name": "R/V Iron Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Iron Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5662,9 +4910,7 @@
     "name": "R/V Iron Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Iron Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5683,9 +4929,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Iron Current 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "https://www.example.org/vessel",
@@ -5695,23 +4939,19 @@
   },
   {
     "id": "vessel-r-v-iron-dory",
-    "name": "R/V IRON DORY",
+    "name": "R/V Iron Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V IRON DORY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-iron-drift",
-    "name": "R/V IRON DRIFT",
+    "name": "R/V Iron Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V IRON DRIFT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5720,9 +4960,7 @@
     "name": "R/V Iron Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Iron Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5741,9 +4979,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Iron Ketch 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "harper.fairweather@example.com",
       "Cell: 555-0192"
@@ -5756,9 +4992,7 @@
     "name": "R/V Iron Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Iron Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5767,20 +5001,16 @@
     "name": "R/V Iron Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Iron Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-iron-reef",
-    "name": "R/V IRON REEF",
+    "name": "R/V Iron Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V IRON REEF"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5799,9 +5029,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Iron Skua 72'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0124",
       "drew.ashford@example.com",
@@ -5812,12 +5040,10 @@
   },
   {
     "id": "vessel-r-v-iron-strand",
-    "name": "R/V IRON STRAND",
+    "name": "R/V Iron Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V IRON STRAND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5836,9 +5062,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Iron Wind 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0115",
       "hayden.everly@example.com"
@@ -5850,9 +5074,7 @@
     "name": "R/V Long Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Long Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5861,9 +5083,7 @@
     "name": "R/V Long Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Long Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5882,9 +5102,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Long Current 65'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Cameron Vance"
@@ -5894,9 +5112,7 @@
     "name": "R/V Long Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Long Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5915,9 +5131,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Long Heron 85'"
-    ],
+    "aliases": [],
     "contacts": [
       "dana.sterling@example.com",
       "hayden.sterling@example.com"
@@ -5930,9 +5144,7 @@
     "name": "R/V Long Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Long Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5941,9 +5153,7 @@
     "name": "R/V Long Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Long Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5952,20 +5162,16 @@
     "name": "R/V Long Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Long Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-long-star",
-    "name": "R/V LONG STAR",
+    "name": "R/V Long Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V LONG STAR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5984,9 +5190,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Long Voyager 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -5995,9 +5199,7 @@
     "name": "R/V Northern Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Northern Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6006,9 +5208,7 @@
     "name": "R/V Northern Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Northern Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6017,20 +5217,16 @@
     "name": "R/V Northern Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Northern Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-northern-meridian",
-    "name": "R/V NORTHERN MERIDIAN",
+    "name": "R/V Northern Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V NORTHERN MERIDIAN"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6039,9 +5235,7 @@
     "name": "R/V Northern Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Northern Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6060,9 +5254,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Northern Sextant 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Contact captain on arrival"
@@ -6082,9 +5274,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Northern Skua 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6103,9 +5293,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Northern Sound 46'"
-    ],
+    "aliases": [],
     "contacts": [
       "blake.garland@example.com"
     ],
@@ -6118,20 +5306,16 @@
     "name": "R/V Northern Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Northern Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-northern-wind",
-    "name": "R/V NORTHERN WIND",
+    "name": "R/V Northern Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V NORTHERN WIND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6140,9 +5324,7 @@
     "name": "R/V Quiet Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6151,9 +5333,7 @@
     "name": "R/V Quiet Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6162,9 +5342,7 @@
     "name": "R/V Quiet Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6173,9 +5351,7 @@
     "name": "R/V Quiet Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6184,9 +5360,7 @@
     "name": "R/V Quiet Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Heron"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6195,9 +5369,7 @@
     "name": "R/V Quiet Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6206,9 +5378,7 @@
     "name": "R/V Quiet Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6217,9 +5387,7 @@
     "name": "R/V Quiet Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6228,9 +5396,7 @@
     "name": "R/V Quiet Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6239,9 +5405,7 @@
     "name": "R/V Quiet Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6250,9 +5414,7 @@
     "name": "R/V Quiet Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Strand"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6261,9 +5423,7 @@
     "name": "R/V Quiet Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Quiet Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6272,9 +5432,7 @@
     "name": "R/V Salt Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Salt Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6293,9 +5451,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Salt Drift 85'"
-    ],
+    "aliases": [],
     "contacts": [
       "marley.vance@example.com"
     ],
@@ -6303,12 +5459,10 @@
   },
   {
     "id": "vessel-r-v-salt-heron",
-    "name": "R/V SALT HERON",
+    "name": "R/V Salt Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V SALT HERON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6317,9 +5471,7 @@
     "name": "R/V Salt Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Salt Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6338,9 +5490,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Salt Skua 52'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0133",
       "Cell: 555-0132"
@@ -6365,9 +5515,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Silver Anchor 170'"
-    ],
+    "aliases": [],
     "contacts": [
       "parker.sterling@example.com"
     ],
@@ -6379,9 +5527,7 @@
     "name": "R/V Silver Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Silver Heron"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6390,9 +5536,7 @@
     "name": "R/V Silver Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Silver Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6401,9 +5545,7 @@
     "name": "R/V Silver Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Silver Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6412,9 +5554,7 @@
     "name": "R/V Swift Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Swift Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6423,9 +5563,7 @@
     "name": "R/V Swift Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Swift Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6444,9 +5582,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Swift Heron 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "State Marine Academy"
@@ -6456,9 +5592,7 @@
     "name": "R/V Swift Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Swift Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6467,9 +5601,7 @@
     "name": "R/V Swift Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Swift Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6488,9 +5620,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Swift Reef 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Marley Whitlock"
@@ -6500,9 +5630,7 @@
     "name": "R/V Swift Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Swift Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6511,20 +5639,16 @@
     "name": "R/V Swift Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Swift Star"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-western-drift",
-    "name": "R/V WESTERN DRIFT",
+    "name": "R/V Western Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V WESTERN DRIFT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6543,9 +5667,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Western Fathom 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Cameron Quill"
@@ -6565,9 +5687,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Western Ledge 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6576,9 +5696,7 @@
     "name": "R/V Western Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Western Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6587,9 +5705,7 @@
     "name": "R/V Western Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Western Tide"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6598,9 +5714,7 @@
     "name": "R/V Wild Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Wild Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6609,9 +5723,7 @@
     "name": "R/V Wild Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Wild Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6620,9 +5732,7 @@
     "name": "R/V Wild Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Wild Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6641,9 +5751,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Wild Heron 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0121"
     ],
@@ -6658,9 +5766,7 @@
     "name": "R/V Wild Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Wild Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6679,9 +5785,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Wild Ledge 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0179"
     ],
@@ -6703,9 +5807,7 @@
         }
       }
     ],
-    "aliases": [
-      "R/V Wild Marlin 32'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0144"
     ],
@@ -6717,31 +5819,25 @@
     "name": "R/V Wild Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V Wild Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-r-v-wild-tide",
-    "name": "R/V WILD TIDE",
+    "name": "R/V Wild Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "R/V WILD TIDE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-amber-fathom",
-    "name": "S/V AMBER FATHOM",
+    "name": "S/V Amber Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V AMBER FATHOM"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6750,9 +5846,7 @@
     "name": "S/V Amber Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Amber Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6771,9 +5865,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Amber Star 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6792,9 +5884,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Amber Tide 46'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Jordan Fenwick"
@@ -6804,9 +5894,7 @@
     "name": "S/V Blue Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Blue Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6825,9 +5913,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Bright Drift 32'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Sage Garland"
@@ -6837,9 +5923,7 @@
     "name": "S/V Bright Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Bright Sextant"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6858,9 +5942,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Bright Wind 72'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Regional Fisheries Agency"
@@ -6880,9 +5962,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Clear Heron 85'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Taylor Calloway"
@@ -6902,9 +5982,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Clear Horizon 85'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [
       "Capt. Emerson Fenwick"
@@ -6916,31 +5994,25 @@
     "name": "S/V Clear Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Clear Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-coral-compass",
-    "name": "S/V CORAL COMPASS",
+    "name": "S/V Coral Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V CORAL COMPASS"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-coral-cove",
-    "name": "S/V CORAL COVE",
+    "name": "S/V Coral Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V CORAL COVE"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6949,9 +6021,7 @@
     "name": "S/V Deep Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Deep Dory"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6960,9 +6030,7 @@
     "name": "S/V Deep Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Deep Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6971,9 +6039,7 @@
     "name": "S/V Deep Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Deep Tide"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -6982,42 +6048,34 @@
     "name": "S/V Deep Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Deep Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-far-dory",
-    "name": "S/V FAR DORY",
+    "name": "S/V Far Dory",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V FAR DORY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-far-gannet",
-    "name": "S/V FAR GANNET",
+    "name": "S/V Far Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V FAR GANNET"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-far-horizon",
-    "name": "S/V FAR HORIZON",
+    "name": "S/V Far Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V FAR HORIZON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7036,9 +6094,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Far Osprey 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Alex Lowell"
@@ -7048,9 +6104,7 @@
     "name": "S/V Far Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Far Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7059,9 +6113,7 @@
     "name": "S/V Golden Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Golden Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7070,9 +6122,7 @@
     "name": "S/V Golden Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Golden Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7081,20 +6131,16 @@
     "name": "S/V Golden Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Golden Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-golden-fathom",
-    "name": "S/V GOLDEN FATHOM",
+    "name": "S/V Golden Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V GOLDEN FATHOM"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7103,9 +6149,7 @@
     "name": "S/V Golden Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Golden Heron"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7114,9 +6158,7 @@
     "name": "S/V Golden Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Golden Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7135,9 +6177,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Golden Star 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Parker Danforth"
@@ -7157,32 +6197,26 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Golden Tide 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Jamie Dunmore"
   },
   {
     "id": "vessel-s-v-green-compass",
-    "name": "S/V GREEN COMPASS",
+    "name": "S/V Green Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V GREEN COMPASS"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-green-osprey",
-    "name": "S/V GREEN OSPREY",
+    "name": "S/V Green Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V GREEN OSPREY"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7191,9 +6225,7 @@
     "name": "S/V Green Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Green Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7202,9 +6234,7 @@
     "name": "S/V Grey Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Grey Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7213,9 +6243,7 @@
     "name": "S/V Grey Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Grey Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7224,20 +6252,16 @@
     "name": "S/V Grey Skua",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Grey Skua"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-high-heron",
-    "name": "S/V HIGH HERON",
+    "name": "S/V High Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V HIGH HERON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7246,9 +6270,7 @@
     "name": "S/V High Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V High Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7257,9 +6279,7 @@
     "name": "S/V High Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V High Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7268,9 +6288,7 @@
     "name": "S/V High Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V High Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7289,9 +6307,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V High Tide 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Estuary Foundation"
@@ -7301,20 +6317,16 @@
     "name": "S/V Iron Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Iron Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-iron-petrel",
-    "name": "S/V IRON PETREL",
+    "name": "S/V Iron Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V IRON PETREL"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7323,20 +6335,16 @@
     "name": "S/V Long Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Long Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-long-sextant",
-    "name": "S/V LONG SEXTANT",
+    "name": "S/V Long Sextant",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V LONG SEXTANT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7345,9 +6353,7 @@
     "name": "S/V Northern Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Northern Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7366,9 +6372,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Northern Harbor 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Dana Norwood"
@@ -7388,9 +6392,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Northern Meridian 85'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Emerson Pembroke"
@@ -7400,9 +6402,7 @@
     "name": "S/V Quiet Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Quiet Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7411,9 +6411,7 @@
     "name": "S/V Quiet Drift",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Quiet Drift"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7432,9 +6430,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Quiet Fathom 40'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Elliot Fairweather"
@@ -7454,9 +6450,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Quiet Sound 24'"
-    ],
+    "aliases": [],
     "contacts": [
       "jamie.marsh@example.com",
       "Cell: 555-0164"
@@ -7481,9 +6475,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Quiet Tide 52'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Coastal Survey Partners"
@@ -7493,9 +6485,7 @@
     "name": "S/V Salt Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Salt Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7504,9 +6494,7 @@
     "name": "S/V Salt Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Salt Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7515,9 +6503,7 @@
     "name": "S/V Silver Cove",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Silver Cove"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7526,9 +6512,7 @@
     "name": "S/V Silver Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Silver Current"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7537,31 +6521,25 @@
     "name": "S/V Silver Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Silver Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-silver-wind",
-    "name": "S/V SILVER WIND",
+    "name": "S/V Silver Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V SILVER WIND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-s-v-swift-beacon",
-    "name": "S/V SWIFT BEACON",
+    "name": "S/V Swift Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V SWIFT BEACON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7570,9 +6548,7 @@
     "name": "S/V Swift Marlin",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Swift Marlin"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7581,9 +6557,7 @@
     "name": "S/V Swift Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Swift Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7592,9 +6566,7 @@
     "name": "S/V Swift Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Swift Tide"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7603,9 +6575,7 @@
     "name": "S/V Swift Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Swift Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7614,9 +6584,7 @@
     "name": "S/V Western Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Western Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7635,9 +6603,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Western Cove 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Riley Lowell"
@@ -7647,9 +6613,7 @@
     "name": "S/V Western Wind",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Western Wind"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7668,9 +6632,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Wild Cove 120'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Parker Fenwick"
@@ -7690,9 +6652,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Wild Drift 24'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0101",
       "Cell: 555-0195",
@@ -7726,9 +6686,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Wild Harbor 65'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7737,9 +6695,7 @@
     "name": "S/V Wild Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/V Wild Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7758,9 +6714,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/V Wild Reef 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7779,9 +6733,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/Y Clear Beacon 170'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0157",
       "Cell: 555-0197"
@@ -7804,9 +6756,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/Y Clear Sextant 145'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Taylor Thorne"
@@ -7826,9 +6776,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/Y Deep Cove 145'"
-    ],
+    "aliases": [],
     "contacts": [
       "jesse.yardley@example.com",
       "Cell: 555-0109",
@@ -7846,9 +6794,7 @@
     "name": "S/Y Far Harbor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/Y Far Harbor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7857,9 +6803,7 @@
     "name": "S/Y High Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/Y High Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7878,9 +6822,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/Y High Gannet 100'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Jamie Everly"
@@ -7900,9 +6842,7 @@
         }
       }
     ],
-    "aliases": [
-      "S/Y Long Gannet 24'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Bayline Charters"
@@ -7912,9 +6852,7 @@
     "name": "S/Y Silver Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/Y Silver Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7923,9 +6861,7 @@
     "name": "S/Y Wild Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "S/Y Wild Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7934,9 +6870,7 @@
     "name": "Tug Amber Horizon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Amber Horizon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7945,9 +6879,7 @@
     "name": "Tug Amber Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Amber Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7956,9 +6888,7 @@
     "name": "Tug Amber Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Amber Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7967,9 +6897,7 @@
     "name": "Tug Amber Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Amber Strand"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7978,9 +6906,7 @@
     "name": "Tug Blue Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Blue Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -7989,9 +6915,7 @@
     "name": "Tug Bright Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Bright Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8000,20 +6924,16 @@
     "name": "Tug Bright Petrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Bright Petrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-tug-coral-heron",
-    "name": "Tug CORAL HERON",
+    "name": "Tug Coral Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug CORAL HERON"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8022,9 +6942,7 @@
     "name": "Tug Coral Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Coral Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8043,9 +6961,7 @@
         }
       }
     ],
-    "aliases": [
-      "Tug Deep Wind 120'"
-    ],
+    "aliases": [],
     "contacts": [
       "rowan.underhill@example.com",
       "Cell: 555-0130"
@@ -8058,9 +6974,7 @@
     "name": "Tug Far Compass",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Far Compass"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8069,9 +6983,7 @@
     "name": "Tug Far Ketch",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Far Ketch"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8080,9 +6992,7 @@
     "name": "Tug Far Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Far Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8091,9 +7001,7 @@
     "name": "Tug Far Meridian",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Far Meridian"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8102,20 +7010,16 @@
     "name": "Tug Far Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Far Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-tug-far-strand",
-    "name": "Tug FAR STRAND",
+    "name": "Tug Far Strand",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug FAR STRAND"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8124,9 +7028,7 @@
     "name": "Tug Golden Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Golden Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8135,9 +7037,7 @@
     "name": "Tug Green Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Green Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8146,9 +7046,7 @@
     "name": "Tug Green Sound",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Green Sound"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8157,9 +7055,7 @@
     "name": "Tug Grey Voyager",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Grey Voyager"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8168,9 +7064,7 @@
     "name": "Tug Iron Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Iron Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8189,9 +7083,7 @@
         }
       }
     ],
-    "aliases": [
-      "Tug Long Anchor 170'"
-    ],
+    "aliases": [],
     "contacts": [
       "Cell: 555-0153"
     ],
@@ -8203,9 +7095,7 @@
     "name": "Tug Long Kestrel",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Long Kestrel"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8214,9 +7104,7 @@
     "name": "Tug Long Osprey",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Long Osprey"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8225,9 +7113,7 @@
     "name": "Tug Long Reef",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Long Reef"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8246,9 +7132,7 @@
         }
       }
     ],
-    "aliases": [
-      "Tug Long Skua 170'"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": [],
     "operator": "Capt. Blake Fenwick"
@@ -8258,20 +7142,16 @@
     "name": "Tug Northern Beacon",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Northern Beacon"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-tug-salt-star",
-    "name": "Tug SALT STAR",
+    "name": "Tug Salt Star",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug SALT STAR"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8290,9 +7170,7 @@
         }
       }
     ],
-    "aliases": [
-      "Tug Salt Strand 85'"
-    ],
+    "aliases": [],
     "contacts": [
       "sage.ingram@example.com",
       "blake.abbott@example.com",
@@ -8306,9 +7184,7 @@
     "name": "Tug Salt Tide",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Salt Tide"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8317,9 +7193,7 @@
     "name": "Tug Silver Fathom",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Silver Fathom"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8328,9 +7202,7 @@
     "name": "Tug Silver Tern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Silver Tern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8339,9 +7211,7 @@
     "name": "Tug Swift Anchor",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Swift Anchor"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8350,20 +7220,16 @@
     "name": "Tug Swift Ledge",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Swift Ledge"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
   {
     "id": "vessel-tug-western-current",
-    "name": "Tug WESTERN CURRENT",
+    "name": "Tug Western Current",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug WESTERN CURRENT"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8372,9 +7238,7 @@
     "name": "Tug Western Heron",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Western Heron"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8383,9 +7247,7 @@
     "name": "Tug Western Lantern",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Western Lantern"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   },
@@ -8394,9 +7256,7 @@
     "name": "Tug Wild Gannet",
     "lengthFt": null,
     "lengthSources": [],
-    "aliases": [
-      "Tug Wild Gannet"
-    ],
+    "aliases": [],
     "contacts": [],
     "notes": []
   }

@@ -43,6 +43,7 @@ import { useReservations } from "./context/ReservationProvider";
 import { daysInclusive } from "./lib/dates";
 import { findConflicts, findVesselConflicts, recommendBerths, vesselFitsBerth } from "./lib/scheduling";
 import { newestReservationFirst } from "./lib/sorting";
+import { normalizeVessel } from "./lib/vessels";
 import type { Berth, Reservation, ReservationType, Vessel } from "./types";
 
 type Page = "overview" | "schedule" | "reservations" | "resources" | "checks";
@@ -411,7 +412,7 @@ function VesselEditorDrawer({ vessel, onClose }: { vessel: Vessel; onClose: () =
     });
     performClose();
   };
-  return <><div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer resource-editor" aria-label="Edit vessel"><div className="drawer-header"><div><span className="type-pill">Vessel</span><h2>Edit vessel</h2></div><button type="button" className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit} className="drawer-form"><div className="drawer-body"><label>Name<input value={name} onChange={(event) => { setName(event.target.value); setError(""); }} /></label><div className="form-row"><label>Length overall (ft)<input type="number" min="1" step="0.1" value={length} onChange={(event) => { setLength(event.target.value); setError(""); }} placeholder="Not recorded" /></label><label>Operator<input value={operator} onChange={(event) => setOperator(event.target.value)} placeholder="Not recorded" /></label></div><label>Aliases <small>Separate with commas</small><textarea value={aliases} onChange={(event) => setAliases(event.target.value)} rows={3} /></label><label>Contacts <small>One per line</small><textarea value={contacts} onChange={(event) => setContacts(event.target.value)} rows={4} /></label><label>Notes <small>One per line</small><textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} /></label>{error && <div className="form-error"><AlertTriangle size={16} />{error}</div>}</div><div className="drawer-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button type="submit" className="primary-button">Save vessel</button></div></form></aside></div>{confirmLeave && <ConfirmationDialog title="Discard unsaved changes?" message="Your changes to this vessel have not been saved." confirmLabel="Discard changes" danger onCancel={() => setConfirmLeave(false)} onConfirm={() => { setConfirmLeave(false); performClose(); }} />}</>;
+  return <><div className={`overlay ${closing ? "closing" : ""}`} onMouseDown={(event) => event.target === event.currentTarget && requestClose()}><aside className="drawer resource-editor" aria-label="Edit vessel"><div className="drawer-header"><div><span className="type-pill">Vessel</span><h2>Edit vessel</h2></div><button type="button" className="icon-button" onClick={requestClose} aria-label="Close"><X /></button></div><form onSubmit={submit} className="drawer-form"><div className="drawer-body"><label>Name<input value={name} onChange={(event) => { setName(event.target.value); setError(""); }} /></label><div className="form-row"><label>Length overall (ft)<input type="number" min="1" step="0.1" value={length} onChange={(event) => { setLength(event.target.value); setError(""); }} placeholder="Not recorded" /></label><label>Operator<input value={operator} onChange={(event) => setOperator(event.target.value)} placeholder="Not recorded" /></label></div><label>Aliases <small>Different names only, separated with commas</small><textarea value={aliases} onChange={(event) => setAliases(event.target.value)} rows={3} /></label><label>Contacts <small>One per line</small><textarea value={contacts} onChange={(event) => setContacts(event.target.value)} rows={4} /></label><label>Notes <small>One per line</small><textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} /></label>{error && <div className="form-error"><AlertTriangle size={16} />{error}</div>}</div><div className="drawer-actions"><button type="button" className="secondary-button" onClick={requestClose}>Cancel</button><button type="submit" className="primary-button">Save vessel</button></div></form></aside></div>{confirmLeave && <ConfirmationDialog title="Discard unsaved changes?" message="Your changes to this vessel have not been saved." confirmLabel="Discard changes" danger onCancel={() => setConfirmLeave(false)} onConfirm={() => { setConfirmLeave(false); performClose(); }} />}</>;
 }
 
 function BerthEditorDrawer({ berth, onClose }: { berth: Berth; onClose: () => void }) {
@@ -676,16 +677,16 @@ function ReservationDialog({ reservation, onClose }: { reservation?: Reservation
     const lengthFt = Number(newVesselLength);
     if (!newVesselName.trim()) return setNewVesselError("Enter the vessel name.");
     if (!Number.isFinite(lengthFt) || lengthFt <= 0) return setNewVesselError("Enter a valid vessel length.");
-    const created: Vessel = {
+    const created = normalizeVessel({
       id: `custom-vessel-${crypto.randomUUID()}`,
       name: newVesselName.trim(),
       lengthFt,
       lengthSources: [{ valueFt: lengthFt, source: "manual" }],
-      aliases: [newVesselName.trim()],
+      aliases: [],
       operator: newVesselOperator.trim() || undefined,
       contacts: [],
       notes: [],
-    };
+    });
     addVessel(created);
     chooseVessel(created);
   };
