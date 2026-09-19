@@ -1,0 +1,8403 @@
+[
+  {
+    "id": "vessel-barge-blue-current",
+    "name": "Barge Blue Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Blue Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-blue-horizon",
+    "name": "Barge BLUE HORIZON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge BLUE HORIZON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-blue-petrel",
+    "name": "Barge Blue Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Blue Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-blue-sextant",
+    "name": "Barge Blue Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Blue Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-blue-wind",
+    "name": "Barge Blue Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Blue Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-bright-osprey",
+    "name": "Barge Bright Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Bright Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-bright-star",
+    "name": "Barge BRIGHT STAR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge BRIGHT STAR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-clear-ledge",
+    "name": "Barge Clear Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Clear Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-coral-skua",
+    "name": "Barge Coral Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Coral Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-coral-tide",
+    "name": "Barge CORAL TIDE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge CORAL TIDE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-deep-lantern",
+    "name": "Barge DEEP LANTERN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge DEEP LANTERN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-deep-tern",
+    "name": "Barge Deep Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Deep Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-far-cove",
+    "name": "Barge Far Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Far Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-golden-star",
+    "name": "Barge Golden Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Golden Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-grey-dory",
+    "name": "Barge Grey Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Grey Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-grey-sound",
+    "name": "Barge Grey Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Grey Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-high-osprey",
+    "name": "Barge High Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge High Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-high-voyager",
+    "name": "Barge High Voyager",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A90",
+          "rawValue": "Barge High Voyager 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge High Voyager 100'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-long-ledge",
+    "name": "Barge Long Ledge",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A73",
+          "rawValue": "Barge Long Ledge 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge Long Ledge 40'"
+    ],
+    "contacts": [
+      "quinn.oakes@example.com",
+      "Cell: 555-0104",
+      "Cell: 555-0121",
+      "Cell: 555-0105"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-long-voyager",
+    "name": "Barge Long Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Long Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-northern-anchor",
+    "name": "Barge Northern Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Northern Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-northern-drift",
+    "name": "Barge Northern Drift",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A161",
+          "rawValue": "Barge Northern Drift 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge Northern Drift 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-barge-northern-marlin",
+    "name": "Barge NORTHERN MARLIN",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A136",
+          "rawValue": "Barge NORTHERN MARLIN 24'"
+        }
+      },
+      {
+        "valueFt": 65,
+        "source": "loa-field",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "E136",
+          "rawValue": "LOA: 65', Draft: 8'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge NORTHERN MARLIN 24'"
+    ],
+    "contacts": [
+      "Cell: 555-0142",
+      "Cell: 555-0187"
+    ],
+    "notes": [],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-barge-quiet-horizon",
+    "name": "Barge Quiet Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Quiet Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-quiet-wind",
+    "name": "Barge Quiet Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Quiet Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-salt-dory",
+    "name": "Barge SALT DORY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge SALT DORY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-salt-ledge",
+    "name": "Barge Salt Ledge",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A167",
+          "rawValue": "Barge Salt Ledge 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge Salt Ledge 52'"
+    ],
+    "contacts": [
+      "dana.jarvis@example.com",
+      "Cell: 555-0166"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-salt-reef",
+    "name": "Barge Salt Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Salt Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-silver-beacon",
+    "name": "Barge SILVER BEACON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge SILVER BEACON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-silver-voyager",
+    "name": "Barge Silver Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Silver Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-swift-tern",
+    "name": "Barge Swift Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Swift Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-western-cove",
+    "name": "Barge WESTERN COVE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge WESTERN COVE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-western-dory",
+    "name": "Barge Western Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Western Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-western-tern",
+    "name": "Barge Western Tern",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A99",
+          "rawValue": "Barge Western Tern 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge Western Tern 100'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-wild-horizon",
+    "name": "Barge Wild Horizon",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A152",
+          "rawValue": "Barge Wild Horizon 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "Barge Wild Horizon 52'"
+    ],
+    "contacts": [
+      "Cell: 555-0188"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-wild-osprey",
+    "name": "Barge WILD OSPREY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge WILD OSPREY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-barge-wild-skua",
+    "name": "Barge Wild Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Barge Wild Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-amber-current",
+    "name": "F/V Amber Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Amber Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-amber-sound",
+    "name": "F/V Amber Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Amber Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-bright-compass",
+    "name": "F/V Bright Compass",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A63",
+          "rawValue": "F/V Bright Compass 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Bright Compass 120'"
+    ],
+    "contacts": [
+      "kai.whitlock@example.com",
+      "Cell: 555-0147"
+    ],
+    "notes": [
+      "Capt. Alex Norwood"
+    ],
+    "operator": "Seaway Education Trust"
+  },
+  {
+    "id": "vessel-f-v-bright-heron",
+    "name": "F/V Bright Heron",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A26",
+          "rawValue": "F/V Bright Heron 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Bright Heron 32'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Northwind Offshore"
+  },
+  {
+    "id": "vessel-f-v-bright-horizon",
+    "name": "F/V Bright Horizon",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A30",
+          "rawValue": "F/V Bright Horizon 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Bright Horizon 170'"
+    ],
+    "contacts": [
+      "Cell: 555-0106",
+      "Cell: 555-0123",
+      "Cell: 555-0153",
+      "Cell: 555-0126"
+    ],
+    "notes": [],
+    "operator": "Jesse Dunmore"
+  },
+  {
+    "id": "vessel-f-v-bright-ketch",
+    "name": "F/V Bright Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Bright Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-clear-compass",
+    "name": "F/V Clear Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Clear Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-clear-ketch",
+    "name": "F/V CLEAR KETCH",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V CLEAR KETCH"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-clear-meridian",
+    "name": "F/V Clear Meridian",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A132",
+          "rawValue": "F/V Clear Meridian 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Clear Meridian 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Regional Fisheries Agency"
+  },
+  {
+    "id": "vessel-f-v-clear-voyager",
+    "name": "F/V Clear Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Clear Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-coral-ketch",
+    "name": "F/V Coral Ketch",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A125",
+          "rawValue": "F/V Coral Ketch 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Coral Ketch 120'"
+    ],
+    "contacts": [],
+    "notes": [
+      "https://www.example.org/vessel"
+    ]
+  },
+  {
+    "id": "vessel-f-v-coral-marlin",
+    "name": "F/V Coral Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Coral Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-coral-sextant",
+    "name": "F/V Coral Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Coral Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-deep-cove",
+    "name": "F/V Deep Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Deep Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-far-petrel",
+    "name": "F/V Far Petrel",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A134",
+          "rawValue": "F/V Far Petrel 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Far Petrel 24'"
+    ],
+    "contacts": [
+      "Cell: 555-0149"
+    ],
+    "notes": [
+      "Finley Sterling"
+    ]
+  },
+  {
+    "id": "vessel-f-v-far-sound",
+    "name": "F/V Far Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Far Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-golden-petrel",
+    "name": "F/V Golden Petrel",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A185",
+          "rawValue": "F/V Golden Petrel 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Golden Petrel 145'"
+    ],
+    "contacts": [
+      "Cell: 555-0183",
+      "Cell: 555-0187",
+      "Cell: 555-0131",
+      "harper.thorne@example.com"
+    ],
+    "notes": [
+      "Capt. Avery Oakes",
+      "Capt. Skyler Yardley",
+      "OS/V High Petrel 170'",
+      "Capt. Jesse Whitlock",
+      "Morgan Ingram"
+    ],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-f-v-golden-sextant",
+    "name": "F/V Golden Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Golden Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-green-dory",
+    "name": "F/V Green Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Green Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-green-heron",
+    "name": "F/V Green Heron",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A153",
+          "rawValue": "F/V Green Heron 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Green Heron 32'"
+    ],
+    "contacts": [
+      "Cell: 555-0138"
+    ],
+    "notes": [],
+    "operator": "No overnight crew"
+  },
+  {
+    "id": "vessel-f-v-green-reef",
+    "name": "F/V Green Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Green Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-grey-gannet",
+    "name": "F/V Grey Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Grey Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-grey-meridian",
+    "name": "F/V Grey Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Grey Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-high-skua",
+    "name": "F/V High Skua",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A144",
+          "rawValue": "F/V High Skua 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V High Skua 120'"
+    ],
+    "contacts": [
+      "riley.bexley@example.com",
+      "Cell: 555-0147"
+    ],
+    "notes": [],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-f-v-iron-beacon",
+    "name": "F/V Iron Beacon",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A43",
+          "rawValue": "F/V Iron Beacon 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Iron Beacon 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-f-v-iron-ketch",
+    "name": "F/V Iron Ketch",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A131",
+          "rawValue": "F/V Iron Ketch 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "F/V Iron Ketch 65'"
+    ],
+    "contacts": [
+      "dana.ellery@example.com",
+      "Cell: 555-0121"
+    ],
+    "notes": [
+      "Logan Hollis"
+    ],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-f-v-iron-ledge",
+    "name": "F/V IRON LEDGE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V IRON LEDGE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-iron-sextant",
+    "name": "F/V IRON SEXTANT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V IRON SEXTANT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-iron-tide",
+    "name": "F/V Iron Tide",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Iron Tide"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-iron-wind",
+    "name": "F/V Iron Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Iron Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-long-beacon",
+    "name": "F/V LONG BEACON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V LONG BEACON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-long-drift",
+    "name": "F/V Long Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Long Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-long-heron",
+    "name": "F/V Long Heron",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Long Heron"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-long-strand",
+    "name": "F/V LONG STRAND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V LONG STRAND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-northern-dory",
+    "name": "F/V Northern Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Northern Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-northern-tern",
+    "name": "F/V NORTHERN TERN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V NORTHERN TERN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-northern-voyager",
+    "name": "F/V NORTHERN VOYAGER",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V NORTHERN VOYAGER"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-salt-fathom",
+    "name": "F/V SALT FATHOM",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V SALT FATHOM"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-salt-harbor",
+    "name": "F/V Salt Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Salt Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-salt-ketch",
+    "name": "F/V Salt Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Salt Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-silver-drift",
+    "name": "F/V SILVER DRIFT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V SILVER DRIFT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-silver-lantern",
+    "name": "F/V Silver Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Silver Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-silver-reef",
+    "name": "F/V Silver Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Silver Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-silver-strand",
+    "name": "F/V Silver Strand",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Silver Strand"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-swift-compass",
+    "name": "F/V Swift Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Swift Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-swift-dory",
+    "name": "F/V Swift Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Swift Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-swift-fathom",
+    "name": "F/V Swift Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Swift Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-swift-horizon",
+    "name": "F/V Swift Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Swift Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-swift-meridian",
+    "name": "F/V SWIFT MERIDIAN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V SWIFT MERIDIAN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-western-gannet",
+    "name": "F/V Western Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Western Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-western-meridian",
+    "name": "F/V Western Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Western Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-western-osprey",
+    "name": "F/V Western Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Western Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-f-v-western-sound",
+    "name": "F/V Western Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "F/V Western Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-amber-dory",
+    "name": "M/V Amber Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Amber Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-amber-ketch",
+    "name": "M/V Amber Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Amber Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-amber-meridian",
+    "name": "M/V Amber Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Amber Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-amber-petrel",
+    "name": "M/V Amber Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Amber Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-amber-skua",
+    "name": "M/V Amber Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Amber Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-amber-tern",
+    "name": "M/V Amber Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Amber Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-blue-gannet",
+    "name": "M/V Blue Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Blue Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-blue-lantern",
+    "name": "M/V Blue Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Blue Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-blue-osprey",
+    "name": "M/V Blue Osprey",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A118",
+          "rawValue": "M/V Blue Osprey 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Blue Osprey 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "No overnight crew"
+  },
+  {
+    "id": "vessel-m-v-blue-strand",
+    "name": "M/V Blue Strand",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Blue Strand"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-blue-tern",
+    "name": "M/V Blue Tern",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A103",
+          "rawValue": "M/V Blue Tern 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Blue Tern 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-m-v-bright-beacon",
+    "name": "M/V Bright Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Bright Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-bright-cove",
+    "name": "M/V Bright Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Bright Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-bright-drift",
+    "name": "M/V Bright Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Bright Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-bright-gannet",
+    "name": "M/V BRIGHT GANNET",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V BRIGHT GANNET"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-bright-reef",
+    "name": "M/V Bright Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Bright Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-bright-skua",
+    "name": "M/V Bright Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Bright Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-clear-cove",
+    "name": "M/V Clear Cove",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A225",
+          "rawValue": "M/V Clear Cove 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Clear Cove 46'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-clear-current",
+    "name": "M/V Clear Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Clear Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-clear-petrel",
+    "name": "M/V Clear Petrel",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A242",
+          "rawValue": "M/V Clear Petrel 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Clear Petrel 46'"
+    ],
+    "contacts": [
+      "Cell: 555-0108",
+      "Cell: 555-0147",
+      "marley.norwood@example.com",
+      "Cell: 555-0113"
+    ],
+    "notes": [
+      "Capt. Quinn Norwood",
+      "Casey Jarvis",
+      "Bayline Charters",
+      "Rowan Dunmore",
+      "Lee Danforth",
+      "https://www.example.org/vessel"
+    ],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-m-v-coral-beacon",
+    "name": "M/V Coral Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Coral Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-coral-drift",
+    "name": "M/V CORAL DRIFT",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A25",
+          "rawValue": "M/V CORAL DRIFT 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V CORAL DRIFT 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Alex Bexley"
+  },
+  {
+    "id": "vessel-m-v-coral-horizon",
+    "name": "M/V Coral Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Coral Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-coral-kestrel",
+    "name": "M/V Coral Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Coral Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-coral-lantern",
+    "name": "M/V CORAL LANTERN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V CORAL LANTERN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-coral-petrel",
+    "name": "M/V Coral Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Coral Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-coral-star",
+    "name": "M/V CORAL STAR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V CORAL STAR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-deep-anchor",
+    "name": "M/V Deep Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Deep Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-deep-beacon",
+    "name": "M/V Deep Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Deep Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-deep-drift",
+    "name": "M/V Deep Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Deep Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-deep-gannet",
+    "name": "M/V Deep Gannet",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A216",
+          "rawValue": "M/V Deep Gannet 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Deep Gannet 32'"
+    ],
+    "contacts": [],
+    "notes": [
+      "Capt. Lee Marsh",
+      "Taylor Bramble"
+    ],
+    "operator": "https://www.example.org/vessel"
+  },
+  {
+    "id": "vessel-m-v-deep-ledge",
+    "name": "M/V Deep Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Deep Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-deep-meridian",
+    "name": "M/V Deep Meridian",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A214",
+          "rawValue": "M/V Deep Meridian 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Deep Meridian 145'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-deep-reef",
+    "name": "M/V Deep Reef",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A96",
+          "rawValue": "M/V Deep Reef 24'"
+        }
+      },
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A114",
+          "rawValue": "M/V Deep Reef 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Deep Reef 24'",
+      "M/V Deep Reef 100'"
+    ],
+    "contacts": [
+      "Cell: 555-0188",
+      "lee.calloway@example.com",
+      "Cell: 555-0197"
+    ],
+    "notes": [
+      "Finley Kendrick"
+    ],
+    "operator": "Capt. Finley Dunmore"
+  },
+  {
+    "id": "vessel-m-v-deep-sextant",
+    "name": "M/V Deep Sextant",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A15",
+          "rawValue": "M/V Deep Sextant 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Deep Sextant 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Regional Fisheries Agency"
+  },
+  {
+    "id": "vessel-m-v-deep-sound",
+    "name": "M/V DEEP SOUND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V DEEP SOUND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-far-anchor",
+    "name": "M/V Far Anchor",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A72",
+          "rawValue": "M/V Far Anchor 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Far Anchor 120'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-far-beacon",
+    "name": "M/V Far Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Far Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-far-drift",
+    "name": "M/V Far Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Far Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-far-fathom",
+    "name": "M/V Far Fathom",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A218",
+          "rawValue": "M/V Far Fathom 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Far Fathom 72'"
+    ],
+    "contacts": [
+      "Cell: 555-0176",
+      "taylor.bexley@example.com",
+      "Cell: 555-0178",
+      "Cell: 555-0189",
+      "dana.lowell@example.com",
+      "Cell: 555-0159"
+    ],
+    "notes": [
+      "Lee Marsh",
+      "See scheduling file for specs",
+      "Quinn Ransom",
+      "Capt. Finley Marsh",
+      "Noel Jarvis"
+    ],
+    "operator": "Capt. Cameron Hollis"
+  },
+  {
+    "id": "vessel-m-v-far-kestrel",
+    "name": "M/V FAR KESTREL",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V FAR KESTREL"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-golden-drift",
+    "name": "M/V Golden Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Golden Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-golden-gannet",
+    "name": "M/V Golden Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Golden Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-golden-ledge",
+    "name": "M/V Golden Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Golden Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-golden-skua",
+    "name": "M/V Golden Skua",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A77",
+          "rawValue": "M/V Golden Skua 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Golden Skua 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Tidewater Marine Services"
+  },
+  {
+    "id": "vessel-m-v-golden-strand",
+    "name": "M/V GOLDEN STRAND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V GOLDEN STRAND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-green-anchor",
+    "name": "M/V Green Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Green Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-green-beacon",
+    "name": "M/V Green Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Green Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-green-gannet",
+    "name": "M/V GREEN GANNET",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V GREEN GANNET"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-green-kestrel",
+    "name": "M/V Green Kestrel",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A106",
+          "rawValue": "M/V Green Kestrel 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Green Kestrel 100'"
+    ],
+    "contacts": [],
+    "notes": [
+      "Bayline Charters",
+      "Tidewater Marine Services"
+    ],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-m-v-green-ledge",
+    "name": "M/V Green Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Green Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-green-tern",
+    "name": "M/V Green Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Green Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-grey-compass",
+    "name": "M/V GREY COMPASS",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V GREY COMPASS"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-grey-cove",
+    "name": "M/V Grey Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Grey Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-grey-harbor",
+    "name": "M/V GREY HARBOR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V GREY HARBOR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-grey-star",
+    "name": "M/V Grey Star",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A116",
+          "rawValue": "M/V Grey Star 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Grey Star 120'"
+    ],
+    "contacts": [
+      "Cell: 555-0174"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-grey-tern",
+    "name": "M/V Grey Tern",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A100",
+          "rawValue": "M/V Grey Tern 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Grey Tern 65'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Gulf Coast University"
+  },
+  {
+    "id": "vessel-m-v-high-beacon",
+    "name": "M/V HIGH BEACON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V HIGH BEACON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-high-cove",
+    "name": "M/V HIGH COVE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V HIGH COVE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-high-current",
+    "name": "M/V High Current",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A48",
+          "rawValue": "M/V High Current 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V High Current 170'"
+    ],
+    "contacts": [
+      "Cell: 555-0153",
+      "rowan.underhill@example.com",
+      "Cell: 555-0117",
+      "hayden.ashford@example.com",
+      "rowan.pembroke@example.com",
+      "Cell: 555-0138",
+      "noel.bexley@example.com",
+      "Cell: 555-0106",
+      "Cell: 555-0160"
+    ],
+    "notes": [
+      "Capt. Parker Whitlock"
+    ],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-m-v-high-ledge",
+    "name": "M/V High Ledge",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A118",
+          "rawValue": "M/V High Ledge 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V High Ledge 40'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Marley Bramble"
+  },
+  {
+    "id": "vessel-m-v-high-strand",
+    "name": "M/V High Strand",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A16",
+          "rawValue": "M/V High Strand 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V High Strand 145'"
+    ],
+    "contacts": [
+      "Cell: 555-0193",
+      "Cell: 555-0163",
+      "rowan.hollis@example.com"
+    ],
+    "notes": [
+      "Jesse Marsh"
+    ],
+    "operator": "Gulf Coast University"
+  },
+  {
+    "id": "vessel-m-v-high-wind",
+    "name": "M/V High Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V High Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-iron-fathom",
+    "name": "M/V Iron Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Iron Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-iron-harbor",
+    "name": "M/V Iron Harbor",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A101",
+          "rawValue": "M/V Iron Harbor 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Iron Harbor 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Drew Ransom"
+  },
+  {
+    "id": "vessel-m-v-iron-heron",
+    "name": "M/V IRON HERON",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A142",
+          "rawValue": "M/V IRON HERON 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V IRON HERON 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "https://www.example.org/vessel"
+  },
+  {
+    "id": "vessel-m-v-iron-horizon",
+    "name": "M/V Iron Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Iron Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-iron-sound",
+    "name": "M/V Iron Sound",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A120",
+          "rawValue": "M/V Iron Sound 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Iron Sound 145'"
+    ],
+    "contacts": [
+      "casey.ingram@example.com",
+      "Cell: 555-0134",
+      "Cell: 555-0114"
+    ],
+    "notes": [
+      "Capt. Reese Hollis"
+    ],
+    "operator": "Open Water Sailing School"
+  },
+  {
+    "id": "vessel-m-v-long-cove",
+    "name": "M/V Long Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Long Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-long-drift",
+    "name": "M/V Long Drift",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A53",
+          "rawValue": "M/V Long Drift 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Long Drift 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Taylor Dunmore"
+  },
+  {
+    "id": "vessel-m-v-long-sound",
+    "name": "M/V Long Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Long Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-long-tern",
+    "name": "M/V Long Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Long Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-long-wind",
+    "name": "M/V Long Wind",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A150",
+          "rawValue": "M/V Long Wind 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Long Wind 40'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-northern-current",
+    "name": "M/V Northern Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Northern Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-northern-gannet",
+    "name": "M/V Northern Gannet",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A165",
+          "rawValue": "M/V Northern Gannet 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Northern Gannet 85'"
+    ],
+    "contacts": [
+      "Cell: 555-0147",
+      "Cell: 555-0180",
+      "sage.fairweather@example.com",
+      "elliot.yardley@example.com",
+      "rowan.ellery@example.com",
+      "quinn.norwood@example.com",
+      "kai.quill@example.com",
+      "Cell: 555-0156",
+      "marley.vance@example.com"
+    ],
+    "notes": [
+      "Estuary Foundation",
+      "Capt. Riley Corwin",
+      "Gulf Coast University",
+      "Capt. Noel Corwin"
+    ]
+  },
+  {
+    "id": "vessel-m-v-northern-harbor",
+    "name": "M/V NORTHERN HARBOR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V NORTHERN HARBOR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-northern-heron",
+    "name": "M/V NORTHERN HERON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V NORTHERN HERON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-northern-kestrel",
+    "name": "M/V Northern Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Northern Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-northern-ketch",
+    "name": "M/V Northern Ketch",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A23",
+          "rawValue": "M/V Northern Ketch 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Northern Ketch 120'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Gulf Coast University"
+  },
+  {
+    "id": "vessel-m-v-northern-petrel",
+    "name": "M/V NORTHERN PETREL",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V NORTHERN PETREL"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-compass",
+    "name": "M/V Quiet Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Quiet Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-current",
+    "name": "M/V Quiet Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Quiet Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-drift",
+    "name": "M/V Quiet Drift",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A120",
+          "rawValue": "M/V Quiet Drift 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Quiet Drift 46'"
+    ],
+    "contacts": [
+      "sage.quill@example.com",
+      "Cell: 555-0195"
+    ],
+    "notes": [
+      "Capt. Riley Quill"
+    ]
+  },
+  {
+    "id": "vessel-m-v-quiet-ledge",
+    "name": "M/V Quiet Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Quiet Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-petrel",
+    "name": "M/V QUIET PETREL",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V QUIET PETREL"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-reef",
+    "name": "M/V Quiet Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Quiet Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-sextant",
+    "name": "M/V Quiet Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Quiet Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-quiet-tern",
+    "name": "M/V Quiet Tern",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A55",
+          "rawValue": "M/V Quiet Tern 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Quiet Tern 145'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-m-v-salt-meridian",
+    "name": "M/V SALT MERIDIAN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V SALT MERIDIAN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-salt-petrel",
+    "name": "M/V Salt Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Salt Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-salt-sextant",
+    "name": "M/V Salt Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Salt Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-salt-wind",
+    "name": "M/V Salt Wind",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A59",
+          "rawValue": "M/V Salt Wind 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Salt Wind 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Marley Vance"
+  },
+  {
+    "id": "vessel-m-v-silver-dory",
+    "name": "M/V Silver Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Silver Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-silver-kestrel",
+    "name": "M/V Silver Kestrel",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A115",
+          "rawValue": "M/V Silver Kestrel 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Silver Kestrel 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Finley Danforth"
+  },
+  {
+    "id": "vessel-m-v-silver-ledge",
+    "name": "M/V Silver Ledge",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A155",
+          "rawValue": "M/V Silver Ledge 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Silver Ledge 72'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-m-v-silver-marlin",
+    "name": "M/V Silver Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Silver Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-silver-sound",
+    "name": "M/V SILVER SOUND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V SILVER SOUND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-swift-cove",
+    "name": "M/V Swift Cove",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A157",
+          "rawValue": "M/V Swift Cove 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Swift Cove 145'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-swift-petrel",
+    "name": "M/V Swift Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Swift Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-swift-sextant",
+    "name": "M/V Swift Sextant",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A176",
+          "rawValue": "M/V Swift Sextant 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Swift Sextant 72'"
+    ],
+    "contacts": [
+      "noel.quill@example.com",
+      "Cell: 555-0160"
+    ],
+    "notes": [
+      "Capt. Jamie Garland",
+      "No overnight crew",
+      "Will raft alongside if needed",
+      "Pending insurance paperwork",
+      "Short visit only"
+    ],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-m-v-swift-strand",
+    "name": "M/V Swift Strand",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A79",
+          "rawValue": "M/V Swift Strand 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Swift Strand 40'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Tidewater Marine Services"
+  },
+  {
+    "id": "vessel-m-v-western-anchor",
+    "name": "M/V Western Anchor",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A234",
+          "rawValue": "M/V Western Anchor 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Western Anchor 65'"
+    ],
+    "contacts": [
+      "Cell: 555-0145",
+      "Cell: 555-0112",
+      "marley.danforth@example.com",
+      "Cell: 555-0178",
+      "emerson.norwood@example.com",
+      "Cell: 555-0109",
+      "harper.marsh@example.com"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-western-harbor",
+    "name": "M/V Western Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Western Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-western-horizon",
+    "name": "M/V Western Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Western Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-western-marlin",
+    "name": "M/V Western Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Western Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-western-petrel",
+    "name": "M/V Western Petrel",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A17",
+          "rawValue": "M/V Western Petrel 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Western Petrel 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-m-v-wild-compass",
+    "name": "M/V Wild Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Wild Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-wild-dory",
+    "name": "M/V Wild Dory",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A107",
+          "rawValue": "M/V Wild Dory 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Wild Dory 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Reese Ashford"
+  },
+  {
+    "id": "vessel-m-v-wild-fathom",
+    "name": "M/V WILD FATHOM",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V WILD FATHOM"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-wild-reef",
+    "name": "M/V Wild Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/V Wild Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-wild-sextant",
+    "name": "M/V Wild Sextant",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A166",
+          "rawValue": "M/V Wild Sextant 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Wild Sextant 100'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-v-wild-star",
+    "name": "M/V Wild Star",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A81",
+          "rawValue": "M/V Wild Star 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/V Wild Star 24'"
+    ],
+    "contacts": [
+      "Cell: 555-0140",
+      "sage.ashford@example.com",
+      "Cell: 555-0126",
+      "blake.whitlock@example.com",
+      "finley.thorne@example.com"
+    ],
+    "notes": [
+      "LOA: 145', Draft: 12'",
+      "Northwind Offshore",
+      "Approved by operations",
+      "Capt. Parker Quill"
+    ],
+    "operator": "Capt. Sage Abbott"
+  },
+  {
+    "id": "vessel-m-y-blue-compass",
+    "name": "M/Y Blue Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Blue Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-blue-dory",
+    "name": "M/Y Blue Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Blue Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-blue-fathom",
+    "name": "M/Y Blue Fathom",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A110",
+          "rawValue": "M/Y Blue Fathom 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Blue Fathom 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Finley Ashford"
+  },
+  {
+    "id": "vessel-m-y-blue-tide",
+    "name": "M/Y BLUE TIDE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y BLUE TIDE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-bright-marlin",
+    "name": "M/Y Bright Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Bright Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-clear-gannet",
+    "name": "M/Y Clear Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Clear Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-clear-reef",
+    "name": "M/Y Clear Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Clear Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-clear-star",
+    "name": "M/Y Clear Star",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A57",
+          "rawValue": "M/Y Clear Star 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Clear Star 120'"
+    ],
+    "contacts": [],
+    "notes": [
+      "State Marine Academy",
+      "See scheduling file for specs"
+    ],
+    "operator": "Capt. Drew Fenwick"
+  },
+  {
+    "id": "vessel-m-y-clear-wind",
+    "name": "M/Y Clear Wind",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A211",
+          "rawValue": "M/Y Clear Wind 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Clear Wind 32'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-coral-dory",
+    "name": "M/Y Coral Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Coral Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-coral-osprey",
+    "name": "M/Y Coral Osprey",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A27",
+          "rawValue": "M/Y Coral Osprey 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Coral Osprey 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Reese Yardley"
+  },
+  {
+    "id": "vessel-m-y-coral-wind",
+    "name": "M/Y CORAL WIND",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A146",
+          "rawValue": "M/Y CORAL WIND 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y CORAL WIND 40'"
+    ],
+    "contacts": [
+      "Cell: 555-0130"
+    ],
+    "notes": [
+      "Capt. Hayden Yardley"
+    ],
+    "operator": "Capt. Kai Calloway"
+  },
+  {
+    "id": "vessel-m-y-deep-compass",
+    "name": "M/Y Deep Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Deep Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-deep-horizon",
+    "name": "M/Y Deep Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Deep Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-deep-petrel",
+    "name": "M/Y Deep Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Deep Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-far-horizon",
+    "name": "M/Y Far Horizon",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A49",
+          "rawValue": "M/Y Far Horizon 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Far Horizon 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Jesse Quill"
+  },
+  {
+    "id": "vessel-m-y-far-skua",
+    "name": "M/Y Far Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Far Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-golden-harbor",
+    "name": "M/Y Golden Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Golden Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-golden-kestrel",
+    "name": "M/Y Golden Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Golden Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-golden-wind",
+    "name": "M/Y Golden Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Golden Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-green-beacon",
+    "name": "M/Y Green Beacon",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A149",
+          "rawValue": "M/Y Green Beacon 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Green Beacon 145'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Sage Vance"
+  },
+  {
+    "id": "vessel-m-y-green-horizon",
+    "name": "M/Y Green Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Green Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-green-lantern",
+    "name": "M/Y GREEN LANTERN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y GREEN LANTERN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-grey-heron",
+    "name": "M/Y Grey Heron",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A19",
+          "rawValue": "M/Y Grey Heron 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Grey Heron 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Riley Thorne"
+  },
+  {
+    "id": "vessel-m-y-grey-horizon",
+    "name": "M/Y Grey Horizon",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A2",
+          "rawValue": "M/Y Grey Horizon 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Grey Horizon 46'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-grey-osprey",
+    "name": "M/Y GREY OSPREY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y GREY OSPREY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-high-anchor",
+    "name": "M/Y High Anchor",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A150",
+          "rawValue": "M/Y High Anchor 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y High Anchor 40'"
+    ],
+    "contacts": [],
+    "notes": [
+      "https://www.example.org/vessel"
+    ]
+  },
+  {
+    "id": "vessel-m-y-high-sextant",
+    "name": "M/Y High Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y High Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-high-tern",
+    "name": "M/Y High Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y High Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-iron-gannet",
+    "name": "M/Y Iron Gannet",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A29",
+          "rawValue": "M/Y Iron Gannet 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Iron Gannet 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Sage Sterling"
+  },
+  {
+    "id": "vessel-m-y-iron-petrel",
+    "name": "M/Y Iron Petrel",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A37",
+          "rawValue": "M/Y Iron Petrel 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Iron Petrel 120'"
+    ],
+    "contacts": [
+      "Cell: 555-0162"
+    ],
+    "notes": [],
+    "operator": "Gulf Coast University"
+  },
+  {
+    "id": "vessel-m-y-iron-voyager",
+    "name": "M/Y Iron Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Iron Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-long-dory",
+    "name": "M/Y Long Dory",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A11",
+          "rawValue": "M/Y Long Dory 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Long Dory 52'"
+    ],
+    "contacts": [],
+    "notes": [
+      "Capt. Dana Bexley"
+    ],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-m-y-long-meridian",
+    "name": "M/Y Long Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Long Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-northern-compass",
+    "name": "M/Y Northern Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Northern Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-northern-cove",
+    "name": "M/Y Northern Cove",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A33",
+          "rawValue": "M/Y Northern Cove 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Northern Cove 32'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Avery Quill"
+  },
+  {
+    "id": "vessel-m-y-quiet-voyager",
+    "name": "M/Y Quiet Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Quiet Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-salt-cove",
+    "name": "M/Y Salt Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Salt Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-salt-dory",
+    "name": "M/Y Salt Dory",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A59",
+          "rawValue": "M/Y Salt Dory 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Salt Dory 85'"
+    ],
+    "contacts": [
+      "Cell: 555-0141",
+      "Cell: 555-0184"
+    ],
+    "notes": [],
+    "operator": "Capt. Parker Norwood"
+  },
+  {
+    "id": "vessel-m-y-salt-gannet",
+    "name": "M/Y Salt Gannet",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A31",
+          "rawValue": "M/Y Salt Gannet 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Salt Gannet 145'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Cameron Ingram"
+  },
+  {
+    "id": "vessel-m-y-salt-horizon",
+    "name": "M/Y Salt Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Salt Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-salt-sound",
+    "name": "M/Y Salt Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Salt Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-silver-ketch",
+    "name": "M/Y Silver Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Silver Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-silver-sextant",
+    "name": "M/Y Silver Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Silver Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-swift-anchor",
+    "name": "M/Y Swift Anchor",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A72",
+          "rawValue": "M/Y Swift Anchor 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Swift Anchor 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Dana Jarvis"
+  },
+  {
+    "id": "vessel-m-y-swift-dory",
+    "name": "M/Y Swift Dory",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A35",
+          "rawValue": "M/Y Swift Dory 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Swift Dory 85'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Sage Danforth"
+  },
+  {
+    "id": "vessel-m-y-swift-drift",
+    "name": "M/Y Swift Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Swift Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-swift-kestrel",
+    "name": "M/Y Swift Kestrel",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A25",
+          "rawValue": "M/Y Swift Kestrel 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Swift Kestrel 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Open Water Sailing School"
+  },
+  {
+    "id": "vessel-m-y-swift-petrel",
+    "name": "M/Y Swift Petrel",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A47",
+          "rawValue": "M/Y Swift Petrel 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Swift Petrel 100'"
+    ],
+    "contacts": [],
+    "notes": [
+      "Elliot Norwood"
+    ],
+    "operator": "Capt. Kai Bramble"
+  },
+  {
+    "id": "vessel-m-y-swift-skua",
+    "name": "M/Y Swift Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Swift Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-western-beacon",
+    "name": "M/Y Western Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Western Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-western-current",
+    "name": "M/Y Western Current",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A44",
+          "rawValue": "M/Y Western Current 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Western Current 85'"
+    ],
+    "contacts": [
+      "sage.danforth@example.com",
+      "Cell: 555-0144",
+      "Cell: 555-0139"
+    ],
+    "notes": [
+      "Capt. Casey Whitlock",
+      "Capt. Casey Abbott"
+    ],
+    "operator": "Capt. Logan Ellery"
+  },
+  {
+    "id": "vessel-m-y-western-strand",
+    "name": "M/Y Western Strand",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A1",
+          "rawValue": "M/Y Western Strand 52'"
+        }
+      },
+      {
+        "valueFt": 65,
+        "source": "loa-field",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "B1",
+          "rawValue": "LOA: 65', Draft: 4'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Western Strand 52'"
+    ],
+    "contacts": [
+      "alex.ashford@example.com",
+      "Cell: 555-0178",
+      "logan.fairweather@example.com",
+      "Cell: 555-0179"
+    ],
+    "notes": [
+      "Capt. Logan Ashford",
+      "Gulf Coast University",
+      "Short visit only",
+      "LOA: 145', Draft: 12'",
+      "Capt. Jesse Thorne"
+    ],
+    "operator": "Rowan Thorne"
+  },
+  {
+    "id": "vessel-m-y-wild-anchor",
+    "name": "M/Y Wild Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Wild Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-wild-ketch",
+    "name": "M/Y Wild Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Wild Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-wild-meridian",
+    "name": "M/Y Wild Meridian",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A23",
+          "rawValue": "M/Y Wild Meridian 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Wild Meridian 72'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Taylor Dunmore"
+  },
+  {
+    "id": "vessel-m-y-wild-sextant",
+    "name": "M/Y Wild Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Wild Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-wild-skua",
+    "name": "M/Y Wild Skua",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A172",
+          "rawValue": "M/Y Wild Skua 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Wild Skua 40'"
+    ],
+    "contacts": [
+      "marley.vance@example.com",
+      "Cell: 555-0192"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-wild-tern",
+    "name": "M/Y Wild Tern",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A21",
+          "rawValue": "M/Y Wild Tern 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "M/Y Wild Tern 145'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-m-y-wild-voyager",
+    "name": "M/Y WILD VOYAGER",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y WILD VOYAGER"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-m-y-wild-wind",
+    "name": "M/Y Wild Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "M/Y Wild Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-amber-cove",
+    "name": "OSV Amber Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Amber Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-amber-reef",
+    "name": "OSV AMBER REEF",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV AMBER REEF"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-blue-drift",
+    "name": "OSV Blue Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Blue Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-blue-harbor",
+    "name": "OSV Blue Harbor",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A3",
+          "rawValue": "OSV Blue Harbor 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "OSV Blue Harbor 40'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-osv-blue-osprey",
+    "name": "OSV Blue Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Blue Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-blue-sound",
+    "name": "OSV Blue Sound",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A163",
+          "rawValue": "OSV Blue Sound 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "OSV Blue Sound 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Reese Hollis"
+  },
+  {
+    "id": "vessel-osv-bright-ledge",
+    "name": "OSV Bright Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Bright Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-clear-dory",
+    "name": "OSV Clear Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Clear Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-clear-lantern",
+    "name": "OSV Clear Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Clear Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-clear-reef",
+    "name": "OSV Clear Reef",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A125",
+          "rawValue": "OSV Clear Reef 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "OSV Clear Reef 46'"
+    ],
+    "contacts": [
+      "Cell: 555-0148",
+      "blake.danforth@example.com"
+    ],
+    "notes": [],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-osv-deep-harbor",
+    "name": "OSV DEEP HARBOR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV DEEP HARBOR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-far-tide",
+    "name": "OSV Far Tide",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Far Tide"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-far-wind",
+    "name": "OSV Far Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Far Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-golden-ketch",
+    "name": "OSV Golden Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Golden Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-green-cove",
+    "name": "OSV Green Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Green Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-green-current",
+    "name": "OSV Green Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Green Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-green-ketch",
+    "name": "OSV Green Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Green Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-grey-fathom",
+    "name": "OSV Grey Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Grey Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-high-harbor",
+    "name": "OSV High Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV High Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-high-star",
+    "name": "OSV High Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV High Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-iron-meridian",
+    "name": "OSV Iron Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Iron Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-long-harbor",
+    "name": "OSV LONG HARBOR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV LONG HARBOR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-long-reef",
+    "name": "OSV Long Reef",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A128",
+          "rawValue": "OSV Long Reef 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "OSV Long Reef 120'"
+    ],
+    "contacts": [
+      "Cell: 555-0117"
+    ],
+    "notes": [],
+    "operator": "Capt. Logan Abbott"
+  },
+  {
+    "id": "vessel-osv-quiet-ketch",
+    "name": "OSV Quiet Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Quiet Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-salt-lantern",
+    "name": "OSV Salt Lantern",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A77",
+          "rawValue": "OSV Salt Lantern 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "OSV Salt Lantern 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "State Marine Academy"
+  },
+  {
+    "id": "vessel-osv-salt-marlin",
+    "name": "OSV Salt Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Salt Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-salt-voyager",
+    "name": "OSV Salt Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Salt Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-silver-gannet",
+    "name": "OSV Silver Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Silver Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-silver-harbor",
+    "name": "OSV Silver Harbor",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A157",
+          "rawValue": "OSV Silver Harbor 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "OSV Silver Harbor 46'"
+    ],
+    "contacts": [
+      "elliot.garland@example.com",
+      "Cell: 555-0161"
+    ],
+    "notes": [],
+    "operator": "Capt. Skyler Norwood"
+  },
+  {
+    "id": "vessel-osv-silver-tide",
+    "name": "OSV SILVER TIDE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV SILVER TIDE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-western-reef",
+    "name": "OSV Western Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Western Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-western-tern",
+    "name": "OSV Western Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Western Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-wild-beacon",
+    "name": "OSV Wild Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Wild Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-osv-wild-star",
+    "name": "OSV Wild Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "OSV Wild Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-amber-anchor",
+    "name": "R/V Amber Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Amber Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-amber-compass",
+    "name": "R/V Amber Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Amber Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-amber-drift",
+    "name": "R/V Amber Drift",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A89",
+          "rawValue": "R/V Amber Drift 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Amber Drift 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-r-v-amber-ledge",
+    "name": "R/V Amber Ledge",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A75",
+          "rawValue": "R/V Amber Ledge 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Amber Ledge 72'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "https://www.example.org/vessel"
+  },
+  {
+    "id": "vessel-r-v-amber-marlin",
+    "name": "R/V Amber Marlin",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A95",
+          "rawValue": "R/V Amber Marlin 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Amber Marlin 145'"
+    ],
+    "contacts": [
+      "Cell: 555-0130",
+      "marley.abbott@example.com"
+    ],
+    "notes": [
+      "Harbor Institute",
+      "No overnight crew"
+    ],
+    "operator": "Tidewater Marine Services"
+  },
+  {
+    "id": "vessel-r-v-amber-osprey",
+    "name": "R/V Amber Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Amber Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-amber-voyager",
+    "name": "R/V Amber Voyager",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A232",
+          "rawValue": "R/V Amber Voyager 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Amber Voyager 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Confirmed by marine ops"
+  },
+  {
+    "id": "vessel-r-v-amber-wind",
+    "name": "R/V Amber Wind",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A56",
+          "rawValue": "R/V Amber Wind 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Amber Wind 32'"
+    ],
+    "contacts": [
+      "dana.lowell@example.com",
+      "Cell: 555-0167",
+      "Cell: 555-0193"
+    ],
+    "notes": [
+      "Capt. Morgan Hollis"
+    ],
+    "operator": "Regional Fisheries Agency"
+  },
+  {
+    "id": "vessel-r-v-blue-anchor",
+    "name": "R/V Blue Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-cove",
+    "name": "R/V BLUE COVE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V BLUE COVE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-drift",
+    "name": "R/V Blue Drift",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A135",
+          "rawValue": "R/V Blue Drift 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Blue Drift 120'"
+    ],
+    "contacts": [],
+    "notes": [
+      "State Marine Academy"
+    ],
+    "operator": "Capt. Skyler Everly"
+  },
+  {
+    "id": "vessel-r-v-blue-heron",
+    "name": "R/V Blue Heron",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Heron"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-kestrel",
+    "name": "R/V Blue Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-ketch",
+    "name": "R/V Blue Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-ledge",
+    "name": "R/V Blue Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-marlin",
+    "name": "R/V Blue Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-reef",
+    "name": "R/V Blue Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-star",
+    "name": "R/V Blue Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-blue-voyager",
+    "name": "R/V Blue Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Blue Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-bright-current",
+    "name": "R/V Bright Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Bright Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-bright-dory",
+    "name": "R/V Bright Dory",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A13",
+          "rawValue": "R/V Bright Dory 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Bright Dory 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-r-v-bright-fathom",
+    "name": "R/V Bright Fathom",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A176",
+          "rawValue": "R/V Bright Fathom 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Bright Fathom 46'"
+    ],
+    "contacts": [
+      "kai.fenwick@example.com",
+      "Cell: 555-0167"
+    ],
+    "notes": [
+      "Regional Fisheries Agency",
+      "https://www.example.org/vessel",
+      "Estuary Foundation",
+      "State Marine Academy"
+    ]
+  },
+  {
+    "id": "vessel-r-v-bright-harbor",
+    "name": "R/V BRIGHT HARBOR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V BRIGHT HARBOR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-bright-meridian",
+    "name": "R/V Bright Meridian",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A192",
+          "rawValue": "R/V Bright Meridian 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Bright Meridian 120'"
+    ],
+    "contacts": [
+      "Cell: 555-0144",
+      "lee.marsh@example.com",
+      "kai.vance@example.com"
+    ],
+    "notes": [],
+    "operator": "Seaway Education Trust"
+  },
+  {
+    "id": "vessel-r-v-bright-strand",
+    "name": "R/V Bright Strand",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Bright Strand"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-clear-drift",
+    "name": "R/V Clear Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Clear Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-clear-fathom",
+    "name": "R/V CLEAR FATHOM",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V CLEAR FATHOM"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-clear-sextant",
+    "name": "R/V Clear Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Clear Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-clear-star",
+    "name": "R/V CLEAR STAR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V CLEAR STAR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-clear-strand",
+    "name": "R/V Clear Strand",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A110",
+          "rawValue": "R/V Clear Strand 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Clear Strand 145'"
+    ],
+    "contacts": [
+      "lee.oakes@example.com"
+    ],
+    "notes": [
+      "https://www.example.org/vessel"
+    ],
+    "operator": "Capt. Hayden Yardley"
+  },
+  {
+    "id": "vessel-r-v-clear-tern",
+    "name": "R/V Clear Tern",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A81",
+          "rawValue": "R/V Clear Tern 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Clear Tern 120'"
+    ],
+    "contacts": [
+      "avery.marsh@example.com"
+    ],
+    "notes": [],
+    "operator": "See scheduling file for specs"
+  },
+  {
+    "id": "vessel-r-v-coral-anchor",
+    "name": "R/V Coral Anchor",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A41",
+          "rawValue": "R/V Coral Anchor 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Coral Anchor 120'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Alex Thorne"
+  },
+  {
+    "id": "vessel-r-v-coral-current",
+    "name": "R/V Coral Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Coral Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-coral-harbor",
+    "name": "R/V Coral Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Coral Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-coral-meridian",
+    "name": "R/V Coral Meridian",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A113",
+          "rawValue": "R/V Coral Meridian 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Coral Meridian 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "State Marine Academy"
+  },
+  {
+    "id": "vessel-r-v-coral-sound",
+    "name": "R/V Coral Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Coral Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-coral-strand",
+    "name": "R/V Coral Strand",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Coral Strand"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-coral-tern",
+    "name": "R/V CORAL TERN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V CORAL TERN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-coral-voyager",
+    "name": "R/V Coral Voyager",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A35",
+          "rawValue": "R/V Coral Voyager 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Coral Voyager 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Open Water Sailing School"
+  },
+  {
+    "id": "vessel-r-v-deep-heron",
+    "name": "R/V Deep Heron",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A46",
+          "rawValue": "R/V Deep Heron 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Deep Heron 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Casey Hollis"
+  },
+  {
+    "id": "vessel-r-v-deep-kestrel",
+    "name": "R/V Deep Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Deep Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-deep-ketch",
+    "name": "R/V Deep Ketch",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A61",
+          "rawValue": "R/V Deep Ketch 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Deep Ketch 32'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Gulf Coast University"
+  },
+  {
+    "id": "vessel-r-v-deep-osprey",
+    "name": "R/V DEEP OSPREY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V DEEP OSPREY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-deep-star",
+    "name": "R/V Deep Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Deep Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-deep-strand",
+    "name": "R/V Deep Strand",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A230",
+          "rawValue": "R/V Deep Strand 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Deep Strand 65'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-deep-voyager",
+    "name": "R/V Deep Voyager",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A66",
+          "rawValue": "R/V Deep Voyager 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Deep Voyager 120'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Quinn Sterling"
+  },
+  {
+    "id": "vessel-r-v-far-marlin",
+    "name": "R/V Far Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Far Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-far-sextant",
+    "name": "R/V Far Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Far Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-far-star",
+    "name": "R/V FAR STAR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V FAR STAR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-golden-compass",
+    "name": "R/V GOLDEN COMPASS",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V GOLDEN COMPASS"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-golden-horizon",
+    "name": "R/V Golden Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Golden Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-golden-lantern",
+    "name": "R/V Golden Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Golden Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-golden-marlin",
+    "name": "R/V GOLDEN MARLIN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V GOLDEN MARLIN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-golden-voyager",
+    "name": "R/V GOLDEN VOYAGER",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V GOLDEN VOYAGER"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-harbor",
+    "name": "R/V GREEN HARBOR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V GREEN HARBOR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-marlin",
+    "name": "R/V Green Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Green Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-meridian",
+    "name": "R/V Green Meridian",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A27",
+          "rawValue": "R/V Green Meridian 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Green Meridian 32'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Taylor Danforth"
+  },
+  {
+    "id": "vessel-r-v-green-sextant",
+    "name": "R/V Green Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Green Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-star",
+    "name": "R/V Green Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Green Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-strand",
+    "name": "R/V GREEN STRAND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V GREEN STRAND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-voyager",
+    "name": "R/V Green Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Green Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-green-wind",
+    "name": "R/V Green Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Green Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-beacon",
+    "name": "R/V Grey Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Grey Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-current",
+    "name": "R/V Grey Current",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A128",
+          "rawValue": "R/V Grey Current 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Grey Current 65'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Avery Dunmore"
+  },
+  {
+    "id": "vessel-r-v-grey-lantern",
+    "name": "R/V Grey Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Grey Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-ledge",
+    "name": "R/V Grey Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Grey Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-marlin",
+    "name": "R/V Grey Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Grey Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-reef",
+    "name": "R/V Grey Reef",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A98",
+          "rawValue": "R/V Grey Reef 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Grey Reef 170'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-sextant",
+    "name": "R/V GREY SEXTANT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V GREY SEXTANT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-grey-tide",
+    "name": "R/V Grey Tide",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A200",
+          "rawValue": "R/V Grey Tide 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Grey Tide 65'"
+    ],
+    "contacts": [
+      "alex.thorne@example.com"
+    ],
+    "notes": [],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-r-v-grey-wind",
+    "name": "R/V Grey Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Grey Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-high-compass",
+    "name": "R/V High Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V High Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-high-dory",
+    "name": "R/V High Dory",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A198",
+          "rawValue": "R/V High Dory 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V High Dory 100'"
+    ],
+    "contacts": [
+      "Cell: 555-0170"
+    ],
+    "notes": [
+      "Kai Underhill"
+    ],
+    "operator": "Lee Sterling"
+  },
+  {
+    "id": "vessel-r-v-high-drift",
+    "name": "R/V High Drift",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A4",
+          "rawValue": "R/V High Drift 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V High Drift 120'"
+    ],
+    "contacts": [
+      "Cell: 555-0103",
+      "Cell: 555-0155",
+      "Cell: 555-0198",
+      "Cell: 555-0120",
+      "skyler.sterling@example.com",
+      "cameron.kendrick@example.com",
+      "Cell: 555-0149",
+      "kai.fairweather@example.com"
+    ],
+    "notes": [
+      "Capt. Cameron Underhill",
+      "Capt. Drew Garland"
+    ],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-r-v-high-horizon",
+    "name": "R/V High Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V High Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-high-reef",
+    "name": "R/V High Reef",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A92",
+          "rawValue": "R/V High Reef 32'"
+        }
+      },
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A207",
+          "rawValue": "R/V High Reef 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V High Reef 32'",
+      "R/V High Reef 72'"
+    ],
+    "contacts": [
+      "morgan.bramble@example.com",
+      "Cell: 555-0116",
+      "taylor.thorne@example.com"
+    ],
+    "notes": [
+      "OS/V Silver Skua 24'",
+      "Seaway Education Trust",
+      "Capt. Emerson Quill",
+      "Regional Fisheries Agency",
+      "https://www.example.org/vessel"
+    ],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-r-v-high-sound",
+    "name": "R/V High Sound",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A33",
+          "rawValue": "R/V High Sound 32'"
+        }
+      },
+      {
+        "valueFt": 65,
+        "source": "loa-field",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "B33",
+          "rawValue": "LOA: 65', Draft: 4'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V High Sound 32'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-compass",
+    "name": "R/V Iron Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Iron Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-cove",
+    "name": "R/V Iron Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Iron Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-current",
+    "name": "R/V Iron Current",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A227",
+          "rawValue": "R/V Iron Current 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Iron Current 100'"
+    ],
+    "contacts": [],
+    "notes": [
+      "https://www.example.org/vessel",
+      "Short visit only"
+    ],
+    "operator": "Pending insurance paperwork"
+  },
+  {
+    "id": "vessel-r-v-iron-dory",
+    "name": "R/V IRON DORY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V IRON DORY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-drift",
+    "name": "R/V IRON DRIFT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V IRON DRIFT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-harbor",
+    "name": "R/V Iron Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Iron Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-ketch",
+    "name": "R/V Iron Ketch",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A68",
+          "rawValue": "R/V Iron Ketch 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Iron Ketch 46'"
+    ],
+    "contacts": [
+      "harper.fairweather@example.com",
+      "Cell: 555-0192"
+    ],
+    "notes": [],
+    "operator": "https://www.example.org/vessel"
+  },
+  {
+    "id": "vessel-r-v-iron-lantern",
+    "name": "R/V Iron Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Iron Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-osprey",
+    "name": "R/V Iron Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Iron Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-reef",
+    "name": "R/V IRON REEF",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V IRON REEF"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-skua",
+    "name": "R/V Iron Skua",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A10",
+          "rawValue": "R/V Iron Skua 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Iron Skua 72'"
+    ],
+    "contacts": [
+      "Cell: 555-0124",
+      "drew.ashford@example.com",
+      "Cell: 555-0120"
+    ],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-r-v-iron-strand",
+    "name": "R/V IRON STRAND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V IRON STRAND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-iron-wind",
+    "name": "R/V Iron Wind",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A162",
+          "rawValue": "R/V Iron Wind 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Iron Wind 46'"
+    ],
+    "contacts": [
+      "Cell: 555-0115",
+      "hayden.everly@example.com"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-anchor",
+    "name": "R/V Long Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Long Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-compass",
+    "name": "R/V Long Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Long Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-current",
+    "name": "R/V Long Current",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A249",
+          "rawValue": "R/V Long Current 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Long Current 65'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Cameron Vance"
+  },
+  {
+    "id": "vessel-r-v-long-fathom",
+    "name": "R/V Long Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Long Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-heron",
+    "name": "R/V Long Heron",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A111",
+          "rawValue": "R/V Long Heron 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Long Heron 85'"
+    ],
+    "contacts": [
+      "dana.sterling@example.com",
+      "hayden.sterling@example.com"
+    ],
+    "notes": [],
+    "operator": "https://www.example.org/vessel"
+  },
+  {
+    "id": "vessel-r-v-long-horizon",
+    "name": "R/V Long Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Long Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-ketch",
+    "name": "R/V Long Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Long Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-marlin",
+    "name": "R/V Long Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Long Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-star",
+    "name": "R/V LONG STAR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V LONG STAR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-long-voyager",
+    "name": "R/V Long Voyager",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A161",
+          "rawValue": "R/V Long Voyager 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Long Voyager 100'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-horizon",
+    "name": "R/V Northern Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Northern Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-lantern",
+    "name": "R/V Northern Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Northern Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-ledge",
+    "name": "R/V Northern Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Northern Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-meridian",
+    "name": "R/V NORTHERN MERIDIAN",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V NORTHERN MERIDIAN"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-osprey",
+    "name": "R/V Northern Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Northern Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-sextant",
+    "name": "R/V Northern Sextant",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A85",
+          "rawValue": "R/V Northern Sextant 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Northern Sextant 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Contact captain on arrival"
+  },
+  {
+    "id": "vessel-r-v-northern-skua",
+    "name": "R/V Northern Skua",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A124",
+          "rawValue": "R/V Northern Skua 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Northern Skua 120'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-sound",
+    "name": "R/V Northern Sound",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A194",
+          "rawValue": "R/V Northern Sound 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Northern Sound 46'"
+    ],
+    "contacts": [
+      "blake.garland@example.com"
+    ],
+    "notes": [
+      "Coastal Survey Partners"
+    ]
+  },
+  {
+    "id": "vessel-r-v-northern-star",
+    "name": "R/V Northern Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Northern Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-northern-wind",
+    "name": "R/V NORTHERN WIND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V NORTHERN WIND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-anchor",
+    "name": "R/V Quiet Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-dory",
+    "name": "R/V Quiet Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-fathom",
+    "name": "R/V Quiet Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-harbor",
+    "name": "R/V Quiet Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-heron",
+    "name": "R/V Quiet Heron",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Heron"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-kestrel",
+    "name": "R/V Quiet Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-marlin",
+    "name": "R/V Quiet Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-meridian",
+    "name": "R/V Quiet Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-osprey",
+    "name": "R/V Quiet Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-star",
+    "name": "R/V Quiet Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-strand",
+    "name": "R/V Quiet Strand",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Strand"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-quiet-tern",
+    "name": "R/V Quiet Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Quiet Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-salt-current",
+    "name": "R/V Salt Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Salt Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-salt-drift",
+    "name": "R/V Salt Drift",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A154",
+          "rawValue": "R/V Salt Drift 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Salt Drift 85'"
+    ],
+    "contacts": [
+      "marley.vance@example.com"
+    ],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-salt-heron",
+    "name": "R/V SALT HERON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V SALT HERON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-salt-ledge",
+    "name": "R/V Salt Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Salt Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-salt-skua",
+    "name": "R/V Salt Skua",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A203",
+          "rawValue": "R/V Salt Skua 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Salt Skua 52'"
+    ],
+    "contacts": [
+      "Cell: 555-0133",
+      "Cell: 555-0132"
+    ],
+    "notes": [
+      "Tentative - awaiting confirmation"
+    ],
+    "operator": "Lakeshore Research Group"
+  },
+  {
+    "id": "vessel-r-v-silver-anchor",
+    "name": "R/V Silver Anchor",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A87",
+          "rawValue": "R/V Silver Anchor 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Silver Anchor 170'"
+    ],
+    "contacts": [
+      "parker.sterling@example.com"
+    ],
+    "notes": [],
+    "operator": "State Marine Academy"
+  },
+  {
+    "id": "vessel-r-v-silver-heron",
+    "name": "R/V Silver Heron",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Silver Heron"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-silver-osprey",
+    "name": "R/V Silver Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Silver Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-silver-petrel",
+    "name": "R/V Silver Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Silver Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-swift-current",
+    "name": "R/V Swift Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Swift Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-swift-gannet",
+    "name": "R/V Swift Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Swift Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-swift-heron",
+    "name": "R/V Swift Heron",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A83",
+          "rawValue": "R/V Swift Heron 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Swift Heron 120'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "State Marine Academy"
+  },
+  {
+    "id": "vessel-r-v-swift-ketch",
+    "name": "R/V Swift Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Swift Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-swift-lantern",
+    "name": "R/V Swift Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Swift Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-swift-reef",
+    "name": "R/V Swift Reef",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A151",
+          "rawValue": "R/V Swift Reef 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Swift Reef 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Marley Whitlock"
+  },
+  {
+    "id": "vessel-r-v-swift-sextant",
+    "name": "R/V Swift Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Swift Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-swift-star",
+    "name": "R/V Swift Star",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Swift Star"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-western-drift",
+    "name": "R/V WESTERN DRIFT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V WESTERN DRIFT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-western-fathom",
+    "name": "R/V Western Fathom",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A233",
+          "rawValue": "R/V Western Fathom 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Western Fathom 32'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Cameron Quill"
+  },
+  {
+    "id": "vessel-r-v-western-ledge",
+    "name": "R/V Western Ledge",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A143",
+          "rawValue": "R/V Western Ledge 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Western Ledge 170'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-western-sextant",
+    "name": "R/V Western Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Western Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-western-tide",
+    "name": "R/V Western Tide",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Western Tide"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-wild-current",
+    "name": "R/V Wild Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Wild Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-wild-dory",
+    "name": "R/V Wild Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Wild Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-wild-harbor",
+    "name": "R/V Wild Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Wild Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-wild-heron",
+    "name": "R/V Wild Heron",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A250",
+          "rawValue": "R/V Wild Heron 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Wild Heron 145'"
+    ],
+    "contacts": [
+      "Cell: 555-0121"
+    ],
+    "notes": [
+      "https://www.example.org/vessel",
+      "Morgan Ransom"
+    ],
+    "operator": "Capt. Cameron Ashford"
+  },
+  {
+    "id": "vessel-r-v-wild-kestrel",
+    "name": "R/V Wild Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Wild Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-wild-ledge",
+    "name": "R/V Wild Ledge",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A98",
+          "rawValue": "R/V Wild Ledge 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Wild Ledge 120'"
+    ],
+    "contacts": [
+      "Cell: 555-0179"
+    ],
+    "notes": [],
+    "operator": "Drew Dunmore"
+  },
+  {
+    "id": "vessel-r-v-wild-marlin",
+    "name": "R/V Wild Marlin",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A14",
+          "rawValue": "R/V Wild Marlin 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "R/V Wild Marlin 32'"
+    ],
+    "contacts": [
+      "Cell: 555-0144"
+    ],
+    "notes": [],
+    "operator": "Seaway Education Trust"
+  },
+  {
+    "id": "vessel-r-v-wild-sound",
+    "name": "R/V Wild Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V Wild Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-r-v-wild-tide",
+    "name": "R/V WILD TIDE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "R/V WILD TIDE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-amber-fathom",
+    "name": "S/V AMBER FATHOM",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V AMBER FATHOM"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-amber-gannet",
+    "name": "S/V Amber Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Amber Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-amber-star",
+    "name": "S/V Amber Star",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A29",
+          "rawValue": "S/V Amber Star 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Amber Star 32'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-amber-tide",
+    "name": "S/V Amber Tide",
+    "lengthFt": 46,
+    "lengthSources": [
+      {
+        "valueFt": 46,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A68",
+          "rawValue": "S/V Amber Tide 46'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Amber Tide 46'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Jordan Fenwick"
+  },
+  {
+    "id": "vessel-s-v-blue-beacon",
+    "name": "S/V Blue Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Blue Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-bright-drift",
+    "name": "S/V Bright Drift",
+    "lengthFt": 32,
+    "lengthSources": [
+      {
+        "valueFt": 32,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A105",
+          "rawValue": "S/V Bright Drift 32'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Bright Drift 32'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Sage Garland"
+  },
+  {
+    "id": "vessel-s-v-bright-sextant",
+    "name": "S/V Bright Sextant",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Bright Sextant"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-bright-wind",
+    "name": "S/V Bright Wind",
+    "lengthFt": 72,
+    "lengthSources": [
+      {
+        "valueFt": 72,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A45",
+          "rawValue": "S/V Bright Wind 72'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Bright Wind 72'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Regional Fisheries Agency"
+  },
+  {
+    "id": "vessel-s-v-clear-heron",
+    "name": "S/V Clear Heron",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A183",
+          "rawValue": "S/V Clear Heron 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Clear Heron 85'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Taylor Calloway"
+  },
+  {
+    "id": "vessel-s-v-clear-horizon",
+    "name": "S/V Clear Horizon",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A37",
+          "rawValue": "S/V Clear Horizon 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Clear Horizon 85'"
+    ],
+    "contacts": [],
+    "notes": [
+      "Capt. Emerson Fenwick"
+    ],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-s-v-clear-kestrel",
+    "name": "S/V Clear Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Clear Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-coral-compass",
+    "name": "S/V CORAL COMPASS",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V CORAL COMPASS"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-coral-cove",
+    "name": "S/V CORAL COVE",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V CORAL COVE"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-deep-dory",
+    "name": "S/V Deep Dory",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Deep Dory"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-deep-skua",
+    "name": "S/V Deep Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Deep Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-deep-tide",
+    "name": "S/V Deep Tide",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Deep Tide"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-deep-wind",
+    "name": "S/V Deep Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Deep Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-far-dory",
+    "name": "S/V FAR DORY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V FAR DORY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-far-gannet",
+    "name": "S/V FAR GANNET",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V FAR GANNET"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-far-horizon",
+    "name": "S/V FAR HORIZON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V FAR HORIZON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-far-osprey",
+    "name": "S/V Far Osprey",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A54",
+          "rawValue": "S/V Far Osprey 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Far Osprey 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Alex Lowell"
+  },
+  {
+    "id": "vessel-s-v-far-tern",
+    "name": "S/V Far Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Far Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-anchor",
+    "name": "S/V Golden Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Golden Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-beacon",
+    "name": "S/V Golden Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Golden Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-cove",
+    "name": "S/V Golden Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Golden Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-fathom",
+    "name": "S/V GOLDEN FATHOM",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V GOLDEN FATHOM"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-heron",
+    "name": "S/V Golden Heron",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Golden Heron"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-reef",
+    "name": "S/V Golden Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Golden Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-golden-star",
+    "name": "S/V Golden Star",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A64",
+          "rawValue": "S/V Golden Star 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Golden Star 40'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Parker Danforth"
+  },
+  {
+    "id": "vessel-s-v-golden-tide",
+    "name": "S/V Golden Tide",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A130",
+          "rawValue": "S/V Golden Tide 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Golden Tide 40'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Jamie Dunmore"
+  },
+  {
+    "id": "vessel-s-v-green-compass",
+    "name": "S/V GREEN COMPASS",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V GREEN COMPASS"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-green-osprey",
+    "name": "S/V GREEN OSPREY",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V GREEN OSPREY"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-green-petrel",
+    "name": "S/V Green Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Green Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-grey-drift",
+    "name": "S/V Grey Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Grey Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-grey-reef",
+    "name": "S/V Grey Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Grey Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-grey-skua",
+    "name": "S/V Grey Skua",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Grey Skua"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-high-heron",
+    "name": "S/V HIGH HERON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V HIGH HERON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-high-ketch",
+    "name": "S/V High Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V High Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-high-marlin",
+    "name": "S/V High Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V High Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-high-meridian",
+    "name": "S/V High Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V High Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-high-tide",
+    "name": "S/V High Tide",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A181",
+          "rawValue": "S/V High Tide 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V High Tide 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Estuary Foundation"
+  },
+  {
+    "id": "vessel-s-v-iron-marlin",
+    "name": "S/V Iron Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Iron Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-iron-petrel",
+    "name": "S/V IRON PETREL",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V IRON PETREL"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-long-gannet",
+    "name": "S/V Long Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Long Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-long-sextant",
+    "name": "S/V LONG SEXTANT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V LONG SEXTANT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-northern-fathom",
+    "name": "S/V Northern Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Northern Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-northern-harbor",
+    "name": "S/V Northern Harbor",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A70",
+          "rawValue": "S/V Northern Harbor 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Northern Harbor 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Dana Norwood"
+  },
+  {
+    "id": "vessel-s-v-northern-meridian",
+    "name": "S/V Northern Meridian",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A51",
+          "rawValue": "S/V Northern Meridian 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Northern Meridian 85'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Emerson Pembroke"
+  },
+  {
+    "id": "vessel-s-v-quiet-beacon",
+    "name": "S/V Quiet Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Quiet Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-quiet-drift",
+    "name": "S/V Quiet Drift",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Quiet Drift"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-quiet-fathom",
+    "name": "S/V Quiet Fathom",
+    "lengthFt": 40,
+    "lengthSources": [
+      {
+        "valueFt": 40,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A138",
+          "rawValue": "S/V Quiet Fathom 40'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Quiet Fathom 40'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Elliot Fairweather"
+  },
+  {
+    "id": "vessel-s-v-quiet-sound",
+    "name": "S/V Quiet Sound",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A102",
+          "rawValue": "S/V Quiet Sound 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Quiet Sound 24'"
+    ],
+    "contacts": [
+      "jamie.marsh@example.com",
+      "Cell: 555-0164"
+    ],
+    "notes": [
+      "Capt. Jordan Bexley"
+    ],
+    "operator": "https://www.example.org/vessel"
+  },
+  {
+    "id": "vessel-s-v-quiet-tide",
+    "name": "S/V Quiet Tide",
+    "lengthFt": 52,
+    "lengthSources": [
+      {
+        "valueFt": 52,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A122",
+          "rawValue": "S/V Quiet Tide 52'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Quiet Tide 52'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-s-v-salt-anchor",
+    "name": "S/V Salt Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Salt Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-salt-beacon",
+    "name": "S/V Salt Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Salt Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-silver-cove",
+    "name": "S/V Silver Cove",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Silver Cove"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-silver-current",
+    "name": "S/V Silver Current",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Silver Current"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-silver-harbor",
+    "name": "S/V Silver Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Silver Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-silver-wind",
+    "name": "S/V SILVER WIND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V SILVER WIND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-swift-beacon",
+    "name": "S/V SWIFT BEACON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V SWIFT BEACON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-swift-marlin",
+    "name": "S/V Swift Marlin",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Swift Marlin"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-swift-reef",
+    "name": "S/V Swift Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Swift Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-swift-tide",
+    "name": "S/V Swift Tide",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Swift Tide"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-swift-wind",
+    "name": "S/V Swift Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Swift Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-western-compass",
+    "name": "S/V Western Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Western Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-western-cove",
+    "name": "S/V Western Cove",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A66",
+          "rawValue": "S/V Western Cove 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Western Cove 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Riley Lowell"
+  },
+  {
+    "id": "vessel-s-v-western-wind",
+    "name": "S/V Western Wind",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Western Wind"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-wild-cove",
+    "name": "S/V Wild Cove",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A39",
+          "rawValue": "S/V Wild Cove 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Wild Cove 120'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Parker Fenwick"
+  },
+  {
+    "id": "vessel-s-v-wild-drift",
+    "name": "S/V Wild Drift",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A18",
+          "rawValue": "S/V Wild Drift 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Wild Drift 24'"
+    ],
+    "contacts": [
+      "Cell: 555-0101",
+      "Cell: 555-0195",
+      "jordan.marsh@example.com",
+      "Cell: 555-0178",
+      "rowan.ransom@example.com",
+      "Cell: 555-0174",
+      "logan.fairweather@example.com"
+    ],
+    "notes": [
+      "Capt. Riley Oakes",
+      "Avery Everly",
+      "Approved by operations",
+      "Capt. Hayden Sterling",
+      "Capt. Rowan Ransom"
+    ],
+    "operator": "Coastal Survey Partners"
+  },
+  {
+    "id": "vessel-s-v-wild-harbor",
+    "name": "S/V Wild Harbor",
+    "lengthFt": 65,
+    "lengthSources": [
+      {
+        "valueFt": 65,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A171",
+          "rawValue": "S/V Wild Harbor 65'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Wild Harbor 65'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-wild-horizon",
+    "name": "S/V Wild Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/V Wild Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-v-wild-reef",
+    "name": "S/V Wild Reef",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A123",
+          "rawValue": "S/V Wild Reef 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/V Wild Reef 100'"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-y-clear-beacon",
+    "name": "S/Y Clear Beacon",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A62",
+          "rawValue": "S/Y Clear Beacon 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/Y Clear Beacon 170'"
+    ],
+    "contacts": [
+      "Cell: 555-0157",
+      "Cell: 555-0197"
+    ],
+    "notes": [],
+    "operator": "Capt. Jesse Ashford"
+  },
+  {
+    "id": "vessel-s-y-clear-sextant",
+    "name": "S/Y Clear Sextant",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A74",
+          "rawValue": "S/Y Clear Sextant 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/Y Clear Sextant 145'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Taylor Thorne"
+  },
+  {
+    "id": "vessel-s-y-deep-cove",
+    "name": "S/Y Deep Cove",
+    "lengthFt": 145,
+    "lengthSources": [
+      {
+        "valueFt": 145,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A39",
+          "rawValue": "S/Y Deep Cove 145'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/Y Deep Cove 145'"
+    ],
+    "contacts": [
+      "jesse.yardley@example.com",
+      "Cell: 555-0109",
+      "kendall.underhill@example.com",
+      "Cell: 555-0188"
+    ],
+    "notes": [
+      "State Marine Academy",
+      "Capt. Drew Ellery"
+    ],
+    "operator": "Capt. Drew Quill"
+  },
+  {
+    "id": "vessel-s-y-far-harbor",
+    "name": "S/Y Far Harbor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/Y Far Harbor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-y-high-fathom",
+    "name": "S/Y High Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/Y High Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-y-high-gannet",
+    "name": "S/Y High Gannet",
+    "lengthFt": 100,
+    "lengthSources": [
+      {
+        "valueFt": 100,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A13",
+          "rawValue": "S/Y High Gannet 100'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/Y High Gannet 100'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Jamie Everly"
+  },
+  {
+    "id": "vessel-s-y-long-gannet",
+    "name": "S/Y Long Gannet",
+    "lengthFt": 24,
+    "lengthSources": [
+      {
+        "valueFt": 24,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A79",
+          "rawValue": "S/Y Long Gannet 24'"
+        }
+      }
+    ],
+    "aliases": [
+      "S/Y Long Gannet 24'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Bayline Charters"
+  },
+  {
+    "id": "vessel-s-y-silver-meridian",
+    "name": "S/Y Silver Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/Y Silver Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-s-y-wild-petrel",
+    "name": "S/Y Wild Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "S/Y Wild Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-amber-horizon",
+    "name": "Tug Amber Horizon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Amber Horizon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-amber-kestrel",
+    "name": "Tug Amber Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Amber Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-amber-lantern",
+    "name": "Tug Amber Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Amber Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-amber-strand",
+    "name": "Tug Amber Strand",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Amber Strand"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-blue-fathom",
+    "name": "Tug Blue Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Blue Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-bright-anchor",
+    "name": "Tug Bright Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Bright Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-bright-petrel",
+    "name": "Tug Bright Petrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Bright Petrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-coral-heron",
+    "name": "Tug CORAL HERON",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug CORAL HERON"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-coral-reef",
+    "name": "Tug Coral Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Coral Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-deep-wind",
+    "name": "Tug Deep Wind",
+    "lengthFt": 120,
+    "lengthSources": [
+      {
+        "valueFt": 120,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A140",
+          "rawValue": "Tug Deep Wind 120'"
+        }
+      }
+    ],
+    "aliases": [
+      "Tug Deep Wind 120'"
+    ],
+    "contacts": [
+      "rowan.underhill@example.com",
+      "Cell: 555-0130"
+    ],
+    "notes": [],
+    "operator": "Harbor Institute"
+  },
+  {
+    "id": "vessel-tug-far-compass",
+    "name": "Tug Far Compass",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Far Compass"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-far-ketch",
+    "name": "Tug Far Ketch",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Far Ketch"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-far-ledge",
+    "name": "Tug Far Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Far Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-far-meridian",
+    "name": "Tug Far Meridian",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Far Meridian"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-far-reef",
+    "name": "Tug Far Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Far Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-far-strand",
+    "name": "Tug FAR STRAND",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug FAR STRAND"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-golden-sound",
+    "name": "Tug Golden Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Golden Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-green-fathom",
+    "name": "Tug Green Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Green Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-green-sound",
+    "name": "Tug Green Sound",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Green Sound"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-grey-voyager",
+    "name": "Tug Grey Voyager",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Grey Voyager"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-iron-anchor",
+    "name": "Tug Iron Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Iron Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-long-anchor",
+    "name": "Tug Long Anchor",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Yachts",
+          "cell": "A143",
+          "rawValue": "Tug Long Anchor 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "Tug Long Anchor 170'"
+    ],
+    "contacts": [
+      "Cell: 555-0153"
+    ],
+    "notes": [],
+    "operator": "Capt. Lee Fairweather"
+  },
+  {
+    "id": "vessel-tug-long-kestrel",
+    "name": "Tug Long Kestrel",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Long Kestrel"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-long-osprey",
+    "name": "Tug Long Osprey",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Long Osprey"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-long-reef",
+    "name": "Tug Long Reef",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Long Reef"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-long-skua",
+    "name": "Tug Long Skua",
+    "lengthFt": 170,
+    "lengthSources": [
+      {
+        "valueFt": 170,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A28",
+          "rawValue": "Tug Long Skua 170'"
+        }
+      }
+    ],
+    "aliases": [
+      "Tug Long Skua 170'"
+    ],
+    "contacts": [],
+    "notes": [],
+    "operator": "Capt. Blake Fenwick"
+  },
+  {
+    "id": "vessel-tug-northern-beacon",
+    "name": "Tug Northern Beacon",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Northern Beacon"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-salt-star",
+    "name": "Tug SALT STAR",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug SALT STAR"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-salt-strand",
+    "name": "Tug Salt Strand",
+    "lengthFt": 85,
+    "lengthSources": [
+      {
+        "valueFt": 85,
+        "source": "name",
+        "sourceReference": {
+          "sheet": "Science",
+          "cell": "A138",
+          "rawValue": "Tug Salt Strand 85'"
+        }
+      }
+    ],
+    "aliases": [
+      "Tug Salt Strand 85'"
+    ],
+    "contacts": [
+      "sage.ingram@example.com",
+      "blake.abbott@example.com",
+      "Cell: 555-0184"
+    ],
+    "notes": [],
+    "operator": "Capt. Dana Ransom"
+  },
+  {
+    "id": "vessel-tug-salt-tide",
+    "name": "Tug Salt Tide",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Salt Tide"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-silver-fathom",
+    "name": "Tug Silver Fathom",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Silver Fathom"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-silver-tern",
+    "name": "Tug Silver Tern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Silver Tern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-swift-anchor",
+    "name": "Tug Swift Anchor",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Swift Anchor"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-swift-ledge",
+    "name": "Tug Swift Ledge",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Swift Ledge"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-western-current",
+    "name": "Tug WESTERN CURRENT",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug WESTERN CURRENT"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-western-heron",
+    "name": "Tug Western Heron",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Western Heron"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-western-lantern",
+    "name": "Tug Western Lantern",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Western Lantern"
+    ],
+    "contacts": [],
+    "notes": []
+  },
+  {
+    "id": "vessel-tug-wild-gannet",
+    "name": "Tug Wild Gannet",
+    "lengthFt": null,
+    "lengthSources": [],
+    "aliases": [
+      "Tug Wild Gannet"
+    ],
+    "contacts": [],
+    "notes": []
+  }
+]

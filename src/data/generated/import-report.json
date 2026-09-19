@@ -1,0 +1,486 @@
+{
+  "sourceFile": "Dock Schedule - Synthetic Sample.xlsx",
+  "scheduleYears": {
+    "first": 1997,
+    "last": 2019
+  },
+  "annualSheetsParsed": 23,
+  "reservationCount": 2186,
+  "vesselCount": 569,
+  "berthCount": 8,
+  "annotationCount": 25,
+  "typeCounts": {
+    "vessel": 2106,
+    "event": 71,
+    "closure": 9
+  },
+  "confidenceCounts": {
+    "high": 2106,
+    "medium": 24,
+    "low": 56
+  },
+  "issueCounts": {
+    "UNKNOWN_VESSEL_LENGTH": 407,
+    "VESSEL_TOO_LONG": 9,
+    "BERTH_CONFLICT": 2,
+    "VESSEL_LENGTH_CONFLICT": 5,
+    "SUMMARY_MISMATCH": 53
+  },
+  "summaryComparisons": [
+    {
+      "resource": "North Pier West",
+      "year": 2006,
+      "parsedDays": 24,
+      "legacyDays": 127,
+      "difference": -103,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2007,
+      "parsedDays": 12,
+      "legacyDays": 219,
+      "difference": -207,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2008,
+      "parsedDays": 21,
+      "legacyDays": 116,
+      "difference": -95,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2009,
+      "parsedDays": 103,
+      "legacyDays": 193,
+      "difference": -90,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2010,
+      "parsedDays": 115,
+      "legacyDays": 136,
+      "difference": -21,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2011,
+      "parsedDays": 139,
+      "legacyDays": 337,
+      "difference": -198,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2012,
+      "parsedDays": 182,
+      "legacyDays": 648,
+      "difference": -466,
+      "exact": false
+    },
+    {
+      "resource": "North Pier West",
+      "year": 2013,
+      "parsedDays": 155,
+      "legacyDays": 470,
+      "difference": -315,
+      "exact": false
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2006,
+      "parsedDays": 2,
+      "legacyDays": 0,
+      "difference": 2,
+      "exact": false
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2007,
+      "parsedDays": 3,
+      "legacyDays": 3,
+      "difference": 0,
+      "exact": true
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2008,
+      "parsedDays": 3,
+      "legacyDays": 3,
+      "difference": 0,
+      "exact": true
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2009,
+      "parsedDays": 13,
+      "legacyDays": 16,
+      "difference": -3,
+      "exact": false
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2010,
+      "parsedDays": 17,
+      "legacyDays": 29,
+      "difference": -12,
+      "exact": false
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2011,
+      "parsedDays": 14,
+      "legacyDays": 6,
+      "difference": 8,
+      "exact": false
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2012,
+      "parsedDays": 5,
+      "legacyDays": 3,
+      "difference": 2,
+      "exact": false
+    },
+    {
+      "resource": "North Pier Face",
+      "year": 2013,
+      "parsedDays": 19,
+      "legacyDays": 21,
+      "difference": -2,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2006,
+      "parsedDays": 17,
+      "legacyDays": 85,
+      "difference": -68,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2007,
+      "parsedDays": 29,
+      "legacyDays": 176,
+      "difference": -147,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2008,
+      "parsedDays": 14,
+      "legacyDays": 51,
+      "difference": -37,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2009,
+      "parsedDays": 45,
+      "legacyDays": 36,
+      "difference": 9,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2010,
+      "parsedDays": 68,
+      "legacyDays": 112,
+      "difference": -44,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2011,
+      "parsedDays": 69,
+      "legacyDays": 85,
+      "difference": -16,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2012,
+      "parsedDays": 54,
+      "legacyDays": 78,
+      "difference": -24,
+      "exact": false
+    },
+    {
+      "resource": "North Pier East",
+      "year": 2013,
+      "parsedDays": 180,
+      "legacyDays": 631,
+      "difference": -451,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2006,
+      "parsedDays": 0,
+      "legacyDays": 348,
+      "difference": -348,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2007,
+      "parsedDays": 0,
+      "legacyDays": 431,
+      "difference": -431,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2008,
+      "parsedDays": 0,
+      "legacyDays": 298,
+      "difference": -298,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2009,
+      "parsedDays": 0,
+      "legacyDays": 434,
+      "difference": -434,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2010,
+      "parsedDays": 0,
+      "legacyDays": 363,
+      "difference": -363,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2011,
+      "parsedDays": 0,
+      "legacyDays": 415,
+      "difference": -415,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2012,
+      "parsedDays": 0,
+      "legacyDays": 511,
+      "difference": -511,
+      "exact": false
+    },
+    {
+      "resource": "North Finger Piers",
+      "year": 2013,
+      "parsedDays": 0,
+      "legacyDays": 334,
+      "difference": -334,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2006,
+      "parsedDays": 0,
+      "legacyDays": 64,
+      "difference": -64,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2007,
+      "parsedDays": 0,
+      "legacyDays": 118,
+      "difference": -118,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2008,
+      "parsedDays": 0,
+      "legacyDays": 67,
+      "difference": -67,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2009,
+      "parsedDays": 0,
+      "legacyDays": 88,
+      "difference": -88,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2010,
+      "parsedDays": 0,
+      "legacyDays": 89,
+      "difference": -89,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2011,
+      "parsedDays": 0,
+      "legacyDays": 118,
+      "difference": -118,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2012,
+      "parsedDays": 0,
+      "legacyDays": 116,
+      "difference": -116,
+      "exact": false
+    },
+    {
+      "resource": "Marsh Landing",
+      "year": 2013,
+      "parsedDays": 0,
+      "legacyDays": 120,
+      "difference": -120,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2006,
+      "parsedDays": 3,
+      "legacyDays": 3,
+      "difference": 0,
+      "exact": true
+    },
+    {
+      "resource": "South Float West",
+      "year": 2007,
+      "parsedDays": 2,
+      "legacyDays": 1,
+      "difference": 1,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2008,
+      "parsedDays": 4,
+      "legacyDays": 5,
+      "difference": -1,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2009,
+      "parsedDays": 17,
+      "legacyDays": 23,
+      "difference": -6,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2010,
+      "parsedDays": 101,
+      "legacyDays": 66,
+      "difference": 35,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2011,
+      "parsedDays": 71,
+      "legacyDays": 67,
+      "difference": 4,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2012,
+      "parsedDays": 23,
+      "legacyDays": 26,
+      "difference": -3,
+      "exact": false
+    },
+    {
+      "resource": "South Float West",
+      "year": 2013,
+      "parsedDays": 77,
+      "legacyDays": 37,
+      "difference": 40,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2006,
+      "parsedDays": 9,
+      "legacyDays": 12,
+      "difference": -3,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2007,
+      "parsedDays": 10,
+      "legacyDays": 25,
+      "difference": -15,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2008,
+      "parsedDays": 8,
+      "legacyDays": 20,
+      "difference": -12,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2009,
+      "parsedDays": 79,
+      "legacyDays": 113,
+      "difference": -34,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2010,
+      "parsedDays": 115,
+      "legacyDays": 74,
+      "difference": 41,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2011,
+      "parsedDays": 56,
+      "legacyDays": 17,
+      "difference": 39,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2012,
+      "parsedDays": 109,
+      "legacyDays": 138,
+      "difference": -29,
+      "exact": false
+    },
+    {
+      "resource": "South Float East",
+      "year": 2013,
+      "parsedDays": 85,
+      "legacyDays": 62,
+      "difference": 23,
+      "exact": false
+    }
+  ],
+  "generatedAt": "2026-09-19T03:29:57.683Z",
+  "assumptions": [
+    "Merged horizontal cells define inclusive reservation date ranges.",
+    "Populated unmerged berth cells represent one-day entries.",
+    "Tours is ancillary reference data and is not imported as berth occupancy.",
+    "Unknown berth capacity is preserved as unknown, not unlimited."
+  ]
+}

@@ -1,0 +1,6881 @@
+[
+  {
+    "id": "length-reservation-1997-C4",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Swift Dory has no verified length.",
+    "reservationIds": [
+      "reservation-1997-C4"
+    ],
+    "vesselId": "vessel-f-v-swift-dory",
+    "berthId": "berth-north-pier-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-AA4",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V IRON PETREL has no verified length.",
+    "reservationIds": [
+      "reservation-1997-AA4"
+    ],
+    "vesselId": "vessel-s-v-iron-petrel",
+    "berthId": "berth-north-pier-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-D6",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Deep Cove has no verified length.",
+    "reservationIds": [
+      "reservation-1997-D6"
+    ],
+    "vesselId": "vessel-f-v-deep-cove",
+    "berthId": "berth-north-pier-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-AB6",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug WESTERN CURRENT has no verified length.",
+    "reservationIds": [
+      "reservation-1997-AB6"
+    ],
+    "vesselId": "vessel-tug-western-current",
+    "berthId": "berth-north-pier-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-H8",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Swift Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-1997-H8"
+    ],
+    "vesselId": "vessel-m-v-swift-petrel",
+    "berthId": "berth-south-float-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-C9",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V FAR HORIZON has no verified length.",
+    "reservationIds": [
+      "reservation-1997-C9"
+    ],
+    "vesselId": "vessel-s-v-far-horizon",
+    "berthId": "berth-south-float-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-H15",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V NORTHERN MERIDIAN has no verified length.",
+    "reservationIds": [
+      "reservation-1997-H15"
+    ],
+    "vesselId": "vessel-r-v-northern-meridian",
+    "berthId": "berth-north-pier-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-K15",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Long Drift has no verified length.",
+    "reservationIds": [
+      "reservation-1997-K15"
+    ],
+    "vesselId": "vessel-f-v-long-drift",
+    "berthId": "berth-north-pier-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-U15",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Tern has no verified length.",
+    "reservationIds": [
+      "reservation-1997-U15"
+    ],
+    "vesselId": "vessel-r-v-quiet-tern",
+    "berthId": "berth-north-pier-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-G17",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V CLEAR STAR has no verified length.",
+    "reservationIds": [
+      "reservation-1997-G17"
+    ],
+    "vesselId": "vessel-r-v-clear-star",
+    "berthId": "berth-north-pier-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-Q17",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge SALT DORY has no verified length.",
+    "reservationIds": [
+      "reservation-1997-Q17"
+    ],
+    "vesselId": "vessel-barge-salt-dory",
+    "berthId": "berth-north-pier-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-Q20",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Golden Star has no verified length.",
+    "reservationIds": [
+      "reservation-1997-Q20"
+    ],
+    "vesselId": "vessel-barge-golden-star",
+    "berthId": "berth-south-float-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-T20",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge WESTERN COVE has no verified length.",
+    "reservationIds": [
+      "reservation-1997-T20"
+    ],
+    "vesselId": "vessel-barge-western-cove",
+    "berthId": "berth-south-float-east",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1997-M26",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V NORTHERN HARBOR has no verified length.",
+    "reservationIds": [
+      "reservation-1997-M26"
+    ],
+    "vesselId": "vessel-m-v-northern-harbor",
+    "berthId": "berth-north-pier-west",
+    "year": 1997,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-B6",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Swift Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-1998-B6"
+    ],
+    "vesselId": "vessel-tug-swift-anchor",
+    "berthId": "berth-north-pier-east",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-AD59",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Clear Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-1998-AD59"
+    ],
+    "vesselId": "vessel-r-v-clear-sextant",
+    "berthId": "berth-north-pier-west",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-AA70",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Long Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-1998-AA70"
+    ],
+    "vesselId": "vessel-s-v-long-gannet",
+    "berthId": "berth-north-pier-west",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-AF70",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Wild Star has no verified length.",
+    "reservationIds": [
+      "reservation-1998-AF70"
+    ],
+    "vesselId": "vessel-osv-wild-star",
+    "berthId": "berth-north-pier-west",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-I81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Grey Reef has no verified length.",
+    "reservationIds": [
+      "reservation-1998-I81"
+    ],
+    "vesselId": "vessel-s-v-grey-reef",
+    "berthId": "berth-north-pier-west",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-C83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Western Tern has no verified length.",
+    "reservationIds": [
+      "reservation-1998-C83"
+    ],
+    "vesselId": "vessel-osv-western-tern",
+    "berthId": "berth-north-pier-east",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-M83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Iron Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-1998-M83"
+    ],
+    "vesselId": "vessel-r-v-iron-harbor",
+    "berthId": "berth-north-pier-east",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-V85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Bright Drift has no verified length.",
+    "reservationIds": [
+      "reservation-1998-V85"
+    ],
+    "vesselId": "vessel-m-v-bright-drift",
+    "berthId": "berth-south-float-west",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-C86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Wild Dory has no verified length.",
+    "reservationIds": [
+      "reservation-1998-C86"
+    ],
+    "vesselId": "vessel-r-v-wild-dory",
+    "berthId": "berth-south-float-east",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-Y93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Blue Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-1998-Y93"
+    ],
+    "vesselId": "vessel-tug-blue-fathom",
+    "berthId": "berth-north-pier-west",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-W94",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Long Heron has no verified length.",
+    "reservationIds": [
+      "reservation-1998-W94"
+    ],
+    "vesselId": "vessel-f-v-long-heron",
+    "berthId": "berth-north-pier-face",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-J98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Blue Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-1998-J98"
+    ],
+    "vesselId": "vessel-osv-blue-osprey",
+    "berthId": "berth-south-float-east",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1998-Z117",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Quiet Drift has no verified length.",
+    "reservationIds": [
+      "reservation-1998-Z117"
+    ],
+    "vesselId": "vessel-s-v-quiet-drift",
+    "berthId": "berth-north-pier-east",
+    "year": 1998,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-B41",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Wild Reef has no verified length.",
+    "reservationIds": [
+      "reservation-1999-B41"
+    ],
+    "vesselId": "vessel-m-v-wild-reef",
+    "berthId": "berth-south-float-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-W48",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Clear Reef has no verified length.",
+    "reservationIds": [
+      "reservation-1999-W48"
+    ],
+    "vesselId": "vessel-m-y-clear-reef",
+    "berthId": "berth-north-pier-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-AD52",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Long Reef has no verified length.",
+    "reservationIds": [
+      "reservation-1999-AD52"
+    ],
+    "vesselId": "vessel-tug-long-reef",
+    "berthId": "berth-south-float-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-N59",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Blue Drift has no verified length.",
+    "reservationIds": [
+      "reservation-1999-N59"
+    ],
+    "vesselId": "vessel-osv-blue-drift",
+    "berthId": "berth-north-pier-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-AB59",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-1999-AB59"
+    ],
+    "vesselId": "vessel-r-v-quiet-fathom",
+    "berthId": "berth-north-pier-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-D74",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Deep Wind has no verified length.",
+    "reservationIds": [
+      "reservation-1999-D74"
+    ],
+    "vesselId": "vessel-s-v-deep-wind",
+    "berthId": "berth-south-float-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-AC81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Long Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-1999-AC81"
+    ],
+    "vesselId": "vessel-r-v-long-anchor",
+    "berthId": "berth-north-pier-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-X83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Green Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-1999-X83"
+    ],
+    "vesselId": "vessel-m-v-green-beacon",
+    "berthId": "berth-north-pier-east",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-AC85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Swift Reef has no verified length.",
+    "reservationIds": [
+      "reservation-1999-AC85"
+    ],
+    "vesselId": "vessel-s-v-swift-reef",
+    "berthId": "berth-south-float-west",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-1999-Y86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Wild Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-1999-Y86"
+    ],
+    "vesselId": "vessel-s-v-wild-horizon",
+    "berthId": "berth-south-float-east",
+    "year": 1999,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-X42",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Silver Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2000-X42"
+    ],
+    "vesselId": "vessel-s-v-silver-harbor",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-Y48",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Long Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2000-Y48"
+    ],
+    "vesselId": "vessel-barge-long-voyager",
+    "berthId": "berth-north-pier-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-AD48",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Iron Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2000-AD48"
+    ],
+    "vesselId": "vessel-f-v-iron-wind",
+    "berthId": "berth-north-pier-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-Y53",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Wild Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2000-Y53"
+    ],
+    "vesselId": "vessel-m-y-wild-sextant",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-AC60",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Salt Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2000-AC60"
+    ],
+    "vesselId": "vessel-r-v-salt-ledge",
+    "berthId": "berth-north-pier-face",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-L61",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Wild Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2000-L61"
+    ],
+    "vesselId": "vessel-r-v-wild-harbor",
+    "berthId": "berth-north-pier-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-X63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Wild Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2000-X63"
+    ],
+    "vesselId": "vessel-barge-wild-skua",
+    "berthId": "berth-south-float-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-AB72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Swift Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2000-AB72"
+    ],
+    "vesselId": "vessel-r-v-swift-sextant",
+    "berthId": "berth-north-pier-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-P74",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Salt Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2000-P74"
+    ],
+    "vesselId": "vessel-m-v-salt-sextant",
+    "berthId": "berth-south-float-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-Q75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Long Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2000-Q75"
+    ],
+    "vesselId": "vessel-tug-long-osprey",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-R75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Far Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2000-R75"
+    ],
+    "vesselId": "vessel-tug-far-reef",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-P81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V SALT FATHOM has no verified length.",
+    "reservationIds": [
+      "reservation-2000-P81"
+    ],
+    "vesselId": "vessel-f-v-salt-fathom",
+    "berthId": "berth-north-pier-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-B83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Iron Tide has no verified length.",
+    "reservationIds": [
+      "reservation-2000-B83"
+    ],
+    "vesselId": "vessel-f-v-iron-tide",
+    "berthId": "berth-north-pier-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-P83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V IRON DRIFT has no verified length.",
+    "reservationIds": [
+      "reservation-2000-P83"
+    ],
+    "vesselId": "vessel-r-v-iron-drift",
+    "berthId": "berth-north-pier-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-V83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V IRON STRAND has no verified length.",
+    "reservationIds": [
+      "reservation-2000-V83"
+    ],
+    "vesselId": "vessel-r-v-iron-strand",
+    "berthId": "berth-north-pier-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-I85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Far Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2000-I85"
+    ],
+    "vesselId": "vessel-barge-far-cove",
+    "berthId": "berth-south-float-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-J92",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V High Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2000-J92"
+    ],
+    "vesselId": "vessel-m-v-high-wind",
+    "berthId": "berth-north-pier-west",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-T93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Western Heron has no verified length.",
+    "reservationIds": [
+      "reservation-2000-T93"
+    ],
+    "vesselId": "vessel-tug-western-heron",
+    "berthId": "berth-north-pier-face",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-R97",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Golden Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2000-R97"
+    ],
+    "vesselId": "vessel-m-v-golden-gannet",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-D108",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Salt Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2000-D108"
+    ],
+    "vesselId": "vessel-barge-salt-reef",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-Z108",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V SILVER WIND has no verified length.",
+    "reservationIds": [
+      "reservation-2000-Z108"
+    ],
+    "vesselId": "vessel-s-v-silver-wind",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2000-F119",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V SALT HERON has no verified length.",
+    "reservationIds": [
+      "reservation-2000-F119"
+    ],
+    "vesselId": "vessel-r-v-salt-heron",
+    "berthId": "berth-south-float-east",
+    "year": 2000,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-D28",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Iron Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2001-D28"
+    ],
+    "vesselId": "vessel-osv-iron-meridian",
+    "berthId": "berth-north-pier-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-L63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Grey Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2001-L63"
+    ],
+    "vesselId": "vessel-m-v-grey-cove",
+    "berthId": "berth-south-float-west",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-R70",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Quiet Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2001-R70"
+    ],
+    "vesselId": "vessel-m-v-quiet-ledge",
+    "berthId": "berth-north-pier-west",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-V71",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Green Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2001-V71"
+    ],
+    "vesselId": "vessel-r-v-green-sextant",
+    "berthId": "berth-north-pier-face",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-U72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Amber Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2001-U72"
+    ],
+    "vesselId": "vessel-s-v-amber-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-AA74",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V GOLDEN FATHOM has no verified length.",
+    "reservationIds": [
+      "reservation-2001-AA74"
+    ],
+    "vesselId": "vessel-s-v-golden-fathom",
+    "berthId": "berth-south-float-west",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-AF82",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V NORTHERN PETREL has no verified length.",
+    "reservationIds": [
+      "reservation-2001-AF82"
+    ],
+    "vesselId": "vessel-m-v-northern-petrel",
+    "berthId": "berth-north-pier-face",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-Q83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Amber Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2001-Q83"
+    ],
+    "vesselId": "vessel-m-v-amber-petrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-S83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Silver Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2001-S83"
+    ],
+    "vesselId": "vessel-r-v-silver-osprey",
+    "berthId": "berth-north-pier-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-R84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V QUIET PETREL has no verified length.",
+    "reservationIds": [
+      "reservation-2001-R84"
+    ],
+    "vesselId": "vessel-m-v-quiet-petrel",
+    "berthId": "berth-inner-channel",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-T84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Long Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2001-T84"
+    ],
+    "vesselId": "vessel-r-v-long-marlin",
+    "berthId": "berth-inner-channel",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-G85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V AMBER FATHOM has no verified length.",
+    "reservationIds": [
+      "reservation-2001-G85"
+    ],
+    "vesselId": "vessel-s-v-amber-fathom",
+    "berthId": "berth-south-float-west",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-G86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V CORAL COMPASS has no verified length.",
+    "reservationIds": [
+      "reservation-2001-G86"
+    ],
+    "vesselId": "vessel-s-v-coral-compass",
+    "berthId": "berth-south-float-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-V86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Green Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2001-V86"
+    ],
+    "vesselId": "vessel-s-v-green-petrel",
+    "berthId": "berth-south-float-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-E93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Coral Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2001-E93"
+    ],
+    "vesselId": "vessel-m-v-coral-kestrel",
+    "berthId": "berth-north-pier-face",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-V94",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V GREY HARBOR has no verified length.",
+    "reservationIds": [
+      "reservation-2001-V94"
+    ],
+    "vesselId": "vessel-m-v-grey-harbor",
+    "berthId": "berth-north-pier-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-AC94",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV DEEP HARBOR has no verified length.",
+    "reservationIds": [
+      "reservation-2001-AC94"
+    ],
+    "vesselId": "vessel-osv-deep-harbor",
+    "berthId": "berth-north-pier-east",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2001-Q103",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V GOLDEN MARLIN has no verified length.",
+    "reservationIds": [
+      "reservation-2001-Q103"
+    ],
+    "vesselId": "vessel-r-v-golden-marlin",
+    "berthId": "berth-north-pier-west",
+    "year": 2001,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-K14",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2002-K14"
+    ],
+    "vesselId": "vessel-r-v-blue-reef",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-P14",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Deep Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2002-P14"
+    ],
+    "vesselId": "vessel-m-y-deep-petrel",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-J17",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Grey Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2002-J17"
+    ],
+    "vesselId": "vessel-r-v-grey-beacon",
+    "berthId": "berth-inner-channel",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-AA47",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Grey Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2002-AA47"
+    ],
+    "vesselId": "vessel-r-v-grey-marlin",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-E58",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Amber Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2002-E58"
+    ],
+    "vesselId": "vessel-osv-amber-cove",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-O58",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Wild Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2002-O58"
+    ],
+    "vesselId": "vessel-r-v-wild-kestrel",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-C63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Iron Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2002-C63"
+    ],
+    "vesselId": "vessel-m-v-iron-horizon",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-G63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Golden Heron has no verified length.",
+    "reservationIds": [
+      "reservation-2002-G63"
+    ],
+    "vesselId": "vessel-s-v-golden-heron",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-M69",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Coral Current has no verified length.",
+    "reservationIds": [
+      "reservation-2002-M69"
+    ],
+    "vesselId": "vessel-r-v-coral-current",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-M84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Green Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2002-M84"
+    ],
+    "vesselId": "vessel-tug-green-sound",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-R84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge High Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2002-R84"
+    ],
+    "vesselId": "vessel-barge-high-osprey",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-T84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V NORTHERN HERON has no verified length.",
+    "reservationIds": [
+      "reservation-2002-T84"
+    ],
+    "vesselId": "vessel-m-v-northern-heron",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-I85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Grey Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2002-I85"
+    ],
+    "vesselId": "vessel-r-v-grey-ledge",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-T85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Northern Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2002-T85"
+    ],
+    "vesselId": "vessel-r-v-northern-lantern",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-V85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Far Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2002-V85"
+    ],
+    "vesselId": "vessel-s-v-far-tern",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-H95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Golden Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2002-H95"
+    ],
+    "vesselId": "vessel-m-y-golden-wind",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-M95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V LONG SEXTANT has no verified length.",
+    "reservationIds": [
+      "reservation-2002-M95"
+    ],
+    "vesselId": "vessel-s-v-long-sextant",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-Y95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug SALT STAR has no verified length.",
+    "reservationIds": [
+      "reservation-2002-Y95"
+    ],
+    "vesselId": "vessel-tug-salt-star",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-AD95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Swift Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2002-AD95"
+    ],
+    "vesselId": "vessel-r-v-swift-ketch",
+    "berthId": "berth-south-float-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-I96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V GREY SEXTANT has no verified length.",
+    "reservationIds": [
+      "reservation-2002-I96"
+    ],
+    "vesselId": "vessel-r-v-grey-sextant",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-P96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge WILD OSPREY has no verified length.",
+    "reservationIds": [
+      "reservation-2002-P96"
+    ],
+    "vesselId": "vessel-barge-wild-osprey",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-R96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V FAR DORY has no verified length.",
+    "reservationIds": [
+      "reservation-2002-R96"
+    ],
+    "vesselId": "vessel-s-v-far-dory",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-S96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V GREEN COMPASS has no verified length.",
+    "reservationIds": [
+      "reservation-2002-S96"
+    ],
+    "vesselId": "vessel-s-v-green-compass",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-H106",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V IRON REEF has no verified length.",
+    "reservationIds": [
+      "reservation-2002-H106"
+    ],
+    "vesselId": "vessel-r-v-iron-reef",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-Y106",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Quiet Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2002-Y106"
+    ],
+    "vesselId": "vessel-m-v-quiet-sextant",
+    "berthId": "berth-north-pier-west",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-C107",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Iron Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2002-C107"
+    ],
+    "vesselId": "vessel-r-v-iron-compass",
+    "berthId": "berth-north-pier-face",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-O111",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V CORAL STAR has no verified length.",
+    "reservationIds": [
+      "reservation-2002-O111"
+    ],
+    "vesselId": "vessel-m-v-coral-star",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2002-E122",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge BLUE HORIZON has no verified length.",
+    "reservationIds": [
+      "reservation-2002-E122"
+    ],
+    "vesselId": "vessel-barge-blue-horizon",
+    "berthId": "berth-south-float-east",
+    "year": 2002,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-C36",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V NORTHERN VOYAGER has no verified length.",
+    "reservationIds": [
+      "reservation-2003-C36"
+    ],
+    "vesselId": "vessel-f-v-northern-voyager",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-G38",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV LONG HARBOR has no verified length.",
+    "reservationIds": [
+      "reservation-2003-G38"
+    ],
+    "vesselId": "vessel-osv-long-harbor",
+    "berthId": "berth-north-pier-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-O47",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V GREEN OSPREY has no verified length.",
+    "reservationIds": [
+      "reservation-2003-O47"
+    ],
+    "vesselId": "vessel-s-v-green-osprey",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-S47",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y GREEN LANTERN has no verified length.",
+    "reservationIds": [
+      "reservation-2003-S47"
+    ],
+    "vesselId": "vessel-m-y-green-lantern",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-AD47",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge BRIGHT STAR has no verified length.",
+    "reservationIds": [
+      "reservation-2003-AD47"
+    ],
+    "vesselId": "vessel-barge-bright-star",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-X49",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V WILD TIDE has no verified length.",
+    "reservationIds": [
+      "reservation-2003-X49"
+    ],
+    "vesselId": "vessel-r-v-wild-tide",
+    "berthId": "berth-north-pier-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-L52",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Western Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2003-L52"
+    ],
+    "vesselId": "vessel-r-v-western-sextant",
+    "berthId": "berth-south-float-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-B59",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Quiet Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2003-B59"
+    ],
+    "vesselId": "vessel-m-v-quiet-reef",
+    "berthId": "berth-north-pier-face",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-F60",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Amber Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2003-F60"
+    ],
+    "vesselId": "vessel-r-v-amber-osprey",
+    "berthId": "berth-north-pier-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-K60",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Wild Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2003-K60"
+    ],
+    "vesselId": "vessel-tug-wild-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-S61",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Far Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2003-S61"
+    ],
+    "vesselId": "vessel-tug-far-ketch",
+    "berthId": "berth-inner-channel",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-B69",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Swift Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2003-B69"
+    ],
+    "vesselId": "vessel-f-v-swift-compass",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-AE69",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge DEEP LANTERN has no verified length.",
+    "reservationIds": [
+      "reservation-2003-AE69"
+    ],
+    "vesselId": "vessel-barge-deep-lantern",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-V71",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2003-V71"
+    ],
+    "vesselId": "vessel-r-v-quiet-marlin",
+    "berthId": "berth-north-pier-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-AD71",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V NORTHERN TERN has no verified length.",
+    "reservationIds": [
+      "reservation-2003-AD71"
+    ],
+    "vesselId": "vessel-f-v-northern-tern",
+    "berthId": "berth-north-pier-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-D73",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y GREY OSPREY has no verified length.",
+    "reservationIds": [
+      "reservation-2003-D73"
+    ],
+    "vesselId": "vessel-m-y-grey-osprey",
+    "berthId": "berth-south-float-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-D80",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Amber Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2003-D80"
+    ],
+    "vesselId": "vessel-m-v-amber-ketch",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-K85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V IRON SEXTANT has no verified length.",
+    "reservationIds": [
+      "reservation-2003-K85"
+    ],
+    "vesselId": "vessel-f-v-iron-sextant",
+    "berthId": "berth-south-float-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-I95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Iron Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2003-I95"
+    ],
+    "vesselId": "vessel-m-v-iron-fathom",
+    "berthId": "berth-south-float-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-Q96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Amber Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2003-Q96"
+    ],
+    "vesselId": "vessel-m-v-amber-tern",
+    "berthId": "berth-south-float-east",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2003-H108",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V SILVER SOUND has no verified length.",
+    "reservationIds": [
+      "reservation-2003-H108"
+    ],
+    "vesselId": "vessel-m-v-silver-sound",
+    "berthId": "berth-north-pier-west",
+    "year": 2003,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-AC42",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V LONG STRAND has no verified length.",
+    "reservationIds": [
+      "reservation-2004-AC42"
+    ],
+    "vesselId": "vessel-f-v-long-strand",
+    "berthId": "berth-north-pier-east",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-P73",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Northern Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2004-P73"
+    ],
+    "vesselId": "vessel-m-y-northern-compass",
+    "berthId": "berth-north-pier-west",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-I75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2004-I75"
+    ],
+    "vesselId": "vessel-r-v-quiet-kestrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-S78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV AMBER REEF has no verified length.",
+    "reservationIds": [
+      "reservation-2004-S78"
+    ],
+    "vesselId": "vessel-osv-amber-reef",
+    "berthId": "berth-south-float-east",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-Q84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Amber Current has no verified length.",
+    "reservationIds": [
+      "reservation-2004-Q84"
+    ],
+    "vesselId": "vessel-f-v-amber-current",
+    "berthId": "berth-north-pier-west",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-Z84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V DEEP OSPREY has no verified length.",
+    "reservationIds": [
+      "reservation-2004-Z84"
+    ],
+    "vesselId": "vessel-r-v-deep-osprey",
+    "berthId": "berth-north-pier-west",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-V89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge CORAL TIDE has no verified length.",
+    "reservationIds": [
+      "reservation-2004-V89"
+    ],
+    "vesselId": "vessel-barge-coral-tide",
+    "berthId": "berth-south-float-east",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-Y95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Green Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2004-Y95"
+    ],
+    "vesselId": "vessel-tug-green-fathom",
+    "berthId": "berth-north-pier-west",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-R109",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V SWIFT MERIDIAN has no verified length.",
+    "reservationIds": [
+      "reservation-2004-R109"
+    ],
+    "vesselId": "vessel-f-v-swift-meridian",
+    "berthId": "berth-north-pier-east",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-B131",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V GREEN GANNET has no verified length.",
+    "reservationIds": [
+      "reservation-2004-B131"
+    ],
+    "vesselId": "vessel-m-v-green-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2004-K140",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V GREEN STRAND has no verified length.",
+    "reservationIds": [
+      "reservation-2004-K140"
+    ],
+    "vesselId": "vessel-r-v-green-strand",
+    "berthId": "berth-north-pier-west",
+    "year": 2004,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-B34",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V GOLDEN VOYAGER has no verified length.",
+    "reservationIds": [
+      "reservation-2005-B34"
+    ],
+    "vesselId": "vessel-r-v-golden-voyager",
+    "berthId": "berth-south-float-west",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-AA43",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Western Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2005-AA43"
+    ],
+    "vesselId": "vessel-osv-western-reef",
+    "berthId": "berth-north-pier-east",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-P54",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Silver Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2005-P54"
+    ],
+    "vesselId": "vessel-barge-silver-voyager",
+    "berthId": "berth-north-pier-east",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-AF56",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Golden Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2005-AF56"
+    ],
+    "vesselId": "vessel-m-y-golden-harbor",
+    "berthId": "berth-south-float-west",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-T67",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V HIGH HERON has no verified length.",
+    "reservationIds": [
+      "reservation-2005-T67"
+    ],
+    "vesselId": "vessel-s-v-high-heron",
+    "berthId": "berth-south-float-west",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-B76",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V LONG BEACON has no verified length.",
+    "reservationIds": [
+      "reservation-2005-B76"
+    ],
+    "vesselId": "vessel-f-v-long-beacon",
+    "berthId": "berth-north-pier-east",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-AE76",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V SALT MERIDIAN has no verified length.",
+    "reservationIds": [
+      "reservation-2005-AE76"
+    ],
+    "vesselId": "vessel-m-v-salt-meridian",
+    "berthId": "berth-north-pier-east",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-L86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Deep Drift has no verified length.",
+    "reservationIds": [
+      "reservation-2005-L86"
+    ],
+    "vesselId": "vessel-m-v-deep-drift",
+    "berthId": "berth-north-pier-face",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-Q90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V FAR GANNET has no verified length.",
+    "reservationIds": [
+      "reservation-2005-Q90"
+    ],
+    "vesselId": "vessel-s-v-far-gannet",
+    "berthId": "berth-south-float-east",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-X97",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V CORAL LANTERN has no verified length.",
+    "reservationIds": [
+      "reservation-2005-X97"
+    ],
+    "vesselId": "vessel-m-v-coral-lantern",
+    "berthId": "berth-north-pier-west",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-I98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V WILD FATHOM has no verified length.",
+    "reservationIds": [
+      "reservation-2005-I98"
+    ],
+    "vesselId": "vessel-m-v-wild-fathom",
+    "berthId": "berth-north-pier-face",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2005-R102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V CLEAR FATHOM has no verified length.",
+    "reservationIds": [
+      "reservation-2005-R102"
+    ],
+    "vesselId": "vessel-r-v-clear-fathom",
+    "berthId": "berth-south-float-east",
+    "year": 2005,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2006-E22",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "M/V IRON HERON (100 ft) exceeds Inner Channel capacity (55 ft).",
+    "reservationIds": [
+      "reservation-2006-E22"
+    ],
+    "vesselId": "vessel-m-v-iron-heron",
+    "berthId": "berth-inner-channel",
+    "sourceReferences": [
+      {
+        "sheet": "2006",
+        "rawValue": "M/V Iron Heron",
+        "cell": "E22"
+      }
+    ],
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2006-N33",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "M/V IRON HERON (100 ft) exceeds Inner Channel capacity (55 ft).",
+    "reservationIds": [
+      "reservation-2006-N33"
+    ],
+    "vesselId": "vessel-m-v-iron-heron",
+    "berthId": "berth-inner-channel",
+    "sourceReferences": [
+      {
+        "sheet": "2006",
+        "rawValue": "M/V Iron Heron",
+        "cell": "N33"
+      }
+    ],
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-M65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Deep Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2006-M65"
+    ],
+    "vesselId": "vessel-m-v-deep-ledge",
+    "berthId": "berth-north-pier-east",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-AF74",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2006-AF74"
+    ],
+    "vesselId": "vessel-r-v-blue-ledge",
+    "berthId": "berth-north-pier-west",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-D90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V IRON DORY has no verified length.",
+    "reservationIds": [
+      "reservation-2006-D90"
+    ],
+    "vesselId": "vessel-r-v-iron-dory",
+    "berthId": "berth-south-float-east",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-V90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2006-V90"
+    ],
+    "vesselId": "vessel-r-v-quiet-dory",
+    "berthId": "berth-south-float-east",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2006-P100",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "M/V IRON HERON (100 ft) exceeds Inner Channel capacity (55 ft).",
+    "reservationIds": [
+      "reservation-2006-P100"
+    ],
+    "vesselId": "vessel-m-v-iron-heron",
+    "berthId": "berth-inner-channel",
+    "sourceReferences": [
+      {
+        "sheet": "2006",
+        "rawValue": "M/V Iron Heron",
+        "cell": "P100"
+      }
+    ],
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-I101",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Green Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2006-I101"
+    ],
+    "vesselId": "vessel-f-v-green-dory",
+    "berthId": "berth-south-float-west",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-H102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Green Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2006-H102"
+    ],
+    "vesselId": "vessel-r-v-green-voyager",
+    "berthId": "berth-south-float-east",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-V102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug FAR STRAND has no verified length.",
+    "reservationIds": [
+      "reservation-2006-V102"
+    ],
+    "vesselId": "vessel-tug-far-strand",
+    "berthId": "berth-south-float-east",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2006-U111",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "M/V IRON HERON (100 ft) exceeds Inner Channel capacity (55 ft).",
+    "reservationIds": [
+      "reservation-2006-U111"
+    ],
+    "vesselId": "vessel-m-v-iron-heron",
+    "berthId": "berth-inner-channel",
+    "sourceReferences": [
+      {
+        "sheet": "2006",
+        "rawValue": "M/V Iron Heron",
+        "cell": "U111"
+      }
+    ],
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2006-D121",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V BRIGHT HARBOR has no verified length.",
+    "reservationIds": [
+      "reservation-2006-D121"
+    ],
+    "vesselId": "vessel-r-v-bright-harbor",
+    "berthId": "berth-north-pier-east",
+    "year": 2006,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2007-B54",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2007-B54"
+    ],
+    "vesselId": "vessel-r-v-blue-ketch",
+    "berthId": "berth-north-pier-east",
+    "year": 2007,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2007-AA65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Blue Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2007-AA65"
+    ],
+    "vesselId": "vessel-barge-blue-sextant",
+    "berthId": "berth-north-pier-east",
+    "year": 2007,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2007-C67",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V FAR KESTREL has no verified length.",
+    "reservationIds": [
+      "reservation-2007-C67"
+    ],
+    "vesselId": "vessel-m-v-far-kestrel",
+    "berthId": "berth-south-float-west",
+    "year": 2007,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2007-P79",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV SILVER TIDE has no verified length.",
+    "reservationIds": [
+      "reservation-2007-P79"
+    ],
+    "vesselId": "vessel-osv-silver-tide",
+    "berthId": "berth-south-float-east",
+    "year": 2007,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2007-X79",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V FAR STAR has no verified length.",
+    "reservationIds": [
+      "reservation-2007-X79"
+    ],
+    "vesselId": "vessel-r-v-far-star",
+    "berthId": "berth-south-float-east",
+    "year": 2007,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2007-K102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Silver Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2007-K102"
+    ],
+    "vesselId": "vessel-s-v-silver-cove",
+    "berthId": "berth-south-float-east",
+    "year": 2007,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2008-C41",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V GOLDEN COMPASS has no verified length.",
+    "reservationIds": [
+      "reservation-2008-C41"
+    ],
+    "vesselId": "vessel-r-v-golden-compass",
+    "berthId": "berth-north-pier-west",
+    "year": 2008,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2008-AD68",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Grey Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2008-AD68"
+    ],
+    "vesselId": "vessel-osv-grey-fathom",
+    "berthId": "berth-south-float-east",
+    "year": 2008,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-Z54",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V GREY COMPASS has no verified length.",
+    "reservationIds": [
+      "reservation-2009-Z54"
+    ],
+    "vesselId": "vessel-m-v-grey-compass",
+    "berthId": "berth-north-pier-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-E55",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Golden Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2009-E55"
+    ],
+    "vesselId": "vessel-r-v-golden-horizon",
+    "berthId": "berth-inner-channel",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-G63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V IRON LEDGE has no verified length.",
+    "reservationIds": [
+      "reservation-2009-G63"
+    ],
+    "vesselId": "vessel-f-v-iron-ledge",
+    "berthId": "berth-north-pier-west",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-AC63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Long Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2009-AC63"
+    ],
+    "vesselId": "vessel-m-y-long-meridian",
+    "berthId": "berth-north-pier-west",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-T64",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Clear Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2009-T64"
+    ],
+    "vesselId": "vessel-osv-clear-dory",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-X65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Far Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2009-X65"
+    ],
+    "vesselId": "vessel-tug-far-compass",
+    "berthId": "berth-north-pier-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2009-AE68",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "S/Y High Gannet (100 ft) exceeds South Float East capacity (90 ft).",
+    "reservationIds": [
+      "reservation-2009-AE68"
+    ],
+    "vesselId": "vessel-s-y-high-gannet",
+    "berthId": "berth-south-float-east",
+    "sourceReferences": [
+      {
+        "sheet": "2009",
+        "rawValue": "S/Y High Gannet",
+        "cell": "AE68"
+      }
+    ],
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-N75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V WESTERN DRIFT has no verified length.",
+    "reservationIds": [
+      "reservation-2009-N75"
+    ],
+    "vesselId": "vessel-r-v-western-drift",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-S75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Northern Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2009-S75"
+    ],
+    "vesselId": "vessel-f-v-northern-dory",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-Y75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Grey Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2009-Y75"
+    ],
+    "vesselId": "vessel-f-v-grey-meridian",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-Q78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Long Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2009-Q78"
+    ],
+    "vesselId": "vessel-r-v-long-ketch",
+    "berthId": "berth-south-float-west",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-S78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Amber Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2009-S78"
+    ],
+    "vesselId": "vessel-m-v-amber-meridian",
+    "berthId": "berth-south-float-west",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2009-O79",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "M/Y Wild Tern (145 ft) exceeds South Float East capacity (90 ft).",
+    "reservationIds": [
+      "reservation-2009-O79"
+    ],
+    "vesselId": "vessel-m-y-wild-tern",
+    "berthId": "berth-south-float-east",
+    "sourceReferences": [
+      {
+        "sheet": "2009",
+        "rawValue": "M/Y Wild Tern",
+        "range": "O79:P79"
+      }
+    ],
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-M86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Western Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2009-M86"
+    ],
+    "vesselId": "vessel-f-v-western-sound",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-AC86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Clear Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2009-AC86"
+    ],
+    "vesselId": "vessel-f-v-clear-voyager",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-B87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Northern Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2009-B87"
+    ],
+    "vesselId": "vessel-m-v-northern-kestrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-E90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Quiet Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2009-E90"
+    ],
+    "vesselId": "vessel-m-y-quiet-voyager",
+    "berthId": "berth-south-float-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-L90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Golden Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2009-L90"
+    ],
+    "vesselId": "vessel-f-v-golden-sextant",
+    "berthId": "berth-south-float-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-AE90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Golden Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2009-AE90"
+    ],
+    "vesselId": "vessel-s-v-golden-beacon",
+    "berthId": "berth-south-float-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-B97",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V CORAL TERN has no verified length.",
+    "reservationIds": [
+      "reservation-2009-B97"
+    ],
+    "vesselId": "vessel-r-v-coral-tern",
+    "berthId": "berth-north-pier-west",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-S97",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Coral Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2009-S97"
+    ],
+    "vesselId": "vessel-f-v-coral-sextant",
+    "berthId": "berth-north-pier-west",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-Y102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Silver Current has no verified length.",
+    "reservationIds": [
+      "reservation-2009-Y102"
+    ],
+    "vesselId": "vessel-s-v-silver-current",
+    "berthId": "berth-south-float-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2009-F124",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Swift Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2009-F124"
+    ],
+    "vesselId": "vessel-r-v-swift-lantern",
+    "berthId": "berth-south-float-east",
+    "year": 2009,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-G46",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Long Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2010-G46"
+    ],
+    "vesselId": "vessel-tug-long-kestrel",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-T63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2010-T63"
+    ],
+    "vesselId": "vessel-r-v-blue-voyager",
+    "berthId": "berth-north-pier-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-O66",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Wild Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2010-O66"
+    ],
+    "vesselId": "vessel-m-y-wild-wind",
+    "berthId": "berth-inner-channel",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-R75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2010-R75"
+    ],
+    "vesselId": "vessel-r-v-quiet-anchor",
+    "berthId": "berth-north-pier-face",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2010-AD75",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "R/V Clear Tern (120 ft) exceeds North Pier Face capacity (75 ft).",
+    "reservationIds": [
+      "reservation-2010-AD75"
+    ],
+    "vesselId": "vessel-r-v-clear-tern",
+    "berthId": "berth-north-pier-face",
+    "sourceReferences": [
+      {
+        "sheet": "2010",
+        "rawValue": "R/V CLEAR TERN",
+        "range": "AD75:AE75"
+      }
+    ],
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-X76",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Green Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2010-X76"
+    ],
+    "vesselId": "vessel-m-v-green-anchor",
+    "berthId": "berth-north-pier-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-R78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Deep Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2010-R78"
+    ],
+    "vesselId": "vessel-m-y-deep-horizon",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-B79",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Wild Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2010-B79"
+    ],
+    "vesselId": "vessel-m-y-wild-ketch",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-P79",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Blue Current has no verified length.",
+    "reservationIds": [
+      "reservation-2010-P79"
+    ],
+    "vesselId": "vessel-barge-blue-current",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-D85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Far Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2010-D85"
+    ],
+    "vesselId": "vessel-m-y-far-skua",
+    "berthId": "berth-north-pier-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-Y85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Deep Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2010-Y85"
+    ],
+    "vesselId": "vessel-s-v-deep-dory",
+    "berthId": "berth-north-pier-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2010-B86",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "R/V Clear Tern (120 ft) exceeds North Pier Face capacity (75 ft).",
+    "reservationIds": [
+      "reservation-2010-B86"
+    ],
+    "vesselId": "vessel-r-v-clear-tern",
+    "berthId": "berth-north-pier-face",
+    "sourceReferences": [
+      {
+        "sheet": "2010",
+        "rawValue": "R/V CLEAR TERN",
+        "range": "B86:D86"
+      }
+    ],
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-L86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V LONG STAR has no verified length.",
+    "reservationIds": [
+      "reservation-2010-L86"
+    ],
+    "vesselId": "vessel-r-v-long-star",
+    "berthId": "berth-north-pier-face",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-G87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Heron has no verified length.",
+    "reservationIds": [
+      "reservation-2010-G87"
+    ],
+    "vesselId": "vessel-r-v-quiet-heron",
+    "berthId": "berth-north-pier-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-J87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Blue Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2010-J87"
+    ],
+    "vesselId": "vessel-s-v-blue-beacon",
+    "berthId": "berth-north-pier-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-Z87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y BLUE TIDE has no verified length.",
+    "reservationIds": [
+      "reservation-2010-Z87"
+    ],
+    "vesselId": "vessel-m-y-blue-tide",
+    "berthId": "berth-north-pier-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-L88",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V GREEN HARBOR has no verified length.",
+    "reservationIds": [
+      "reservation-2010-L88"
+    ],
+    "vesselId": "vessel-r-v-green-harbor",
+    "berthId": "berth-inner-channel",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-N89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Iron Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2010-N89"
+    ],
+    "vesselId": "vessel-m-y-iron-voyager",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-P89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Western Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2010-P89"
+    ],
+    "vesselId": "vessel-m-y-western-beacon",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-X89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Blue Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2010-X89"
+    ],
+    "vesselId": "vessel-m-v-blue-gannet",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-AF89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Salt Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2010-AF89"
+    ],
+    "vesselId": "vessel-m-y-salt-sound",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-B90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V CORAL COVE has no verified length.",
+    "reservationIds": [
+      "reservation-2010-B90"
+    ],
+    "vesselId": "vessel-s-v-coral-cove",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-G90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Far Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2010-G90"
+    ],
+    "vesselId": "vessel-osv-far-wind",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-C98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Silver Strand has no verified length.",
+    "reservationIds": [
+      "reservation-2010-C98"
+    ],
+    "vesselId": "vessel-f-v-silver-strand",
+    "berthId": "berth-north-pier-face",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-AB100",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Amber Strand has no verified length.",
+    "reservationIds": [
+      "reservation-2010-AB100"
+    ],
+    "vesselId": "vessel-tug-amber-strand",
+    "berthId": "berth-inner-channel",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-F101",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Bright Strand has no verified length.",
+    "reservationIds": [
+      "reservation-2010-F101"
+    ],
+    "vesselId": "vessel-r-v-bright-strand",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-D102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Iron Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2010-D102"
+    ],
+    "vesselId": "vessel-r-v-iron-osprey",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2010-F112",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Amber Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2010-F112"
+    ],
+    "vesselId": "vessel-tug-amber-kestrel",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-F21",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Blue Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2011-F21"
+    ],
+    "vesselId": "vessel-barge-blue-petrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-AB31",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Star has no verified length.",
+    "reservationIds": [
+      "reservation-2011-AB31"
+    ],
+    "vesselId": "vessel-r-v-quiet-star",
+    "berthId": "berth-north-pier-face",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-J44",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Green Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2011-J44"
+    ],
+    "vesselId": "vessel-m-v-green-tern",
+    "berthId": "berth-inner-channel",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-Y54",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Bright Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2011-Y54"
+    ],
+    "vesselId": "vessel-m-y-bright-marlin",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-AG56",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Silver Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2011-AG56"
+    ],
+    "vesselId": "vessel-m-y-silver-sextant",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-J57",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Bright Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2011-J57"
+    ],
+    "vesselId": "vessel-tug-bright-anchor",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-AE64",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V DEEP SOUND has no verified length.",
+    "reservationIds": [
+      "reservation-2011-AE64"
+    ],
+    "vesselId": "vessel-m-v-deep-sound",
+    "berthId": "berth-north-pier-face",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-J65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V SILVER DRIFT has no verified length.",
+    "reservationIds": [
+      "reservation-2011-J65"
+    ],
+    "vesselId": "vessel-f-v-silver-drift",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-K65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Salt Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2011-K65"
+    ],
+    "vesselId": "vessel-m-y-salt-horizon",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-R65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Coral Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2011-R65"
+    ],
+    "vesselId": "vessel-r-v-coral-sound",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-AC65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Bright Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2011-AC65"
+    ],
+    "vesselId": "vessel-m-v-bright-skua",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-F67",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge SILVER BEACON has no verified length.",
+    "reservationIds": [
+      "reservation-2011-F67"
+    ],
+    "vesselId": "vessel-barge-silver-beacon",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-M76",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Western Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2011-M76"
+    ],
+    "vesselId": "vessel-s-v-western-compass",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-AF76",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V BRIGHT GANNET has no verified length.",
+    "reservationIds": [
+      "reservation-2011-AF76"
+    ],
+    "vesselId": "vessel-m-v-bright-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-T78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Far Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2011-T78"
+    ],
+    "vesselId": "vessel-r-v-far-marlin",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-D79",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Far Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2011-D79"
+    ],
+    "vesselId": "vessel-r-v-far-sextant",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-J86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV High Star has no verified length.",
+    "reservationIds": [
+      "reservation-2011-J86"
+    ],
+    "vesselId": "vessel-osv-high-star",
+    "berthId": "berth-north-pier-face",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-F87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Iron Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2011-F87"
+    ],
+    "vesselId": "vessel-s-v-iron-marlin",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-N87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Swift Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2011-N87"
+    ],
+    "vesselId": "vessel-m-y-swift-skua",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-P88",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Coral Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2011-P88"
+    ],
+    "vesselId": "vessel-barge-coral-skua",
+    "berthId": "berth-inner-channel",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-U89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Golden Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2011-U89"
+    ],
+    "vesselId": "vessel-s-v-golden-cove",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-X89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Green Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2011-X89"
+    ],
+    "vesselId": "vessel-r-v-green-wind",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-Z89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Clear Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2011-Z89"
+    ],
+    "vesselId": "vessel-m-y-clear-gannet",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-D90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Heron has no verified length.",
+    "reservationIds": [
+      "reservation-2011-D90"
+    ],
+    "vesselId": "vessel-r-v-blue-heron",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-K90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Salt Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2011-K90"
+    ],
+    "vesselId": "vessel-m-y-salt-cove",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-O90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Deep Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2011-O90"
+    ],
+    "vesselId": "vessel-m-y-deep-compass",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-P97",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Deep Star has no verified length.",
+    "reservationIds": [
+      "reservation-2011-P97"
+    ],
+    "vesselId": "vessel-r-v-deep-star",
+    "berthId": "berth-north-pier-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-S99",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Iron Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2011-S99"
+    ],
+    "vesselId": "vessel-tug-iron-anchor",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-W99",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Blue Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2011-W99"
+    ],
+    "vesselId": "vessel-m-y-blue-dory",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-AD99",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Amber Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2011-AD99"
+    ],
+    "vesselId": "vessel-r-v-amber-compass",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-E100",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug CORAL HERON has no verified length.",
+    "reservationIds": [
+      "reservation-2011-E100"
+    ],
+    "vesselId": "vessel-tug-coral-heron",
+    "berthId": "berth-inner-channel",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-F100",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V HIGH BEACON has no verified length.",
+    "reservationIds": [
+      "reservation-2011-F100"
+    ],
+    "vesselId": "vessel-m-v-high-beacon",
+    "berthId": "berth-inner-channel",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-D101",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Swift Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2011-D101"
+    ],
+    "vesselId": "vessel-r-v-swift-gannet",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-Q102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Salt Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2011-Q102"
+    ],
+    "vesselId": "vessel-osv-salt-voyager",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-F103",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Amber Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2011-F103"
+    ],
+    "vesselId": "vessel-m-v-amber-skua",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-F122",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Coral Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2011-F122"
+    ],
+    "vesselId": "vessel-m-v-coral-petrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2011-L133",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Wild Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2011-L133"
+    ],
+    "vesselId": "vessel-r-v-wild-sound",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-X20",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V High Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2012-X20"
+    ],
+    "vesselId": "vessel-r-v-high-compass",
+    "berthId": "berth-north-pier-face",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-K32",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Golden Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2012-K32"
+    ],
+    "vesselId": "vessel-s-v-golden-reef",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-S54",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Quiet Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2012-S54"
+    ],
+    "vesselId": "vessel-m-v-quiet-compass",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-AE63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Wild Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2012-AE63"
+    ],
+    "vesselId": "vessel-osv-wild-beacon",
+    "berthId": "berth-north-pier-west",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-L64",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Northern Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2012-L64"
+    ],
+    "vesselId": "vessel-barge-northern-anchor",
+    "berthId": "berth-north-pier-face",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-J65",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Coral Strand has no verified length.",
+    "reservationIds": [
+      "reservation-2012-J65"
+    ],
+    "vesselId": "vessel-r-v-coral-strand",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-Q74",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Long Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2012-Q74"
+    ],
+    "vesselId": "vessel-m-v-long-sound",
+    "berthId": "berth-north-pier-west",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-AG75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Swift Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2012-AG75"
+    ],
+    "vesselId": "vessel-barge-swift-tern",
+    "berthId": "berth-north-pier-face",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-AC76",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Silver Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2012-AC76"
+    ],
+    "vesselId": "vessel-tug-silver-fathom",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-AE86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Far Drift has no verified length.",
+    "reservationIds": [
+      "reservation-2012-AE86"
+    ],
+    "vesselId": "vessel-m-v-far-drift",
+    "berthId": "berth-north-pier-west",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-AF86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/Y High Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2012-AF86"
+    ],
+    "vesselId": "vessel-s-y-high-fathom",
+    "berthId": "berth-north-pier-west",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-S100",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Bright Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2012-S100"
+    ],
+    "vesselId": "vessel-m-v-bright-reef",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-K101",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Far Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2012-K101"
+    ],
+    "vesselId": "vessel-m-v-far-beacon",
+    "berthId": "berth-inner-channel",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-H103",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Western Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2012-H103"
+    ],
+    "vesselId": "vessel-m-v-western-harbor",
+    "berthId": "berth-south-float-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-O103",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V High Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2012-O103"
+    ],
+    "vesselId": "vessel-s-v-high-ketch",
+    "berthId": "berth-south-float-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "capacity-reservation-2012-R103",
+    "category": "capacity",
+    "type": "VESSEL_TOO_LONG",
+    "severity": "error",
+    "message": "S/Y Clear Beacon (170 ft) exceeds South Float East capacity (90 ft).",
+    "reservationIds": [
+      "reservation-2012-R103"
+    ],
+    "vesselId": "vessel-s-y-clear-beacon",
+    "berthId": "berth-south-float-east",
+    "sourceReferences": [
+      {
+        "sheet": "2012",
+        "rawValue": "S/Y Clear Beacon",
+        "cell": "R103"
+      }
+    ],
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2012-K133",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Golden Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2012-K133"
+    ],
+    "vesselId": "vessel-r-v-golden-lantern",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AE8",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Wild Current has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AE8"
+    ],
+    "vesselId": "vessel-r-v-wild-current",
+    "berthId": "berth-north-pier-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-C11",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Long Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2013-C11"
+    ],
+    "vesselId": "vessel-r-v-long-compass",
+    "berthId": "berth-inner-channel",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-T20",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV High Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2013-T20"
+    ],
+    "vesselId": "vessel-osv-high-harbor",
+    "berthId": "berth-north-pier-face",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-F32",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Deep Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2013-F32"
+    ],
+    "vesselId": "vessel-r-v-deep-kestrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-K43",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Western Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2013-K43"
+    ],
+    "vesselId": "vessel-s-v-western-wind",
+    "berthId": "berth-north-pier-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-V54",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Western Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2013-V54"
+    ],
+    "vesselId": "vessel-f-v-western-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AC56",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AC56"
+    ],
+    "vesselId": "vessel-r-v-quiet-meridian",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-U63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Amber Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2013-U63"
+    ],
+    "vesselId": "vessel-f-v-amber-sound",
+    "berthId": "berth-north-pier-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-X67",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Deep Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2013-X67"
+    ],
+    "vesselId": "vessel-s-v-deep-skua",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AH67",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Golden Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AH67"
+    ],
+    "vesselId": "vessel-m-v-golden-ledge",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AG75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Coral Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AG75"
+    ],
+    "vesselId": "vessel-f-v-coral-marlin",
+    "berthId": "berth-north-pier-face",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-N78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Blue Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2013-N78"
+    ],
+    "vesselId": "vessel-m-y-blue-compass",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-U78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Quiet Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2013-U78"
+    ],
+    "vesselId": "vessel-barge-quiet-horizon",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AE78",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Northern Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AE78"
+    ],
+    "vesselId": "vessel-r-v-northern-osprey",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AB79",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Silver Heron has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AB79"
+    ],
+    "vesselId": "vessel-r-v-silver-heron",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-N87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Green Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2013-N87"
+    ],
+    "vesselId": "vessel-r-v-green-marlin",
+    "berthId": "berth-north-pier-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-H89",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Salt Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2013-H89"
+    ],
+    "vesselId": "vessel-osv-salt-marlin",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-P90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Grey Drift has no verified length.",
+    "reservationIds": [
+      "reservation-2013-P90"
+    ],
+    "vesselId": "vessel-s-v-grey-drift",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-T90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Coral Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2013-T90"
+    ],
+    "vesselId": "vessel-m-y-coral-dory",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AH90",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Salt Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AH90"
+    ],
+    "vesselId": "vessel-m-v-salt-petrel",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-P102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Northern Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2013-P102"
+    ],
+    "vesselId": "vessel-r-v-northern-ledge",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-Q102",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Star has no verified length.",
+    "reservationIds": [
+      "reservation-2013-Q102"
+    ],
+    "vesselId": "vessel-r-v-blue-star",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-K112",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y High Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2013-K112"
+    ],
+    "vesselId": "vessel-m-y-high-tern",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-AF124",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Clear Drift has no verified length.",
+    "reservationIds": [
+      "reservation-2013-AF124"
+    ],
+    "vesselId": "vessel-r-v-clear-drift",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-H131",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Grey Skua has no verified length.",
+    "reservationIds": [
+      "reservation-2013-H131"
+    ],
+    "vesselId": "vessel-s-v-grey-skua",
+    "berthId": "berth-north-pier-face",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2013-U131",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Far Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2013-U131"
+    ],
+    "vesselId": "vessel-tug-far-ledge",
+    "berthId": "berth-north-pier-face",
+    "year": 2013,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AC25",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Quiet Current has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AC25"
+    ],
+    "vesselId": "vessel-m-v-quiet-current",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AF34",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Swift Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AF34"
+    ],
+    "vesselId": "vessel-s-v-swift-wind",
+    "berthId": "berth-north-pier-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-W39",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2014-W39"
+    ],
+    "vesselId": "vessel-r-v-blue-marlin",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-I46",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Western Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2014-I46"
+    ],
+    "vesselId": "vessel-barge-western-dory",
+    "berthId": "berth-north-pier-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-J72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Iron Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2014-J72"
+    ],
+    "vesselId": "vessel-r-v-iron-lantern",
+    "berthId": "berth-south-float-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-Q72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Golden Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2014-Q72"
+    ],
+    "vesselId": "vessel-s-v-golden-anchor",
+    "berthId": "berth-south-float-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AB72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Clear Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AB72"
+    ],
+    "vesselId": "vessel-f-v-clear-compass",
+    "berthId": "berth-south-float-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AI72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Western Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AI72"
+    ],
+    "vesselId": "vessel-m-v-western-marlin",
+    "berthId": "berth-south-float-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-Z73",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Clear Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2014-Z73"
+    ],
+    "vesselId": "vessel-s-v-clear-kestrel",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-Y74",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2014-Y74"
+    ],
+    "vesselId": "vessel-r-v-quiet-harbor",
+    "berthId": "berth-north-finger-piers",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-V75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y WILD VOYAGER has no verified length.",
+    "reservationIds": [
+      "reservation-2014-V75"
+    ],
+    "vesselId": "vessel-m-y-wild-voyager",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-S80",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Coral Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2014-S80"
+    ],
+    "vesselId": "vessel-r-v-coral-harbor",
+    "berthId": "berth-north-pier-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AE80",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Swift Tide has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AE80"
+    ],
+    "vesselId": "vessel-s-v-swift-tide",
+    "berthId": "berth-north-pier-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-X82",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/Y Silver Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2014-X82"
+    ],
+    "vesselId": "vessel-s-y-silver-meridian",
+    "berthId": "berth-north-pier-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-V84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Silver Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2014-V84"
+    ],
+    "vesselId": "vessel-m-v-silver-marlin",
+    "berthId": "berth-south-float-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-U85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Green Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2014-U85"
+    ],
+    "vesselId": "vessel-m-v-green-ledge",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AD85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/Y Wild Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AD85"
+    ],
+    "vesselId": "vessel-s-y-wild-petrel",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-H86",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Bright Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2014-H86"
+    ],
+    "vesselId": "vessel-m-v-bright-beacon",
+    "berthId": "berth-north-finger-piers",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-I93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Iron Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2014-I93"
+    ],
+    "vesselId": "vessel-r-v-iron-cove",
+    "berthId": "berth-north-pier-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AD93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Golden Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AD93"
+    ],
+    "vesselId": "vessel-tug-golden-sound",
+    "berthId": "berth-north-pier-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-S98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Bright Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2014-S98"
+    ],
+    "vesselId": "vessel-m-v-bright-cove",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-Y98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Deep Tide has no verified length.",
+    "reservationIds": [
+      "reservation-2014-Y98"
+    ],
+    "vesselId": "vessel-s-v-deep-tide",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AB98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Amber Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AB98"
+    ],
+    "vesselId": "vessel-m-v-amber-dory",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AC98",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Northern Current has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AC98"
+    ],
+    "vesselId": "vessel-m-v-northern-current",
+    "berthId": "berth-south-float-east",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-AA106",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Long Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2014-AA106"
+    ],
+    "vesselId": "vessel-m-v-long-tern",
+    "berthId": "berth-north-pier-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-N109",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Clear Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2014-N109"
+    ],
+    "vesselId": "vessel-osv-clear-lantern",
+    "berthId": "berth-inner-channel",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-O110",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Grey Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2014-O110"
+    ],
+    "vesselId": "vessel-barge-grey-sound",
+    "berthId": "berth-south-float-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-P130",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Blue Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2014-P130"
+    ],
+    "vesselId": "vessel-barge-blue-wind",
+    "berthId": "berth-north-pier-west",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2014-N136",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Western Tide has no verified length.",
+    "reservationIds": [
+      "reservation-2014-N136"
+    ],
+    "vesselId": "vessel-r-v-western-tide",
+    "berthId": "berth-north-finger-piers",
+    "year": 2014,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-Y34",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Bright Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2015-Y34"
+    ],
+    "vesselId": "vessel-f-v-bright-ketch",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-I46",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Golden Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2015-I46"
+    ],
+    "vesselId": "vessel-osv-golden-ketch",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AE56",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Blue Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AE56"
+    ],
+    "vesselId": "vessel-m-v-blue-lantern",
+    "berthId": "berth-north-pier-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AK60",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Bright Current has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AK60"
+    ],
+    "vesselId": "vessel-r-v-bright-current",
+    "berthId": "berth-south-float-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-M70",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V NORTHERN WIND has no verified length.",
+    "reservationIds": [
+      "reservation-2015-M70"
+    ],
+    "vesselId": "vessel-r-v-northern-wind",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AA72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V High Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AA72"
+    ],
+    "vesselId": "vessel-s-v-high-meridian",
+    "berthId": "berth-south-float-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-S80",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Quiet Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2015-S80"
+    ],
+    "vesselId": "vessel-barge-quiet-wind",
+    "berthId": "berth-north-pier-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-P82",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Bright Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2015-P82"
+    ],
+    "vesselId": "vessel-tug-bright-petrel",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AK82",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y High Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AK82"
+    ],
+    "vesselId": "vessel-m-y-high-sextant",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AJ83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V CLEAR KETCH has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AJ83"
+    ],
+    "vesselId": "vessel-f-v-clear-ketch",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AK84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Green Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AK84"
+    ],
+    "vesselId": "vessel-osv-green-ketch",
+    "berthId": "berth-south-float-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-T85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Silver Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2015-T85"
+    ],
+    "vesselId": "vessel-f-v-silver-reef",
+    "berthId": "berth-south-float-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-H92",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Northern Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2015-H92"
+    ],
+    "vesselId": "vessel-tug-northern-beacon",
+    "berthId": "berth-north-pier-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AG94",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Coral Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AG94"
+    ],
+    "vesselId": "vessel-m-v-coral-beacon",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-Z96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Deep Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2015-Z96"
+    ],
+    "vesselId": "vessel-m-v-deep-anchor",
+    "berthId": "berth-south-float-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AL96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Coral Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AL96"
+    ],
+    "vesselId": "vessel-m-v-coral-horizon",
+    "berthId": "berth-south-float-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-H105",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Coral Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2015-H105"
+    ],
+    "vesselId": "vessel-tug-coral-reef",
+    "berthId": "berth-north-pier-west",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-K120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Grey Wind has no verified length.",
+    "reservationIds": [
+      "reservation-2015-K120"
+    ],
+    "vesselId": "vessel-r-v-grey-wind",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-L120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Salt Current has no verified length.",
+    "reservationIds": [
+      "reservation-2015-L120"
+    ],
+    "vesselId": "vessel-r-v-salt-current",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-S120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Western Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2015-S120"
+    ],
+    "vesselId": "vessel-f-v-western-meridian",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-T120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Silver Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2015-T120"
+    ],
+    "vesselId": "vessel-tug-silver-tern",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-U120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Grey Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2015-U120"
+    ],
+    "vesselId": "vessel-barge-grey-dory",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AF120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Golden Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AF120"
+    ],
+    "vesselId": "vessel-m-y-golden-kestrel",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-M131",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Far Sound has no verified length.",
+    "reservationIds": [
+      "reservation-2015-M131"
+    ],
+    "vesselId": "vessel-f-v-far-sound",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-L132",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Bright Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2015-L132"
+    ],
+    "vesselId": "vessel-osv-bright-ledge",
+    "berthId": "berth-inner-channel",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-K143",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Salt Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2015-K143"
+    ],
+    "vesselId": "vessel-s-v-salt-beacon",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2015-AJ143",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Strand has no verified length.",
+    "reservationIds": [
+      "reservation-2015-AJ143"
+    ],
+    "vesselId": "vessel-r-v-quiet-strand",
+    "berthId": "berth-north-pier-east",
+    "year": 2015,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-U9",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Green Reef has no verified length.",
+    "reservationIds": [
+      "reservation-2016-U9"
+    ],
+    "vesselId": "vessel-f-v-green-reef",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-G23",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Golden Drift has no verified length.",
+    "reservationIds": [
+      "reservation-2016-G23"
+    ],
+    "vesselId": "vessel-m-v-golden-drift",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-Z23",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Wild Compass has no verified length.",
+    "reservationIds": [
+      "reservation-2016-Z23"
+    ],
+    "vesselId": "vessel-m-v-wild-compass",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-T33",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Far Meridian has no verified length.",
+    "reservationIds": [
+      "reservation-2016-T33"
+    ],
+    "vesselId": "vessel-tug-far-meridian",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-O35",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Silver Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2016-O35"
+    ],
+    "vesselId": "vessel-f-v-silver-lantern",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-T46",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Amber Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2016-T46"
+    ],
+    "vesselId": "vessel-tug-amber-lantern",
+    "berthId": "berth-north-pier-face",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-G47",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V BLUE COVE has no verified length.",
+    "reservationIds": [
+      "reservation-2016-G47"
+    ],
+    "vesselId": "vessel-r-v-blue-cove",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-W51",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Salt Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2016-W51"
+    ],
+    "vesselId": "vessel-f-v-salt-harbor",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-I63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V GOLDEN STRAND has no verified length.",
+    "reservationIds": [
+      "reservation-2016-I63"
+    ],
+    "vesselId": "vessel-m-v-golden-strand",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-Y63",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Grey Voyager has no verified length.",
+    "reservationIds": [
+      "reservation-2016-Y63"
+    ],
+    "vesselId": "vessel-tug-grey-voyager",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-P69",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Salt Tide has no verified length.",
+    "reservationIds": [
+      "reservation-2016-P69"
+    ],
+    "vesselId": "vessel-tug-salt-tide",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-K73",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Amber Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2016-K73"
+    ],
+    "vesselId": "vessel-tug-amber-horizon",
+    "berthId": "berth-south-float-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-P75",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Silver Dory has no verified length.",
+    "reservationIds": [
+      "reservation-2016-P75"
+    ],
+    "vesselId": "vessel-m-v-silver-dory",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-AC81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Green Star has no verified length.",
+    "reservationIds": [
+      "reservation-2016-AC81"
+    ],
+    "vesselId": "vessel-r-v-green-star",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-O85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Swift Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2016-O85"
+    ],
+    "vesselId": "vessel-f-v-swift-horizon",
+    "berthId": "berth-south-float-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-P85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Bright Sextant has no verified length.",
+    "reservationIds": [
+      "reservation-2016-P85"
+    ],
+    "vesselId": "vessel-s-v-bright-sextant",
+    "berthId": "berth-south-float-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-AE85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Kestrel has no verified length.",
+    "reservationIds": [
+      "reservation-2016-AE85"
+    ],
+    "vesselId": "vessel-r-v-blue-kestrel",
+    "berthId": "berth-south-float-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-K87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V High Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2016-K87"
+    ],
+    "vesselId": "vessel-s-v-high-marlin",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-AB87",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Northern Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2016-AB87"
+    ],
+    "vesselId": "vessel-r-v-northern-horizon",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-W93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Blue Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2016-W93"
+    ],
+    "vesselId": "vessel-r-v-blue-anchor",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-X93",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/Y Far Harbor has no verified length.",
+    "reservationIds": [
+      "reservation-2016-X93"
+    ],
+    "vesselId": "vessel-s-y-far-harbor",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-Q95",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Clear Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2016-Q95"
+    ],
+    "vesselId": "vessel-barge-clear-ledge",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-L97",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Wild Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2016-L97"
+    ],
+    "vesselId": "vessel-m-y-wild-anchor",
+    "berthId": "berth-south-float-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-C99",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Deep Tern has no verified length.",
+    "reservationIds": [
+      "reservation-2016-C99"
+    ],
+    "vesselId": "vessel-barge-deep-tern",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-R100",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Green Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2016-R100"
+    ],
+    "vesselId": "vessel-m-y-green-horizon",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-AE108",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Swift Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2016-AE108"
+    ],
+    "vesselId": "vessel-f-v-swift-fathom",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-I110",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Salt Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2016-I110"
+    ],
+    "vesselId": "vessel-s-v-salt-anchor",
+    "berthId": "berth-south-float-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-H118",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Western Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2016-H118"
+    ],
+    "vesselId": "vessel-tug-western-lantern",
+    "berthId": "berth-north-pier-west",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-AE120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Grey Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2016-AE120"
+    ],
+    "vesselId": "vessel-f-v-grey-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2016-E136",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Grey Lantern has no verified length.",
+    "reservationIds": [
+      "reservation-2016-E136"
+    ],
+    "vesselId": "vessel-r-v-grey-lantern",
+    "berthId": "berth-north-finger-piers",
+    "year": 2016,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-T22",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Clear Current has no verified length.",
+    "reservationIds": [
+      "reservation-2017-T22"
+    ],
+    "vesselId": "vessel-m-v-clear-current",
+    "berthId": "berth-north-pier-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-D70",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Quiet Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2017-D70"
+    ],
+    "vesselId": "vessel-s-v-quiet-beacon",
+    "berthId": "berth-north-pier-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-X70",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Long Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2017-X70"
+    ],
+    "vesselId": "vessel-m-v-long-cove",
+    "berthId": "berth-north-pier-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-L72",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Tug Swift Ledge has no verified length.",
+    "reservationIds": [
+      "reservation-2017-L72"
+    ],
+    "vesselId": "vessel-tug-swift-ledge",
+    "berthId": "berth-south-float-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-Q77",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Swift Star has no verified length.",
+    "reservationIds": [
+      "reservation-2017-Q77"
+    ],
+    "vesselId": "vessel-r-v-swift-star",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-R80",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Far Tide has no verified length.",
+    "reservationIds": [
+      "reservation-2017-R80"
+    ],
+    "vesselId": "vessel-osv-far-tide",
+    "berthId": "berth-north-pier-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-G84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Blue Strand has no verified length.",
+    "reservationIds": [
+      "reservation-2017-G84"
+    ],
+    "vesselId": "vessel-m-v-blue-strand",
+    "berthId": "berth-south-float-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-T84",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Northern Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2017-T84"
+    ],
+    "vesselId": "vessel-s-v-northern-fathom",
+    "berthId": "berth-south-float-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-X85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V SWIFT BEACON has no verified length.",
+    "reservationIds": [
+      "reservation-2017-X85"
+    ],
+    "vesselId": "vessel-s-v-swift-beacon",
+    "berthId": "berth-south-float-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-M92",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Western Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2017-M92"
+    ],
+    "vesselId": "vessel-f-v-western-osprey",
+    "berthId": "berth-north-pier-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-AB96",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Long Fathom has no verified length.",
+    "reservationIds": [
+      "reservation-2017-AB96"
+    ],
+    "vesselId": "vessel-r-v-long-fathom",
+    "berthId": "berth-south-float-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-AE107",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Silver Gannet has no verified length.",
+    "reservationIds": [
+      "reservation-2017-AE107"
+    ],
+    "vesselId": "vessel-osv-silver-gannet",
+    "berthId": "berth-north-pier-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-O109",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Swift Drift has no verified length.",
+    "reservationIds": [
+      "reservation-2017-O109"
+    ],
+    "vesselId": "vessel-m-y-swift-drift",
+    "berthId": "berth-south-float-west",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-F112",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V HIGH COVE has no verified length.",
+    "reservationIds": [
+      "reservation-2017-F112"
+    ],
+    "vesselId": "vessel-m-v-high-cove",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-C114",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Silver Petrel has no verified length.",
+    "reservationIds": [
+      "reservation-2017-C114"
+    ],
+    "vesselId": "vessel-r-v-silver-petrel",
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-K119",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Swift Current has no verified length.",
+    "reservationIds": [
+      "reservation-2017-K119"
+    ],
+    "vesselId": "vessel-r-v-swift-current",
+    "berthId": "berth-north-pier-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-N122",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V High Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2017-N122"
+    ],
+    "vesselId": "vessel-r-v-high-horizon",
+    "berthId": "berth-south-float-east",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2017-S123",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "Barge Bright Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2017-S123"
+    ],
+    "vesselId": "vessel-barge-bright-osprey",
+    "berthId": "berth-north-finger-piers",
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-E23",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Northern Star has no verified length.",
+    "reservationIds": [
+      "reservation-2018-E23"
+    ],
+    "vesselId": "vessel-r-v-northern-star",
+    "berthId": "berth-north-pier-east",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-J23",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Quiet Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2018-J23"
+    ],
+    "vesselId": "vessel-osv-quiet-ketch",
+    "berthId": "berth-north-pier-east",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-H47",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "F/V Salt Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2018-H47"
+    ],
+    "vesselId": "vessel-f-v-salt-ketch",
+    "berthId": "berth-north-pier-east",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-Z60",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Long Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2018-Z60"
+    ],
+    "vesselId": "vessel-r-v-long-horizon",
+    "berthId": "berth-inner-channel",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-I81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Green Cove has no verified length.",
+    "reservationIds": [
+      "reservation-2018-I81"
+    ],
+    "vesselId": "vessel-osv-green-cove",
+    "berthId": "berth-north-pier-west",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-N81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Deep Beacon has no verified length.",
+    "reservationIds": [
+      "reservation-2018-N81"
+    ],
+    "vesselId": "vessel-m-v-deep-beacon",
+    "berthId": "berth-north-pier-west",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-AG81",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "OSV Green Current has no verified length.",
+    "reservationIds": [
+      "reservation-2018-AG81"
+    ],
+    "vesselId": "vessel-osv-green-current",
+    "berthId": "berth-north-pier-west",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-AF83",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Amber Anchor has no verified length.",
+    "reservationIds": [
+      "reservation-2018-AF83"
+    ],
+    "vesselId": "vessel-r-v-amber-anchor",
+    "berthId": "berth-north-pier-east",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-V85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "S/V Swift Marlin has no verified length.",
+    "reservationIds": [
+      "reservation-2018-V85"
+    ],
+    "vesselId": "vessel-s-v-swift-marlin",
+    "berthId": "berth-south-float-west",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-AF85",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/V Western Horizon has no verified length.",
+    "reservationIds": [
+      "reservation-2018-AF85"
+    ],
+    "vesselId": "vessel-m-v-western-horizon",
+    "berthId": "berth-south-float-west",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-G110",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "M/Y Silver Ketch has no verified length.",
+    "reservationIds": [
+      "reservation-2018-G110"
+    ],
+    "vesselId": "vessel-m-y-silver-ketch",
+    "berthId": "berth-south-float-west",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "length-reservation-2018-N120",
+    "category": "reference-data",
+    "type": "UNKNOWN_VESSEL_LENGTH",
+    "severity": "info",
+    "message": "R/V Quiet Osprey has no verified length.",
+    "reservationIds": [
+      "reservation-2018-N120"
+    ],
+    "vesselId": "vessel-r-v-quiet-osprey",
+    "berthId": "berth-north-pier-east",
+    "year": 2018,
+    "confidence": "high"
+  },
+  {
+    "id": "conflict-reservation-2017-K85-reservation-2017-M88",
+    "category": "schedule",
+    "type": "BERTH_CONFLICT",
+    "severity": "error",
+    "message": "OSV AMBER REEF overlaps Utility work on pier face at South Float East.",
+    "reservationIds": [
+      "reservation-2017-K85",
+      "reservation-2017-M88"
+    ],
+    "berthId": "berth-south-float-east",
+    "sourceReferences": [
+      {
+        "sheet": "2017",
+        "rawValue": "OSV AMBER REEF",
+        "range": "K85:T85"
+      },
+      {
+        "sheet": "2017",
+        "rawValue": "Utility work on pier face",
+        "cell": "M88"
+      }
+    ],
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "conflict-reservation-2017-C114-reservation-2017-F112",
+    "category": "schedule",
+    "type": "BERTH_CONFLICT",
+    "severity": "error",
+    "message": "R/V Silver Petrel overlaps M/V HIGH COVE at Small craft slips (institution boats).",
+    "reservationIds": [
+      "reservation-2017-C114",
+      "reservation-2017-F112"
+    ],
+    "berthId": "berth-small-craft-slips-institution-boats",
+    "sourceReferences": [
+      {
+        "sheet": "2017",
+        "rawValue": "R/V Silver Petrel",
+        "range": "C114:L114"
+      },
+      {
+        "sheet": "2017",
+        "rawValue": "M/V HIGH COVE",
+        "range": "F112:J112"
+      }
+    ],
+    "year": 2017,
+    "confidence": "high"
+  },
+  {
+    "id": "dimension-vessel-barge-northern-marlin",
+    "category": "reference-data",
+    "type": "VESSEL_LENGTH_CONFLICT",
+    "severity": "warning",
+    "message": "Barge NORTHERN MARLIN has conflicting recorded lengths: 24 ft and 65 ft.",
+    "vesselId": "vessel-barge-northern-marlin",
+    "sourceReferences": [
+      {
+        "sheet": "Science",
+        "cell": "A136",
+        "rawValue": "Barge NORTHERN MARLIN 24'"
+      },
+      {
+        "sheet": "Science",
+        "cell": "E136",
+        "rawValue": "LOA: 65', Draft: 8'"
+      }
+    ]
+  },
+  {
+    "id": "dimension-vessel-m-v-deep-reef",
+    "category": "reference-data",
+    "type": "VESSEL_LENGTH_CONFLICT",
+    "severity": "warning",
+    "message": "M/V Deep Reef has conflicting recorded lengths: 24 ft and 100 ft.",
+    "vesselId": "vessel-m-v-deep-reef",
+    "sourceReferences": [
+      {
+        "sheet": "Yachts",
+        "cell": "A96",
+        "rawValue": "M/V Deep Reef 24'"
+      },
+      {
+        "sheet": "Yachts",
+        "cell": "A114",
+        "rawValue": "M/V Deep Reef 100'"
+      }
+    ]
+  },
+  {
+    "id": "dimension-vessel-m-y-western-strand",
+    "category": "reference-data",
+    "type": "VESSEL_LENGTH_CONFLICT",
+    "severity": "warning",
+    "message": "M/Y Western Strand has conflicting recorded lengths: 52 ft and 65 ft.",
+    "vesselId": "vessel-m-y-western-strand",
+    "sourceReferences": [
+      {
+        "sheet": "Yachts",
+        "cell": "A1",
+        "rawValue": "M/Y Western Strand 52'"
+      },
+      {
+        "sheet": "Yachts",
+        "cell": "B1",
+        "rawValue": "LOA: 65', Draft: 4'"
+      }
+    ]
+  },
+  {
+    "id": "dimension-vessel-r-v-high-reef",
+    "category": "reference-data",
+    "type": "VESSEL_LENGTH_CONFLICT",
+    "severity": "warning",
+    "message": "R/V High Reef has conflicting recorded lengths: 32 ft and 72 ft.",
+    "vesselId": "vessel-r-v-high-reef",
+    "sourceReferences": [
+      {
+        "sheet": "Science",
+        "cell": "A92",
+        "rawValue": "R/V High Reef 32'"
+      },
+      {
+        "sheet": "Science",
+        "cell": "A207",
+        "rawValue": "R/V High Reef 72'"
+      }
+    ]
+  },
+  {
+    "id": "dimension-vessel-r-v-high-sound",
+    "category": "reference-data",
+    "type": "VESSEL_LENGTH_CONFLICT",
+    "severity": "warning",
+    "message": "R/V High Sound has conflicting recorded lengths: 32 ft and 65 ft.",
+    "vesselId": "vessel-r-v-high-sound",
+    "sourceReferences": [
+      {
+        "sheet": "Science",
+        "cell": "A33",
+        "rawValue": "R/V High Sound 32'"
+      },
+      {
+        "sheet": "Science",
+        "cell": "B33",
+        "rawValue": "LOA: 65', Draft: 4'"
+      }
+    ]
+  },
+  {
+    "id": "summary-2006-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2006: parsed 24 occupied days versus 127 in the legacy summary (-103).",
+    "berthId": "berth-north-pier-west",
+    "year": 2006,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "B2",
+        "rawValue": "127"
+      }
+    ]
+  },
+  {
+    "id": "summary-2007-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2007: parsed 12 occupied days versus 219 in the legacy summary (-207).",
+    "berthId": "berth-north-pier-west",
+    "year": 2007,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "C2",
+        "rawValue": "219"
+      }
+    ]
+  },
+  {
+    "id": "summary-2008-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2008: parsed 21 occupied days versus 116 in the legacy summary (-95).",
+    "berthId": "berth-north-pier-west",
+    "year": 2008,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "D2",
+        "rawValue": "116"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2009: parsed 103 occupied days versus 193 in the legacy summary (-90).",
+    "berthId": "berth-north-pier-west",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E2",
+        "rawValue": "193"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2010: parsed 115 occupied days versus 136 in the legacy summary (-21).",
+    "berthId": "berth-north-pier-west",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F2",
+        "rawValue": "136"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2011: parsed 139 occupied days versus 337 in the legacy summary (-198).",
+    "berthId": "berth-north-pier-west",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G2",
+        "rawValue": "337"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2012: parsed 182 occupied days versus 648 in the legacy summary (-466).",
+    "berthId": "berth-north-pier-west",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H2",
+        "rawValue": "648"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-north-pier-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier West 2013: parsed 155 occupied days versus 470 in the legacy summary (-315).",
+    "berthId": "berth-north-pier-west",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I2",
+        "rawValue": "470"
+      }
+    ]
+  },
+  {
+    "id": "summary-2006-north-pier-face",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier Face 2006: parsed 2 occupied days versus 0 in the legacy summary (+2).",
+    "berthId": "berth-north-pier-face",
+    "year": 2006,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "B3",
+        "rawValue": "0"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-north-pier-face",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier Face 2009: parsed 13 occupied days versus 16 in the legacy summary (-3).",
+    "berthId": "berth-north-pier-face",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E3",
+        "rawValue": "16"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-north-pier-face",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier Face 2010: parsed 17 occupied days versus 29 in the legacy summary (-12).",
+    "berthId": "berth-north-pier-face",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F3",
+        "rawValue": "29"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-north-pier-face",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier Face 2011: parsed 14 occupied days versus 6 in the legacy summary (+8).",
+    "berthId": "berth-north-pier-face",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G3",
+        "rawValue": "6"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-north-pier-face",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier Face 2012: parsed 5 occupied days versus 3 in the legacy summary (+2).",
+    "berthId": "berth-north-pier-face",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H3",
+        "rawValue": "3"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-north-pier-face",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier Face 2013: parsed 19 occupied days versus 21 in the legacy summary (-2).",
+    "berthId": "berth-north-pier-face",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I3",
+        "rawValue": "21"
+      }
+    ]
+  },
+  {
+    "id": "summary-2006-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2006: parsed 17 occupied days versus 85 in the legacy summary (-68).",
+    "berthId": "berth-north-pier-east",
+    "year": 2006,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "B4",
+        "rawValue": "85"
+      }
+    ]
+  },
+  {
+    "id": "summary-2007-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2007: parsed 29 occupied days versus 176 in the legacy summary (-147).",
+    "berthId": "berth-north-pier-east",
+    "year": 2007,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "C4",
+        "rawValue": "176"
+      }
+    ]
+  },
+  {
+    "id": "summary-2008-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2008: parsed 14 occupied days versus 51 in the legacy summary (-37).",
+    "berthId": "berth-north-pier-east",
+    "year": 2008,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "D4",
+        "rawValue": "51"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2009: parsed 45 occupied days versus 36 in the legacy summary (+9).",
+    "berthId": "berth-north-pier-east",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E4",
+        "rawValue": "36"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2010: parsed 68 occupied days versus 112 in the legacy summary (-44).",
+    "berthId": "berth-north-pier-east",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F4",
+        "rawValue": "112"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2011: parsed 69 occupied days versus 85 in the legacy summary (-16).",
+    "berthId": "berth-north-pier-east",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G4",
+        "rawValue": "85"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2012: parsed 54 occupied days versus 78 in the legacy summary (-24).",
+    "berthId": "berth-north-pier-east",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H4",
+        "rawValue": "78"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-north-pier-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Pier East 2013: parsed 180 occupied days versus 631 in the legacy summary (-451).",
+    "berthId": "berth-north-pier-east",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I4",
+        "rawValue": "631"
+      }
+    ]
+  },
+  {
+    "id": "summary-2006-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2006: parsed 0 occupied days versus 348 in the legacy summary (-348).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2006,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "B5",
+        "rawValue": "348"
+      }
+    ]
+  },
+  {
+    "id": "summary-2007-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2007: parsed 0 occupied days versus 431 in the legacy summary (-431).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2007,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "C5",
+        "rawValue": "431"
+      }
+    ]
+  },
+  {
+    "id": "summary-2008-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2008: parsed 0 occupied days versus 298 in the legacy summary (-298).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2008,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "D5",
+        "rawValue": "298"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2009: parsed 0 occupied days versus 434 in the legacy summary (-434).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E5",
+        "rawValue": "434"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2010: parsed 0 occupied days versus 363 in the legacy summary (-363).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F5",
+        "rawValue": "363"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2011: parsed 0 occupied days versus 415 in the legacy summary (-415).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G5",
+        "rawValue": "415"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2012: parsed 0 occupied days versus 511 in the legacy summary (-511).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H5",
+        "rawValue": "511"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-north-finger-piers",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "North Finger Piers 2013: parsed 0 occupied days versus 334 in the legacy summary (-334).",
+    "berthId": "berth-north-finger-piers",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I5",
+        "rawValue": "334"
+      }
+    ]
+  },
+  {
+    "id": "summary-2006-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2006: parsed 0 occupied days versus 64 in the legacy summary (-64).",
+    "year": 2006,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "B6",
+        "rawValue": "64"
+      }
+    ]
+  },
+  {
+    "id": "summary-2007-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2007: parsed 0 occupied days versus 118 in the legacy summary (-118).",
+    "year": 2007,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "C6",
+        "rawValue": "118"
+      }
+    ]
+  },
+  {
+    "id": "summary-2008-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2008: parsed 0 occupied days versus 67 in the legacy summary (-67).",
+    "year": 2008,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "D6",
+        "rawValue": "67"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2009: parsed 0 occupied days versus 88 in the legacy summary (-88).",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E6",
+        "rawValue": "88"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2010: parsed 0 occupied days versus 89 in the legacy summary (-89).",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F6",
+        "rawValue": "89"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2011: parsed 0 occupied days versus 118 in the legacy summary (-118).",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G6",
+        "rawValue": "118"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2012: parsed 0 occupied days versus 116 in the legacy summary (-116).",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H6",
+        "rawValue": "116"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-marsh-landing",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "Marsh Landing 2013: parsed 0 occupied days versus 120 in the legacy summary (-120).",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I6",
+        "rawValue": "120"
+      }
+    ]
+  },
+  {
+    "id": "summary-2007-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2007: parsed 2 occupied days versus 1 in the legacy summary (+1).",
+    "berthId": "berth-south-float-west",
+    "year": 2007,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "C7",
+        "rawValue": "1"
+      }
+    ]
+  },
+  {
+    "id": "summary-2008-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2008: parsed 4 occupied days versus 5 in the legacy summary (-1).",
+    "berthId": "berth-south-float-west",
+    "year": 2008,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "D7",
+        "rawValue": "5"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2009: parsed 17 occupied days versus 23 in the legacy summary (-6).",
+    "berthId": "berth-south-float-west",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E7",
+        "rawValue": "23"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2010: parsed 101 occupied days versus 66 in the legacy summary (+35).",
+    "berthId": "berth-south-float-west",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F7",
+        "rawValue": "66"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2011: parsed 71 occupied days versus 67 in the legacy summary (+4).",
+    "berthId": "berth-south-float-west",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G7",
+        "rawValue": "67"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2012: parsed 23 occupied days versus 26 in the legacy summary (-3).",
+    "berthId": "berth-south-float-west",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H7",
+        "rawValue": "26"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-south-float-west",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float West 2013: parsed 77 occupied days versus 37 in the legacy summary (+40).",
+    "berthId": "berth-south-float-west",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I7",
+        "rawValue": "37"
+      }
+    ]
+  },
+  {
+    "id": "summary-2006-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2006: parsed 9 occupied days versus 12 in the legacy summary (-3).",
+    "berthId": "berth-south-float-east",
+    "year": 2006,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "B8",
+        "rawValue": "12"
+      }
+    ]
+  },
+  {
+    "id": "summary-2007-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2007: parsed 10 occupied days versus 25 in the legacy summary (-15).",
+    "berthId": "berth-south-float-east",
+    "year": 2007,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "C8",
+        "rawValue": "25"
+      }
+    ]
+  },
+  {
+    "id": "summary-2008-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2008: parsed 8 occupied days versus 20 in the legacy summary (-12).",
+    "berthId": "berth-south-float-east",
+    "year": 2008,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "D8",
+        "rawValue": "20"
+      }
+    ]
+  },
+  {
+    "id": "summary-2009-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2009: parsed 79 occupied days versus 113 in the legacy summary (-34).",
+    "berthId": "berth-south-float-east",
+    "year": 2009,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "E8",
+        "rawValue": "113"
+      }
+    ]
+  },
+  {
+    "id": "summary-2010-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2010: parsed 115 occupied days versus 74 in the legacy summary (+41).",
+    "berthId": "berth-south-float-east",
+    "year": 2010,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "F8",
+        "rawValue": "74"
+      }
+    ]
+  },
+  {
+    "id": "summary-2011-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2011: parsed 56 occupied days versus 17 in the legacy summary (+39).",
+    "berthId": "berth-south-float-east",
+    "year": 2011,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "G8",
+        "rawValue": "17"
+      }
+    ]
+  },
+  {
+    "id": "summary-2012-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2012: parsed 109 occupied days versus 138 in the legacy summary (-29).",
+    "berthId": "berth-south-float-east",
+    "year": 2012,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "H8",
+        "rawValue": "138"
+      }
+    ]
+  },
+  {
+    "id": "summary-2013-south-float-east",
+    "category": "import",
+    "type": "SUMMARY_MISMATCH",
+    "severity": "warning",
+    "message": "South Float East 2013: parsed 85 occupied days versus 62 in the legacy summary (+23).",
+    "berthId": "berth-south-float-east",
+    "year": 2013,
+    "sourceReferences": [
+      {
+        "sheet": "8YR Dock Summary",
+        "cell": "I8",
+        "rawValue": "62"
+      }
+    ]
+  }
+]

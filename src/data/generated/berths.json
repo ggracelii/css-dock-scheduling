@@ -1,0 +1,66 @@
+[
+  {
+    "id": "berth-north-pier-west",
+    "name": "North Pier West",
+    "maxVesselLengthFt": 410,
+    "sourceLabels": [
+      "North Pier West - 410'"
+    ]
+  },
+  {
+    "id": "berth-north-pier-east",
+    "name": "North Pier East",
+    "maxVesselLengthFt": 240,
+    "sourceLabels": [
+      "North Pier East - 240'"
+    ]
+  },
+  {
+    "id": "berth-south-float-west",
+    "name": "South Float West",
+    "maxVesselLengthFt": 90,
+    "sourceLabels": [
+      "South Float West - 90'"
+    ]
+  },
+  {
+    "id": "berth-south-float-east",
+    "name": "South Float East",
+    "maxVesselLengthFt": 90,
+    "sourceLabels": [
+      "South Float East - 90'"
+    ]
+  },
+  {
+    "id": "berth-north-pier-face",
+    "name": "North Pier Face",
+    "maxVesselLengthFt": 75,
+    "sourceLabels": [
+      "North Pier Face - 75'"
+    ]
+  },
+  {
+    "id": "berth-inner-channel",
+    "name": "Inner Channel",
+    "maxVesselLengthFt": 55,
+    "sourceLabels": [
+      "Inner Channel - 55'"
+    ]
+  },
+  {
+    "id": "berth-small-craft-slips-institution-boats",
+    "name": "Small craft slips (institution boats)",
+    "maxVesselLengthFt": null,
+    "sourceLabels": [
+      "Small craft slips (institution boats)"
+    ]
+  },
+  {
+    "id": "berth-north-finger-piers",
+    "name": "North Finger Piers",
+    "maxVesselLengthFt": null,
+    "sourceLabels": [
+      "North Finger Piers:"
+    ]
+  }
+]

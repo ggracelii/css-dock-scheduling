@@ -1,0 +1,252 @@
+[
+  {
+    "id": "annotation-2001-E61",
+    "text": "Delayed due to weather",
+    "source": {
+      "sheet": "2001",
+      "rawValue": "Delayed due to weather",
+      "cell": "E61"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2001-T64",
+    "text": "ETD PM",
+    "source": {
+      "sheet": "2001",
+      "rawValue": "ETD PM",
+      "cell": "T64"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2001-U64",
+    "text": "Departs 0600",
+    "source": {
+      "sheet": "2001",
+      "rawValue": "Departs 0600",
+      "cell": "U64"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2001-J74",
+    "text": "Departs 0600",
+    "source": {
+      "sheet": "2001",
+      "rawValue": "Departs 0600",
+      "cell": "J74"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2003-U74",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2003",
+      "rawValue": "ETA 1200",
+      "cell": "U74"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2003-V74",
+    "text": "ETD PM",
+    "source": {
+      "sheet": "2003",
+      "rawValue": "ETD PM",
+      "cell": "V74"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2010-G41",
+    "text": "Arrival 1400",
+    "source": {
+      "sheet": "2010",
+      "rawValue": "Arrival 1400",
+      "cell": "G41"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2010-Y43",
+    "text": "Delayed due to weather",
+    "source": {
+      "sheet": "2010",
+      "rawValue": "Delayed due to weather",
+      "cell": "Y43"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2010-S87",
+    "text": "Departure 0800",
+    "source": {
+      "sheet": "2010",
+      "rawValue": "Departure 0800",
+      "range": "S87:X87"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2010-AB109",
+    "text": "Arrival 1400",
+    "source": {
+      "sheet": "2010",
+      "rawValue": "Arrival 1400",
+      "cell": "AB109"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2010-V110",
+    "text": "Delayed due to weather",
+    "source": {
+      "sheet": "2010",
+      "rawValue": "Delayed due to weather",
+      "cell": "V110"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2011-U98",
+    "text": "Departs 0600",
+    "source": {
+      "sheet": "2011",
+      "rawValue": "Departs 0600",
+      "cell": "U98"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2011-V98",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2011",
+      "rawValue": "ETA 1200",
+      "cell": "V98"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2011-T99",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2011",
+      "rawValue": "ETA 1200",
+      "range": "T99:U99"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2011-V99",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2011",
+      "rawValue": "ETA 1200",
+      "cell": "V99"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2011-S102",
+    "text": "Departure 0800",
+    "source": {
+      "sheet": "2011",
+      "rawValue": "Departure 0800",
+      "range": "S102:T102"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2013-W54",
+    "text": "Departure 0800",
+    "source": {
+      "sheet": "2013",
+      "rawValue": "Departure 0800",
+      "range": "W54:AA54"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2013-Y55",
+    "text": "Load equipment",
+    "source": {
+      "sheet": "2013",
+      "rawValue": "Load equipment",
+      "cell": "Y55"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2016-V57",
+    "text": "Departs 0600",
+    "source": {
+      "sheet": "2016",
+      "rawValue": "Departs 0600",
+      "range": "V57:W57"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2017-P105",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2017",
+      "rawValue": "ETA 1200",
+      "cell": "P105"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2017-N109",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2017",
+      "rawValue": "ETA 1200",
+      "cell": "N109"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2017-P110",
+    "text": "ETA 1200",
+    "source": {
+      "sheet": "2017",
+      "rawValue": "ETA 1200",
+      "cell": "P110"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2017-K113",
+    "text": "ETD PM",
+    "source": {
+      "sheet": "2017",
+      "rawValue": "ETD PM",
+      "cell": "K113"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2017-K123",
+    "text": "Load equipment",
+    "source": {
+      "sheet": "2017",
+      "rawValue": "Load equipment",
+      "cell": "K123"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "annotation-2018-G73",
+    "text": "Departure 0800",
+    "source": {
+      "sheet": "2018",
+      "rawValue": "Departure 0800",
+      "cell": "G73"
+    },
+    "confidence": "medium"
+  }
+]
