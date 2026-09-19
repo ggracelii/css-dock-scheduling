@@ -81,7 +81,7 @@ main { min-width: 0; }
 .month-grid button { height: 38px; border: 1px solid transparent; color: #3c5963; background: transparent; }
 .month-grid button:hover { color: var(--teal-dark); border-color: #a9c9c7; background: #edf5f2; }
 .month-grid button.selected { color: white; border-color: var(--teal); background: var(--teal); }
-.metric-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 18px; }
+.metric-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin-bottom: 18px; }
 .metric { min-height: 150px; padding: 18px; background: white; border: 1px solid var(--line); border-radius: 12px; display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto 1fr auto; box-shadow: 0 3px 14px rgba(20,60,73,.03); transition: background-color 180ms ease, border-color 180ms ease; }
 .metric > span { font-size: 13px; color: var(--muted); font-weight: 600; }
 .metric strong { grid-column: 1; font-family: Newsreader, serif; font-size: 36px; align-self: end; color: #123d4b; }
@@ -331,6 +331,7 @@ button:not(:disabled):active { transform: translateY(1px); }
 .metric:nth-child(2) { --metric-accent: var(--blue); }
 .metric:nth-child(3) { --metric-accent: var(--amber); }
 .metric:nth-child(4) { --metric-accent: var(--violet); }
+.metric:nth-child(5) { --metric-accent: var(--red); }
 .metric:last-child { border-right: 0; }
 .metric:last-child { border-right: 1px solid #b8c9c9; }
 .metric:hover { transform: none; color: var(--metric-accent); background: color-mix(in srgb, var(--metric-accent) 9%, white); border-color: color-mix(in srgb, var(--metric-accent) 48%, #b8c9c9); box-shadow: none; }

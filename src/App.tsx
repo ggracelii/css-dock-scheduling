@@ -244,7 +244,8 @@ function Overview({ onNavigate, onOpen, onNew }: { onNavigate: (page: Page) => v
       <Metric label="Reservations" value={reservations.length.toLocaleString()} note={`Across ${scheduleYears.length} annual schedules`} icon={<CalendarDays />} />
       <Metric label="Vessels" value={vessels.length.toLocaleString()} note={`${vessels.filter((item) => item.lengthFt != null).length} with recorded length`} icon={<Ship />} />
       <Metric label="Berths" value={berths.length.toString()} note={`${berths.filter((item) => item.maxVesselLengthFt != null).length} with vessel length limits`} icon={<Anchor />} />
-      <Metric label="Waterfront events" value={reservations.filter((item) => item.type === "event").length.toLocaleString()} note="Community and operational use" icon={<CalendarDays />} />
+      <Metric label="Events" value={reservations.filter((item) => item.type === "event").length.toLocaleString()} note="Community and operational use" icon={<CalendarDays />} />
+      <Metric label="Closures" value={reservations.filter((item) => item.type === "closure").length.toLocaleString()} note="Maintenance and access restrictions" icon={<AlertTriangle />} />
     </section>
     <div className="overview-grid">
       <section className="panel chart-panel">
